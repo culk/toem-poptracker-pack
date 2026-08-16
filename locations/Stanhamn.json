@@ -1,8 +1,8 @@
 [
     {
         "name": "Stanhamn",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/items/quest_close.png",
+        "chest_opened_img": "/images/items/quest_open.png",
         "access_rules": ["$has_required_stamps_for|oaklaville,^$can_reach|oaklaville_bus_stop"],
         "children": [
             {
@@ -26,6 +26,8 @@
                     },
                     {
                         "name": "Compendium - Tato swim",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "sections": [
                             {
                                 "name": ""
@@ -41,6 +43,8 @@
                     },
                     {
                         "name": "Achievement - A sparkling jump",
+                        "chest_unopened_img": "/images/items/achievement_sparkling_jump.png",
+                        "chest_opened_img": "/images/items/achievement_open.png",
                         "access_rules": ["honk_attachment"],
                         "visibility_rules": ["include_achievements_on"],
                         "sections": [
@@ -79,6 +83,8 @@
                     },
                     {
                         "name": "Compendium - Crab",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "sections": [
                             {
                                 "name": ""
@@ -146,10 +152,14 @@
                             },
                             {
                                 "name": "Item - Old key",
+                                "chest_unopened_img": "/images/items/chest_close.png",
+                                "chest_opened_img": "/images/items/chest_open.png",
                                 "visibility_rules": ["include_items_on"]
                             },
                             {
                                 "name": "Item - Paper hat",
+                                "chest_unopened_img": "/images/items/chest_close.png",
+                                "chest_opened_img": "/images/items/chest_open.png",
                                 "access_rules": ["pirate_hat"],
                                 "visibility_rules": ["include_items_on"]
                             }
@@ -180,6 +190,8 @@
                     },
                     {
                         "name": "Compendium - Bubble fly",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "sections": [
                             {
                                 "name": ""
@@ -195,6 +207,8 @@
                     },
                     {
                         "name": "Compendium - Toad",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "sections": [
                             {
                                 "name": ""
@@ -210,6 +224,8 @@
                     },
                     {
                         "name": "Item - Supreme deluxe sandwich",
+                        "chest_unopened_img": "/images/items/chest_close.png",
+                        "chest_opened_img": "/images/items/chest_open.png",
                         "access_rules": ["ghost_glasses,^$can_reach|stanhamn_outside_hydroplant"],
                         "visibility_rules": ["include_items_on"],
                         "sections": [
@@ -259,10 +275,14 @@
                     },
                     {
                         "name": "Item - Frames & filters",
+                        "chest_unopened_img": "/images/items/chest_close.png",
+                        "chest_opened_img": "/images/items/chest_open.png",
                         "visibility_rules": ["include_items_on"]
                     },
                     {
                         "name": "Item - Photo challenger flag",
+                        "chest_unopened_img": "/images/items/chest_close.png",
+                        "chest_opened_img": "/images/items/chest_open.png",
                         "access_rules": ["^$can_access_all_photo_challenges"],
                         "visibility_rules": ["include_items_on"]
                     }
@@ -313,6 +333,8 @@
                     },
                     {
                         "name": "Compendium - Dragonfly",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "sections": [
                             {
                                 "name": ""
@@ -350,6 +372,8 @@
                     },
                     {
                         "name": "Item - Rubber boots",
+                        "chest_unopened_img": "/images/items/chest_close.png",
+                        "chest_opened_img": "/images/items/chest_open.png",
                         "visibility_rules": ["include_items_on"],
                         "sections": [
                             {
@@ -375,10 +399,14 @@
                     },
                     {
                         "name": "Item - Hard hat",
+                        "chest_unopened_img": "/images/items/chest_close.png",
+                        "chest_opened_img": "/images/items/chest_open.png",
                         "visibility_rules": ["include_items_on"]
                     },
                     {
                         "name": "Achievement - Employee of the month",
+                        "chest_unopened_img": "/images/items/achievement_employee_of_the_month.png",
+                        "chest_opened_img": "/images/items/achievement_open.png",
                         "visibility_rules": ["include_achievements_on"]
                     }
                 ],
@@ -400,6 +428,8 @@
                     },
                     {
                         "name": "Item - Honk attachment",
+                        "chest_unopened_img": "/images/items/chest_close.png",
+                        "chest_opened_img": "/images/items/chest_open.png",
                         "access_rules": ["@Stanhamn/Lighthouse Roof/Quest - Solve the chaos"],
                         "visibility_rules": ["include_items_on"]
                     }
@@ -433,6 +463,8 @@
                     },
                     {
                         "name": "Item - Diving helmet",
+                        "chest_unopened_img": "/images/items/chest_close.png",
+                        "chest_opened_img": "/images/items/chest_open.png",
                         "visibility_rules": ["include_items_on"],
                         "sections": [
                             {
@@ -449,6 +481,8 @@
                     },
                     {
                         "name": "Achievement - Flight ready",
+                        "chest_unopened_img": "/images/items/achievement_flight_ready.png",
+                        "chest_opened_img": "/images/items/achievement_open.png",
                         "visibility_rules": ["include_achievements_on"],
                         "sections": [
                             {
@@ -475,6 +509,8 @@
                     },
                     {
                         "name": "Cassette - Fisherman's Whistle",
+                        "chest_unopened_img": "/images/items/cassette_close.png",
+                        "chest_opened_img": "/images/items/cassette_open.png",
                         "access_rules": ["@Stanhamn/Snowman/Quest - A whistling dilemma"],
                         "visibility_rules": ["include_cassettes_on"]
                     }
@@ -482,7 +518,7 @@
                 "map_locations": [
                     {
                         "map": "Stanhamn",
-                        "x": 1178,
+                        "x": 1174,
                         "y": 1213
                     }
                 ]
@@ -500,6 +536,8 @@
                             },
                             {
                                 "name": "Cassette - Launchable Socks - Fisherman's Tune",
+                                "chest_unopened_img": "/images/items/cassette_close.png",
+                                "chest_opened_img": "/images/items/cassette_open.png",
                                 "access_rules": ["@Stanhamn/King Fish Beach/Wizard/Quest - A layered melody"],
                                 "visibility_rules": ["include_cassettes_on"]
                             }
@@ -514,6 +552,8 @@
                     },
                     {
                         "name": "Compendium - Willemijn",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "sections": [
                             {
                                 "name": ""
@@ -529,6 +569,8 @@
                     },
                     {
                         "name": "Compendium - King fish",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "access_rules": ["@Stanhamn/King Fish Beach/Wizard/Quest - A layered melody"],
                         "sections": [
                             {
@@ -545,6 +587,8 @@
                     },
                     {
                         "name": "Item - Umbrella",
+                        "chest_unopened_img": "/images/items/chest_close.png",
+                        "chest_opened_img": "/images/items/chest_open.png",
                         "visibility_rules": ["include_items_on"],
                         "sections": [
                             {
@@ -570,6 +614,8 @@
                 "children": [
                     {
                         "name": "Compendium - Fia",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "access_rules": [],
                         "sections": [
                             {
@@ -595,6 +641,8 @@
                 "children": [
                     {
                         "name": "Compendium - Fräs",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "access_rules": [],
                         "sections": [
                             {
@@ -613,6 +661,8 @@
             },
             {
                 "name": "Underwater",
+                "chest_unopened_img": "/images/items/photo_close.png",
+                "chest_opened_img": "/images/items/photo_open.png",
                 "access_rules": ["^$can_reach|stanhamn_underwater"],
                 "sections": [
                     {
@@ -629,15 +679,21 @@
                     },
                     {
                         "name": "Item - Pirate hat",
+                        "chest_unopened_img": "/images/items/chest_close.png",
+                        "chest_opened_img": "/images/items/chest_open.png",
                         "access_rules": ["old_key"],
                         "visibility_rules": ["include_items_on"]
                     },
                     {
                         "name": "Cassette - JG+LS - The Smiling Huntsman",
+                        "chest_unopened_img": "/images/items/cassette_close.png",
+                        "chest_opened_img": "/images/items/cassette_open.png",
                         "visibility_rules": ["include_cassettes_on"]
                     },
                     {
                         "name": "Achievement - A voyage underwater",
+                        "chest_unopened_img": "/images/items/achievement_voyage_underwater.png",
+                        "chest_opened_img": "/images/items/achievement_open.png",
                         "visibility_rules": ["include_achievements_on"]
                     }
                 ],
@@ -661,6 +717,8 @@
                 "children": [
                     {
                         "name": "Compendium - Seagull",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "sections": [
                             {
                                 "name": ""
@@ -685,6 +743,8 @@
                 "children": [
                     {
                         "name": "Compendium - Sunday swan",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "sections": [
                             {
                                 "name": ""
@@ -706,6 +766,8 @@
                 "children": [
                     {
                         "name": "Item - Fishing hat",
+                        "chest_unopened_img": "/images/items/chest_close.png",
+                        "chest_opened_img": "/images/items/chest_open.png",
                         "visibility_rules": ["include_items_on"],
                         "sections": [
                             {
@@ -727,10 +789,14 @@
                 "sections": [
                     {
                         "name": "Cassette - Jamal Green - NAUT",
+                        "chest_unopened_img": "/images/items/cassette_close.png",
+                        "chest_opened_img": "/images/items/cassette_open.png",
                         "visibility_rules": ["include_cassettes_on"]
                     },
                     {
                         "name": "Cassette - Launchable Socks - A Place In The Sun",
+                        "chest_unopened_img": "/images/items/cassette_close.png",
+                        "chest_opened_img": "/images/items/cassette_open.png",
                         "access_rules": [
                             "^$can_reach|stanhamn_hippo_beach,@Stanhamn/Lighthouse Roof/Quest - Solve the chaos",
                             "^$can_reach|stanhamn_docks_left,@Stanhamn/Hydroplant/Quest - Power shortage!"
@@ -739,10 +805,14 @@
                     },
                     {
                         "name": "Achievement - Set sail for good weather",
+                        "chest_unopened_img": "/images/items/achievement_set_sail.png",
+                        "chest_opened_img": "/images/items/achievement_open.png",
                         "visibility_rules": ["include_achievements_on"]
                     },
                     {
                         "name": "Achievement - Calm as the sea",
+                        "chest_unopened_img": "/images/items/achievement_calm_as_sea.png",
+                        "chest_opened_img": "/images/items/achievement_open.png",
                         "access_rules": [
                             "@Stanhamn/Pirate Drawbridge/Quest - Photo challenge #3/,@Stanhamn/Ghost Drawbridge Top/Quest - Photo challenge #4/"
                         ],
@@ -750,6 +820,8 @@
                     },
                     {
                         "name": "Achievement - Seaworthy",
+                        "chest_unopened_img": "/images/items/achievement_seaworthy.png",
+                        "chest_opened_img": "/images/items/achievement_open.png",
                         "access_rules": ["^$can_access_all_quests|stanhamn"],
                         "visibility_rules": ["include_achievements_on"]
                     }

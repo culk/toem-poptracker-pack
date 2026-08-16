@@ -1,8 +1,8 @@
 [
     {
         "name": "Oaklaville",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/items/quest_close.png",
+        "chest_opened_img": "/images/items/quest_open.png",
         "access_rules": ["$has_required_stamps_for|homelanda,^$can_reach|homelanda_bus_stop"],
         "children": [
             {
@@ -59,6 +59,8 @@
                     },
                     {
                         "name": "Compendium - Ant",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "sections": [
                             {
                                 "name": ""
@@ -91,19 +93,27 @@
                         "access_rules": ["^$can_access_monsters"]
                     },
                     {
-                        "name": "Compendium - Oskar"
+                        "name": "Compendium - Oskar",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png"
                     },
                     {
                         "name": "Item - Monster mask",
+                        "chest_unopened_img": "/images/items/chest_close.png",
+                        "chest_opened_img": "/images/items/chest_open.png",
                         "access_rules": ["@Oaklaville/Hotel/Quest - Monster spotting"],
                         "visibility_rules": ["include_items_on"]
                     },
                     {
                         "name": "Cassette - Jamal Green - The Grand Squirrel Hotel",
+                        "chest_unopened_img": "/images/items/cassette_close.png",
+                        "chest_opened_img": "/images/items/cassette_open.png",
                         "visibility_rules": ["include_cassettes_on"]
                     },
                     {
                         "name": "Achievement - You found us!",
+                        "chest_unopened_img": "/images/items/achievement_you_found_us.png",
+                        "chest_opened_img": "/images/items/achievement_open.png",
                         "visibility_rules": ["include_achievements_on"]
                     }
                 ],
@@ -128,11 +138,15 @@
                             },
                             {
                                 "name": "Item - Soaked sock",
+                                "chest_unopened_img": "/images/items/chest_close.png",
+                                "chest_opened_img": "/images/items/chest_open.png",
                                 "access_rules": ["@Oaklaville/Outside Hotel/Sock Man/Quest - Missing socks"],
                                 "visibility_rules": ["include_items_on"]
                             },
                             {
                                 "name": "Achievement - Just a sock",
+                                "chest_unopened_img": "/images/items/achievement_just_a_sock.png",
+                                "chest_opened_img": "/images/items/achievement_open.png",
                                 "access_rules": ["@Oaklaville/Outside Hotel/Sock Man/Quest - Missing socks"],
                                 "visibility_rules": ["include_achievements_on"]
                             }
@@ -163,6 +177,8 @@
                     },
                     {
                         "name": "Compendium - Forest bird",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "access_rules": [],
                         "sections": [
                             {
@@ -179,6 +195,8 @@
                     },
                     {
                         "name": "Compendium - Tom",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "access_rules": [],
                         "sections": [
                             {
@@ -195,6 +213,8 @@
                     },
                     {
                         "name": "Compendium - Nestworm",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "access_rules": [],
                         "sections": [
                             {
@@ -214,10 +234,14 @@
                         "access_rules": [],
                         "sections": [
                             {
-                                "name": "Compendium - Snail"
+                                "name": "Compendium - Snail",
+                                "chest_unopened_img": "/images/items/photo_close.png",
+                                "chest_opened_img": "/images/items/photo_open.png"
                             },
                             {
                                 "name": "Achievement - Slow and steady",
+                                "chest_unopened_img": "/images/items/achievement_slow_and_steady.png",
+                                "chest_opened_img": "/images/items/achievement_open.png",
                                 "visibility_rules": ["include_achievements_on"]
                             }
                         ],
@@ -231,6 +255,8 @@
                     },
                     {
                         "name": "Compendium - Stag beetle",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "access_rules": [],
                         "sections": [
                             {
@@ -247,6 +273,8 @@
                     },
                     {
                         "name": "Item - Foam finger",
+                        "chest_unopened_img": "/images/items/chest_close.png",
+                        "chest_opened_img": "/images/items/chest_open.png",
                         "access_rules": [],
                         "visibility_rules": ["include_items_on"],
                         "sections": [
@@ -264,6 +292,8 @@
                     },
                     {
                         "name": "Cassette - Launchable Socks - Squirrel Photography",
+                        "chest_unopened_img": "/images/items/cassette_close.png",
+                        "chest_opened_img": "/images/items/cassette_open.png",
                         "access_rules": [],
                         "visibility_rules": ["include_cassettes_on"],
                         "sections": [
@@ -295,6 +325,8 @@
                             },
                             {
                                 "name": "Item - Fjällbjörn hat",
+                                "chest_unopened_img": "/images/items/chest_close.png",
+                                "chest_opened_img": "/images/items/chest_open.png",
                                 "access_rules": ["@Oaklaville/Camp/Scout Leader/Quest - Become a scout"],
                                 "visibility_rules": ["include_items_on"]
                             }
@@ -309,6 +341,8 @@
                     },
                     {
                         "name": "Compendium - Ladybug",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "access_rules": [],
                         "sections": [
                             {
@@ -325,6 +359,8 @@
                     },
                     {
                         "name": "Compendium - Pet rock",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "access_rules": [],
                         "sections": [
                             {
@@ -362,6 +398,8 @@
                     },
                     {
                         "name": "Cassette - Jamal Green - Summer Breeze",
+                        "chest_unopened_img": "/images/items/cassette_close.png",
+                        "chest_opened_img": "/images/items/cassette_open.png",
                         "visibility_rules": ["include_cassettes_on"],
                         "sections": [
                             {
@@ -404,6 +442,8 @@
                 "sections": [
                     {
                         "name": "Item - Ghost glasses",
+                        "chest_unopened_img": "/images/items/chest_close.png",
+                        "chest_opened_img": "/images/items/chest_open.png",
                         "access_rules": [
                             "^$can_reach|oaklaville_graveyard",
                             "^$can_reach|oaklaville_skeleton_balcony"
@@ -412,6 +452,8 @@
                     },
                     {
                         "name": "Achievement - Calmed down",
+                        "chest_unopened_img": "/images/items/achievement_calmed_down.png",
+                        "chest_opened_img": "/images/items/achievement_open.png",
                         "access_rules": ["^$can_reach|oaklaville_graveyard"],
                         "visibility_rules": ["include_achievements_on"]
                     }
@@ -473,6 +515,8 @@
                     },
                     {
                         "name": "Item - Pair of wet socks",
+                        "chest_unopened_img": "/images/items/chest_close.png",
+                        "chest_opened_img": "/images/items/chest_open.png",
                         "access_rules": ["@Oaklaville/Ghost Cup Game/Quest - Cup champion"],
                         "visibility_rules": ["include_items_on"]
                     }
@@ -506,6 +550,8 @@
                     },
                     {
                         "name": "Compendium - Beehive",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "sections": [
                             {
                                 "name": ""
@@ -526,6 +572,8 @@
                 "children": [
                     {
                         "name": "Compendium - Butterfly",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "sections": [
                             {
                                 "name": ""
@@ -550,6 +598,8 @@
                 "children": [
                     {
                         "name": "Compendium - Sero",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "sections": [
                             {
                                 "name": ""
@@ -574,6 +624,8 @@
                 "children": [
                     {
                         "name": "Compendium - Squirrel",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "sections": [
                             {
                                 "name": ""
@@ -594,10 +646,14 @@
                 "access_rules": ["^$can_reach|ghost_cup_game"],
                 "sections": [
                     {
-                        "name": "Compendium - Tato bug"
+                        "name": "Compendium - Tato bug",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png"
                     },
                     {
                         "name": "Item - Cowboy hat",
+                        "chest_unopened_img": "/images/items/chest_close.png",
+                        "chest_opened_img": "/images/items/chest_open.png",
                         "visibility_rules": ["include_items_on"]
                     }
                 ],
@@ -618,6 +674,8 @@
                 "children": [
                     {
                         "name": "Compendium - Tato fly",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "sections": [
                             {
                                 "name": ""
@@ -639,10 +697,14 @@
                 "sections": [
                     {
                         "name": "Cassette - Launchable Socks - Pine Needles",
+                        "chest_unopened_img": "/images/items/cassette_close.png",
+                        "chest_opened_img": "/images/items/cassette_open.png",
                         "visibility_rules": ["include_cassettes_on"]
                     },
                     {
                         "name": "Achievement - A majestic hotel",
+                        "chest_unopened_img": "/images/items/achievement_majestic_hotel.png",
+                        "chest_opened_img": "/images/items/achievement_open.png",
                         "visibility_rules": ["include_achievements_on"]
                     }
                 ],
@@ -659,14 +721,20 @@
                 "visibility_rules": ["include_achievements_on"],
                 "sections": [
                     {
-                        "name": "Achievement - The calm forest"
+                        "name": "Achievement - The calm forest",
+                        "chest_unopened_img": "/images/items/achievement_calm_forest.png",
+                        "chest_opened_img": "/images/items/achievement_open.png"
                     },
                     {
                         "name": "Achievement - Natures show-stopper",
+                        "chest_unopened_img": "/images/items/achievement_nature_showstopper.png",
+                        "chest_opened_img": "/images/items/achievement_open.png",
                         "access_rules": ["@Oaklaville/Trail Bottom/Quest - Photo challenge #1,@Oaklaville/Outside Hotel/Quest - Photo challenge #2"]
                     },
                     {
                         "name": "Achievement - Strong as an oak",
+                        "chest_unopened_img": "/images/items/achievement_strong_as_an_oak.png",
+                        "chest_opened_img": "/images/items/achievement_open.png",
                         "access_rules": ["^$can_access_all_quests|oaklaville"]
                     }
                 ],

@@ -1,8 +1,8 @@
 [
     {
         "name": "Logcity",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/items/quest_close.png",
+        "chest_opened_img": "/images/items/quest_open.png",
         "access_rules": ["$has_required_stamps_for|stanhamn,^$can_reach|stanhamn_bus_stop"],
         "children": [
             {
@@ -58,6 +58,8 @@
                     },
                     {
                         "name": "Compendium - Tato tourist",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "sections": [
                             {
                                 "name": ""
@@ -73,6 +75,8 @@
                     },
                     {
                         "name": "Item - Sneakers",
+                        "chest_unopened_img": "/images/items/chest_close.png",
+                        "chest_opened_img": "/images/items/chest_open.png",
                         "visibility_rules": ["include_items_on"],
                         "sections": [
                             {
@@ -99,6 +103,8 @@
                     },
                     {
                         "name": "Cassette - Anes Sabanovic - Ratskullz Theme",
+                        "chest_unopened_img": "/images/items/cassette_close.png",
+                        "chest_opened_img": "/images/items/cassette_open.png",
                         "access_rules": ["@Logcity/Ratskullz Alley/Quest - Ratskullz crew"],
                         "visibility_rules": ["include_cassettes_on"]
                     }
@@ -123,7 +129,9 @@
                                 "name": "Quest - Punk rocker bread crumbs"
                             },
                             {
-                                "name": "Compendium - Punky parrot"
+                                "name": "Compendium - Punky parrot",
+                                "chest_unopened_img": "/images/items/photo_close.png",
+                                "chest_opened_img": "/images/items/photo_open.png"
                             }
                         ],
                         "map_locations": [
@@ -145,6 +153,8 @@
                             },
                             {
                                 "name": "Item - Hotbean hat",
+                                "chest_unopened_img": "/images/items/chest_close.png",
+                                "chest_opened_img": "/images/items/chest_open.png",
                                 "visibility_rules": ["include_items_on"]
                             }
                         ],
@@ -180,6 +190,8 @@
                             },
                             {
                                 "name": "Achievement - 100 followers!",
+                                "chest_unopened_img": "/images/items/achievement_followers.png",
+                                "chest_opened_img": "/images/items/achievement_open.png",
                                 "visibility_rules": ["include_achievements_on"]
                             }
                         ],
@@ -193,6 +205,8 @@
                     },
                     {
                         "name": "Cassette - Jamal Green - Hustle Bustle Shuffle",
+                        "chest_unopened_img": "/images/items/cassette_close.png",
+                        "chest_opened_img": "/images/items/cassette_open.png",
                         "visibility_rules": ["include_cassettes_on"],
                         "sections": [
                             {
@@ -209,6 +223,8 @@
                     },
                     {
                         "name": "Achievement - The grand clock tower",
+                        "chest_unopened_img": "/images/items/achievement_clocktower.png",
+                        "chest_opened_img": "/images/items/achievement_open.png",
                         "visibility_rules": ["include_achievements_on"],
                         "sections": [
                             {
@@ -286,6 +302,8 @@
                     },
                     {
                         "name": "Compendium - Business pigeon",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "sections": [
                             {
                                 "name": ""
@@ -301,6 +319,8 @@
                     },
                     {
                         "name": "Cassette - Launchable Socks - On The Hour",
+                        "chest_unopened_img": "/images/items/cassette_close.png",
+                        "chest_opened_img": "/images/items/cassette_open.png",
                         "visibility_rules": ["include_cassettes_on"],
                         "sections": [
                             {
@@ -329,6 +349,8 @@
                     },
                     {
                         "name": "Item - Reporter hat",
+                        "chest_unopened_img": "/images/items/chest_close.png",
+                        "chest_opened_img": "/images/items/chest_open.png",
                         "visibility_rules": ["include_items_on"]
                     }
                 ],
@@ -362,6 +384,8 @@
                     },
                     {
                         "name": "Compendium - Turtle",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "sections": [
                             {
                                 "name": ""
@@ -377,6 +401,8 @@
                     },
                     {
                         "name": "Item - Frisbee",
+                        "chest_unopened_img": "/images/items/chest_close.png",
+                        "chest_opened_img": "/images/items/chest_open.png",
                         "access_rules": ["honk_attachment,^$can_reach|logcity_outside_cafe"],
                         "visibility_rules": ["include_items_on"],
                         "sections": [
@@ -394,6 +420,8 @@
                     },
                     {
                         "name": "Cassette - Launchable Socks - Hop Skip Step",
+                        "chest_unopened_img": "/images/items/cassette_close.png",
+                        "chest_opened_img": "/images/items/cassette_open.png",
                         "visibility_rules": ["include_cassettes_on"],
                         "sections": [
                             {
@@ -464,6 +492,8 @@
                     },
                     {
                         "name": "Achievement - A new job",
+                        "chest_unopened_img": "/images/items/achievement_new_job.png",
+                        "chest_opened_img": "/images/items/achievement_open.png",
                         "access_rules": ["@Logcity/Bus Stop Cleaner/Quest - Cleaning away the stress"],
                         "visibility_rules": ["include_achievements_on"]
                     }
@@ -486,6 +516,8 @@
                     },
                     {
                         "name": "Item - Cinnamon bun",
+                        "chest_unopened_img": "/images/items/chest_close.png",
+                        "chest_opened_img": "/images/items/chest_open.png",
                         "access_rules": ["@Logcity/Cafe/Quest - A mouse bakery"],
                         "visibility_rules": ["include_items_on"]
                     }
@@ -520,6 +552,8 @@
                     },
                     {
                         "name": "Compendium - Portillo",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "sections": [
                             {
                                 "name": ""
@@ -544,6 +578,8 @@
                 "children": [
                     {
                         "name": "Compendium - Mouse",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "sections": [
                             {
                                 "name": ""
@@ -570,6 +606,8 @@
                 "children": [
                     {
                         "name": "Compendium - Pigeon",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "sections": [
                             {
                                 "name": ""
@@ -591,6 +629,8 @@
                 "children": [
                     {
                         "name": "Compendium - Tato skateboard",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "sections": [
                             {
                                 "name": ""
@@ -611,14 +651,20 @@
                 "sections": [
                     {
                         "name": "Cassette - JG+LS - The Big City",
+                        "chest_unopened_img": "/images/items/cassette_close.png",
+                        "chest_opened_img": "/images/items/cassette_open.png",
                         "visibility_rules": ["include_cassettes_on"]
                     },
                     {
                         "name": "Achievement - The big city",
+                        "chest_unopened_img": "/images/items/achievement_big_city.png",
+                        "chest_opened_img": "/images/items/achievement_open.png",
                         "visibility_rules": ["include_achievements_on"]
                     },
                     {
                         "name": "Achievement - City professional",
+                        "chest_unopened_img": "/images/items/achievement_professional.png",
+                        "chest_opened_img": "/images/items/achievement_open.png",
                         "access_rules": [
                             "@Logcity/Overpass/Quest - Photo challenge #5/,@Logcity/Outside Gallery/Quest - Photo challenge #6/"
                         ],
@@ -626,6 +672,8 @@
                     },
                     {
                         "name": "Achievement - Business executed",
+                        "chest_unopened_img": "/images/items/achievement_business.png",
+                        "chest_opened_img": "/images/items/achievement_open.png",
                         "access_rules": ["^$can_access_all_quests|logcity"],
                         "visibility_rules": ["include_achievements_on"]
                     }

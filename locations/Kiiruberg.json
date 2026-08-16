@@ -1,8 +1,8 @@
 [
     {
         "name": "Kiiruberg",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/items/quest_close.png",
+        "chest_opened_img": "/images/items/quest_open.png",
         "access_rules": ["$has_required_stamps_for|logcity,^$can_reach|logcity_bus_stop"],
         "children": [
             {
@@ -36,6 +36,8 @@
                             },
                             {
                                 "name": "Achievement - A great story",
+                                "chest_unopened_img": "/images/items/achievement_story.png",
+                                "chest_opened_img": "/images/items/achievement_open.png",
                                 "access_rules": [
                                     "@Kiiruberg/Cliffs Middle/Scientist/Quest - Ancient paintings"
                                 ],
@@ -76,10 +78,14 @@
                 "access_rules": ["^$can_reach|kiiruberg_cosmo_garden"],
                 "sections": [
                     {
-                        "name": "Compendium - Cosmo deer"
+                        "name": "Compendium - Cosmo deer",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png"
                     },
                     {
                         "name": "Cassette - Jamal Green - The Petting of a Sacred Deer",
+                        "chest_unopened_img": "/images/items/cassette_close.png",
+                        "chest_opened_img": "/images/items/cassette_open.png",
                         "visibility_rules": ["include_cassettes_on"]
                     }
                 ],
@@ -126,10 +132,14 @@
                         ]
                     },
                     {
-                        "name": "Compendium - Tato alien"
+                        "name": "Compendium - Tato alien",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png"
                     },
                     {
                         "name": "Cassette - Jamal Green - Life Through a Lens",
+                        "chest_unopened_img": "/images/items/cassette_close.png",
+                        "chest_opened_img": "/images/items/cassette_open.png",
                         "visibility_rules": ["include_cassettes_on"]
                     }
                 ],
@@ -235,10 +245,14 @@
                             },
                             {
                                 "name": "Item - Climbing boots",
+                                "chest_unopened_img": "/images/items/chest_close.png",
+                                "chest_opened_img": "/images/items/chest_open.png",
                                 "visibility_rules": ["include_items_on"]
                             },
                             {
                                 "name": "Item - Puffer hat",
+                                "chest_unopened_img": "/images/items/chest_close.png",
+                                "chest_opened_img": "/images/items/chest_open.png",
                                 "access_rules": [
                                     "@Kiiruberg/Frozen Pond/Old Man/Quest - Snowball memories"
                                 ],
@@ -295,6 +309,8 @@
                     },
                     {
                         "name": "Compendium - Snow bird",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "sections": [
                             {
                                 "name": ""
@@ -315,10 +331,14 @@
                 "access_rules": ["^$can_reach|kiiruberg_balloon_house"],
                 "sections": [
                     {
-                        "name": "Compendium - Mikée"
+                        "name": "Compendium - Mikée",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png"
                     },
                     {
-                        "name": "Compendium - Nariko"
+                        "name": "Compendium - Nariko",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png"
                     }
                 ],
                 "map_locations": [
@@ -334,7 +354,9 @@
                 "access_rules": ["^$can_reach|kiiruberg_mecks_house"],
                 "sections": [
                     {
-                        "name": "Compendium - Teddy"
+                        "name": "Compendium - Teddy",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png"
                     }
                 ],
                 "map_locations": [
@@ -353,7 +375,9 @@
                 ],
                 "sections": [
                     {
-                        "name": "Compendium - Fluff ball"
+                        "name": "Compendium - Fluff ball",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png"
                     }
                 ],
                 "map_locations": [
@@ -372,7 +396,9 @@
                 ],
                 "sections": [
                     {
-                        "name": "Compendium - Hedgehog"
+                        "name": "Compendium - Hedgehog",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png"
                     }
                 ],
                 "map_locations": [
@@ -391,7 +417,9 @@
                 ],
                 "sections": [
                     {
-                        "name": "Compendium - Meteopal"
+                        "name": "Compendium - Meteopal",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png"
                     }
                 ],
                 "map_locations": [
@@ -414,6 +442,8 @@
                 "children": [
                     {
                         "name": "Compendium - Mountain goat",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "access_rules": [],
                         "sections": [
                             {
@@ -438,7 +468,9 @@
                 ],
                 "sections": [
                     {
-                        "name": "Compendium - Owl"
+                        "name": "Compendium - Owl",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png"
                     }
                 ],
                 "map_locations": [
@@ -455,6 +487,8 @@
                 "children": [
                     {
                         "name": "Compendium - Tato ski",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "sections": [
                             {
                                 "name": ""
@@ -470,6 +504,8 @@
                     },
                     {
                         "name": "Item - Ski goggles",
+                        "chest_unopened_img": "/images/items/chest_close.png",
+                        "chest_opened_img": "/images/items/chest_open.png",
                         "visibility_rules": ["include_items_on"],
                         "sections": [
                             {
@@ -492,7 +528,9 @@
                 "visibility_rules": ["include_items_on"],
                 "sections": [
                     {
-                        "name": "Item - Scarf"
+                        "name": "Item - Scarf",
+                        "chest_unopened_img": "/images/items/chest_close.png",
+                        "chest_opened_img": "/images/items/chest_open.png"
                     }
                 ],
                 "map_locations": [
@@ -509,7 +547,9 @@
                 "visibility_rules": ["include_items_on"],
                 "sections": [
                     {
-                        "name": "Item - Space helmet"
+                        "name": "Item - Space helmet",
+                        "chest_unopened_img": "/images/items/chest_close.png",
+                        "chest_opened_img": "/images/items/chest_open.png"
                     }
                 ],
                 "map_locations": [
@@ -522,6 +562,8 @@
             },
             {
                 "name": "Cassette - Launchable Socks - Stories Of Snow",
+                "chest_unopened_img": "/images/items/cassette_close.png",
+                "chest_opened_img": "/images/items/cassette_open.png",
                 "access_rules": [
                     "^$can_reach|kiiruberg_birthday_party_bottom",
                     "^$can_reach|kiiruberg_birthday_party_top"
@@ -536,12 +578,14 @@
                     {
                         "map": "Kiiruberg",
                         "x": 771,
-                        "y": 1674
+                        "y": 1688
                     }
                 ]
             },
             {
                 "name": "Cassette - Launchable Socks - Tall & Shy",
+                "chest_unopened_img": "/images/items/cassette_close.png",
+                "chest_opened_img": "/images/items/cassette_open.png",
                 "access_rules": ["^$has_warm_clothing,^$can_reach|kiiruberg_blizzard_bridge_dl"],
                 "visibility_rules": ["include_cassettes_on"],
                 "sections": [
@@ -564,6 +608,8 @@
                 "sections": [
                     {
                         "name": "Achievement - Happy youth",
+                        "chest_unopened_img": "/images/items/achievement_youth.png",
+                        "chest_opened_img": "/images/items/achievement_open.png",
                         "access_rules": [
                             "@Kiiruberg/Frozen Pond/Old Man/Quest - Snowball memories"
                         ]
@@ -582,16 +628,22 @@
                 "visibility_rules": ["include_achievements_on"],
                 "sections": [
                     {
-                        "name": "Achievement - Snowy peaks"
+                        "name": "Achievement - Snowy peaks",
+                        "chest_unopened_img": "/images/items/achievement_snowy_peaks.png",
+                        "chest_opened_img": "/images/items/achievement_open.png"
                     },
                     {
                         "name": "Achievement - The biggest hurdle",
+                        "chest_unopened_img": "/images/items/achievement_hurdle.png",
+                        "chest_opened_img": "/images/items/achievement_open.png",
                         "access_rules": [
                             "@Kiiruberg/Snowman Square Bottom/Quest - Photo challenge #7/,@Kiiruberg/Cliffs Top/Quest - Photo challenge #8"
                         ]
                     },
                     {
                         "name": "Achievement - Ice fighter",
+                        "chest_unopened_img": "/images/items/achievement_fighter.png",
+                        "chest_opened_img": "/images/items/achievement_open.png",
                         "access_rules": ["^$can_access_all_quests|kiiruberg"]
                     }
                 ],

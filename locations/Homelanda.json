@@ -1,8 +1,8 @@
 [
     {
         "name": "Homelanda",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/items/quest_close.png",
+        "chest_opened_img": "/images/items/quest_open.png",
         "children": [
             {
                 "name": "Bus Stop",
@@ -40,6 +40,8 @@
                     },
                     {
                         "name": "Compendium - Cow",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "sections": [
                             {
                                 "name": ""
@@ -55,6 +57,8 @@
                     },
                     {
                         "name": "Compendium - Flies",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "sections": [
                             {
                                 "name": ""
@@ -70,6 +74,8 @@
                     },
                     {
                         "name": "Compendium - Home bird",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "sections": [
                             {
                                 "name": ""
@@ -85,6 +91,8 @@
                     },
                     {
                         "name": "Compendium - Tato",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "sections": [
                             {
                                 "name": ""
@@ -100,6 +108,8 @@
                     },
                     {
                         "name": "Item - Clogs",
+                        "chest_unopened_img": "/images/items/chest_close.png",
+                        "chest_opened_img": "/images/items/chest_open.png",
                         "visibility_rules": ["include_items_on"],
                         "sections": [
                             {
@@ -116,6 +126,8 @@
                     },
                     {
                         "name": "Achievement - Home sweet home",
+                        "chest_unopened_img": "/images/items/achievement_home_sweet_home.png",
+                        "chest_opened_img": "/images/items/achievement_open.png",
                         "visibility_rules": ["include_achievements_on"],
                         "sections": [
                             {
@@ -138,10 +150,14 @@
                 "sections": [
                     {
                         "name": "Cassette - Jamal Green - Photo of Home",
+                        "chest_unopened_img": "/images/items/cassette_close.png",
+                        "chest_opened_img": "/images/items/cassette_open.png",
                         "visibility_rules": ["include_cassettes_on"]
                     },
                     {
                         "name": "Achievement - The beginning",
+                        "chest_unopened_img": "/images/items/achievement_beginning.png",
+                        "chest_opened_img": "/images/items/achievement_open.png",
                         "visibility_rules": ["include_achievements_on"]
                     },
                     {
@@ -150,6 +166,8 @@
                     },
                     {
                         "name": "Item - Viking Express Ticket",
+                        "chest_unopened_img": "/images/items/chest_close.png",
+                        "chest_opened_img": "/images/items/chest_open.png",
                         "access_rules": ["@Homelanda/Living Room/Quest - Experience TOEM"],
                         "visibility_rules": ["include_items_on,include_basto_on"]
                     },
@@ -172,6 +190,8 @@
                 "sections": [
                     {
                         "name": "Item - Award Mask",
+                        "chest_unopened_img": "/images/items/chest_close.png",
+                        "chest_opened_img": "/images/items/chest_open.png",
                         "access_rules": ["honk_attachment"],
                         "visibility_rules": ["include_items_on"]
                     }

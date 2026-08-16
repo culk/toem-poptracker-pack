@@ -1,8 +1,8 @@
 [
     {
         "name": "Basto",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/items/quest_close.png",
+        "chest_opened_img": "/images/items/quest_open.png",
         "access_rules": ["basto_ticket,^$can_reach|stanhamn_docks_left"],
         "visibility_rules": ["include_basto_on"],
         "children": [
@@ -18,6 +18,8 @@
                             },
                             {
                                 "name": "Item - Water popper attachment",
+                                "chest_unopened_img": "/images/items/chest_close.png",
+                                "chest_opened_img": "/images/items/chest_open.png",
                                 "visibility_rules": ["include_items_on"]
                             }
                         ],
@@ -31,6 +33,8 @@
                     },
                     {
                         "name": "Cassette - Launchable Socks - Sailors Tune",
+                        "chest_unopened_img": "/images/items/cassette_close.png",
+                        "chest_opened_img": "/images/items/cassette_open.png",
                         "access_rules": ["watergun,$has_required_stamps_for|basto"],
                         "visibility_rules": ["include_cassettes_on"],
                         "sections": [
@@ -66,6 +70,8 @@
                             },
                             {
                                 "name": "Item - Pickaxe",
+                                "chest_unopened_img": "/images/items/chest_close.png",
+                                "chest_opened_img": "/images/items/chest_open.png",
                                 "visibility_rules": ["include_items_on"]
                             }
                         ],
@@ -137,6 +143,8 @@
                             },
                             {
                                 "name": "Item - Viking helmet",
+                                "chest_unopened_img": "/images/items/chest_close.png",
+                                "chest_opened_img": "/images/items/chest_open.png",
                                 "visibility_rules": ["include_items_on"]
                             }
                         ],
@@ -150,6 +158,8 @@
                     },
                     {
                         "name": "Compendium - Day lizard",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "sections": [
                             {
                                 "name": ""
@@ -165,6 +175,8 @@
                     },
                     {
                         "name": "Compendium - Eggert",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "sections": [
                             {
                                 "name": ""
@@ -180,6 +192,8 @@
                     },
                     {
                         "name": "Item - Oranganas",
+                        "chest_unopened_img": "/images/items/chest_close.png",
+                        "chest_opened_img": "/images/items/chest_open.png",
                         "access_rules": ["watergun"],
                         "visibility_rules": ["include_items_on"],
                         "sections": [
@@ -209,6 +223,8 @@
                     },
                     {
                         "name": "Achievement - Moonlit beauty",
+                        "chest_unopened_img": "/images/items/achievement_moonlit_beauty.png",
+                        "chest_opened_img": "/images/items/achievement_open.png",
                         "visibility_rules": ["include_achievements_on"]
                     }
                 ],
@@ -229,6 +245,8 @@
                     },
                     {
                         "name": "Item - Sun hat",
+                        "chest_unopened_img": "/images/items/chest_close.png",
+                        "chest_opened_img": "/images/items/chest_open.png",
                         "visibility_rules": ["include_items_on"]
                     }
                 ],
@@ -246,6 +264,8 @@
                 "children": [
                     {
                         "name": "Compendium - Tato coco",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "access_rules": ["watergun"],
                         "sections": [
                             {
@@ -262,6 +282,8 @@
                     },
                     {
                         "name": "Item - Banakin",
+                        "chest_unopened_img": "/images/items/chest_close.png",
+                        "chest_opened_img": "/images/items/chest_open.png",
                         "access_rules": ["watergun"],
                         "visibility_rules": ["include_items_on"],
                         "sections": [
@@ -273,7 +295,7 @@
                             {
                                 "map": "Basto",
                                 "x": 1094,
-                                "y": 796
+                                "y": 793
                             }
                         ]
                     },
@@ -282,21 +304,29 @@
                         "sections": [
                             {
                                 "name": "Item - Ice cream (Banakin)",
+                                "chest_unopened_img": "/images/items/chest_close.png",
+                                "chest_opened_img": "/images/items/chest_open.png",
                                 "access_rules": ["banakin"],
                                 "visibility_rules": ["include_items_on"]
                             },
                             {
                                 "name": "Item - Ice cream (Melonear)",
+                                "chest_unopened_img": "/images/items/chest_close.png",
+                                "chest_opened_img": "/images/items/chest_open.png",
                                 "access_rules": ["melonear"],
                                 "visibility_rules": ["include_items_on"]
                             },
                             {
                                 "name": "Item - Ice cream (Beanut)",
+                                "chest_unopened_img": "/images/items/chest_close.png",
+                                "chest_opened_img": "/images/items/chest_open.png",
                                 "access_rules": ["beanut"],
                                 "visibility_rules": ["include_items_on"]
                             },
                             {
                                 "name": "Item - Ice cream (Oranganas)",
+                                "chest_unopened_img": "/images/items/chest_close.png",
+                                "chest_opened_img": "/images/items/chest_open.png",
                                 "access_rules": ["oranganas"],
                                 "visibility_rules": ["include_items_on"]
                             },
@@ -321,6 +351,8 @@
                             },
                             {
                                 "name": "Item - Beret",
+                                "chest_unopened_img": "/images/items/chest_close.png",
+                                "chest_opened_img": "/images/items/chest_open.png",
                                 "access_rules": ["^$can_access_all_portraits"],
                                 "visibility_rules": ["include_items_on"]
                             }
@@ -329,12 +361,14 @@
                             {
                                 "map": "Basto",
                                 "x": 1227,
-                                "y": 960
+                                "y": 995
                             }
                         ]
                     },
                     {
                         "name": "Cassette - Jamal Green - One By One",
+                        "chest_unopened_img": "/images/items/cassette_close.png",
+                        "chest_opened_img": "/images/items/cassette_open.png",
                         "visibility_rules": ["include_cassettes_on"],
                         "sections": [
                             {
@@ -345,12 +379,14 @@
                             {
                                 "map": "Basto",
                                 "x": 1141,
-                                "y": 903
+                                "y": 906
                             }
                         ]
                     },
                     {
                         "name": "Achievement - Self portrait",
+                        "chest_unopened_img": "/images/items/achievement_self_portrait.png",
+                        "chest_opened_img": "/images/items/achievement_open.png",
                         "visibility_rules": ["include_achievements_on"],
                         "sections": [
                             {
@@ -367,6 +403,8 @@
                     },
                     {
                         "name": "Achievement - The Royal Castle",
+                        "chest_unopened_img": "/images/items/achievement_royal_castle.png",
+                        "chest_opened_img": "/images/items/achievement_open.png",
                         "visibility_rules": ["include_achievements_on"],
                         "sections": [
                             {
@@ -417,6 +455,8 @@
                             },
                             {
                                 "name": "Item - Foot cast",
+                                "chest_unopened_img": "/images/items/chest_close.png",
+                                "chest_opened_img": "/images/items/chest_open.png",
                                 "visibility_rules": ["include_items_on"]
                             }
                         ],
@@ -465,7 +505,7 @@
                             {
                                 "map": "Basto",
                                 "x": 1829,
-                                "y": 502
+                                "y": 500
                             }
                         ]
                     },
@@ -491,6 +531,8 @@
                     },
                     {
                         "name": "Compendium - Glow worm",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "sections": [
                             {
                                 "name": ""
@@ -506,6 +548,8 @@
                     },
                     {
                         "name": "Item - Sun cap",
+                        "chest_unopened_img": "/images/items/chest_close.png",
+                        "chest_opened_img": "/images/items/chest_open.png",
                         "access_rules": ["pickaxe"],
                         "visibility_rules": ["include_items_on"],
                         "sections": [
@@ -540,20 +584,28 @@
                     },
                     {
                         "name": "Compendium - Bitling mouse",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "access_rules": ["@Basto/Castle/Quest - In your face"]
                     },
                     {
                         "name": "Item - Royal cape",
+                        "chest_unopened_img": "/images/items/chest_close.png",
+                        "chest_opened_img": "/images/items/chest_open.png",
                         "access_rules": ["@Basto/Castle/Quest - Sand castle competition"],
                         "visibility_rules": ["include_items_on"]
                     },
                     {
                         "name": "Item - Royal crown",
+                        "chest_unopened_img": "/images/items/chest_close.png",
+                        "chest_opened_img": "/images/items/chest_open.png",
                         "access_rules": ["pickaxe,@Basto/Secret Cave/Compendium - Tato king"],
                         "visibility_rules": ["include_items_on"]
                     },
                     {
                         "name": "Achievement - Kings new shirt",
+                        "chest_unopened_img": "/images/items/achievement_kings_shirt.png",
+                        "chest_opened_img": "/images/items/achievement_open.png",
                         "access_rules": ["royal_cape"],
                         "visibility_rules": ["include_achievements_on"]
                     }
@@ -598,6 +650,8 @@
                     },
                     {
                         "name": "Item - Minigame ticket",
+                        "chest_unopened_img": "/images/items/chest_close.png",
+                        "chest_opened_img": "/images/items/chest_open.png",
                         "access_rules": [
                             "honk_attachment",
                             "watergun"
@@ -606,21 +660,29 @@
                     },
                     {
                         "name": "Item - Lei",
+                        "chest_unopened_img": "/images/items/chest_close.png",
+                        "chest_opened_img": "/images/items/chest_open.png",
                         "access_rules": ["minigame_ticket"],
                         "visibility_rules": ["include_items_on"]
                     },
                     {
                         "name": "Item - Vacation shirt",
+                        "chest_unopened_img": "/images/items/chest_close.png",
+                        "chest_opened_img": "/images/items/chest_open.png",
                         "access_rules": ["minigame_ticket"],
                         "visibility_rules": ["include_items_on"]
                     },
                     {
                         "name": "Item - Royal cane",
+                        "chest_unopened_img": "/images/items/chest_close.png",
+                        "chest_opened_img": "/images/items/chest_open.png",
                         "access_rules": ["minigame_ticket"],
                         "visibility_rules": ["include_items_on"]
                     },
                     {
                         "name": "Achievement - Pro gamer",
+                        "chest_unopened_img": "/images/items/achievement_pro_gamer.png",
+                        "chest_opened_img": "/images/items/achievement_open.png",
                         "access_rules": ["honk_attachment,watergun"],
                         "visibility_rules": ["include_achievements_on"]
                     }
@@ -657,6 +719,8 @@
                     },
                     {
                         "name": "Compendium - Bitling snail",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "sections": [
                             {
                                 "name": ""
@@ -672,6 +736,8 @@
                     },
                     {
                         "name": "Compendium - Coco crab",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "sections": [
                             {
                                 "name": ""
@@ -687,6 +753,8 @@
                     },
                     {
                         "name": "Compendium - Snout bug",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "sections": [
                             {
                                 "name": ""
@@ -702,6 +770,8 @@
                     },
                     {
                         "name": "Cassette - Launchable Socks - Hammock Days",
+                        "chest_unopened_img": "/images/items/cassette_close.png",
+                        "chest_opened_img": "/images/items/cassette_open.png",
                         "visibility_rules": ["include_cassettes_on"],
                         "sections": [
                             {
@@ -729,6 +799,8 @@
                 "children": [
                     {
                         "name": "Compendium - Bat",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "sections": [
                             {
                                 "name": ""
@@ -750,6 +822,8 @@
                 "children": [
                     {
                         "name": "Compendium - Beach snake",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "sections": [
                             {
                                 "name": ""
@@ -758,13 +832,15 @@
                         "map_locations": [
                             {
                                 "map": "Basto",
-                                "x": 1335,
-                                "y": 277
+                                "x": 93,
+                                "y": 1357
                             }
                         ]
                     },
                     {
                         "name": "Compendium - Mud frog",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "sections": [
                             {
                                 "name": ""
@@ -780,6 +856,8 @@
                     },
                     {
                         "name": "Item - Beanut",
+                        "chest_unopened_img": "/images/items/chest_close.png",
+                        "chest_opened_img": "/images/items/chest_open.png",
                         "access_rules": ["watergun"],
                         "visibility_rules": ["include_items_on"],
                         "sections": [
@@ -797,6 +875,8 @@
                     },
                     {
                         "name": "Cassettes",
+                        "chest_unopened_img": "/images/items/cassette_close.png",
+                        "chest_opened_img": "/images/items/cassette_open.png",
                         "access_rules": ["@Basto/Tent/Quest - Take a nap!"],
                         "visibility_rules": ["include_cassettes_on"],
                         "sections": [
@@ -828,6 +908,8 @@
                 "children": [
                     {
                         "name": "Compendium - Beak bird",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "sections": [
                             {
                                 "name": ""
@@ -848,7 +930,9 @@
                 "access_rules": ["^$can_reach|basto_bonfire_bottom"],
                 "sections": [
                     {
-                        "name": "Compendium - Bitling frog"
+                        "name": "Compendium - Bitling frog",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png"
                     }
                 ],
                 "map_locations": [
@@ -867,7 +951,9 @@
                 ],
                 "sections": [
                     {
-                        "name": "Compendium - Bitling tato"
+                        "name": "Compendium - Bitling tato",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png"
                     }
                 ],
                 "map_locations": [
@@ -886,7 +972,9 @@
                 ],
                 "sections": [
                     {
-                        "name": "Compendium - Drill mole"
+                        "name": "Compendium - Drill mole",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png"
                     }
                 ],
                 "map_locations": [
@@ -903,6 +991,8 @@
                 "children": [
                     {
                         "name": "Compendium - Fire fly",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "sections": [
                             {
                                 "name": ""
@@ -918,6 +1008,8 @@
                     },
                     {
                         "name": "Item - Flip-flops",
+                        "chest_unopened_img": "/images/items/chest_close.png",
+                        "chest_opened_img": "/images/items/chest_open.png",
                         "access_rules": ["pickaxe"],
                         "visibility_rules": ["include_items_on"],
                         "sections": [
@@ -935,6 +1027,8 @@
                     },
                     {
                         "name": "Item - Empty bottle",
+                        "chest_unopened_img": "/images/items/chest_close.png",
+                        "chest_opened_img": "/images/items/chest_open.png",
                         "visibility_rules": ["include_items_on"],
                         "sections": [
                             {
@@ -951,6 +1045,8 @@
                     },
                     {
                         "name": "Achievement - Splish-splash",
+                        "chest_unopened_img": "/images/items/achievement_splish_splash.png",
+                        "chest_opened_img": "/images/items/achievement_open.png",
                         "access_rules": [
                             "watergun,@Stanhamn/Outside Hydroplant/Quest - Make someone take a bath/"
                         ],
@@ -975,10 +1071,14 @@
                 "access_rules": ["^$can_reach|basto_secret_cave"],
                 "sections": [
                     {
-                        "name": "Compendium - Itsy bitsy"
+                        "name": "Compendium - Itsy bitsy",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png"
                     },
                     {
                         "name": "Compendium - Tato king",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "access_rules": ["watergun"]
                     }
                 ],
@@ -998,7 +1098,9 @@
                 ],
                 "sections": [
                     {
-                        "name": "Compendium - Night lizard"
+                        "name": "Compendium - Night lizard",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png"
                     }
                 ],
                 "map_locations": [
@@ -1019,6 +1121,8 @@
                 "children": [
                     {
                         "name": "Compendium - Water strider",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
                         "sections": [
                             {
                                 "name": ""
@@ -1040,6 +1144,8 @@
                 "sections": [
                     {
                         "name": "Item - Melonear",
+                        "chest_unopened_img": "/images/items/chest_close.png",
+                        "chest_opened_img": "/images/items/chest_open.png",
                         "access_rules": ["watergun"],
                         "visibility_rules": ["include_items_on"]
                     }
@@ -1057,6 +1163,8 @@
                 "children": [
                     {
                         "name": "Cassette - Launchable Socks - Song Of The Sea",
+                        "chest_unopened_img": "/images/items/cassette_close.png",
+                        "chest_opened_img": "/images/items/cassette_open.png",
                         "access_rules": ["watergun"],
                         "visibility_rules": ["include_cassettes_on"],
                         "sections": [
@@ -1076,6 +1184,8 @@
             },
             {
                 "name": "Achievement - Maximum vacation",
+                "chest_unopened_img": "/images/items/achievement_maximum_vacation.png",
+                "chest_opened_img": "/images/items/achievement_open.png",
                 "access_rules": [
                     "vacation_shirt,flip_flops,sun_hat,^$can_reach_any|basto_lily_pad_pond_left|basto_gym_house|basto_carnival|basto_bonfire_top|basto_ghost_hangout"
                 ],
@@ -1098,18 +1208,26 @@
                 "visibility_rules": ["include_achievements_on"],
                 "sections": [
                     {
-                        "name": "Achievement - Tropical paradise"
+                        "name": "Achievement - Tropical paradise",
+                        "chest_unopened_img": "/images/items/achievement_tropical_paradise.png",
+                        "chest_opened_img": "/images/items/achievement_open.png"
                     },
                     {
                         "name": "Achievement - Wazzuuppp",
+                        "chest_unopened_img": "/images/items/achievement_wazzuuppp.png",
+                        "chest_opened_img": "/images/items/achievement_open.png",
                         "access_rules": ["frames_filters,^$can_reach_any|basto_lily_pad_pond_right|basto_outside_castle|basto_bonfire_top|basto_ghost_hangout|basto_jungle"]
                     },
                     {
                         "name": "Achievement - And some more",
+                        "chest_unopened_img": "/images/items/achievement_some_more.png",
+                        "chest_opened_img": "/images/items/achievement_open.png",
                         "access_rules": ["^$can_access_all_basto_animals"]
                     },
                     {
                         "name": "Achievement - A Vikings holiday",
+                        "chest_unopened_img": "/images/items/achievement_vikings_holiday.png",
+                        "chest_opened_img": "/images/items/achievement_open.png",
                         "access_rules": ["^$can_access_all_quests|basto"]
                     }
                 ],
