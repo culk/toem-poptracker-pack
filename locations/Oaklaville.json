@@ -1,0 +1,683 @@
+[
+    {
+        "name": "Oaklaville",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "access_rules": ["$has_required_stamps_for|homelanda,^$can_reach|homelanda_bus_stop"],
+        "children": [
+            {
+                "name": "Trail Bottom",
+                "access_rules": ["^$can_reach|oaklaville_trail_bottom"],
+                "children": [
+                    {
+                        "name": "Quest - Suspicious activity - forest",
+                        "access_rules": ["^$can_reach|oaklaville_hide_and_seek"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Oaklaville",
+                                "x": 1522,
+                                "y": 525
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Quest - Log blocking a path",
+                        "access_rules": ["^$can_reach_all|oaklaville_lookout|oaklaville_bus_stop,^$can_reach_any|oaklaville_playground|oaklaville_mushroom_house"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Oaklaville",
+                                "x": 1452,
+                                "y": 376
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Quest - Photo challenge #1",
+                        "access_rules": ["^$can_reach|oaklaville_camp"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Oaklaville",
+                                "x": 1431,
+                                "y": 640
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compendium - Ant",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Oaklaville",
+                                "x": 1293,
+                                "y": 610
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Hotel",
+                "access_rules": ["^$can_reach|oaklaville_hotel"],
+                "sections": [
+                    {
+                        "name": "Quest - Capture the hotels beauty",
+                        "access_rules": ["^$can_reach|oaklaville_lookout"]
+                    },
+                    {
+                        "name": "Quest - Hotel chef",
+                        "access_rules": ["^$can_reach|oaklaville_lookout"]
+                    },
+                    {
+                        "name": "Quest - Monster spotting",
+                        "access_rules": ["^$can_access_monsters"]
+                    },
+                    {
+                        "name": "Compendium - Oskar"
+                    },
+                    {
+                        "name": "Item - Monster mask",
+                        "access_rules": ["@Oaklaville/Hotel/Quest - Monster spotting"],
+                        "visibility_rules": ["include_items_on"]
+                    },
+                    {
+                        "name": "Cassette - Jamal Green - The Grand Squirrel Hotel",
+                        "visibility_rules": ["include_cassettes_on"]
+                    },
+                    {
+                        "name": "Achievement - You found us!",
+                        "visibility_rules": ["include_achievements_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oaklaville",
+                        "x": 843,
+                        "y": 1076
+                    }
+                ]
+            },
+            {
+                "name": "Outside Hotel",
+                "access_rules": ["^$can_reach|oaklaville_outside_hotel"],
+                "children": [
+                    {
+                        "name": "Sock Man",
+                        "sections": [
+                            {
+                                "name": "Quest - Missing socks",
+                                "access_rules": ["wet_socks"]
+                            },
+                            {
+                                "name": "Item - Soaked sock",
+                                "access_rules": ["@Oaklaville/Outside Hotel/Sock Man/Quest - Missing socks"],
+                                "visibility_rules": ["include_items_on"]
+                            },
+                            {
+                                "name": "Achievement - Just a sock",
+                                "access_rules": ["@Oaklaville/Outside Hotel/Sock Man/Quest - Missing socks"],
+                                "visibility_rules": ["include_achievements_on"]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Oaklaville",
+                                "x": 939,
+                                "y": 1011
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Quest - Photo challenge #2",
+                        "access_rules": ["^$can_reach|oaklaville_trail_bottom"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Oaklaville",
+                                "x": 675,
+                                "y": 1078
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compendium - Forest bird",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Oaklaville",
+                                "x": 859,
+                                "y": 1165
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compendium - Tom",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Oaklaville",
+                                "x": 1116,
+                                "y": 1142
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compendium - Nestworm",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Oaklaville",
+                                "x": 918,
+                                "y": 967
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Snail",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Compendium - Snail"
+                            },
+                            {
+                                "name": "Achievement - Slow and steady",
+                                "visibility_rules": ["include_achievements_on"]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Oaklaville",
+                                "x": 994,
+                                "y": 1158
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compendium - Stag beetle",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Oaklaville",
+                                "x": 766,
+                                "y": 1018
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Item - Foam finger",
+                        "access_rules": [],
+                        "visibility_rules": ["include_items_on"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Oaklaville",
+                                "x": 834,
+                                "y": 990
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Cassette - Launchable Socks - Squirrel Photography",
+                        "access_rules": [],
+                        "visibility_rules": ["include_cassettes_on"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Oaklaville",
+                                "x": 913,
+                                "y": 1240
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Camp",
+                "access_rules": ["^$can_reach|oaklaville_camp"],
+                "children": [
+                    {
+                        "name": "Scout Leader",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Quest - Become a scout",
+                                "access_rules": ["^$can_reach_all|oaklaville_lookout|oaklaville_bus_stop,^$can_reach_any|oaklaville_playground|oaklaville_mushroom_house"]
+                            },
+                            {
+                                "name": "Item - Fjällbjörn hat",
+                                "access_rules": ["@Oaklaville/Camp/Scout Leader/Quest - Become a scout"],
+                                "visibility_rules": ["include_items_on"]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Oaklaville",
+                                "x": 1450,
+                                "y": 941
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compendium - Ladybug",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Oaklaville",
+                                "x": 1548,
+                                "y": 917
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compendium - Pet rock",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Oaklaville",
+                                "x": 1484,
+                                "y": 1148
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Hide and Seek",
+                "access_rules": ["^$can_reach|oaklaville_hide_and_seek"],
+                "children": [
+                    {
+                        "name": "Quest - Hide-and-seek",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Oaklaville",
+                                "x": 250,
+                                "y": 539
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Cassette - Jamal Green - Summer Breeze",
+                        "visibility_rules": ["include_cassettes_on"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Oaklaville",
+                                "x": 239,
+                                "y": 605
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Rave",
+                "access_rules": ["^$can_reach|oaklaville_rave"],
+                "children": [
+                    {
+                        "name": "Quest - Become a paparazzi",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Oaklaville",
+                                "x": 1877,
+                                "y": 196
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Skeleton",
+                "sections": [
+                    {
+                        "name": "Item - Ghost glasses",
+                        "access_rules": [
+                            "^$can_reach|oaklaville_graveyard",
+                            "^$can_reach|oaklaville_skeleton_balcony"
+                        ],
+                        "visibility_rules": ["include_items_on"]
+                    },
+                    {
+                        "name": "Achievement - Calmed down",
+                        "access_rules": ["^$can_reach|oaklaville_graveyard"],
+                        "visibility_rules": ["include_achievements_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oaklaville",
+                        "x": 337,
+                        "y": 218
+                    }
+                ]
+            },
+            {
+                "name": "Graveyard",
+                "access_rules": ["^$can_reach|oaklaville_graveyard"],
+                "sections": [
+                    {
+                        "name": "Quest - A courageous stallion",
+                        "access_rules": ["ghost_glasses,^$can_reach|oaklaville_hotel"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oaklaville",
+                        "x": 147,
+                        "y": 239
+                    }
+                ]
+            },
+            {
+                "name": "Skeleton House",
+                "access_rules": ["^$can_reach|oaklaville_skeleton_house"],
+                "children": [
+                    {
+                        "name": "Quest - Ghost helper!",
+                        "access_rules": ["@Oaklaville/Ghost Cup Game/Quest - Cup champion,@Oaklaville/Graveyard/Quest - A courageous stallion,@Stanhamn/Outside Hydroplant/Quest - Supreme deluxe sandwich!,@Stanhamn/Ghost Drawbridge Bottom/Quest - Scorching flame,@Logcity/Outside Fashion Show/Quest - A ghostly date,@Logcity/Crosswalk/Quest - Spooky scary city"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Oaklaville",
+                                "x": 283,
+                                "y": 206
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Ghost Cup Game",
+                "access_rules": ["^$can_reach|oaklaville_ghost_cup_game"],
+                "sections": [
+                    {
+                        "name": "Quest - Cup champion",
+                        "access_rules": ["ghost_glasses"]
+                    },
+                    {
+                        "name": "Item - Pair of wet socks",
+                        "access_rules": ["@Oaklaville/Ghost Cup Game/Quest - Cup champion"],
+                        "visibility_rules": ["include_items_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oaklaville",
+                        "x": 362,
+                        "y": 964
+                    }
+                ]
+            },
+            {
+                "name": "Playground",
+                "access_rules": ["^$can_reach|oaklaville_playground"],
+                "children": [
+                    {
+                        "name": "Quest - Become a flower",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Oaklaville",
+                                "x": 2038,
+                                "y": 994
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compendium - Beehive",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Oaklaville",
+                                "x": 1884,
+                                "y": 920
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Bus Stop",
+                "children": [
+                    {
+                        "name": "Compendium - Butterfly",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Oaklaville",
+                                "x": 966,
+                                "y": 1557
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Sero",
+                "access_rules": [
+                    "^$can_reach|oaklaville_graveyard",
+                    "^$can_reach|oaklaville_skeleton_balcony,[hard_logic]"
+                ],
+                "children": [
+                    {
+                        "name": "Compendium - Sero",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Oaklaville",
+                                "x": 344,
+                                "y": 315
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Squirrels",
+                "access_rules": [
+                    "^$can_reach|oaklaville_ghost_cup_game",
+                    "^$can_reach|oaklaville_hotel_elevator"
+                ],
+                "children": [
+                    {
+                        "name": "Compendium - Squirrel",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Oaklaville",
+                                "x": 446,
+                                "y": 988
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom House",
+                "access_rules": ["^$can_reach|ghost_cup_game"],
+                "sections": [
+                    {
+                        "name": "Compendium - Tato bug"
+                    },
+                    {
+                        "name": "Item - Cowboy hat",
+                        "visibility_rules": ["include_items_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oaklaville",
+                        "x": 520,
+                        "y": 864
+                    }
+                ]
+            },
+            {
+                "name": "Tato Fly",
+                "access_rules": [
+                    "^$can_reach|oaklaville_skeleton_balcony",
+                    "^$can_reach|oaklaville_graveyard,[hard_logic]"
+                ],
+                "children": [
+                    {
+                        "name": "Compendium - Tato fly",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Oaklaville",
+                                "x": 337,
+                                "y": 64
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Lookout",
+                "access_rules": ["^$can_reach|oaklaville_lookout"],
+                "sections": [
+                    {
+                        "name": "Cassette - Launchable Socks - Pine Needles",
+                        "visibility_rules": ["include_cassettes_on"]
+                    },
+                    {
+                        "name": "Achievement - A majestic hotel",
+                        "visibility_rules": ["include_achievements_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oaklaville",
+                        "x": 1226,
+                        "y": 145
+                    }
+                ]
+            },
+            {
+                "name": "Oaklaville",
+                "visibility_rules": ["include_achievements_on"],
+                "sections": [
+                    {
+                        "name": "Achievement - The calm forest"
+                    },
+                    {
+                        "name": "Achievement - Natures show-stopper",
+                        "access_rules": ["@Oaklaville/Trail Bottom/Quest - Photo challenge #1,@Oaklaville/Outside Hotel/Quest - Photo challenge #2"]
+                    },
+                    {
+                        "name": "Achievement - Strong as an oak",
+                        "access_rules": ["^$can_access_all_quests|oaklaville"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oaklaville",
+                        "x": 923,
+                        "y": 1620
+                    }
+                ]
+            }
+        ]
+    }
+]

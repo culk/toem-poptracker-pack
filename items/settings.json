@@ -1,0 +1,199 @@
+[
+    {
+        "name": "Options",
+        "type": "static",
+        "img": "images/settings/header_options.png",
+        "codes": "header_options"
+    },
+    {
+        "name": "Stamps",
+        "type": "static",
+        "img": "images/settings/header_stamps.png",
+        "codes": "header_stamps"
+    },
+    {
+        "name": "Locations",
+        "type": "static",
+        "img": "images/settings/header_locations.png",
+        "codes": "header_locations"
+    },
+    {
+	    "name": "Entrance Randomization",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/settings/entrance_randomization_off.png",
+                "codes": "entrance_randomization, entrance_randomization_off",
+                "inherit_codes": false,
+                "name": "Entrance Randomization - Off"
+            },
+            {
+                "img": "images/settings/entrance_randomization_within_region.png",
+                "codes": "entrance_randomization, entrance_randomization_within_region",
+                "inherit_codes": false,
+                "name": "Entrance Randomization - Within Region"
+            }
+        ]
+    },
+    {
+        "name": "Progressive Stamps",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/settings/progressive_stamps_off.png",
+                "codes": "progressive_stamps, progressive_stamps_off",
+                "inherit_codes": false,
+                "name": "Progressive Stamps - Off"
+            },
+            {
+                "img": "images/settings/progressive_stamps_on.png",
+                "codes": "progressive_stamps, progressive_stamps_on",
+                "inherit_codes": false,
+                "name": "Progressive Stamps - On"
+            }
+        ]
+    },
+    {
+	    "name": "Homelanda Stamp Requirement",
+        "type": "consumable",
+        "img": "images/settings/stamp_requirement_homelanda.png",
+        "max_quantity": 3,
+        "initial_quantity": 1,
+        "overlay_font_size": 36,
+	    "codes": "stamp_requirement_homelanda"
+    },
+    {
+	    "name": "Oaklaville Stamp Requirement",
+        "type": "consumable",
+        "img": "images/settings/stamp_requirement_oaklaville.png",
+        "max_quantity": 15,
+        "initial_quantity": 7,
+        "overlay_font_size": 36,
+	    "codes": "stamp_requirement_oaklaville"
+    },
+    {
+	    "name": "Stanhamn Stamp Requirement",
+        "type": "consumable",
+        "img": "images/settings/stamp_requirement_stanhamn.png",
+        "max_quantity": 16,
+        "initial_quantity": 8,
+        "overlay_font_size": 36,
+	    "codes": "stamp_requirement_stanhamn"
+    },
+    {
+	    "name": "Logcity Stamp Requirement",
+        "type": "consumable",
+        "img": "images/settings/stamp_requirement_logcity.png",
+        "max_quantity": 18,
+        "initial_quantity": 9,
+        "overlay_font_size": 36,
+	    "codes": "stamp_requirement_logcity"
+    },
+    {
+	    "name": "Kiiruberg Stamp Requirement",
+        "type": "consumable",
+        "img": "images/settings/stamp_requirement_kiiruberg.png",
+        "max_quantity": 13,
+        "initial_quantity": 6,
+        "overlay_font_size": 36,
+	    "codes": "stamp_requirement_kiiruberg"
+    },
+    {
+	    "name": "Basto Stamp Requirement",
+        "type": "consumable",
+        "img": "images/settings/stamp_requirement_basto.png",
+        "max_quantity": 20,
+        "initial_quantity": 10,
+        "overlay_font_size": 36,
+	    "codes": "stamp_requirement_basto"
+    },
+    {
+        "name": "Include Basto",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/settings/include_basto_off.png",
+                "codes": "include_basto, include_basto_off",
+                "inherit_codes": false,
+                "name": "Include Basto - Off"
+            },
+            {
+                "img": "images/settings/include_basto_on.png",
+                "codes": "include_basto, include_basto_on",
+                "inherit_codes": false,
+                "name": "Include Basto - On"
+            }
+        ]
+    },
+    {
+        "name": "Include Items",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/settings/include_items_off.png",
+                "codes": "include_items, include_items_off",
+                "inherit_codes": false,
+                "name": "Include Items - Off"
+            },
+            {
+                "img": "images/settings/include_items_on.png",
+                "codes": "include_items, include_items_on",
+                "inherit_codes": false,
+                "name": "Include Items - On"
+            }
+        ]
+    },
+    {
+        "name": "Include Cassettes",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/settings/include_cassettes_off.png",
+                "codes": "include_cassettes, include_cassettes_off",
+                "inherit_codes": false,
+                "name": "Include Cassettes - Off"
+            },
+            {
+                "img": "images/settings/include_cassettes_on.png",
+                "codes": "include_cassettes, include_cassettes_on",
+                "inherit_codes": false,
+                "name": "Include Cassettes - On"
+            }
+        ]
+    },
+    {
+        "name": "Include Achievements",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/settings/include_achievements_off.png",
+                "codes": "include_achievements, include_achievements_off",
+                "inherit_codes": false,
+                "name": "Include Achievements - Off"
+            },
+            {
+                "img": "images/settings/include_achievements_on.png",
+                "codes": "include_achievements, include_achievements_on",
+                "inherit_codes": false,
+                "name": "Include Achievements - On"
+            }
+        ]
+    }
+]

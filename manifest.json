@@ -1,0 +1,16 @@
+{
+    "name": "TOEM: A Photo Adventure Archipelago",
+    "game_name": "TOEM: A Photo Adventure",
+    "package_version": "0.1.0",
+    "package_uid": "toem_ap",
+    "author": "culk",
+    "variants": {
+        "default": {
+            "display_name": "Map Tracker",
+            "flags": [
+                "ap"
+            ]
+        }
+    },
+    "min_poptracker_version": "0.31.0"
+}

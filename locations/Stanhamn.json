@@ -1,0 +1,767 @@
+[
+    {
+        "name": "Stanhamn",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "access_rules": ["$has_required_stamps_for|oaklaville,^$can_reach|oaklaville_bus_stop"],
+        "children": [
+            {
+                "name": "Bus Stop",
+                "children": [
+                    {
+                        "name": "Quest - The king of fishes",
+                        "access_rules": ["@Stanhamn/King Fish Beach/Compendium - King fish/"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Stanhamn",
+                                "x": 891,
+                                "y": 1113
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compendium - Tato swim",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Stanhamn",
+                                "x": 1071,
+                                "y": 1296
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Achievement - A sparkling jump",
+                        "access_rules": ["honk_attachment"],
+                        "visibility_rules": ["include_achievements_on"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Stanhamn",
+                                "x": 874,
+                                "y": 1167
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Hippo Beach",
+                "access_rules": ["^$can_reach|stanhamn_hippo_beach"],
+                "children": [
+                    {
+                        "name": "Quest - A good spot with no sun",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Stanhamn",
+                                "x": 375,
+                                "y": 726
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compendium - Crab",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Stanhamn",
+                                "x": 332,
+                                "y": 659
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Ghost Drawbridge Bottom",
+                "access_rules": ["^$can_reach|stanhamn_ghost_drawbridge_bottom"],
+                "children": [
+                    {
+                        "name": "Quest - Suspicious activity - harbor",
+                        "access_rules": ["^$can_reach|stanhamn_bus_stop"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Stanhamn",
+                                "x": 1613,
+                                "y": 845
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Quest - Scorching flame",
+                        "access_rules": ["ghost_glasses"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Stanhamn",
+                                "x": 1656,
+                                "y": 765
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Pirate Drawbridge",
+                "access_rules": ["^$can_reach|stanhamn_pirate_drawbridge"],
+                "children": [
+                    {
+                        "name": "Pirate",
+                        "access_rules": ["honk_attachment"],
+                        "sections": [
+                            {
+                                "name": "Quest - Queen of paper hats",
+                                "access_rules": ["pirate_hat"]
+                            },
+                            {
+                                "name": "Item - Old key",
+                                "visibility_rules": ["include_items_on"]
+                            },
+                            {
+                                "name": "Item - Paper hat",
+                                "access_rules": ["pirate_hat"],
+                                "visibility_rules": ["include_items_on"]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Stanhamn",
+                                "x": 611,
+                                "y": 1030
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Quest - Photo challenge #3",
+                        "access_rules": ["^$can_reach|stanhamn_hippo_beach"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Stanhamn",
+                                "x": 249,
+                                "y": 1004
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compendium - Bubble fly",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Stanhamn",
+                                "x": 519,
+                                "y": 1121
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compendium - Toad",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Stanhamn",
+                                "x": 428,
+                                "y": 979
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Item - Supreme deluxe sandwich",
+                        "access_rules": ["ghost_glasses,^$can_reach|stanhamn_outside_hydroplant"],
+                        "visibility_rules": ["include_items_on"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Stanhamn",
+                                "x": 587,
+                                "y": 1082
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Ghost Drawbridge Top",
+                "access_rules": ["^$can_reach|stanhamn_ghost_drawbridge_top"],
+                "children": [
+                    {
+                        "name": "Quest - Photo challenge #4",
+                        "access_rules": ["^$can_reach|stanhamn_hippo_beach"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Stanhamn",
+                                "x": 1399,
+                                "y": 617
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Photo Guild Hut",
+                "access_rules": ["^$can_reach|stanhamn_photo_guild_hut"],
+                "sections": [
+                    {
+                        "name": "Quest - Frames & filters!",
+                        "access_rules": ["frames_filters"]
+                    },
+                    {
+                        "name": "Item - Frames & filters",
+                        "visibility_rules": ["include_items_on"]
+                    },
+                    {
+                        "name": "Item - Photo challenger flag",
+                        "access_rules": ["^$can_access_all_photo_challenges"],
+                        "visibility_rules": ["include_items_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Stanhamn",
+                        "x": 749,
+                        "y": 1117
+                    }
+                ]
+            },
+            {
+                "name": "Outside Hydroplant",
+                "access_rules": ["^$can_reach|stanhamn_outside_hydroplant"],
+                "children": [
+                    {
+                        "name": "Quest - Make someone take a bath",
+                        "access_rules": ["honk_attachment,^$can_reach|stanhamn_hydroplant"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Stanhamn",
+                                "x": 995,
+                                "y": 845
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Quest - Supreme deluxe sandwich!",
+                        "access_rules": ["ghost_glasses,sandwich"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Stanhamn",
+                                "x": 1090,
+                                "y": 719
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compendium - Dragonfly",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Stanhamn",
+                                "x": 1267,
+                                "y": 797
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Docks Right",
+                "access_rules": ["^$can_reach|stanhamn_docks_right"],
+                "children": [
+                    {
+                        "name": "Quest - A lost dog",
+                        "access_rules": ["^$can_reach|stanhamn_hippo_beach"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Stanhamn",
+                                "x": 1421,
+                                "y": 1264
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Item - Rubber boots",
+                        "visibility_rules": ["include_items_on"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Stanhamn",
+                                "x": 1490,
+                                "y": 1171
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Hydroplant",
+                "access_rules": ["^$can_reach|stanhamn_hydroplant"],
+                "sections": [
+                    {
+                        "name": "Quest - Power shortage!"
+                    },
+                    {
+                        "name": "Item - Hard hat",
+                        "visibility_rules": ["include_items_on"]
+                    },
+                    {
+                        "name": "Achievement - Employee of the month",
+                        "visibility_rules": ["include_achievements_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Stanhamn",
+                        "x": 896,
+                        "y": 621
+                    }
+                ]
+            },
+            {
+                "name": "Lighthouse Roof",
+                "access_rules": ["^$can_reach|stanhamn_lighthouse_roof"],
+                "sections": [
+                    {
+                        "name": "Quest - Solve the chaos",
+                        "access_rules": ["^$can_reach_all|stanhamn_outside_lighthouse|stanhamn_lighthouse"]
+                    },
+                    {
+                        "name": "Item - Honk attachment",
+                        "access_rules": ["@Stanhamn/Lighthouse Roof/Quest - Solve the chaos"],
+                        "visibility_rules": ["include_items_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Stanhamn",
+                        "x": 406,
+                        "y": 116
+                    }
+                ]
+            },
+            {
+                "name": "Fishing Tower",
+                "access_rules": ["^$can_reach|stanhamn_fishing_tower"],
+                "children": [
+                    {
+                        "name": "Quest - Ocean garbage",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Stanhamn",
+                                "x": 1839,
+                                "y": 1097
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Item - Diving helmet",
+                        "visibility_rules": ["include_items_on"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Stanhamn",
+                                "x": 1673,
+                                "y": 1240
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Achievement - Flight ready",
+                        "visibility_rules": ["include_achievements_on"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Stanhamn",
+                                "x": 1695,
+                                "y": 1089
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Snowman",
+                "access_rules": ["^$can_reach|stanhamn_docks_left"],
+                "sections": [
+                    {
+                        "name": "Quest - A whistling dilemma",
+                        "access_rules": ["^$can_reach|stanhamn_bus_stop"]
+                    },
+                    {
+                        "name": "Cassette - Fisherman's Whistle",
+                        "access_rules": ["@Stanhamn/Snowman/Quest - A whistling dilemma"],
+                        "visibility_rules": ["include_cassettes_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Stanhamn",
+                        "x": 1178,
+                        "y": 1213
+                    }
+                ]
+            },
+            {
+                "name": "King Fish Beach",
+                "access_rules": ["^$can_reach|stanhamn_king_fish_beach"],
+                "children": [
+                    {
+                        "name": "Wizard",
+                        "sections": [
+                            {
+                                "name": "Quest - A layered melody",
+                                "access_rules": ["fishermans_whistle_tape"]
+                            },
+                            {
+                                "name": "Cassette - Launchable Socks - Fisherman's Tune",
+                                "access_rules": ["@Stanhamn/King Fish Beach/Wizard/Quest - A layered melody"],
+                                "visibility_rules": ["include_cassettes_on"]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Stanhamn",
+                                "x": 872,
+                                "y": 229
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compendium - Willemijn",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Stanhamn",
+                                "x": 928,
+                                "y": 262
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compendium - King fish",
+                        "access_rules": ["@Stanhamn/King Fish Beach/Wizard/Quest - A layered melody"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Stanhamn",
+                                "x": 929,
+                                "y": 186
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Item - Umbrella",
+                        "visibility_rules": ["include_items_on"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Stanhamn",
+                                "x": 902,
+                                "y": 316
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Fia",
+                "access_rules": [
+                    "^$can_reach|stanhamn_docks_right",
+                    "^$can_reach|stanhamn_docks_left,[hard_logic]"
+                ],
+                "children": [
+                    {
+                        "name": "Compendium - Fia",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Stanhamn",
+                                "x": 1436,
+                                "y": 1289
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Fräs",
+                "access_rules": [
+                    "^$can_reach|stanhamn_docks_left",
+                    "^$can_reach|stanhamn_docks_right,[hard_logic]"
+                ],
+                "children": [
+                    {
+                        "name": "Compendium - Fräs",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Stanhamn",
+                                "x": 1205,
+                                "y": 1189
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Underwater",
+                "access_rules": ["^$can_reach|stanhamn_underwater"],
+                "sections": [
+                    {
+                        "name": "Compendium - Happy carp"
+                    },
+                    {
+                        "name": "Compendium - Jellyfish"
+                    },
+                    {
+                        "name": "Compendium - Seahorse"
+                    },
+                    {
+                        "name": "Compendium - Tato scuba"
+                    },
+                    {
+                        "name": "Item - Pirate hat",
+                        "access_rules": ["old_key"],
+                        "visibility_rules": ["include_items_on"]
+                    },
+                    {
+                        "name": "Cassette - JG+LS - The Smiling Huntsman",
+                        "visibility_rules": ["include_cassettes_on"]
+                    },
+                    {
+                        "name": "Achievement - A voyage underwater",
+                        "visibility_rules": ["include_achievements_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Stanhamn",
+                        "x": 98,
+                        "y": 829
+                    }
+                ]
+            },
+            {
+                "name": "Seagulls",
+                "access_rules": [
+                    "^$can_reach|stanhamn_bus_stop",
+                    "^$can_reach|stanhamn_hippo_beach",
+                    "^$can_reach|stanhamn_outside_lighthouse",
+                    "^$can_reach|stanhamn_outside_hydroplant,[hard_logic]",
+                    "@Stanhamn/Pirate Drawbridge/Item - Supreme deluxe sandwich,[hard_logic]"
+                ],
+                "children": [
+                    {
+                        "name": "Compendium - Seagull",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Stanhamn",
+                                "x": 979,
+                                "y": 1218
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Sunday Swan",
+                "access_rules": [
+                    "^$can_reach|stanhamn_docks_left",
+                    "^$can_reach|stanhamn_docks_right"
+                ],
+                "children": [
+                    {
+                        "name": "Compendium - Sunday swan",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Stanhamn",
+                                "x": 1385,
+                                "y": 1398
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Lighthouse",
+                "access_rules": ["^$can_reach|stanhamn_lighthouse"],
+                "children": [
+                    {
+                        "name": "Item - Fishing hat",
+                        "visibility_rules": ["include_items_on"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Stanhamn",
+                                "x": 406,
+                                "y": 269
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Stanhamn",
+                "sections": [
+                    {
+                        "name": "Cassette - Jamal Green - NAUT",
+                        "visibility_rules": ["include_cassettes_on"]
+                    },
+                    {
+                        "name": "Cassette - Launchable Socks - A Place In The Sun",
+                        "access_rules": [
+                            "^$can_reach|stanhamn_hippo_beach,@Stanhamn/Lighthouse Roof/Quest - Solve the chaos",
+                            "^$can_reach|stanhamn_docks_left,@Stanhamn/Hydroplant/Quest - Power shortage!"
+                        ],
+                        "visibility_rules": ["include_cassettes_on"]
+                    },
+                    {
+                        "name": "Achievement - Set sail for good weather",
+                        "visibility_rules": ["include_achievements_on"]
+                    },
+                    {
+                        "name": "Achievement - Calm as the sea",
+                        "access_rules": [
+                            "@Stanhamn/Pirate Drawbridge/Quest - Photo challenge #3/,@Stanhamn/Ghost Drawbridge Top/Quest - Photo challenge #4/"
+                        ],
+                        "visibility_rules": ["include_achievements_on"]
+                    },
+                    {
+                        "name": "Achievement - Seaworthy",
+                        "access_rules": ["^$can_access_all_quests|stanhamn"],
+                        "visibility_rules": ["include_achievements_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Stanhamn",
+                        "x": 863,
+                        "y": 1378
+                    }
+                ]
+            }
+        ]
+    }
+]

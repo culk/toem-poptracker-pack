@@ -1,0 +1,97 @@
+[
+    {
+        "name": "Start Menu",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "children": [
+            {
+                "name": "Item - Tripod",
+                "access_rules": [
+                    "@Oaklaville/Trail Bottom/Quest - Photo challenge #1/",
+                    "@Oaklaville/Outside Hotel/Quest - Photo challenge #2/",
+                    "@Stanhamn/Pirate Drawbridge/Quest - Photo challenge #3/",
+                    "@Stanhamn/Ghost Drawbridge Top/Quest - Photo challenge #4/",
+                    "@Logcity/Overpass/Quest - Photo challenge #5/",
+                    "@Logcity/Outside Gallery/Quest - Photo challenge #6/",
+                    "@Kiiruberg/Snowman Square Bottom/Quest - Photo challenge #7/",
+                    "@Kiiruberg/Cliffs Top/Quest - Photo challenge #8"
+                ],
+                "visibility_rules": ["include_items_on"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            {
+                "name": "Achievement - Who's a good boy!",
+                "access_rules": ["^$can_pet"],
+                "visibility_rules": ["include_achievements_on"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            {
+                "name": "Achievement - Going long!",
+                "visibility_rules": ["include_achievements_on"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            {
+                "name": "Achievement - All geared up",
+                "access_rules": ["^$has_warm_clothing"],
+                "visibility_rules": ["include_achievements_on"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            {
+                "name": "Achievement - Look at those cuties",
+                "access_rules": ["^$can_access_all_dev_animals"],
+                "visibility_rules": ["include_achievements_on"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            {
+                "name": "Achievement - Collect them all",
+                "access_rules": ["^$can_access_all_base_animals"],
+                "visibility_rules": ["include_achievements_on"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            {
+                "name": "Achievement - Cosplayer",
+                "access_rules": ["^$has_all_clothing"],
+                "visibility_rules": ["include_achievements_on"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            {
+                "name": "Achievement - A true completionist",
+                "access_rules": ["^$can_access_all_quests"],
+                "visibility_rules": ["include_achievements_on"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ]
+            }
+        ]
+    }
+]

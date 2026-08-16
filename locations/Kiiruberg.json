@@ -1,0 +1,608 @@
+[
+    {
+        "name": "Kiiruberg",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "access_rules": ["$has_required_stamps_for|logcity,^$can_reach|logcity_bus_stop"],
+        "children": [
+            {
+                "name": "Cliffs Middle",
+                "access_rules": ["^$can_reach|kiiruberg_cliffs_middle"],
+                "children": [
+                    {
+                        "name": "Quest - Yeti cuteness",
+                        "access_rules": ["@Kiiruberg/Fluff/Compendium - Fluff ball"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Kiiruberg",
+                                "x": 757,
+                                "y": 824
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Scientist",
+                        "sections": [
+                            {
+                                "name": "Quest - Ancient paintings",
+                                "access_rules": [
+                                    "climbing_boots,^$can_reach_all|kiiruberg_frozen_pond|kiiruberg_outside_observ_bottom|kiiruberg_snowman_square_bottom|mountain_top_toem"
+                                ]
+                            },
+                            {
+                                "name": "Achievement - A great story",
+                                "access_rules": [
+                                    "@Kiiruberg/Cliffs Middle/Scientist/Quest - Ancient paintings"
+                                ],
+                                "visibility_rules": ["include_achievements_on"]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Kiiruberg",
+                                "x": 671,
+                                "y": 757
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Wizard Tower",
+                "access_rules": ["^$can_reach|kiiruberg_wizard_tower"],
+                "sections": [
+                    {
+                        "name": "Quest - Ice wizards research",
+                        "access_rules": [
+                            "^$has_warm_clothing,honk_attachment,^$can_access_all_cosmic_cubes"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kiiruberg",
+                        "x": 299,
+                        "y": 1034
+                    }
+                ]
+            },
+            {
+                "name": "Cosmo Garden",
+                "access_rules": ["^$can_reach|kiiruberg_cosmo_garden"],
+                "sections": [
+                    {
+                        "name": "Compendium - Cosmo deer"
+                    },
+                    {
+                        "name": "Cassette - Jamal Green - The Petting of a Sacred Deer",
+                        "visibility_rules": ["include_cassettes_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kiiruberg",
+                        "x": 299,
+                        "y": 929
+                    }
+                ]
+            },
+            {
+                "name": "Military Base",
+                "access_rules": ["^$can_reach|kiiruberg_military_base"],
+                "sections": [
+                    {
+                        "name": "Quest - Military suspicions",
+                        "access_rules": [
+                            "@Oaklaville/Trail Bottom/Quest - Suspicious activity - forest/,@Stanhamn/Ghost Drawbridge Bottom/Quest - Suspicious activity - harbor/,@Logcity/Outside Fashion Show/Quest - Suspicious activity - city/"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kiiruberg",
+                        "x": 694,
+                        "y": 1278
+                    }
+                ]
+            },
+            {
+                "name": "Observatory",
+                "access_rules": ["^$can_reach|kiiruberg_observatory"],
+                "sections": [
+                    {
+                        "name": "Quest - Play astronaut",
+                        "access_rules": ["space_helmet"]
+                    },
+                    {
+                        "name": "Quest - Locating an asteroid",
+                        "access_rules": [
+                            "^$can_reach|kiiruberg_snowman_square_bottom",
+                            "^$can_reach|kiiruberg_snowman_square_top,[hard_logic]"
+                        ]
+                    },
+                    {
+                        "name": "Compendium - Tato alien"
+                    },
+                    {
+                        "name": "Cassette - Jamal Green - Life Through a Lens",
+                        "visibility_rules": ["include_cassettes_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kiiruberg",
+                        "x": 815,
+                        "y": 192
+                    }
+                ]
+            },
+            {
+                "name": "Snowman Square Bottom",
+                "access_rules": ["^$can_reach|kiiruberg_snowman_square_bottom"],
+                "children": [
+                    {
+                        "name": "Quest - Photo challenge #7",
+                        "access_rules": [
+                            "climbing_boots,^$can_reach|kiiruberg_birthday_party_bottom",
+                            "climbing_boots,^$can_reach|kiiruberg_birthday_party_top,[hard_logic]"
+                        ],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Kiiruberg",
+                                "x": 824,
+                                "y": 1175
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Quest - Assemble a snowman",
+                        "access_rules": [
+                            "honk_attachment,^$can_reach_all|kiiruberg_ski_lift_base|kiiruberg_ski_mountain_top"
+                        ],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Kiiruberg",
+                                "x": 943,
+                                "y": 1218
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Cliffs Top",
+                "access_rules": ["^$can_reach|kiiruberg_cliffs_top"],
+                "sections": [
+                    {
+                        "name": "Quest - Photo challenge #8",
+                        "access_rules": [
+                            "^$can_reach_any|kiiruberg_observatory|kiiruberg_military_base|kiiruberg_wizard_tower"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kiiruberg",
+                        "x": 805,
+                        "y": 693
+                    }
+                ]
+            },
+            {
+                "name": "Frozen Pond",
+                "access_rules": ["^$can_reach|kiiruberg_frozen_pond"],
+                "children": [
+                    {
+                        "name": "Quest - Listen to the goat choir",
+                        "access_rules": ["^$can_access_all_goats"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Kiiruberg",
+                                "x": 554,
+                                "y": 1703
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Old Man",
+                        "sections": [
+                            {
+                                "name": "Quest - Snowball memories",
+                                "access_rules": [
+                                    "climbing_boots",
+                                    "[hard_logic]"
+                                ]
+                            },
+                            {
+                                "name": "Item - Climbing boots",
+                                "visibility_rules": ["include_items_on"]
+                            },
+                            {
+                                "name": "Item - Puffer hat",
+                                "access_rules": [
+                                    "@Kiiruberg/Frozen Pond/Old Man/Quest - Snowball memories"
+                                ],
+                                "visibility_rules": ["include_items_on"]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Kiiruberg",
+                                "x": 311,
+                                "y": 1703
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Birthday Party Bottom",
+                "access_rules": ["^$can_reach|kiiruberg_birthday_party_bottom"],
+                "sections": [
+                    {
+                        "name": "Quest - Birthday in distress",
+                        "access_rules": [
+                            "^$has_warm_clothing,^$can_reach|kiiruberg_blizzard_bridge_right"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kiiruberg",
+                        "x": 770,
+                        "y": 1639
+                    }
+                ]
+            },
+            {
+                "name": "Ski Lift Base",
+                "access_rules": ["^$can_reach|kiiruberg_ski_lift_base"],
+                "children": [
+                    {
+                        "name": "Quest - Become a yeti",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Kiiruberg",
+                                "x": 1277,
+                                "y": 1538
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compendium - Snow bird",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Kiiruberg",
+                                "x": 1366,
+                                "y": 1627
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Balloon House",
+                "access_rules": ["^$can_reach|kiiruberg_balloon_house"],
+                "sections": [
+                    {
+                        "name": "Compendium - Mikée"
+                    },
+                    {
+                        "name": "Compendium - Nariko"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kiiruberg",
+                        "x": 847,
+                        "y": 1619
+                    }
+                ]
+            },
+            {
+                "name": "Mecks House",
+                "access_rules": ["^$can_reach|kiiruberg_mecks_house"],
+                "sections": [
+                    {
+                        "name": "Compendium - Teddy"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kiiruberg",
+                        "x": 1052,
+                        "y": 1322
+                    }
+                ]
+            },
+            {
+                "name": "Fluff",
+                "access_rules": [
+                    "^$can_reach|kiiruberg_outside_observ_bottom",
+                    "^$can_reach|kiiruberg_outside_observ_top,[hard_logic]"
+                ],
+                "sections": [
+                    {
+                        "name": "Compendium - Fluff ball"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kiiruberg",
+                        "x": 872,
+                        "y": 294
+                    }
+                ]
+            },
+            {
+                "name": "Hedgehog",
+                "access_rules": [
+                    "^$can_reach|kiiruberg_outside_birthday_party_bottom",
+                    "^$can_reach|kiiruberg_outside_birthday_party_top,[hard_logic]"
+                ],
+                "sections": [
+                    {
+                        "name": "Compendium - Hedgehog"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kiiruberg",
+                        "x": 1014,
+                        "y": 1641
+                    }
+                ]
+            },
+            {
+                "name": "Meteopal",
+                "access_rules": [
+                    "^$can_reach|kiiruberg_snowman_square_bottom",
+                    "^$can_reach|kiiruberg_snowman_square_top,[hard_logic]"
+                ],
+                "sections": [
+                    {
+                        "name": "Compendium - Meteopal"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kiiruberg",
+                        "x": 1018,
+                        "y": 1267
+                    }
+                ]
+            },
+            {
+                "name": "Goat",
+                "access_rules": [
+                    "^$can_reach|kiiruberg_birthday_party_bottom",
+                    "^$can_reach|kiiruberg_birthday_party_top",
+                    "^$can_reach|kiiruberg_cliffs_middle",
+                    "^$can_reach|kiiruberg_cliffs_top",
+                    "^$can_reach|kiiruberg_ski_mountain_top"
+                ],
+                "children": [
+                    {
+                        "name": "Compendium - Mountain goat",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Kiiruberg",
+                                "x": 555,
+                                "y": 1609
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Owl",
+                "access_rules": [
+                    "^$can_reach|kiiruberg_cliffs_top",
+                    "^$can_reach|kiiruberg_cliffs_middle,[hard_logic"
+                ],
+                "sections": [
+                    {
+                        "name": "Compendium - Owl"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kiiruberg",
+                        "x": 922,
+                        "y": 603
+                    }
+                ]
+            },
+            {
+                "name": "Ski Mountain Top",
+                "access_rules": ["^$can_reach|kiiruberg_ski_mountain_top"],
+                "children": [
+                    {
+                        "name": "Compendium - Tato ski",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Kiiruberg",
+                                "x": 1496,
+                                "y": 288
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Item - Ski goggles",
+                        "visibility_rules": ["include_items_on"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Kiiruberg",
+                                "x": 1442,
+                                "y": 235
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Ski Lodge",
+                "access_rules": ["^$can_reach|kiiruberg_ski_lodge"],
+                "visibility_rules": ["include_items_on"],
+                "sections": [
+                    {
+                        "name": "Item - Scarf"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kiiruberg",
+                        "x": 1516,
+                        "y": 1495
+                    }
+                ]
+            },
+            {
+                "name": "Outside Observatory Bottom",
+                "access_rules": ["^$can_reach|kiiruberg_outside_observ_bottom"],
+                "visibility_rules": ["include_items_on"],
+                "sections": [
+                    {
+                        "name": "Item - Space helmet"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kiiruberg",
+                        "x": 937,
+                        "y": 267
+                    }
+                ]
+            },
+            {
+                "name": "Cassette - Launchable Socks - Stories Of Snow",
+                "access_rules": [
+                    "^$can_reach|kiiruberg_birthday_party_bottom",
+                    "^$can_reach|kiiruberg_birthday_party_top"
+                ],
+                "visibility_rules": ["include_cassettes_on"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kiiruberg",
+                        "x": 771,
+                        "y": 1674
+                    }
+                ]
+            },
+            {
+                "name": "Cassette - Launchable Socks - Tall & Shy",
+                "access_rules": ["^$has_warm_clothing,^$can_reach|kiiruberg_blizzard_bridge_dl"],
+                "visibility_rules": ["include_cassettes_on"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kiiruberg",
+                        "x": 1255,
+                        "y": 832
+                    }
+                ]
+            },
+            {
+                "name": "Old Man's House",
+                "access_rules": ["^$can_reach|kiiruberg_old_mans_house"],
+                "visibility_rules": ["include_achievements_on"],
+                "sections": [
+                    {
+                        "name": "Achievement - Happy youth",
+                        "access_rules": [
+                            "@Kiiruberg/Frozen Pond/Old Man/Quest - Snowball memories"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kiiruberg",
+                        "x": 257,
+                        "y": 1691
+                    }
+                ]
+            },
+            {
+                "name": "Kiiruberg",
+                "visibility_rules": ["include_achievements_on"],
+                "sections": [
+                    {
+                        "name": "Achievement - Snowy peaks"
+                    },
+                    {
+                        "name": "Achievement - The biggest hurdle",
+                        "access_rules": [
+                            "@Kiiruberg/Snowman Square Bottom/Quest - Photo challenge #7/,@Kiiruberg/Cliffs Top/Quest - Photo challenge #8"
+                        ]
+                    },
+                    {
+                        "name": "Achievement - Ice fighter",
+                        "access_rules": ["^$can_access_all_quests|kiiruberg"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kiiruberg",
+                        "x": 846,
+                        "y": 2114
+                    }
+                ]
+            }
+        ]
+    }
+]

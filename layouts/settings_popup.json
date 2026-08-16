@@ -1,0 +1,72 @@
+{
+    "settings_popup": {
+        "type": "array",
+        "orientation": "vertical",
+        "background": "#555555",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "left",
+                "item_margin": "8,2",
+                "item_size": "480,64",
+                "rows": [
+                    ["header_options"]
+                ]
+            },
+            {
+                "type": "itemgrid",
+                "h_alignment": "left",
+                "item_margin": "8,2",
+                "item_size": "480,48",
+                "rows": [
+                    ["progressive_stamps"],
+                    ["entrance_randomization"]
+                ]
+            },
+            {
+                "type": "itemgrid",
+                "h_alignment": "left",
+                "item_margin": "8,2",
+                "item_size": "480,64",
+                "rows": [
+                    ["header_stamps"]
+                ]
+            },
+            {
+                "type": "itemgrid",
+                "h_alignment": "left",
+                "item_margin": "8,2",
+                "item_size": "480,48",
+                "rows": [
+                    ["stamp_requirement_homelanda"],
+                    ["stamp_requirement_oaklaville"],
+                    ["stamp_requirement_stanhamn"],
+                    ["stamp_requirement_logcity"],
+                    ["stamp_requirement_kiiruberg"],
+                    ["stamp_requirement_basto"]
+                ]
+            },
+            {
+                "type": "itemgrid",
+                "h_alignment": "left",
+                "item_margin": "12,2",
+                "item_size": "480,64",
+                "rows": [
+                    ["header_locations"]
+                ]
+            },
+            {
+                "type": "itemgrid",
+                "h_alignment": "left",
+                "item_margin": "12,2",
+                "item_size": "480,48",
+                "rows": [
+                    ["include_basto"],
+                    ["include_items"],
+                    ["include_cassettes"],
+                    ["include_achievements"]
+                ]
+            }
+        ]
+    }
+}

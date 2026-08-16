@@ -1,0 +1,643 @@
+[
+    {
+        "name": "Logcity",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "access_rules": ["$has_required_stamps_for|stanhamn,^$can_reach|stanhamn_bus_stop"],
+        "children": [
+            {
+                "name": "Outside Fashion Show",
+                "access_rules": ["^$can_reach|logcity_outside_fashion_show"],
+                "children": [
+                    {
+                        "name": "Quest - Suspicious activity - city",
+                        "access_rules": ["^$can_reach|logcity_crosswalk"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Logcity",
+                                "x": 1170,
+                                "y": 921
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Quest - A ghostly date",
+                        "access_rules": ["ghost_glasses,^$can_reach|logcity_outside_gallery"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Logcity",
+                                "x": 877,
+                                "y": 921
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Quest - Always tumbled granny",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Logcity",
+                                "x": 1296,
+                                "y": 791
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compendium - Tato tourist",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Logcity",
+                                "x": 967,
+                                "y": 975
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Item - Sneakers",
+                        "visibility_rules": ["include_items_on"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Logcity",
+                                "x": 1088,
+                                "y": 743
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Ratskullz Alley",
+                "access_rules": ["^$can_reach|logcity_ratskullz_alley"],
+                "sections": [
+                    {
+                        "name": "Quest - Ratskullz crew",
+                        "access_rules": ["^$can_access_graffiti"]
+                    },
+                    {
+                        "name": "Cassette - Anes Sabanovic - Ratskullz Theme",
+                        "access_rules": ["@Logcity/Ratskullz Alley/Quest - Ratskullz crew"],
+                        "visibility_rules": ["include_cassettes_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Logcity",
+                        "x": 1370,
+                        "y": 381
+                    }
+                ]
+            },
+            {
+                "name": "Clock Tower",
+                "access_rules": ["^$can_reach|logcity_clock_tower"],
+                "children": [
+                    {
+                        "name": "Punk Rocker",
+                        "access_rules": ["cinnamon_bun"],
+                        "sections": [
+                            {
+                                "name": "Quest - Punk rocker bread crumbs"
+                            },
+                            {
+                                "name": "Compendium - Punky parrot"
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Logcity",
+                                "x": 769,
+                                "y": 1404
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Hotbean Stand",
+                        "sections": [
+                            {
+                                "name": "Quest - Super Hotbean Bros.",
+                                "access_rules": [
+                                    "hotbean_hat,^$can_reach_all|logcity_outside_fashion_show|logcity_skate_park|logcity_crosswalk"
+                                ]
+                            },
+                            {
+                                "name": "Item - Hotbean hat",
+                                "visibility_rules": ["include_items_on"]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Logcity",
+                                "x": 1172,
+                                "y": 1346
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Quest - Hang in there, buddy",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Logcity",
+                                "x": 941,
+                                "y": 1246
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Influencer",
+                        "access_rules": ["^$can_reach|logcity_outside_cafe"],
+                        "sections": [
+                            {
+                                "name": "Quest - Young and inspiring!"
+                            },
+                            {
+                                "name": "Achievement - 100 followers!",
+                                "visibility_rules": ["include_achievements_on"]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Logcity",
+                                "x": 1220,
+                                "y": 1354
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Cassette - Jamal Green - Hustle Bustle Shuffle",
+                        "visibility_rules": ["include_cassettes_on"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Logcity",
+                                "x": 997,
+                                "y": 1502
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Achievement - The grand clock tower",
+                        "visibility_rules": ["include_achievements_on"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Logcity",
+                                "x": 775,
+                                "y": 1156
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Overpass",
+                "access_rules": ["^$can_reach|logcity_overpass"],
+                "children": [
+                    {
+                        "name": "Quest - Photo challenge #5",
+                        "access_rules": [
+                            "^$can_reach_all|logcity_outside_fashion_show|logcity_skate_park"
+                        ],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Logcity",
+                                "x": 541,
+                                "y": 653
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Outside Gallery",
+                "access_rules": ["^$can_reach|logcity_outside_gallery"],
+                "children": [
+                    {
+                        "name": "Quest - Photo challenge #6",
+                        "access_rules": ["^$can_reach|logcity_crosswalk"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Logcity",
+                                "x": 1604,
+                                "y": 1016
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Quest - Sewer stumble!",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Logcity",
+                                "x": 1702,
+                                "y": 1166
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compendium - Business pigeon",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Logcity",
+                                "x": 1810,
+                                "y": 1132
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Cassette - Launchable Socks - On The Hour",
+                        "visibility_rules": ["include_cassettes_on"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Logcity",
+                                "x": 1648,
+                                "y": 1078
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "News House",
+                "access_rules": ["^$can_reach|logcity_news_house"],
+                "sections": [
+                    {
+                        "name": "Quest - Press-ing news",
+                        "access_rules": [
+                            "reporter_hat,@Logcity/Fashion Show Backstage/Quest - A design problem"
+                        ]
+                    },
+                    {
+                        "name": "Item - Reporter hat",
+                        "visibility_rules": ["include_items_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Logcity",
+                        "x": 411,
+                        "y": 603
+                    }
+                ]
+            },
+            {
+                "name": "Crosswalk",
+                "access_rules": ["^$can_reach|logcity_crosswalk"],
+                "children": [
+                    {
+                        "name": "Quest - Spooky scary city",
+                        "access_rules": ["ghost_glasses,^$can_reach|oaklaville_bus_stop"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Logcity",
+                                "x": 233,
+                                "y": 1126
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compendium - Turtle",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Logcity",
+                                "x": 127,
+                                "y": 1218
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Item - Frisbee",
+                        "access_rules": ["honk_attachment,^$can_reach|logcity_outside_cafe"],
+                        "visibility_rules": ["include_items_on"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Logcity",
+                                "x": 203,
+                                "y": 975
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Cassette - Launchable Socks - Hop Skip Step",
+                        "visibility_rules": ["include_cassettes_on"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Logcity",
+                                "x": 305,
+                                "y": 1130
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Gallery",
+                "access_rules": ["^$can_reach|logcity_gallery"],
+                "children": [
+                    {
+                        "name": "Quest - Art exhibition",
+                        "access_rules": [
+                            "frames_filters",
+                            "^$can_reach|logcity_ratskullz_alley"
+                        ],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Logcity",
+                                "x": 1772,
+                                "y": 923
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Fashion Show Backstage",
+                "access_rules": ["^$can_reach|logcity_fashion_show_backstage"],
+                "sections": [
+                    {
+                        "name": "Quest - A design problem",
+                        "access_rules": [
+                            "^$has_fashion,^$can_reach_any|logcity_fashion_show_bottom|logcity_fashion_show_top"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Logcity",
+                        "x": 1184,
+                        "y": 837
+                    }
+                ]
+            },
+            {
+                "name": "Bus Stop Cleaner",
+                "access_rules": ["^$can_reach|logcity_bus_stop"],
+                "sections": [
+                    {
+                        "name": "Quest - Cleaning away the stress",
+                        "access_rules": ["^$can_reach|logcity_ratskullz_alley"]
+                    },
+                    {
+                        "name": "Achievement - A new job",
+                        "access_rules": ["@Logcity/Bus Stop Cleaner/Quest - Cleaning away the stress"],
+                        "visibility_rules": ["include_achievements_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Logcity",
+                        "x": 735,
+                        "y": 1808
+                    }
+                ]
+            },
+            {
+                "name": "Cafe",
+                "access_rules": ["^$can_reach|logcity_cafe"],
+                "sections": [
+                    {
+                        "name": "Quest - A mouse bakery",
+                        "access_rules": ["honk_attachment"]
+                    },
+                    {
+                        "name": "Item - Cinnamon bun",
+                        "access_rules": ["@Logcity/Cafe/Quest - A mouse bakery"],
+                        "visibility_rules": ["include_items_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Logcity",
+                        "x": 1446,
+                        "y": 1416
+                    }
+                ]
+            },
+            {
+                "name": "Outside Cafe",
+                "access_rules": ["^$can_reach|logcity_outside_cafe"],
+                "children": [
+                    {
+                        "name": "Quest - A thieving crow",
+                        "access_rules": ["frisbee"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Logcity",
+                                "x": 1612,
+                                "y": 1292
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compendium - Portillo",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Logcity",
+                                "x": 1618,
+                                "y": 1458
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Mouse",
+                "access_rules": [
+                    "^$can_reach|logcity_overpass",
+                    "^$can_reach|logcity_cafe,[hard_logic]"
+                ],
+                "children": [
+                    {
+                        "name": "Compendium - Mouse",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Logcity",
+                                "x": 351,
+                                "y": 755
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Pigeon",
+                "access_rules": [
+                    "^$can_reach|logcity_clock_tower",
+                    "^$can_reach|logcity_outside_cafe",
+                    "^$can_reach|logcity_outside_gallery",
+                    "^$can_reach|logcity_ratskullz_alley"
+                ],
+                "children": [
+                    {
+                        "name": "Compendium - Pigeon",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Logcity",
+                                "x": 935,
+                                "y": 1396
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Skate Park",
+                "access_rules": ["^$can_reach|logcity_skate_park"],
+                "children": [
+                    {
+                        "name": "Compendium - Tato skateboard",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Logcity",
+                                "x": 827,
+                                "y": 313
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Logcity",
+                "sections": [
+                    {
+                        "name": "Cassette - JG+LS - The Big City",
+                        "visibility_rules": ["include_cassettes_on"]
+                    },
+                    {
+                        "name": "Achievement - The big city",
+                        "visibility_rules": ["include_achievements_on"]
+                    },
+                    {
+                        "name": "Achievement - City professional",
+                        "access_rules": [
+                            "@Logcity/Overpass/Quest - Photo challenge #5/,@Logcity/Outside Gallery/Quest - Photo challenge #6/"
+                        ],
+                        "visibility_rules": ["include_achievements_on"]
+                    },
+                    {
+                        "name": "Achievement - Business executed",
+                        "access_rules": ["^$can_access_all_quests|logcity"],
+                        "visibility_rules": ["include_achievements_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Logcity",
+                        "x": 795,
+                        "y": 1891
+                    }
+                ]
+            }
+        ]
+    }
+]

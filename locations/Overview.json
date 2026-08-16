@@ -1,0 +1,1257 @@
+[
+    {
+        "name": "Overview",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "children": [
+            {
+                "name": "Basto",
+                "sections": [
+                    {
+                        "name": "Quest - Bastos hidden balloons",
+                        "ref": "Basto/Bus Stop Bottom/Information Booth/Quest - Bastos hidden balloons"
+                    },
+                    {
+                        "name": "Quest - Arthur hunter",
+                        "ref": "Basto/Bonfire Top/Arthur/Quest - Arthur hunter"
+                    },
+                    {
+                        "name": "Quest - Spooky stories",
+                        "ref": "Basto/Bonfire Top/Quest - Spooky stories/"
+                    },
+                    {
+                        "name": "Quest - Night-time cinema",
+                        "ref": "Basto/Bonfire Top/Quest - Night-time cinema/"
+                    },
+                    {
+                        "name": "Quest - Night lights",
+                        "ref": "Basto/Bonfire Top/Quest - Night lights/"
+                    },
+                    {
+                        "name": "Quest - Brain freeze",
+                        "ref": "Basto/Bonfire Top/Viking/Quest - Brain freeze"
+                    },
+                    {
+                        "name": "Quest - Bad hair day",
+                        "ref": "Basto/Bad Hair Day/Quest - Bad hair day"
+                    },
+                    {
+                        "name": "Quest - Take a nap!",
+                        "ref": "Basto/Tent/Quest - Take a nap!"
+                    },
+                    {
+                        "name": "Quest - Painterly portrait",
+                        "ref": "Basto/Outside Castle/Painter/Quest - Painterly portrait"
+                    },
+                    {
+                        "name": "Quest - Fruit shortage",
+                        "ref": "Basto/Outside Castle/Ice Cream Vendor/Quest - Fruit shortage"
+                    },
+                    {
+                        "name": "Quest - Jet-ski tricks",
+                        "ref": "Basto/Lily Pad Pond Left/Quest - Jet-ski tricks/"
+                    },
+                    {
+                        "name": "Quest - Broken dreams",
+                        "ref": "Basto/Lily Pad Pond Left/Injured Monkey/Quest - Broken dreams"
+                    },
+                    {
+                        "name": "Quest - Dry season",
+                        "ref": "Basto/Lily Pad Pond Left/Quest - Dry season/"
+                    },
+                    {
+                        "name": "Quest - Sweet tooth",
+                        "ref": "Basto/Cave/Quest - Sweet tooth/"
+                    },
+                    {
+                        "name": "Quest - Book of bats",
+                        "ref": "Basto/Cave/Quest - Book of bats/"
+                    },
+                    {
+                        "name": "Quest - In your face",
+                        "ref": "Basto/Castle/Quest - In your face"
+                    },
+                    {
+                        "name": "Quest - Sand castle competition",
+                        "ref": "Basto/Castle/Quest - Sand castle competition"
+                    },
+                    {
+                        "name": "Quest - Dehydrated muscles",
+                        "ref": "Basto/Gym House/Quest - Dehydrated muscles"
+                    },
+                    {
+                        "name": "Quest - Play a carnival game",
+                        "ref": "Basto/Carnival/Quest - Play a carnival game"
+                    },
+                    {
+                        "name": "Quest - Bitling collector",
+                        "ref": "Basto/Jungle/Quest - Bitling collector/"
+                    },
+                    {
+                        "name": "Compendium - Day lizard",
+                        "ref": "Basto/Bonfire Top/Compendium - Day lizard/"
+                    },
+                    {
+                        "name": "Compendium - Eggert",
+                        "ref": "Basto/Bonfire Top/Compendium - Eggert/"
+                    },
+                    {
+                        "name": "Compendium - Tato coco",
+                        "ref": "Basto/Outside Castle/Compendium - Tato coco/"
+                    },
+                    {
+                        "name": "Compendium - Glow worm",
+                        "ref": "Basto/Cave/Compendium - Glow worm/"
+                    },
+                    {
+                        "name": "Compendium - Bitling mouse",
+                        "ref": "Basto/Castle/Compendium - Bitling mouse"
+                    },
+                    {
+                        "name": "Compendium - Bitling snail",
+                        "ref": "Basto/Jungle/Compendium - Bitling snail/"
+                    },
+                    {
+                        "name": "Compendium - Coco crab",
+                        "ref": "Basto/Jungle/Compendium - Coco crab/"
+                    },
+                    {
+                        "name": "Compendium - Snout bug",
+                        "ref": "Basto/Jungle/Compendium - Snout bug/"
+                    },
+                    {
+                        "name": "Compendium - Bat",
+                        "ref": "Basto/Bat/Compendium - Bat/"
+                    },
+                    {
+                        "name": "Compendium - Beach snake",
+                        "ref": "Basto/Camp/Compendium - Beach snake/"
+                    },
+                    {
+                        "name": "Compendium - Mud frog",
+                        "ref": "Basto/Camp/Compendium - Mud frog/"
+                    },
+                    {
+                        "name": "Compendium - Beak bird",
+                        "ref": "Basto/Beak Bird/Compendium - Beak bird/"
+                    },
+                    {
+                        "name": "Compendium - Bitling frog",
+                        "ref": "Basto/Bonfire Bottom/Compendium - Bitling frog"
+                    },
+                    {
+                        "name": "Compendium - Bitling tato",
+                        "ref": "Basto/Bitling Tato/Compendium - Bitling tato"
+                    },
+                    {
+                        "name": "Compendium - Drill mole",
+                        "ref": "Basto/Drill Mole/Compendium - Drill mole"
+                    },
+                    {
+                        "name": "Compendium - Fire fly",
+                        "ref": "Basto/Ghost Hangout/Compendium - Fire fly/"
+                    },
+                    {
+                        "name": "Compendium - Itsy bitsy",
+                        "ref": "Basto/Secret Cave/Compendium - Itsy bitsy"
+                    },
+                    {
+                        "name": "Compendium - Tato king",
+                        "ref": "Basto/Secret Cave/Compendium - Tato king"
+                    },
+                    {
+                        "name": "Compendium - Night lizard",
+                        "ref": "Basto/Night Lizard/Compendium - Night lizard"
+                    },
+                    {
+                        "name": "Compendium - Water strider",
+                        "ref": "Basto/Water Strider/Compendium - Water strider/"
+                    },
+                    {
+                        "name": "Item - Water popper attachment",
+                        "ref": "Basto/Bus Stop Bottom/Information Booth/Item - Water popper attachment"
+                    },
+                    {
+                        "name": "Item - Pickaxe",
+                        "ref": "Basto/Bonfire Top/Arthur/Item - Pickaxe"
+                    },
+                    {
+                        "name": "Item - Viking helmet",
+                        "ref": "Basto/Bonfire Top/Viking/Item - Viking helmet"
+                    },
+                    {
+                        "name": "Item - Oranganas",
+                        "ref": "Basto/Bonfire Top/Item - Oranganas/"
+                    },
+                    {
+                        "name": "Item - Sun hat",
+                        "ref": "Basto/Tent/Item - Sun hat"
+                    },
+                    {
+                        "name": "Item - Banakin",
+                        "ref": "Basto/Outside Castle/Item - Banakin/"
+                    },
+                    {
+                        "name": "Item - Ice cream (Banakin)",
+                        "ref": "Basto/Outside Castle/Ice Cream Vendor/Item - Ice cream (Banakin)"
+                    },
+                    {
+                        "name": "Item - Ice cream (Melonear)",
+                        "ref": "Basto/Outside Castle/Ice Cream Vendor/Item - Ice cream (Melonear)"
+                    },
+                    {
+                        "name": "Item - Ice cream (Beanut)",
+                        "ref": "Basto/Outside Castle/Ice Cream Vendor/Item - Ice cream (Beanut)"
+                    },
+                    {
+                        "name": "Item - Ice cream (Oranganas)",
+                        "ref": "Basto/Outside Castle/Ice Cream Vendor/Item - Ice cream (Oranganas)"
+                    },
+                    {
+                        "name": "Item - Beret",
+                        "ref": "Basto/Outside Castle/Painter/Item - Beret"
+                    },
+                    {
+                        "name": "Item - Foot cast",
+                        "ref": "Basto/Lily Pad Pond Left/Injured Monkey/Item - Foot cast"
+                    },
+                    {
+                        "name": "Item - Sun cap",
+                        "ref": "Basto/Cave/Item - Sun cap/"
+                    },
+                    {
+                        "name": "Item - Royal cape",
+                        "ref": "Basto/Castle/Item - Royal cape"
+                    },
+                    {
+                        "name": "Item - Royal crown",
+                        "ref": "Basto/Castle/Item - Royal crown"
+                    },
+                    {
+                        "name": "Item - Minigame ticket",
+                        "ref": "Basto/Carnival/Item - Minigame ticket"
+                    },
+                    {
+                        "name": "Item - Lei",
+                        "ref": "Basto/Carnival/Item - Lei"
+                    },
+                    {
+                        "name": "Item - Vacation shirt",
+                        "ref": "Basto/Carnival/Item - Vacation shirt"
+                    },
+                    {
+                        "name": "Item - Royal cane",
+                        "ref": "Basto/Carnival/Item - Royal cane"
+                    },
+                    {
+                        "name": "Item - Beanut",
+                        "ref": "Basto/Camp/Item - Beanut/"
+                    },
+                    {
+                        "name": "Item - Melonear",
+                        "ref": "Basto/Lily Pad Pond Right/Item - Melonear"
+                    },
+                    {
+                        "name": "Item - Flip-flops",
+                        "ref": "Basto/Ghost Hangout/Item - Flip-flops/"
+                    },
+                    {
+                        "name": "Item - Empty bottle",
+                        "ref": "Basto/Ghost Hangout/Item - Empty bottle/"
+                    },
+                    {
+                        "name": "Cassette - Launchable Socks - Sailors Tune",
+                        "ref": "Basto/Bus Stop Bottom/Cassette - Launchable Socks - Sailors Tune/"
+                    },
+                    {
+                        "name": "Cassette - Jamal Green - One By One",
+                        "ref": "Basto/Outside Castle/Cassette - Jamal Green - One By One/"
+                    },
+                    {
+                        "name": "Cassette - JG+LS - Night Jam",
+                        "ref": "Basto/Camp/Cassettes/Cassette - JG+LS - Night Jam"
+                    },
+                    {
+                        "name": "Cassette - Jamal Green - A Warm Days Night",
+                        "ref": "Basto/Camp/Cassettes/Cassette - Jamal Green - A Warm Days Night"
+                    },
+                    {
+                        "name": "Cassette - Launchable Socks - Hammock Days",
+                        "ref": "Basto/Jungle/Cassette - Launchable Socks - Hammock Days/"
+                    },
+                    {
+                        "name": "Cassette - Launchable Socks - Song Of The Sea",
+                        "ref": "Basto/Song Of The Sea/Cassette - Launchable Socks - Song Of The Sea/"
+                    },
+                    {
+                        "name": "Achievement - Tropical paradise",
+                        "ref": "Basto/Basto/Achievement - Tropical paradise"
+                    },
+                    {
+                        "name": "Achievement - Splish-splash",
+                        "ref": "Basto/Ghost Hangout/Achievement - Splish-splash/"
+                    },
+                    {
+                        "name": "Achievement - Moonlit beauty",
+                        "ref": "Basto/Bad Hair Day/Achievement - Moonlit beauty"
+                    },
+                    {
+                        "name": "Achievement - Self portrait",
+                        "ref": "Basto/Outside Castle/Achievement - Self portrait/"
+                    },
+                    {
+                        "name": "Achievement - The Royal Castle",
+                        "ref": "Basto/Outside Castle/Achievement - The Royal Castle/"
+                    },
+                    {
+                        "name": "Achievement - Kings new shirt",
+                        "ref": "Basto/Castle/Achievement - Kings new shirt"
+                    },
+                    {
+                        "name": "Achievement - Pro gamer",
+                        "ref": "Basto/Carnival/Achievement - Pro gamer"
+                    },
+                    {
+                        "name": "Achievement - Wazzuuppp",
+                        "ref": "Basto/Basto/Achievement - Wazzuuppp"
+                    },
+                    {
+                        "name": "Achievement - And some more",
+                        "ref": "Basto/Basto/Achievement - And some more"
+                    },
+                    {
+                        "name": "Achievement - A Vikings holiday",
+                        "ref": "Basto/Basto/Achievement - A Vikings holiday"
+                    },
+                    {
+                        "name": "Achievement - Maximum vacation",
+                        "ref": "Basto/Achievement - Maximum vacation/"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 531,
+                        "y": 546
+                    }
+                ]
+            },
+            {
+                "name": "Homelanda",
+                "sections": [
+                    {
+                        "name": "Quest - Take a photo of Nana!",
+                        "ref": "Homelanda/Bus Stop/Quest - Take a photo of Nana!/"
+                    },
+                    {
+                        "name": "Quest - A hidden gift",
+                        "ref": "Homelanda/Bus Stop/Quest - A hidden gift/"
+                    },
+                    {
+                        "name": "Quest - Experience TOEM",
+                        "ref": "Homelanda/Living Room/Quest - Experience TOEM"
+                    },
+                    {
+                        "name": "Compendium - Cow",
+                        "ref": "Homelanda/Bus Stop/Compendium - Cow/"
+                    },
+                    {
+                        "name": "Compendium - Flies",
+                        "ref": "Homelanda/Bus Stop/Compendium - Flies/"
+                    },
+                    {
+                        "name": "Compendium - Home bird",
+                        "ref": "Homelanda/Bus Stop/Compendium - Home bird/"
+                    },
+                    {
+                        "name": "Compendium - Tato",
+                        "ref": "Homelanda/Bus Stop/Compendium - Tato/"
+                    },
+                    {
+                        "name": "Item - Clogs",
+                        "ref": "Homelanda/Bus Stop/Item - Clogs/"
+                    },
+                    {
+                        "name": "Item - Award Mask",
+                        "ref": "Homelanda/Player Room/Item - Award Mask"
+                    },
+                    {
+                        "name": "Item - Viking Express Ticket",
+                        "ref": "Homelanda/Living Room/Item - Viking Express Ticket"
+                    },
+                    {
+                        "name": "Cassette - Jamal Green - Photo of Home",
+                        "ref": "Homelanda/Living Room/Cassette - Jamal Green - Photo of Home"
+                    },
+                    {
+                        "name": "Achievement - The beginning",
+                        "ref": "Homelanda/Living Room/Achievement - The beginning"
+                    },
+                    {
+                        "name": "Achievement - Home sweet home",
+                        "ref": "Homelanda/Bus Stop/Achievement - Home sweet home/"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 190,
+                        "y": 107
+                    }
+                ]
+            },
+            {
+                "name": "Kiiruberg",
+                "sections": [
+                    {
+                        "name": "Quest - Yeti cuteness",
+                        "ref": "Kiiruberg/Cliffs Middle/Quest - Yeti cuteness/"
+                    },
+                    {
+                        "name": "Quest - Ancient paintings",
+                        "ref": "Kiiruberg/Cliffs Middle/Scientist/Quest - Ancient paintings"
+                    },
+                    {
+                        "name": "Quest - Ice wizards research",
+                        "ref": "Kiiruberg/Wizard Tower/Quest - Ice wizards research"
+                    },
+                    {
+                        "name": "Quest - Military suspicions",
+                        "ref": "Kiiruberg/Military Base/Quest - Military suspicions"
+                    },
+                    {
+                        "name": "Quest - Play astronaut",
+                        "ref": "Kiiruberg/Observatory/Quest - Play astronaut"
+                    },
+                    {
+                        "name": "Quest - Locating an asteroid",
+                        "ref": "Kiiruberg/Observatory/Quest - Locating an asteroid"
+                    },
+                    {
+                        "name": "Quest - Photo challenge #7",
+                        "ref": "Kiiruberg/Snowman Square Bottom/Quest - Photo challenge #7/"
+                    },
+                    {
+                        "name": "Quest - Assemble a snowman",
+                        "ref": "Kiiruberg/Snowman Square Bottom/Quest - Assemble a snowman/"
+                    },
+                    {
+                        "name": "Quest - Photo challenge #8",
+                        "ref": "Kiiruberg/Cliffs Top/Quest - Photo challenge #8"
+                    },
+                    {
+                        "name": "Quest - Listen to the goat choir",
+                        "ref": "Kiiruberg/Frozen Pond/Quest - Listen to the goat choir/"
+                    },
+                    {
+                        "name": "Quest - Snowball memories",
+                        "ref": "Kiiruberg/Frozen Pond/Old Man/Quest - Snowball memories"
+                    },
+                    {
+                        "name": "Quest - Birthday in distress",
+                        "ref": "Kiiruberg/Birthday Party Bottom/Quest - Birthday in distress"
+                    },
+                    {
+                        "name": "Quest - Become a yeti",
+                        "ref": "Kiiruberg/Ski Lift Base/Quest - Become a yeti/"
+                    },
+                    {
+                        "name": "Compendium - Snow bird",
+                        "ref": "Kiiruberg/Ski Lift Base/Compendium - Snow bird/"
+                    },
+                    {
+                        "name": "Compendium - Mikée",
+                        "ref": "Kiiruberg/Balloon House/Compendium - Mikée"
+                    },
+                    {
+                        "name": "Compendium - Nariko",
+                        "ref": "Kiiruberg/Balloon House/Compendium - Nariko"
+                    },
+                    {
+                        "name": "Compendium - Cosmo deer",
+                        "ref": "Kiiruberg/Cosmo Garden/Compendium - Cosmo deer"
+                    },
+                    {
+                        "name": "Compendium - Teddy",
+                        "ref": "Kiiruberg/Mecks House/Compendium - Teddy"
+                    },
+                    {
+                        "name": "Compendium - Fluff ball",
+                        "ref": "Kiiruberg/Fluff/Compendium - Fluff ball"
+                    },
+                    {
+                        "name": "Compendium - Hedgehog",
+                        "ref": "Kiiruberg/Hedgehog/Compendium - Hedgehog"
+                    },
+                    {
+                        "name": "Compendium - Meteopal",
+                        "ref": "Kiiruberg/Meteopal/Compendium - Meteopal"
+                    },
+                    {
+                        "name": "Compendium - Mountain goat",
+                        "ref": "Kiiruberg/Goat/Compendium - Mountain goat/"
+                    },
+                    {
+                        "name": "Compendium - Owl",
+                        "ref": "Kiiruberg/Owl/Compendium - Owl"
+                    },
+                    {
+                        "name": "Compendium - Tato ski",
+                        "ref": "Kiiruberg/Ski Mountain Top/Compendium - Tato ski/"
+                    },
+                    {
+                        "name": "Compendium - Tato alien",
+                        "ref": "Kiiruberg/Observatory/Compendium - Tato alien"
+                    },
+                    {
+                        "name": "Item - Climbing boots",
+                        "ref": "Kiiruberg/Frozen Pond/Old Man/Item - Climbing boots"
+                    },
+                    {
+                        "name": "Item - Puffer hat",
+                        "ref": "Kiiruberg/Frozen Pond/Old Man/Item - Puffer hat"
+                    },
+                    {
+                        "name": "Item - Ski goggles",
+                        "ref": "Kiiruberg/Ski Mountain Top/Item - Ski goggles/"
+                    },
+                    {
+                        "name": "Item - Scarf",
+                        "ref": "Kiiruberg/Ski Lodge/Item - Scarf"
+                    },
+                    {
+                        "name": "Item - Space helmet",
+                        "ref": "Kiiruberg/Outside Observatory Bottom/Item - Space helmet"
+                    },
+                    {
+                        "name": "Cassette - Jamal Green - Life Through a Lens",
+                        "ref": "Kiiruberg/Observatory/Cassette - Jamal Green - Life Through a Lens"
+                    },
+                    {
+                        "name": "Cassette - Jamal Green - The Petting of a Sacred Deer",
+                        "ref": "Kiiruberg/Cosmo Garden/Cassette - Jamal Green - The Petting of a Sacred Deer"
+                    },
+                    {
+                        "name": "Cassette - Launchable Socks - Stories Of Snow",
+                        "ref": "Kiiruberg/Cassette - Launchable Socks - Stories Of Snow/"
+                    },
+                    {
+                        "name": "Cassette - Launchable Socks - Tall & Shy",
+                        "ref": "Kiiruberg/Cassette - Launchable Socks - Tall & Shy/"
+                    },
+                    {
+                        "name": "Achievement - A great story",
+                        "ref": "Kiiruberg/Cliffs Middle/Scientist/Achievement - A great story"
+                    },
+                    {
+                        "name": "Achievement - Snowy peaks",
+                        "ref": "Kiiruberg/Kiiruberg/Achievement - Snowy peaks"
+                    },
+                    {
+                        "name": "Achievement - The biggest hurdle",
+                        "ref": "Kiiruberg/Kiiruberg/Achievement - The biggest hurdle"
+                    },
+                    {
+                        "name": "Achievement - Ice fighter",
+                        "ref": "Kiiruberg/Kiiruberg/Achievement - Ice fighter"
+                    },
+                    {
+                        "name": "Achievement - Happy youth",
+                        "ref": "Kiiruberg/Old Man's House/Achievement - Happy youth"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 594,
+                        "y": 390
+                    }
+                ]
+            },
+            {
+                "name": "Logcity",
+                "sections": [
+                    {
+                        "name": "Quest - Suspicious activity - city",
+                        "ref": "Logcity/Outside Fashion Show/Quest - Suspicious activity - city/"
+                    },
+                    {
+                        "name": "Quest - A ghostly date",
+                        "ref": "Logcity/Outside Fashion Show/Quest - A ghostly date/"
+                    },
+                    {
+                        "name": "Quest - Always tumbled granny",
+                        "ref": "Logcity/Outside Fashion Show/Quest - Always tumbled granny/"
+                    },
+                    {
+                        "name": "Quest - Ratskullz crew",
+                        "ref": "Logcity/Ratskullz Alley/Quest - Ratskullz crew"
+                    },
+                    {
+                        "name": "Quest - Punk rocker bread crumbs",
+                        "ref": "Logcity/Clock Tower/Punk Rocker/Quest - Punk rocker bread crumbs"
+                    },
+                    {
+                        "name": "Quest - Super Hotbean Bros.",
+                        "ref": "Logcity/Clock Tower/Hotbean Stand/Quest - Super Hotbean Bros."
+                    },
+                    {
+                        "name": "Quest - Hang in there, buddy",
+                        "ref": "Logcity/Clock Tower/Quest - Hang in there, buddy/"
+                    },
+                    {
+                        "name": "Quest - Young and inspiring!",
+                        "ref": "Logcity/Clock Tower/Influencer/Quest - Young and inspiring!"
+                    },
+                    {
+                        "name": "Quest - Photo challenge #5",
+                        "ref": "Logcity/Overpass/Quest - Photo challenge #5/"
+                    },
+                    {
+                        "name": "Quest - Photo challenge #6",
+                        "ref": "Logcity/Outside Gallery/Quest - Photo challenge #6/"
+                    },
+                    {
+                        "name": "Quest - Sewer stumble!",
+                        "ref": "Logcity/Outside Gallery/Quest - Sewer stumble!/"
+                    },
+                    {
+                        "name": "Quest - Press-ing news",
+                        "ref": "Logcity/News House/Quest - Press-ing news"
+                    },
+                    {
+                        "name": "Quest - Spooky scary city",
+                        "ref": "Logcity/Crosswalk/Quest - Spooky scary city/"
+                    },
+                    {
+                        "name": "Quest - Art exhibition",
+                        "ref": "Logcity/Gallery/Quest - Art exhibition/"
+                    },
+                    {
+                        "name": "Quest - A design problem",
+                        "ref": "Logcity/Fashion Show Backstage/Quest - A design problem"
+                    },
+                    {
+                        "name": "Quest - Cleaning away the stress",
+                        "ref": "Logcity/Bus Stop Cleaner/Quest - Cleaning away the stress"
+                    },
+                    {
+                        "name": "Quest - A mouse bakery",
+                        "ref": "Logcity/Cafe/Quest - A mouse bakery"
+                    },
+                    {
+                        "name": "Quest - A thieving crow",
+                        "ref": "Logcity/Outside Cafe/Quest - A thieving crow/"
+                    },
+                    {
+                        "name": "Compendium - Tato tourist",
+                        "ref": "Logcity/Outside Fashion Show/Compendium - Tato tourist/"
+                    },
+                    {
+                        "name": "Compendium - Punky parrot",
+                        "ref": "Logcity/Clock Tower/Punk Rocker/Compendium - Punky parrot"
+                    },
+                    {
+                        "name": "Compendium - Business pigeon",
+                        "ref": "Logcity/Outside Gallery/Compendium - Business pigeon/"
+                    },
+                    {
+                        "name": "Compendium - Turtle",
+                        "ref": "Logcity/Crosswalk/Compendium - Turtle/"
+                    },
+                    {
+                        "name": "Compendium - Portillo",
+                        "ref": "Logcity/Outside Cafe/Compendium - Portillo/"
+                    },
+                    {
+                        "name": "Compendium - Mouse",
+                        "ref": "Logcity/Mouse/Compendium - Mouse/"
+                    },
+                    {
+                        "name": "Compendium - Pigeon",
+                        "ref": "Logcity/Pigeon/Compendium - Pigeon/"
+                    },
+                    {
+                        "name": "Compendium - Tato skateboard",
+                        "ref": "Logcity/Skate Park/Compendium - Tato skateboard/"
+                    },
+                    {
+                        "name": "Item - Sneakers",
+                        "ref": "Logcity/Outside Fashion Show/Item - Sneakers/"
+                    },
+                    {
+                        "name": "Item - Hotbean hat",
+                        "ref": "Logcity/Clock Tower/Hotbean Stand/Item - Hotbean hat"
+                    },
+                    {
+                        "name": "Item - Reporter hat",
+                        "ref": "Logcity/News House/Item - Reporter hat"
+                    },
+                    {
+                        "name": "Item - Frisbee",
+                        "ref": "Logcity/Crosswalk/Item - Frisbee/"
+                    },
+                    {
+                        "name": "Item - Cinnamon bun",
+                        "ref": "Logcity/Cafe/Item - Cinnamon bun"
+                    },
+                    {
+                        "name": "Cassette - Anes Sabanovic - Ratskullz Theme",
+                        "ref": "Logcity/Ratskullz Alley/Cassette - Anes Sabanovic - Ratskullz Theme"
+                    },
+                    {
+                        "name": "Cassette - Jamal Green - Hustle Bustle Shuffle",
+                        "ref": "Logcity/Clock Tower/Cassette - Jamal Green - Hustle Bustle Shuffle/"
+                    },
+                    {
+                        "name": "Cassette - Launchable Socks - On The Hour",
+                        "ref": "Logcity/Outside Gallery/Cassette - Launchable Socks - On The Hour/"
+                    },
+                    {
+                        "name": "Cassette - Launchable Socks - Hop Skip Step",
+                        "ref": "Logcity/Crosswalk/Cassette - Launchable Socks - Hop Skip Step/"
+                    },
+                    {
+                        "name": "Cassette - JG+LS - The Big City",
+                        "ref": "Logcity/Logcity/Cassette - JG+LS - The Big City"
+                    },
+                    {
+                        "name": "Achievement - The grand clock tower",
+                        "ref": "Logcity/Clock Tower/Achievement - The grand clock tower/"
+                    },
+                    {
+                        "name": "Achievement - 100 followers!",
+                        "ref": "Logcity/Clock Tower/Influencer/Achievement - 100 followers!"
+                    },
+                    {
+                        "name": "Achievement - A new job",
+                        "ref": "Logcity/Bus Stop Cleaner/Achievement - A new job"
+                    },
+                    {
+                        "name": "Achievement - The big city",
+                        "ref": "Logcity/Logcity/Achievement - The big city"
+                    },
+                    {
+                        "name": "Achievement - City professional",
+                        "ref": "Logcity/Logcity/Achievement - City professional"
+                    },
+                    {
+                        "name": "Achievement - Business executed",
+                        "ref": "Logcity/Logcity/Achievement - Business executed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 433,
+                        "y": 171
+                    }
+                ]
+            },
+            {
+                "name": "Mountain Top",
+                "sections": [
+                    {
+                        "name": "Achievement - So close now!",
+                        "ref": "Mountain Top/Achievement - So close now!/"
+                    },
+                    {
+                        "name": "Achievement - Experience TOEM",
+                        "ref": "Mountain Top/Achievement - Experience TOEM/"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 626,
+                        "y": 216
+                    }
+                ]
+            },
+            {
+                "name": "Oaklaville",
+                "sections": [
+                    {
+                        "name": "Quest - Become a flower",
+                        "ref": "Oaklaville/Playground/Quest - Become a flower/"
+                    },
+                    {
+                        "name": "Quest - Hide-and-seek",
+                        "ref": "Oaklaville/Hide and Seek/Quest - Hide-and-seek/"
+                    },
+                    {
+                        "name": "Quest - Photo challenge #1",
+                        "ref": "Oaklaville/Trail Bottom/Quest - Photo challenge #1/"
+                    },
+                    {
+                        "name": "Quest - Photo challenge #2",
+                        "ref": "Oaklaville/Outside Hotel/Quest - Photo challenge #2/"
+                    },
+                    {
+                        "name": "Quest - Suspicious activity - forest",
+                        "ref": "Oaklaville/Trail Bottom/Quest - Suspicious activity - forest/"
+                    },
+                    {
+                        "name": "Quest - Become a scout",
+                        "ref": "Oaklaville/Camp/Scout Leader/Quest - Become a scout"
+                    },
+                    {
+                        "name": "Quest - Log blocking a path",
+                        "ref": "Oaklaville/Trail Bottom/Quest - Log blocking a path/"
+                    },
+                    {
+                        "name": "Quest - Capture the hotels beauty",
+                        "ref": "Oaklaville/Hotel/Quest - Capture the hotels beauty"
+                    },
+                    {
+                        "name": "Quest - Hotel chef",
+                        "ref": "Oaklaville/Hotel/Quest - Hotel chef"
+                    },
+                    {
+                        "name": "Quest - Become a paparazzi",
+                        "ref": "Oaklaville/Rave/Quest - Become a paparazzi/"
+                    },
+                    {
+                        "name": "Quest - A courageous stallion",
+                        "ref": "Oaklaville/Graveyard/Quest - A courageous stallion"
+                    },
+                    {
+                        "name": "Quest - Cup champion",
+                        "ref": "Oaklaville/Ghost Cup Game/Quest - Cup champion"
+                    },
+                    {
+                        "name": "Quest - Missing socks",
+                        "ref": "Oaklaville/Outside Hotel/Sock Man/Quest - Missing socks"
+                    },
+                    {
+                        "name": "Quest - Monster spotting",
+                        "ref": "Oaklaville/Hotel/Quest - Monster spotting"
+                    },
+                    {
+                        "name": "Quest - Ghost helper!",
+                        "ref": "Oaklaville/Skeleton House/Quest - Ghost helper!/"
+                    },
+                    {
+                        "name": "Compendium - Butterfly",
+                        "ref": "Oaklaville/Bus Stop/Compendium - Butterfly/"
+                    },
+                    {
+                        "name": "Compendium - Forest bird",
+                        "ref": "Oaklaville/Outside Hotel/Compendium - Forest bird/"
+                    },
+                    {
+                        "name": "Compendium - Snail",
+                        "ref": "Oaklaville/Outside Hotel/Snail/Compendium - Snail"
+                    },
+                    {
+                        "name": "Compendium - Nestworm",
+                        "ref": "Oaklaville/Outside Hotel/Compendium - Nestworm/"
+                    },
+                    {
+                        "name": "Compendium - Stag beetle",
+                        "ref": "Oaklaville/Outside Hotel/Compendium - Stag beetle/"
+                    },
+                    {
+                        "name": "Compendium - Tom",
+                        "ref": "Oaklaville/Outside Hotel/Compendium - Tom/"
+                    },
+                    {
+                        "name": "Compendium - Oskar",
+                        "ref": "Oaklaville/Hotel/Compendium - Oskar"
+                    },
+                    {
+                        "name": "Compendium - Ladybug",
+                        "ref": "Oaklaville/Camp/Compendium - Ladybug/"
+                    },
+                    {
+                        "name": "Compendium - Pet rock",
+                        "ref": "Oaklaville/Camp/Compendium - Pet rock/"
+                    },
+                    {
+                        "name": "Compendium - Ant",
+                        "ref": "Oaklaville/Trail Bottom/Compendium - Ant/"
+                    },
+                    {
+                        "name": "Compendium - Beehive",
+                        "ref": "Oaklaville/Playground/Compendium - Beehive/"
+                    },
+                    {
+                        "name": "Compendium - Squirrel",
+                        "ref": "Oaklaville/Squirrels/Compendium - Squirrel/"
+                    },
+                    {
+                        "name": "Compendium - Tato bug",
+                        "ref": "Oaklaville/Mushroom House/Compendium - Tato bug"
+                    },
+                    {
+                        "name": "Compendium - Sero",
+                        "ref": "Oaklaville/Sero/Compendium - Sero/"
+                    },
+                    {
+                        "name": "Compendium - Tato fly",
+                        "ref": "Oaklaville/Tato Fly/Compendium - Tato fly/"
+                    },
+                    {
+                        "name": "Item - Foam finger",
+                        "ref": "Oaklaville/Outside Hotel/Item - Foam finger/"
+                    },
+                    {
+                        "name": "Item - Fjällbjörn hat",
+                        "ref": "Oaklaville/Camp/Scout Leader/Item - Fjällbjörn hat"
+                    },
+                    {
+                        "name": "Item - Cowboy hat",
+                        "ref": "Oaklaville/Mushroom House/Item - Cowboy hat"
+                    },
+                    {
+                        "name": "Item - Ghost glasses",
+                        "ref": "Oaklaville/Skeleton/Item - Ghost glasses"
+                    },
+                    {
+                        "name": "Item - Soaked sock",
+                        "ref": "Oaklaville/Outside Hotel/Sock Man/Item - Soaked sock"
+                    },
+                    {
+                        "name": "Item - Pair of wet socks",
+                        "ref": "Oaklaville/Ghost Cup Game/Item - Pair of wet socks"
+                    },
+                    {
+                        "name": "Item - Monster mask",
+                        "ref": "Oaklaville/Hotel/Item - Monster mask"
+                    },
+                    {
+                        "name": "Cassette - Launchable Socks - Squirrel Photography",
+                        "ref": "Oaklaville/Outside Hotel/Cassette - Launchable Socks - Squirrel Photography/"
+                    },
+                    {
+                        "name": "Cassette - Jamal Green - Summer Breeze",
+                        "ref": "Oaklaville/Hide and Seek/Cassette - Jamal Green - Summer Breeze/"
+                    },
+                    {
+                        "name": "Cassette - Launchable Socks - Pine Needles",
+                        "ref": "Oaklaville/Lookout/Cassette - Launchable Socks - Pine Needles"
+                    },
+                    {
+                        "name": "Cassette - Jamal Green - The Grand Squirrel Hotel",
+                        "ref": "Oaklaville/Hotel/Cassette - Jamal Green - The Grand Squirrel Hotel"
+                    },
+                    {
+                        "name": "Achievement - The calm forest",
+                        "ref": "Oaklaville/Oaklaville/Achievement - The calm forest"
+                    },
+                    {
+                        "name": "Achievement - You found us!",
+                        "ref": "Oaklaville/Hotel/Achievement - You found us!"
+                    },
+                    {
+                        "name": "Achievement - Slow and steady",
+                        "ref": "Oaklaville/Outside Hotel/Snail/Achievement - Slow and steady"
+                    },
+                    {
+                        "name": "Achievement - Just a sock",
+                        "ref": "Oaklaville/Outside Hotel/Sock Man/Achievement - Just a sock"
+                    },
+                    {
+                        "name": "Achievement - Calmed down",
+                        "ref": "Oaklaville/Skeleton/Achievement - Calmed down"
+                    },
+                    {
+                        "name": "Achievement - A majestic hotel",
+                        "ref": "Oaklaville/Lookout/Achievement - A majestic hotel"
+                    },
+                    {
+                        "name": "Achievement - Natures show-stopper",
+                        "ref": "Oaklaville/Oaklaville/Achievement - Natures show-stopper"
+                    },
+                    {
+                        "name": "Achievement - Strong as an oak",
+                        "ref": "Oaklaville/Oaklaville/Achievement - Strong as an oak"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 151,
+                        "y": 356
+                    }
+                ]
+            },
+            {
+                "name": "Stanhamn",
+                "sections": [
+                    {
+                        "name": "Quest - The king of fishes",
+                        "ref": "Stanhamn/Bus Stop/Quest - The king of fishes/"
+                    },
+                    {
+                        "name": "Quest - A good spot with no sun",
+                        "ref": "Stanhamn/Hippo Beach/Quest - A good spot with no sun/"
+                    },
+                    {
+                        "name": "Quest - Suspicious activity - harbor",
+                        "ref": "Stanhamn/Ghost Drawbridge Bottom/Quest - Suspicious activity - harbor/"
+                    },
+                    {
+                        "name": "Quest - Scorching flame",
+                        "ref": "Stanhamn/Ghost Drawbridge Bottom/Quest - Scorching flame/"
+                    },
+                    {
+                        "name": "Quest - Queen of paper hats",
+                        "ref": "Stanhamn/Pirate Drawbridge/Pirate/Quest - Queen of paper hats"
+                    },
+                    {
+                        "name": "Quest - Photo challenge #3",
+                        "ref": "Stanhamn/Pirate Drawbridge/Quest - Photo challenge #3/"
+                    },
+                    {
+                        "name": "Quest - Photo challenge #4",
+                        "ref": "Stanhamn/Ghost Drawbridge Top/Quest - Photo challenge #4/"
+                    },
+                    {
+                        "name": "Quest - Frames & filters!",
+                        "ref": "Stanhamn/Photo Guild Hut/Quest - Frames & filters!"
+                    },
+                    {
+                        "name": "Quest - Make someone take a bath",
+                        "ref": "Stanhamn/Outside Hydroplant/Quest - Make someone take a bath/"
+                    },
+                    {
+                        "name": "Quest - Supreme deluxe sandwich!",
+                        "ref": "Stanhamn/Outside Hydroplant/Quest - Supreme deluxe sandwich!/"
+                    },
+                    {
+                        "name": "Quest - A lost dog",
+                        "ref": "Stanhamn/Docks Right/Quest - A lost dog/"
+                    },
+                    {
+                        "name": "Quest - Power shortage!",
+                        "ref": "Stanhamn/Hydroplant/Quest - Power shortage!"
+                    },
+                    {
+                        "name": "Quest - Solve the chaos",
+                        "ref": "Stanhamn/Lighthouse Roof/Quest - Solve the chaos"
+                    },
+                    {
+                        "name": "Quest - Ocean garbage",
+                        "ref": "Stanhamn/Fishing Tower/Quest - Ocean garbage/"
+                    },
+                    {
+                        "name": "Quest - A whistling dilemma",
+                        "ref": "Stanhamn/Snowman/Quest - A whistling dilemma"
+                    },
+                    {
+                        "name": "Quest - A layered melody",
+                        "ref": "Stanhamn/King Fish Beach/Wizard/Quest - A layered melody"
+                    },
+                    {
+                        "name": "Compendium - Tato swim",
+                        "ref": "Stanhamn/Bus Stop/Compendium - Tato swim/"
+                    },
+                    {
+                        "name": "Compendium - Crab",
+                        "ref": "Stanhamn/Hippo Beach/Compendium - Crab/"
+                    },
+                    {
+                        "name": "Compendium - Bubble fly",
+                        "ref": "Stanhamn/Pirate Drawbridge/Compendium - Bubble fly/"
+                    },
+                    {
+                        "name": "Compendium - Toad",
+                        "ref": "Stanhamn/Pirate Drawbridge/Compendium - Toad/"
+                    },
+                    {
+                        "name": "Compendium - Dragonfly",
+                        "ref": "Stanhamn/Outside Hydroplant/Compendium - Dragonfly/"
+                    },
+                    {
+                        "name": "Compendium - Willemijn",
+                        "ref": "Stanhamn/King Fish Beach/Compendium - Willemijn/"
+                    },
+                    {
+                        "name": "Compendium - King fish",
+                        "ref": "Stanhamn/King Fish Beach/Compendium - King fish/"
+                    },
+                    {
+                        "name": "Compendium - Fia",
+                        "ref": "Stanhamn/Fia/Compendium - Fia/"
+                    },
+                    {
+                        "name": "Compendium - Fräs",
+                        "ref": "Stanhamn/Fräs/Compendium - Fräs/"
+                    },
+                    {
+                        "name": "Compendium - Happy carp",
+                        "ref": "Stanhamn/Underwater/Compendium - Happy carp"
+                    },
+                    {
+                        "name": "Compendium - Jellyfish",
+                        "ref": "Stanhamn/Underwater/Compendium - Jellyfish"
+                    },
+                    {
+                        "name": "Compendium - Seahorse",
+                        "ref": "Stanhamn/Underwater/Compendium - Seahorse"
+                    },
+                    {
+                        "name": "Compendium - Tato scuba",
+                        "ref": "Stanhamn/Underwater/Compendium - Tato scuba"
+                    },
+                    {
+                        "name": "Compendium - Seagull",
+                        "ref": "Stanhamn/Seagulls/Compendium - Seagull/"
+                    },
+                    {
+                        "name": "Compendium - Sunday swan",
+                        "ref": "Stanhamn/Sunday Swan/Compendium - Sunday swan/"
+                    },
+                    {
+                        "name": "Item - Old key",
+                        "ref": "Stanhamn/Pirate Drawbridge/Pirate/Item - Old key"
+                    },
+                    {
+                        "name": "Item - Paper hat",
+                        "ref": "Stanhamn/Pirate Drawbridge/Pirate/Item - Paper hat"
+                    },
+                    {
+                        "name": "Item - Supreme deluxe sandwich",
+                        "ref": "Stanhamn/Pirate Drawbridge/Item - Supreme deluxe sandwich/"
+                    },
+                    {
+                        "name": "Item - Frames & filters",
+                        "ref": "Stanhamn/Photo Guild Hut/Item - Frames & filters"
+                    },
+                    {
+                        "name": "Item - Photo challenger flag",
+                        "ref": "Stanhamn/Photo Guild Hut/Item - Photo challenger flag"
+                    },
+                    {
+                        "name": "Item - Rubber boots",
+                        "ref": "Stanhamn/Docks Right/Item - Rubber boots/"
+                    },
+                    {
+                        "name": "Item - Hard hat",
+                        "ref": "Stanhamn/Hydroplant/Item - Hard hat"
+                    },
+                    {
+                        "name": "Item - Honk attachment",
+                        "ref": "Stanhamn/Lighthouse Roof/Item - Honk attachment"
+                    },
+                    {
+                        "name": "Item - Diving helmet",
+                        "ref": "Stanhamn/Fishing Tower/Item - Diving helmet/"
+                    },
+                    {
+                        "name": "Item - Umbrella",
+                        "ref": "Stanhamn/King Fish Beach/Item - Umbrella/"
+                    },
+                    {
+                        "name": "Item - Pirate hat",
+                        "ref": "Stanhamn/Underwater/Item - Pirate hat"
+                    },
+                    {
+                        "name": "Item - Fishing hat",
+                        "ref": "Stanhamn/Lighthouse/Item - Fishing hat/"
+                    },
+                    {
+                        "name": "Cassette - Jamal Green - NAUT",
+                        "ref": "Stanhamn/Stanhamn/Cassette - Jamal Green - NAUT"
+                    },
+                    {
+                        "name": "Cassette - Fisherman's Whistle",
+                        "ref": "Stanhamn/Snowman/Cassette - Fisherman's Whistle"
+                    },
+                    {
+                        "name": "Cassette - Launchable Socks - Fisherman's Tune",
+                        "ref": "Stanhamn/King Fish Beach/Wizard/Cassette - Launchable Socks - Fisherman's Tune"
+                    },
+                    {
+                        "name": "Cassette - JG+LS - The Smiling Huntsman",
+                        "ref": "Stanhamn/Underwater/Cassette - JG+LS - The Smiling Huntsman"
+                    },
+                    {
+                        "name": "Cassette - Launchable Socks - A Place In The Sun",
+                        "ref": "Stanhamn/Stanhamn/Cassette - Launchable Socks - A Place In The Sun"
+                    },
+                    {
+                        "name": "Achievement - A sparkling jump",
+                        "ref": "Stanhamn/Bus Stop/Achievement - A sparkling jump/"
+                    },
+                    {
+                        "name": "Achievement - Employee of the month",
+                        "ref": "Stanhamn/Hydroplant/Achievement - Employee of the month"
+                    },
+                    {
+                        "name": "Achievement - Flight ready",
+                        "ref": "Stanhamn/Fishing Tower/Achievement - Flight ready/"
+                    },
+                    {
+                        "name": "Achievement - A voyage underwater",
+                        "ref": "Stanhamn/Underwater/Achievement - A voyage underwater"
+                    },
+                    {
+                        "name": "Achievement - Set sail for good weather",
+                        "ref": "Stanhamn/Stanhamn/Achievement - Set sail for good weather"
+                    },
+                    {
+                        "name": "Achievement - Calm as the sea",
+                        "ref": "Stanhamn/Stanhamn/Achievement - Calm as the sea"
+                    },
+                    {
+                        "name": "Achievement - Seaworthy",
+                        "ref": "Stanhamn/Stanhamn/Achievement - Seaworthy"
+                    },
+                    {
+                        "name": "Achievement - Who's a good boy!",
+                        "ref": "Start Menu/Achievement - Who's a good boy!/"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 384,
+                        "y": 497
+                    }
+                ]
+            },
+            {
+                "name": "Start Menu",
+                "sections": [
+                    {
+                        "name": "Item - Tripod",
+                        "ref": "Start Menu/Item - Tripod/"
+                    },
+                    {
+                        "name": "Achievement - Going long!",
+                        "ref": "Start Menu/Achievement - Going long!/"
+                    },
+                    {
+                        "name": "Achievement - All geared up",
+                        "ref": "Start Menu/Achievement - All geared up/"
+                    },
+                    {
+                        "name": "Achievement - Look at those cuties",
+                        "ref": "Start Menu/Achievement - Look at those cuties/"
+                    },
+                    {
+                        "name": "Achievement - Collect them all",
+                        "ref": "Start Menu/Achievement - Collect them all/"
+                    },
+                    {
+                        "name": "Achievement - Cosplayer",
+                        "ref": "Start Menu/Achievement - Cosplayer/"
+                    },
+                    {
+                        "name": "Achievement - A true completionist",
+                        "ref": "Start Menu/Achievement - A true completionist/"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 724,
+                        "y": 186
+                    }
+                ]
+            }
+        ]
+    }
+]

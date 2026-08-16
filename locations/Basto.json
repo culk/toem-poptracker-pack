@@ -1,0 +1,1143 @@
+[
+    {
+        "name": "Basto",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "access_rules": ["basto_ticket,^$can_reach|stanhamn_docks_left"],
+        "visibility_rules": ["include_basto_on"],
+        "children": [
+            {
+                "name": "Bus Stop Bottom",
+                "children": [
+                    {
+                        "name": "Information Booth",
+                        "sections": [
+                            {
+                                "name": "Quest - Bastos hidden balloons",
+                                "access_rules": ["watergun,^$can_access_all_balloons"]
+                            },
+                            {
+                                "name": "Item - Water popper attachment",
+                                "visibility_rules": ["include_items_on"]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Basto",
+                                "x": 724,
+                                "y": 1754
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Cassette - Launchable Socks - Sailors Tune",
+                        "access_rules": ["watergun,$has_required_stamps_for|basto"],
+                        "visibility_rules": ["include_cassettes_on"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Basto",
+                                "x": 830,
+                                "y": 1790
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Bonfire Top",
+                "access_rules": [
+                    "^$can_reach|basto_bonfire_top",
+                    "^$can_reach|basto_bonfire_bottom"
+                ],
+                "children": [
+                    {
+                        "name": "Arthur",
+                        "sections": [
+                            {
+                                "name": "Quest - Arthur hunter",
+                                "access_rules": [
+                                    "pickaxe,^$can_reach_all|basto_outside_castle|basto_bus_stop_top"
+                                ]
+                            },
+                            {
+                                "name": "Item - Pickaxe",
+                                "visibility_rules": ["include_items_on"]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Basto",
+                                "x": 505,
+                                "y": 386
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Quest - Spooky stories",
+                        "access_rules": ["watergun,^$can_reach|basto_jungle"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Basto",
+                                "x": 284,
+                                "y": 620
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Quest - Night-time cinema",
+                        "access_rules": ["watergun"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Basto",
+                                "x": 611,
+                                "y": 611
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Quest - Night lights",
+                        "access_rules": ["@Basto/Ghost Hangout/Compendium - Fire fly/"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Basto",
+                                "x": 370,
+                                "y": 561
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Viking",
+                        "access_rules": [
+                            "ice_cream:4",
+                            "ice_cream,[hard_logic]"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Quest - Brain freeze"
+                            },
+                            {
+                                "name": "Item - Viking helmet",
+                                "visibility_rules": ["include_items_on"]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Basto",
+                                "x": 442,
+                                "y": 544
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compendium - Day lizard",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Basto",
+                                "x": 592,
+                                "y": 383
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compendium - Eggert",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Basto",
+                                "x": 651,
+                                "y": 485
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Item - Oranganas",
+                        "access_rules": ["watergun"],
+                        "visibility_rules": ["include_items_on"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Basto",
+                                "x": 231,
+                                "y": 603
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Bad Hair Day",
+                "access_rules": [
+                    "^$can_reach|basto_bonfire_top",
+                    "^$can_reach|basto_bonfire_bottom,[hard_logic]"
+                ],
+                "sections": [
+                    {
+                        "name": "Quest - Bad hair day"
+                    },
+                    {
+                        "name": "Achievement - Moonlit beauty",
+                        "visibility_rules": ["include_achievements_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Basto",
+                        "x": 490,
+                        "y": 924
+                    }
+                ]
+            },
+            {
+                "name": "Tent",
+                "access_rules": ["^$can_reach|basto_tent"],
+                "sections": [
+                    {
+                        "name": "Quest - Take a nap!"
+                    },
+                    {
+                        "name": "Item - Sun hat",
+                        "visibility_rules": ["include_items_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Basto",
+                        "x": 236,
+                        "y": 1401
+                    }
+                ]
+            },
+            {
+                "name": "Outside Castle",
+                "access_rules": ["^$can_reach|basto_outside_castle"],
+                "children": [
+                    {
+                        "name": "Compendium - Tato coco",
+                        "access_rules": ["watergun"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Basto",
+                                "x": 1056,
+                                "y": 935
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Item - Banakin",
+                        "access_rules": ["watergun"],
+                        "visibility_rules": ["include_items_on"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Basto",
+                                "x": 1094,
+                                "y": 796
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Ice Cream Vendor",
+                        "sections": [
+                            {
+                                "name": "Item - Ice cream (Banakin)",
+                                "access_rules": ["banakin"],
+                                "visibility_rules": ["include_items_on"]
+                            },
+                            {
+                                "name": "Item - Ice cream (Melonear)",
+                                "access_rules": ["melonear"],
+                                "visibility_rules": ["include_items_on"]
+                            },
+                            {
+                                "name": "Item - Ice cream (Beanut)",
+                                "access_rules": ["beanut"],
+                                "visibility_rules": ["include_items_on"]
+                            },
+                            {
+                                "name": "Item - Ice cream (Oranganas)",
+                                "access_rules": ["oranganas"],
+                                "visibility_rules": ["include_items_on"]
+                            },
+                            {
+                                "name": "Quest - Fruit shortage",
+                                "access_rules": ["banakin,melonear,beanut,oranganas"]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Basto",
+                                "x": 1079,
+                                "y": 835
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Painter",
+                        "sections": [
+                            {
+                                "name": "Quest - Painterly portrait"
+                            },
+                            {
+                                "name": "Item - Beret",
+                                "access_rules": ["^$can_access_all_portraits"],
+                                "visibility_rules": ["include_items_on"]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Basto",
+                                "x": 1227,
+                                "y": 960
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Cassette - Jamal Green - One By One",
+                        "visibility_rules": ["include_cassettes_on"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Basto",
+                                "x": 1141,
+                                "y": 903
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Achievement - Self portrait",
+                        "visibility_rules": ["include_achievements_on"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Basto",
+                                "x": 1239,
+                                "y": 936
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Achievement - The Royal Castle",
+                        "visibility_rules": ["include_achievements_on"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Basto",
+                                "x": 1260,
+                                "y": 726
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Lily Pad Pond Left",
+                "access_rules": [
+                    "^$can_reach|basto_lily_pad_pond_left",
+                    "^$can_reach|basto_lily_pad_pond_right"
+                ],
+                "children": [
+                    {
+                        "name": "Quest - Jet-ski tricks",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Basto",
+                                "x": 868,
+                                "y": 1369
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Injured Monkey",
+                        "access_rules": [
+                            "ice_cream:4",
+                            "ice_cream,[hard_logic]"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Quest - Broken dreams"
+                            },
+                            {
+                                "name": "Item - Foot cast",
+                                "visibility_rules": ["include_items_on"]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Basto",
+                                "x": 721,
+                                "y": 1276
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Quest - Dry season",
+                        "access_rules": ["^$can_access_all_plants"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Basto",
+                                "x": 568,
+                                "y": 1363
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Cave",
+                "access_rules": ["^$can_reach|basto_cave"],
+                "children": [
+                    {
+                        "name": "Quest - Sweet tooth",
+                        "access_rules": [
+                            "ice_cream:4,@Basto/Cave/Quest - Book of bats/",
+                            "ice_cream,@Basto/Cave/Quest - Book of bats/,[hard_logic]"
+                        ],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Basto",
+                                "x": 1829,
+                                "y": 502
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Quest - Book of bats",
+                        "access_rules": [
+                            "honk_attachment,^$can_reach_all|basto_bonfire_top|basto_outside_castle",
+                            "watergun,^$can_reach_all|basto_bonfire_top|basto_outside_castle",
+                            "watergun,^$can_reach_all|basto_bonfire_bottom|basto_outside_castle,[hard_logic]"
+                        ],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Basto",
+                                "x": 1829,
+                                "y": 542
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compendium - Glow worm",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Basto",
+                                "x": 1907,
+                                "y": 480
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Item - Sun cap",
+                        "access_rules": ["pickaxe"],
+                        "visibility_rules": ["include_items_on"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Basto",
+                                "x": 1634,
+                                "y": 557
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Castle",
+                "access_rules": ["^$can_reach|basto_castle"],
+                "sections": [
+                    {
+                        "name": "Quest - In your face",
+                        "access_rules": [
+                            "ice_cream:4",
+                            "ice_cream,[hard_logic]"
+                        ]
+                    },
+                    {
+                        "name": "Quest - Sand castle competition",
+                        "access_rules": ["@Basto/Castle/Quest - In your face"]
+                    },
+                    {
+                        "name": "Compendium - Bitling mouse",
+                        "access_rules": ["@Basto/Castle/Quest - In your face"]
+                    },
+                    {
+                        "name": "Item - Royal cape",
+                        "access_rules": ["@Basto/Castle/Quest - Sand castle competition"],
+                        "visibility_rules": ["include_items_on"]
+                    },
+                    {
+                        "name": "Item - Royal crown",
+                        "access_rules": ["pickaxe,@Basto/Secret Cave/Compendium - Tato king"],
+                        "visibility_rules": ["include_items_on"]
+                    },
+                    {
+                        "name": "Achievement - Kings new shirt",
+                        "access_rules": ["royal_cape"],
+                        "visibility_rules": ["include_achievements_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Basto",
+                        "x": 1259,
+                        "y": 812
+                    }
+                ]
+            },
+            {
+                "name": "Gym House",
+                "access_rules": ["^$can_reach|basto_gym_house"],
+                "sections": [
+                    {
+                        "name": "Quest - Dehydrated muscles",
+                        "access_rules": [
+                            "empty_bottle,^$can_reach_all|basto_ghost_hangout|basto_lily_pad_pond_right|basto_outside_castle"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Basto",
+                        "x": 1505,
+                        "y": 892
+                    }
+                ]
+            },
+            {
+                "name": "Carnival",
+                "access_rules": ["^$can_reach|basto_carnival"],
+                "sections": [
+                    {
+                        "name": "Quest - Play a carnival game",
+                        "access_rules": [
+                            "honk_attachment",
+                            "watergun"
+                        ]
+                    },
+                    {
+                        "name": "Item - Minigame ticket",
+                        "access_rules": [
+                            "honk_attachment",
+                            "watergun"
+                        ],
+                        "visibility_rules": ["include_items_on"]
+                    },
+                    {
+                        "name": "Item - Lei",
+                        "access_rules": ["minigame_ticket"],
+                        "visibility_rules": ["include_items_on"]
+                    },
+                    {
+                        "name": "Item - Vacation shirt",
+                        "access_rules": ["minigame_ticket"],
+                        "visibility_rules": ["include_items_on"]
+                    },
+                    {
+                        "name": "Item - Royal cane",
+                        "access_rules": ["minigame_ticket"],
+                        "visibility_rules": ["include_items_on"]
+                    },
+                    {
+                        "name": "Achievement - Pro gamer",
+                        "access_rules": ["honk_attachment,watergun"],
+                        "visibility_rules": ["include_achievements_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Basto",
+                        "x": 151,
+                        "y": 922
+                    }
+                ]
+            },
+            {
+                "name": "Jungle",
+                "access_rules": ["^$can_reach|basto_jungle"],
+                "children": [
+                    {
+                        "name": "Quest - Bitling collector",
+                        "access_rules": [
+                            "@Basto/Bonfire Bottom/Compendium - Bitling frog,@Basto/Castle/Compendium - Bitling mouse,@Basto/Jungle/Compendium - Bitling snail/,@Basto/Bitling Tato/Compendium - Bitling tato"
+                        ],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Basto",
+                                "x": 1185,
+                                "y": 472
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compendium - Bitling snail",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Basto",
+                                "x": 1037,
+                                "y": 373
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compendium - Coco crab",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Basto",
+                                "x": 1350,
+                                "y": 253
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compendium - Snout bug",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Basto",
+                                "x": 1075,
+                                "y": 434
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Cassette - Launchable Socks - Hammock Days",
+                        "visibility_rules": ["include_cassettes_on"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Basto",
+                                "x": 1214,
+                                "y": 405
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Bat",
+                "access_rules": [
+                    "^$can_reach|basto_cave",
+                    "^$can_reach|basto_bonfire_top",
+                    "^$can_reach|basto_outside_castle",
+                    "^$can_reach|basto_bonfire_bottom,[hard_logic]"
+                ],
+                "children": [
+                    {
+                        "name": "Compendium - Bat",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Basto",
+                                "x": 1711,
+                                "y": 367
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Camp",
+                "access_rules": ["^$can_reach|basto_camp"],
+                "children": [
+                    {
+                        "name": "Compendium - Beach snake",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Basto",
+                                "x": 1335,
+                                "y": 277
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compendium - Mud frog",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Basto",
+                                "x": 180,
+                                "y": 1517
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Item - Beanut",
+                        "access_rules": ["watergun"],
+                        "visibility_rules": ["include_items_on"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Basto",
+                                "x": 226,
+                                "y": 1541
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Cassettes",
+                        "access_rules": ["@Basto/Tent/Quest - Take a nap!"],
+                        "visibility_rules": ["include_cassettes_on"],
+                        "sections": [
+                            {
+                                "name": "Cassette - JG+LS - Night Jam"
+                            },
+                            {
+                                "name": "Cassette - Jamal Green - A Warm Days Night"
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Basto",
+                                "x": 260,
+                                "y": 1434
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Beak Bird",
+                "access_rules": [
+                    "^$can_reach|basto_bus_stop_bottom",
+                    "^$can_reach|basto_bus_stop_top",
+                    "^$can_reach|basto_lily_pad_pond_left",
+                    "^$can_reach|basto_lily_pad_pond_right"
+                ],
+                "children": [
+                    {
+                        "name": "Compendium - Beak bird",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Basto",
+                                "x": 881,
+                                "y": 1814
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Bonfire Bottom",
+                "access_rules": ["^$can_reach|basto_bonfire_bottom"],
+                "sections": [
+                    {
+                        "name": "Compendium - Bitling frog"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Basto",
+                        "x": 292,
+                        "y": 1042
+                    }
+                ]
+            },
+            {
+                "name": "Bitling Tato",
+                "access_rules": [
+                    "^$can_reach|basto_bus_stop_bottom",
+                    "^$can_reach|basto_bus_stop_top"
+                ],
+                "sections": [
+                    {
+                        "name": "Compendium - Bitling tato"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Basto",
+                        "x": 727,
+                        "y": 1693
+                    }
+                ]
+            },
+            {
+                "name": "Drill Mole",
+                "access_rules": [
+                    "^$can_reach|basto_bonfire_top",
+                    "^$can_reach|basto_bonfire_bottom"
+                ],
+                "sections": [
+                    {
+                        "name": "Compendium - Drill mole"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Basto",
+                        "x": 442,
+                        "y": 949
+                    }
+                ]
+            },
+            {
+                "name": "Ghost Hangout",
+                "access_rules": ["^$can_reach|basto_ghost_hangout"],
+                "children": [
+                    {
+                        "name": "Compendium - Fire fly",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Basto",
+                                "x": 1530,
+                                "y": 1407
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Item - Flip-flops",
+                        "access_rules": ["pickaxe"],
+                        "visibility_rules": ["include_items_on"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Basto",
+                                "x": 1660,
+                                "y": 1569
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Item - Empty bottle",
+                        "visibility_rules": ["include_items_on"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Basto",
+                                "x": 1931,
+                                "y": 1556
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Achievement - Splish-splash",
+                        "access_rules": [
+                            "watergun,@Stanhamn/Outside Hydroplant/Quest - Make someone take a bath/"
+                        ],
+                        "visibility_rules": ["include_achievements_on"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Basto",
+                                "x": 1872,
+                                "y": 1511
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Secret Cave",
+                "access_rules": ["^$can_reach|basto_secret_cave"],
+                "sections": [
+                    {
+                        "name": "Compendium - Itsy bitsy"
+                    },
+                    {
+                        "name": "Compendium - Tato king",
+                        "access_rules": ["watergun"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Basto",
+                        "x": 1915,
+                        "y": 521
+                    }
+                ]
+            },
+            {
+                "name": "Night Lizard",
+                "access_rules": [
+                    "^$can_reach|basto_bonfire_top",
+                    "^$can_reach|basto_bonfire_bottom,[hard_logic]"
+                ],
+                "sections": [
+                    {
+                        "name": "Compendium - Night lizard"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Basto",
+                        "x": 592,
+                        "y": 383
+                    }
+                ]
+            },
+            {
+                "name": "Water Strider",
+                "access_rules": [
+                    "^$can_reach|basto_lily_pad_pond_left",
+                    "^$can_reach|basto_outside_castle",
+                    "^$can_reach|basto_lily_pad_pond_right,[hard_logic]"
+                ],
+                "children": [
+                    {
+                        "name": "Compendium - Water strider",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Basto",
+                                "x": 742,
+                                "y": 1372
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Lily Pad Pond Right",
+                "access_rules": ["^$can_reach|basto_lily_pad_pond_right"],
+                "sections": [
+                    {
+                        "name": "Item - Melonear",
+                        "access_rules": ["watergun"],
+                        "visibility_rules": ["include_items_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Basto",
+                        "x": 1150,
+                        "y": 1345
+                    }
+                ]
+            },
+            {
+                "name": "Song Of The Sea",
+                "children": [
+                    {
+                        "name": "Cassette - Launchable Socks - Song Of The Sea",
+                        "access_rules": ["watergun"],
+                        "visibility_rules": ["include_cassettes_on"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Basto",
+                                "x": 861,
+                                "y": 1715
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Achievement - Maximum vacation",
+                "access_rules": [
+                    "vacation_shirt,flip_flops,sun_hat,^$can_reach_any|basto_lily_pad_pond_left|basto_gym_house|basto_carnival|basto_bonfire_top|basto_ghost_hangout"
+                ],
+                "visibility_rules": ["include_achievements_on"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Basto",
+                        "x": 207,
+                        "y": 675
+                    }
+                ]
+            },
+            {
+                "name": "Basto",
+                "visibility_rules": ["include_achievements_on"],
+                "sections": [
+                    {
+                        "name": "Achievement - Tropical paradise"
+                    },
+                    {
+                        "name": "Achievement - Wazzuuppp",
+                        "access_rules": ["frames_filters,^$can_reach_any|basto_lily_pad_pond_right|basto_outside_castle|basto_bonfire_top|basto_ghost_hangout|basto_jungle"]
+                    },
+                    {
+                        "name": "Achievement - And some more",
+                        "access_rules": ["^$can_access_all_basto_animals"]
+                    },
+                    {
+                        "name": "Achievement - A Vikings holiday",
+                        "access_rules": ["^$can_access_all_quests|basto"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Basto",
+                        "x": 836,
+                        "y": 1848
+                    }
+                ]
+            },
+            {
+                "name": "Bonfire",
+                "access_rules": ["watergun,$has_required_stamps_for|basto"],
+                "visibility_rules": ["include_basto_on"],
+                "sections": [
+                    {
+                        "name": "Goal - Basto Bonfire"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Basto",
+                        "x": 278,
+                        "y": 681
+                    }
+                ]
+            }
+        ]
+    }
+]

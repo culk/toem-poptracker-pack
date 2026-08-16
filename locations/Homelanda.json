@@ -1,0 +1,189 @@
+[
+    {
+        "name": "Homelanda",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "children": [
+            {
+                "name": "Bus Stop",
+                "children": [
+                    {
+                        "name": "Quest - Take a photo of Nana!",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Homelanda",
+                                "x": 921,
+                                "y": 426
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Quest - A hidden gift",
+                        "access_rules": ["clogs"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Homelanda",
+                                "x": 1158,
+                                "y": 576
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compendium - Cow",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Homelanda",
+                                "x": 350,
+                                "y": 452
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compendium - Flies",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Homelanda",
+                                "x": 992,
+                                "y": 567
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compendium - Home bird",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Homelanda",
+                                "x": 615,
+                                "y": 446
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compendium - Tato",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Homelanda",
+                                "x": 453,
+                                "y": 520
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Item - Clogs",
+                        "visibility_rules": ["include_items_on"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Homelanda",
+                                "x": 917,
+                                "y": 227
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Achievement - Home sweet home",
+                        "visibility_rules": ["include_achievements_on"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Homelanda",
+                                "x": 809,
+                                "y": 516
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Living Room",
+                "access_rules": ["^$can_reach|homelanda_living_room"],
+                "sections": [
+                    {
+                        "name": "Cassette - Jamal Green - Photo of Home",
+                        "visibility_rules": ["include_cassettes_on"]
+                    },
+                    {
+                        "name": "Achievement - The beginning",
+                        "visibility_rules": ["include_achievements_on"]
+                    },
+                    {
+                        "name": "Quest - Experience TOEM",
+                        "access_rules": ["climbing_boots,^$can_reach|mountain_top_toem"]
+                    },
+                    {
+                        "name": "Item - Viking Express Ticket",
+                        "access_rules": ["@Homelanda/Living Room/Quest - Experience TOEM"],
+                        "visibility_rules": ["include_items_on,include_basto_on"]
+                    },
+                    {
+                        "name": "Goal - TOEM Experienced",
+                        "access_rules": ["@Homelanda/Living Room/Quest - Experience TOEM"],
+                        "visibility_rules": ["include_basto_off"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Homelanda",
+                        "x": 816,
+                        "y": 367
+                    }
+                ]
+            },
+            {
+                "name": "Player Room",
+                "sections": [
+                    {
+                        "name": "Item - Award Mask",
+                        "access_rules": ["honk_attachment"],
+                        "visibility_rules": ["include_items_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Homelanda",
+                        "x": 929,
+                        "y": 359
+                    }
+                ]
+            }
+        ]
+    }
+]

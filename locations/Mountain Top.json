@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Mountain Top",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "access_rules": ["$has_required_stamps_for|kiiruberg,^$can_reach|kiiruberg_bus_stop"],
+        "visibility_rules": ["include_achievements_on"],
+        "children": [
+            {
+                "name": "Achievement - So close now!",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mountain Top",
+                        "x": 649,
+                        "y": 1714
+                    }
+                ]
+            },
+            {
+                "name": "Achievement - Experience TOEM",
+                "access_rules": ["climbing_boots"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mountain Top",
+                        "x": 962,
+                        "y": 208
+                    }
+                ]
+            }
+        ]
+    }
+]

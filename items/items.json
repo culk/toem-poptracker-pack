@@ -1,0 +1,1242 @@
+[
+    {
+        "name": "Homelanda Stamp",
+        "type": "consumable",
+        "img": "images/items/stamp_homelanda.png",
+        "max_quantity": 3,
+        "overlay_font_size": 20,
+        "overlay_background": "#000000",
+        "codes": "homelanda_stamp"
+    },
+    {
+        "name": "Oaklaville Stamp",
+        "type": "consumable",
+        "img": "images/items/stamp_oaklaville.png",
+        "max_quantity": 15,
+        "overlay_font_size": 20,
+        "overlay_background": "#000000",
+        "codes": "oaklaville_stamp"
+    },
+    {
+        "name": "Stanhamn Stamp",
+        "type": "consumable",
+        "img": "images/items/stamp_stanhamn.png",
+        "max_quantity": 16,
+        "overlay_font_size": 20,
+        "overlay_background": "#000000",
+        "codes": "stanhamn_stamp"
+    },
+    {
+        "name": "Logcity Stamp",
+        "type": "consumable",
+        "img": "images/items/stamp_logcity.png",
+        "max_quantity": 18,
+        "overlay_font_size": 20,
+        "overlay_background": "#000000",
+        "codes": "logcity_stamp"
+    },
+    {
+        "name": "Kiiruberg Stamp",
+        "type": "consumable",
+        "img": "images/items/stamp_kiiruberg.png",
+        "max_quantity": 13,
+        "overlay_font_size": 20,
+        "overlay_background": "#000000",
+        "codes": "kiiruberg_stamp"
+    },
+    {
+        "name": "Basto Stamp",
+        "type": "consumable",
+        "img": "images/items/stamp_basto.png",
+        "max_quantity": 20,
+        "overlay_font_size": 20,
+        "overlay_background": "#000000",
+        "codes": "basto_stamp"
+    },
+    {
+        "name": "Progressive Stamp",
+        "type": "consumable",
+        "img": "images/items/stamp_progressive.png",
+        "max_quantity": 85,
+        "overlay_font_size": 20,
+        "overlay_background": "#000000",
+        "codes": "progressive_stamp"
+    },
+    {
+	    "name": "Clogs",
+        "type": "toggle",
+        "img": "images/items/item_clogs.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "clogs"
+    },
+    {
+	    "name": "Award Mask",
+        "type": "toggle",
+        "img": "images/items/item_award_mask.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "award_mask"
+    },
+    {
+	    "name": "Foam Finger",
+        "type": "toggle",
+        "img": "images/items/item_finger.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "finger"
+    },
+    {
+	    "name": "Tripod",
+        "type": "toggle",
+        "img": "images/items/item_tripod.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "tripod"
+    },
+    {
+	    "name": "Cowboy hat",
+        "type": "toggle",
+        "img": "images/items/item_cowboy_hat.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "cowboy_hat"
+    },
+    {
+	    "name": "Pair of Wet Socks",
+        "type": "toggle",
+        "img": "images/items/item_wet_socks.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "wet_socks"
+    },
+    {
+	    "name": "Fjällbjörn hat",
+        "type": "toggle",
+        "img": "images/items/item_fjallbjorn_hat.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "fjallbjorn_hat"
+    },
+    {
+	    "name": "Ghost Glasses",
+        "type": "toggle",
+        "img": "images/items/item_ghost_glasses.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "ghost_glasses"
+    },
+    {
+	    "name": "Soaked Sock",
+        "type": "toggle",
+        "img": "images/items/item_soaked_sock.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "soaked_sock"
+    },
+    {
+	    "name": "Monster Mask",
+        "type": "toggle",
+        "img": "images/items/item_monster_mask.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "monster_mask"
+    },
+    {
+	    "name": "Frames & Filters",
+        "type": "toggle",
+        "img": "images/items/item_frames_filters.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "frames_filters"
+    },
+    {
+	    "name": "Fishing Hat",
+        "type": "toggle",
+        "img": "images/items/item_fishing_hat.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "fishing_hat"
+    },
+    {
+	    "name": "Honk Attachment",
+        "type": "toggle",
+        "img": "images/items/item_honk_attachment.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "honk_attachment"
+    },
+    {
+	    "name": "Umbrella",
+        "type": "toggle",
+        "img": "images/items/item_umbrella.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "umbrella"
+    },
+    {
+	    "name": "Old Key",
+        "type": "toggle",
+        "img": "images/items/item_old_key.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "old_key"
+    },
+    {
+	    "name": "Hard Hat",
+        "type": "toggle",
+        "img": "images/items/item_hard_hat.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "hard_hat"
+    },
+    {
+	    "name": "Diving Helmet",
+        "type": "toggle",
+        "img": "images/items/item_diving_helmet.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "diving_helmet"
+    },
+    {
+	    "name": "Rubber Boots",
+        "type": "toggle",
+        "img": "images/items/item_rubber_boots.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "rubber_boots"
+    },
+    {
+	    "name": "Supreme Deluxe Sandwich",
+        "type": "toggle",
+        "img": "images/items/item_sandwich.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "sandwich"
+    },
+    {
+	    "name": "Pirate Hat",
+        "type": "toggle",
+        "img": "images/items/item_pirate_hat.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "pirate_hat"
+    },
+    {
+	    "name": "Paper Hat",
+        "type": "toggle",
+        "img": "images/items/item_paper_hat.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "paper_hat"
+    },
+    {
+	    "name": "Photo Challenge Flag",
+        "type": "toggle",
+        "img": "images/items/item_flag.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "flag"
+    },
+    {
+	    "name": "Hotbean Hat",
+        "type": "toggle",
+        "img": "images/items/item_hotbean_hat.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "hotbean_hat"
+    },
+    {
+	    "name": "Reporter Hat",
+        "type": "toggle",
+        "img": "images/items/item_reporter_hat.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "reporter_hat"
+    },
+    {
+	    "name": "Sneakers",
+        "type": "toggle",
+        "img": "images/items/item_sneakers.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "sneakers"
+    },
+    {
+	    "name": "Cinnamon Bun",
+        "type": "toggle",
+        "img": "images/items/item_cinnamon_bun.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "cinnamon_bun"
+    },
+    {
+	    "name": "Frisbee",
+        "type": "toggle",
+        "img": "images/items/item_frisbee.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "frisbee"
+    },
+    {
+	    "name": "Climbing Boots",
+        "type": "toggle",
+        "img": "images/items/item_climbing_boots.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "climbing_boots"
+    },
+    {
+	    "name": "Puffer Hat",
+        "type": "toggle",
+        "img": "images/items/item_puffer_hat.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "puffer_hat"
+    },
+    {
+	    "name": "Scarf",
+        "type": "toggle",
+        "img": "images/items/item_scarf.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "scarf"
+    },
+    {
+	    "name": "Ski Goggles",
+        "type": "toggle",
+        "img": "images/items/item_ski_goggles.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "ski_goggles"
+    },
+    {
+	    "name": "Space Helmet",
+        "type": "toggle",
+        "img": "images/items/item_space_helmet.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "space_helmet"
+    },
+    {
+	    "name": "Viking Express Ticket",
+        "type": "toggle",
+        "img": "images/items/item_basto_ticket.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "basto_ticket"
+    },
+    {
+	    "name": "Water Popper Attachment",
+        "type": "toggle",
+        "img": "images/items/item_watergun.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "watergun"
+    },
+    {
+	    "name": "Sun Hat",
+        "type": "toggle",
+        "img": "images/items/item_sun_hat.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "sun_hat"
+    },
+    {
+	    "name": "Melonear",
+        "type": "toggle",
+        "img": "images/items/item_melonear.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "melonear"
+    },
+    {
+	    "name": "Banakin",
+        "type": "toggle",
+        "img": "images/items/item_banakin.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "banakin"
+    },
+    {
+	    "name": "Oranganas",
+        "type": "toggle",
+        "img": "images/items/item_oranganas.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "oranganas"
+    },
+    {
+	    "name": "Beanut",
+        "type": "toggle",
+        "img": "images/items/item_beanut.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "beanut"
+    },
+    {
+	    "name": "Pickaxe",
+        "type": "toggle",
+        "img": "images/items/item_pickaxe.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "pickaxe"
+    },
+    {
+	    "name": "Sun Cap",
+        "type": "toggle",
+        "img": "images/items/item_sun_cap.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "sun_cap"
+    },
+    {
+	    "name": "Flip-flops",
+        "type": "toggle",
+        "img": "images/items/item_flip_flops.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "flip_flops"
+    },
+    {
+	    "name": "Ice Cream",
+        "type": "consumable",
+        "img": "images/items/item_ice_cream.png",
+        "max_quantity": 4,
+        "overlay_font_size": 20,
+        "overlay_background": "#000000",
+	    "codes": "ice_cream"
+    },
+    {
+	    "name": "Royal Cape",
+        "type": "toggle",
+        "img": "images/items/item_royal_cape.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "royal_cape"
+    },
+    {
+	    "name": "Minigame Ticket",
+        "type": "toggle",
+        "img": "images/items/item_minigame_ticket.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "minigame_ticket"
+    },
+    {
+	    "name": "Lei",
+        "type": "toggle",
+        "img": "images/items/item_lei.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "lei"
+    },
+    {
+	    "name": "Vacation Shirt",
+        "type": "toggle",
+        "img": "images/items/item_vacation_shirt.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "vacation_shirt"
+    },
+    {
+	    "name": "Royal Cane",
+        "type": "toggle",
+        "img": "images/items/item_royal_cane.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "royal_cane"
+    },
+    {
+	    "name": "Empty Bottle",
+        "type": "toggle",
+        "img": "images/items/item_empty_bottle.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "empty_bottle"
+    },
+    {
+	    "name": "Viking Helmet",
+        "type": "toggle",
+        "img": "images/items/item_viking_helmet.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "viking_helmet"
+    },
+    {
+	    "name": "Foot Cast",
+        "type": "toggle",
+        "img": "images/items/item_foot_cast.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "foot_cast"
+    },
+    {
+	    "name": "Beret",
+        "type": "toggle",
+        "img": "images/items/item_beret.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "beret"
+    },
+    {
+	    "name": "Royal Crown",
+        "type": "toggle",
+        "img": "images/items/item_royal_crown.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+	    "codes": "royal_crown"
+    },
+    {
+        "name": "Fisherman's Whistle",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "img_mods": "overlay|images/items/overlay_check.png",
+        "disabled_img_mods": "@disabled",
+        "initial_active_state": false,
+        "codes": "fishermans_whistle_tape"
+    },
+    {
+	    "name": "cow_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+        "codes": "cow_photo"
+    },
+    {
+	    "name": "flies_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "flies_photo"
+    },
+    {
+	    "name": "home_bird_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "home_bird_photo"
+    },
+    {
+	    "name": "tato_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "tato_photo"
+    },
+    {
+	    "name": "ant_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "ant_photo"
+    },
+    {
+	    "name": "beehive_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "beehive_photo"
+    },
+    {
+	    "name": "butterfly_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "butterfly_photo"
+    },
+    {
+	    "name": "oskar_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "oskar_photo"
+    },
+    {
+	    "name": "sero_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "sero_photo"
+    },
+    {
+	    "name": "forest_bird_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "forest_bird_photo"
+    },
+    {
+	    "name": "ladybug_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "ladybug_photo"
+    },
+    {
+	    "name": "tom_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "tom_photo"
+    },
+    {
+	    "name": "nestworm_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "nestworm_photo"
+    },
+    {
+	    "name": "pet_rock_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "pet_rock_photo"
+    },
+    {
+	    "name": "snail_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "snail_photo"
+    },
+    {
+	    "name": "squirrel_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "squirrel_photo"
+    },
+    {
+	    "name": "stag_beetle_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "stag_beetle_photo"
+    },
+    {
+	    "name": "tato_bug_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "tato_bug_photo"
+    },
+    {
+	    "name": "tato_fly_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "tato_fly_photo"
+    },
+    {
+	    "name": "bubble_fly_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "bubble_fly_photo"
+    },
+    {
+	    "name": "fia_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "fia_photo"
+    },
+    {
+	    "name": "fras_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "fras_photo"
+    },
+    {
+	    "name": "willemijn_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "willemijn_photo"
+    },
+    {
+	    "name": "crab_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "crab_photo"
+    },
+    {
+	    "name": "dragonfly_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "dragonfly_photo"
+    },
+    {
+	    "name": "happy_carp_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "happy_carp_photo"
+    },
+    {
+	    "name": "jellyfish_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "jellyfish_photo"
+    },
+    {
+	    "name": "king_fish_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "king_fish_photo"
+    },
+    {
+	    "name": "seagull_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "seagull_photo"
+    },
+    {
+	    "name": "seahorse_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "seahorse_photo"
+    },
+    {
+	    "name": "sunday_swan_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "sunday_swan_photo"
+    },
+    {
+	    "name": "tato_scuba_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "tato_scuba_photo"
+    },
+    {
+	    "name": "tato_swim_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "tato_swim_photo"
+    },
+    {
+	    "name": "toad_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "toad_photo"
+    },
+    {
+	    "name": "business_pigeon_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "business_pigeon_photo"
+    },
+    {
+	    "name": "portillo_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "portillo_photo"
+    },
+    {
+	    "name": "mouse_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "mouse_photo"
+    },
+    {
+	    "name": "pigeon_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "pigeon_photo"
+    },
+    {
+	    "name": "punky_parrot_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "punky_parrot_photo"
+    },
+    {
+	    "name": "tato_skateboard_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "tato_skateboard_photo"
+    },
+    {
+	    "name": "tato_tourist_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "tato_tourist_photo"
+    },
+    {
+	    "name": "turtle_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "turtle_photo"
+    },
+    {
+	    "name": "mikee_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "mikee_photo"
+    },
+    {
+	    "name": "nariko_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "nariko_photo"
+    },
+    {
+	    "name": "cosmo_deer_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "cosmo_deer_photo"
+    },
+    {
+	    "name": "teddy_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "teddy_photo"
+    },
+    {
+	    "name": "fluff_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "fluff_photo"
+    },
+    {
+	    "name": "hedgehog_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "hedgehog_photo"
+    },
+    {
+	    "name": "meteopal_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "meteopal_photo"
+    },
+    {
+	    "name": "goat_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "goat_photo"
+    },
+    {
+	    "name": "owl_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "owl_photo"
+    },
+    {
+	    "name": "snow_bird_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "snow_bird_photo"
+    },
+    {
+	    "name": "tato_alien_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "tato_alien_photo"
+    },
+    {
+	    "name": "tato_ski_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "tato_ski_photo"
+    },
+    {
+	    "name": "bat_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "bat_photo"
+    },
+    {
+	    "name": "snake_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "snake_photo"
+    },
+    {
+	    "name": "beak_bird_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "beak_bird_photo"
+    },
+    {
+	    "name": "bitling_frog_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "bitling_frog_photo"
+    },
+    {
+	    "name": "bitling_mouse_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "bitling_mouse_photo"
+    },
+    {
+	    "name": "bitling_snail_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "bitling_snail_photo"
+    },
+    {
+	    "name": "bitling_tato_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "bitling_tato_photo"
+    },
+    {
+	    "name": "coco_crab_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "coco_crab_photo"
+    },
+    {
+	    "name": "day_lizard_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "day_lizard_photo"
+    },
+    {
+	    "name": "drill_mole_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "drill_mole_photo"
+    },
+    {
+	    "name": "eggert_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "eggert_photo"
+    },
+    {
+	    "name": "fire_fly_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "fire_fly_photo"
+    },
+    {
+	    "name": "glow_worm_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "glow_worm_photo"
+    },
+    {
+	    "name": "itsy_bitsy_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "itsy_bitsy_photo"
+    },
+    {
+	    "name": "mud_frog_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "mud_frog_photo"
+    },
+    {
+	    "name": "night_lizard_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "night_lizard_photo"
+    },
+    {
+	    "name": "snout_bug_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "snout_bug_photo"
+    },
+    {
+	    "name": "tato_coco_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "tato_coco_photo"
+    },
+    {
+	    "name": "tato_king_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "tato_king_photo"
+    },
+    {
+	    "name": "water_strider_photo",
+        "type": "toggle",
+        "img": "images/items/photo.png",
+        "initial_active_state": false,
+	    "codes": "water_strider_photo"
+    },
+    {
+        "name": "jamalgreen-photoofhome",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "initial_active_state": false,
+        "codes": "jamalgreen-photoofhome"
+    },
+    {
+        "name": "jamalgreen-summerbreeze",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "initial_active_state": false,
+        "codes": "jamalgreen-summerbreeze"
+    },
+    {
+        "name": "jamalgreen-thegrandsquirrelhotel",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "initial_active_state": false,
+        "codes": "jamalgreen-thegrandsquirrelhotel"
+    },
+    {
+        "name": "launchablesocks-pineneedles",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "initial_active_state": false,
+        "codes": "launchablesocks-pineneedles"
+    },
+    {
+        "name": "launchablesocks-squirrelphotography",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "initial_active_state": false,
+        "codes": "launchablesocks-squirrelphotography"
+    },
+    {
+        "name": "jg+ls-thesmilinghuntsman",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "initial_active_state": false,
+        "codes": "jg+ls-thesmilinghuntsman"
+    },
+    {
+        "name": "jamalgreen-naut",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "initial_active_state": false,
+        "codes": "jamalgreen-naut"
+    },
+    {
+        "name": "launchablesocks-aplaceinthesun",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "initial_active_state": false,
+        "codes": "launchablesocks-aplaceinthesun"
+    },
+    {
+        "name": "launchablesocks-fishermanstune",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "initial_active_state": false,
+        "codes": "launchablesocks-fishermanstune"
+    },
+    {
+        "name": "anessabanovic-ratskullztheme",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "initial_active_state": false,
+        "codes": "anessabanovic-ratskullztheme"
+    },
+    {
+        "name": "jg+ls-thebigcity",
+        "type": "toggle",
+        "img": "images/items/jg+ls-thebigcity.png",
+        "initial_active_state": false,
+        "codes": "jg+ls-thebigcity"
+    },
+    {
+        "name": "jamalgreen-hustlebustleshuffle",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "initial_active_state": false,
+        "codes": "jamalgreen-hustlebustleshuffle"
+    },
+    {
+        "name": "launchablesocks-hopskipstep",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "initial_active_state": false,
+        "codes": "launchablesocks-hopskipstep"
+    },
+    {
+        "name": "launchablesocks-onthehour",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "initial_active_state": false,
+        "codes": "launchablesocks-onthehour"
+    },
+    {
+        "name": "jamalgreen-lifethroughalens",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "initial_active_state": false,
+        "codes": "jamalgreen-lifethroughalens"
+    },
+    {
+        "name": "jamalgreen-thepettingofasacreddeer",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "initial_active_state": false,
+        "codes": "jamalgreen-thepettingofasacreddeer"
+    },
+    {
+        "name": "launchablesocks-storiesofsnow",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "initial_active_state": false,
+        "codes": "launchablesocks-storiesofsnow"
+    },
+    {
+        "name": "launchablesocks-tallandshy",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "initial_active_state": false,
+        "codes": "launchablesocks-tallandshy"
+    },
+    {
+        "name": "jg+ls-nightjam",
+        "type": "toggle",
+        "img": "images/items/jg+ls-nightjam.png",
+        "initial_active_state": false,
+        "codes": "jg+ls-nightjam"
+    },
+    {
+        "name": "jamalgreen-awarmdaysnight",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "initial_active_state": false,
+        "codes": "jamalgreen-awarmdaysnight"
+    },
+    {
+        "name": "jamalgreen-onebyone",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "initial_active_state": false,
+        "codes": "jamalgreen-onebyone"
+    },
+    {
+        "name": "launchablesocks-hammockdays",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "initial_active_state": false,
+        "codes": "launchablesocks-hammockdays"
+    },
+    {
+        "name": "launchablesocks-sailorstune",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "initial_active_state": false,
+        "codes": "launchablesocks-sailorstune"
+    },
+    {
+        "name": "launchablesocks-songofthesea",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "initial_active_state": false,
+        "codes": "launchablesocks-songofthesea"
+    },
+    {
+        "name": "update",
+        "type": "toggle",
+        "codes": "update"
+    }
+]
