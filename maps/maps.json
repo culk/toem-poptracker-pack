@@ -13,37 +13,37 @@
     },
     {
         "name": "Oaklaville",
-        "location_size": 20,
+        "location_size": 29,
         "location_border_thickness": 1,
         "img": "images/maps/oaklaville.png"
     },
     {
         "name": "Stanhamn",
-        "location_size": 20,
+        "location_size": 26,
         "location_border_thickness": 1,
         "img": "images/maps/stanhamn.png"
     },
     {
         "name": "Logcity",
-        "location_size": 20,
+        "location_size": 34,
         "location_border_thickness": 1,
         "img": "images/maps/logcity.png"
     },
     {
         "name": "Kiiruberg",
-        "location_size": 20,
+        "location_size": 38,
         "location_border_thickness": 1,
         "img": "images/maps/kiiruberg.png"
     },
     {
         "name": "Mountain Top",
-        "location_size": 20,
+        "location_size": 36,
         "location_border_thickness": 1,
         "img": "images/maps/mountain_top.png"
     },
     {
         "name": "Basto",
-        "location_size": 20,
+        "location_size": 34,
         "location_border_thickness": 1,
         "img": "images/maps/basto.png"
     }
