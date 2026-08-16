@@ -5,7 +5,7 @@
         "chest_opened_img": "/images/items/open.png",
         "children": [
             {
-                "name": "Basto",
+                "name": "Basto - Quests",
                 "sections": [
                     {
                         "name": "Quest - Bastos hidden balloons",
@@ -86,7 +86,19 @@
                     {
                         "name": "Quest - Bitling collector",
                         "ref": "Basto/Jungle/Quest - Bitling collector/"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 519,
+                        "y": 534
+                    }
+                ]
+            },
+            {
+                "name": "Basto - Compendium",
+                "sections": [
                     {
                         "name": "Compendium - Day lizard",
                         "ref": "Basto/Bonfire Top/Compendium - Day lizard/"
@@ -166,7 +178,19 @@
                     {
                         "name": "Compendium - Water strider",
                         "ref": "Basto/Water Strider/Compendium - Water strider/"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 543,
+                        "y": 534
+                    }
+                ]
+            },
+            {
+                "name": "Basto - Items",
+                "sections": [
                     {
                         "name": "Item - Water popper attachment",
                         "ref": "Basto/Bus Stop Bottom/Information Booth/Item - Water popper attachment"
@@ -258,7 +282,19 @@
                     {
                         "name": "Item - Empty bottle",
                         "ref": "Basto/Ghost Hangout/Item - Empty bottle/"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 519,
+                        "y": 558
+                    }
+                ]
+            },
+            {
+                "name": "Basto - Cassettes & Achievements",
+                "sections": [
                     {
                         "name": "Cassette - Launchable Socks - Sailors Tune",
                         "ref": "Basto/Bus Stop Bottom/Cassette - Launchable Socks - Sailors Tune/"
@@ -331,13 +367,13 @@
                 "map_locations": [
                     {
                         "map": "Overview",
-                        "x": 531,
-                        "y": 546
+                        "x": 543,
+                        "y": 558
                     }
                 ]
             },
             {
-                "name": "Homelanda",
+                "name": "Homelanda - Quests",
                 "sections": [
                     {
                         "name": "Quest - Take a photo of Nana!",
@@ -350,7 +386,19 @@
                     {
                         "name": "Quest - Experience TOEM",
                         "ref": "Homelanda/Living Room/Quest - Experience TOEM"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 178,
+                        "y": 96
+                    }
+                ]
+            },
+            {
+                "name": "Homelanda - Compendium",
+                "sections": [
                     {
                         "name": "Compendium - Cow",
                         "ref": "Homelanda/Bus Stop/Compendium - Cow/"
@@ -366,7 +414,19 @@
                     {
                         "name": "Compendium - Tato",
                         "ref": "Homelanda/Bus Stop/Compendium - Tato/"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 202,
+                        "y": 96
+                    }
+                ]
+            },
+            {
+                "name": "Homelanda - Items",
+                "sections": [
                     {
                         "name": "Item - Clogs",
                         "ref": "Homelanda/Bus Stop/Item - Clogs/"
@@ -378,7 +438,19 @@
                     {
                         "name": "Item - Viking Express Ticket",
                         "ref": "Homelanda/Living Room/Item - Viking Express Ticket"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 178,
+                        "y": 120
+                    }
+                ]
+            },
+            {
+                "name": "Homelanda - Cassettes & Achievements",
+                "sections": [
                     {
                         "name": "Cassette - Jamal Green - Photo of Home",
                         "ref": "Homelanda/Living Room/Cassette - Jamal Green - Photo of Home"
@@ -395,13 +467,13 @@
                 "map_locations": [
                     {
                         "map": "Overview",
-                        "x": 190,
-                        "y": 107
+                        "x": 202,
+                        "y": 120
                     }
                 ]
             },
             {
-                "name": "Kiiruberg",
+                "name": "Kiiruberg - Quests",
                 "sections": [
                     {
                         "name": "Quest - Yeti cuteness",
@@ -454,7 +526,19 @@
                     {
                         "name": "Quest - Become a yeti",
                         "ref": "Kiiruberg/Ski Lift Base/Quest - Become a yeti/"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 582,
+                        "y": 378
+                    }
+                ]
+            },
+            {
+                "name": "Kiiruberg - Compendium",
+                "sections": [
                     {
                         "name": "Compendium - Snow bird",
                         "ref": "Kiiruberg/Ski Lift Base/Compendium - Snow bird/"
@@ -502,7 +586,19 @@
                     {
                         "name": "Compendium - Tato alien",
                         "ref": "Kiiruberg/Observatory/Compendium - Tato alien"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 606,
+                        "y": 378
+                    }
+                ]
+            },
+            {
+                "name": "Kiiruberg - Items",
+                "sections": [
                     {
                         "name": "Item - Climbing boots",
                         "ref": "Kiiruberg/Frozen Pond/Old Man/Item - Climbing boots"
@@ -522,7 +618,19 @@
                     {
                         "name": "Item - Space helmet",
                         "ref": "Kiiruberg/Outside Observatory Bottom/Item - Space helmet"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 582,
+                        "y": 402
+                    }
+                ]
+            },
+            {
+                "name": "Kiiruberg - Cassettes & Achievements",
+                "sections": [
                     {
                         "name": "Cassette - Jamal Green - Life Through a Lens",
                         "ref": "Kiiruberg/Observatory/Cassette - Jamal Green - Life Through a Lens"
@@ -563,13 +671,13 @@
                 "map_locations": [
                     {
                         "map": "Overview",
-                        "x": 594,
-                        "y": 390
+                        "x": 606,
+                        "y": 402
                     }
                 ]
             },
             {
-                "name": "Logcity",
+                "name": "Logcity - Quests",
                 "sections": [
                     {
                         "name": "Quest - Suspicious activity - city",
@@ -642,7 +750,19 @@
                     {
                         "name": "Quest - A thieving crow",
                         "ref": "Logcity/Outside Cafe/Quest - A thieving crow/"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 421,
+                        "y": 159
+                    }
+                ]
+            },
+            {
+                "name": "Logcity - Compendium",
+                "sections": [
                     {
                         "name": "Compendium - Tato tourist",
                         "ref": "Logcity/Outside Fashion Show/Compendium - Tato tourist/"
@@ -674,7 +794,19 @@
                     {
                         "name": "Compendium - Tato skateboard",
                         "ref": "Logcity/Skate Park/Compendium - Tato skateboard/"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 445,
+                        "y": 159
+                    }
+                ]
+            },
+            {
+                "name": "Logcity - Items",
+                "sections": [
                     {
                         "name": "Item - Sneakers",
                         "ref": "Logcity/Outside Fashion Show/Item - Sneakers/"
@@ -694,7 +826,19 @@
                     {
                         "name": "Item - Cinnamon bun",
                         "ref": "Logcity/Cafe/Item - Cinnamon bun"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 421,
+                        "y": 183
+                    }
+                ]
+            },
+            {
+                "name": "Logcity - Cassettes & Achievements",
+                "sections": [
                     {
                         "name": "Cassette - Anes Sabanovic - Ratskullz Theme",
                         "ref": "Logcity/Ratskullz Alley/Cassette - Anes Sabanovic - Ratskullz Theme"
@@ -743,8 +887,8 @@
                 "map_locations": [
                     {
                         "map": "Overview",
-                        "x": 433,
-                        "y": 171
+                        "x": 445,
+                        "y": 183
                     }
                 ]
             },
@@ -763,13 +907,13 @@
                 "map_locations": [
                     {
                         "map": "Overview",
-                        "x": 626,
+                        "x": 627,
                         "y": 216
                     }
                 ]
             },
             {
-                "name": "Oaklaville",
+                "name": "Oaklaville - Quests",
                 "sections": [
                     {
                         "name": "Quest - Become a flower",
@@ -830,7 +974,19 @@
                     {
                         "name": "Quest - Ghost helper!",
                         "ref": "Oaklaville/Skeleton House/Quest - Ghost helper!/"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 139,
+                        "y": 344
+                    }
+                ]
+            },
+            {
+                "name": "Oaklaville - Compendium",
+                "sections": [
                     {
                         "name": "Compendium - Butterfly",
                         "ref": "Oaklaville/Bus Stop/Compendium - Butterfly/"
@@ -890,7 +1046,19 @@
                     {
                         "name": "Compendium - Tato fly",
                         "ref": "Oaklaville/Tato Fly/Compendium - Tato fly/"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 163,
+                        "y": 344
+                    }
+                ]
+            },
+            {
+                "name": "Oaklaville - Items",
+                "sections": [
                     {
                         "name": "Item - Foam finger",
                         "ref": "Oaklaville/Outside Hotel/Item - Foam finger/"
@@ -918,7 +1086,19 @@
                     {
                         "name": "Item - Monster mask",
                         "ref": "Oaklaville/Hotel/Item - Monster mask"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 139,
+                        "y": 368
+                    }
+                ]
+            },
+            {
+                "name": "Oaklaville - Cassettes & Achievements",
+                "sections": [
                     {
                         "name": "Cassette - Launchable Socks - Squirrel Photography",
                         "ref": "Oaklaville/Outside Hotel/Cassette - Launchable Socks - Squirrel Photography/"
@@ -971,13 +1151,13 @@
                 "map_locations": [
                     {
                         "map": "Overview",
-                        "x": 151,
-                        "y": 356
+                        "x": 163,
+                        "y": 368
                     }
                 ]
             },
             {
-                "name": "Stanhamn",
+                "name": "Stanhamn - Quests",
                 "sections": [
                     {
                         "name": "Quest - The king of fishes",
@@ -1042,7 +1222,19 @@
                     {
                         "name": "Quest - A layered melody",
                         "ref": "Stanhamn/King Fish Beach/Wizard/Quest - A layered melody"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 372,
+                        "y": 485
+                    }
+                ]
+            },
+            {
+                "name": "Stanhamn - Compendium",
+                "sections": [
                     {
                         "name": "Compendium - Tato swim",
                         "ref": "Stanhamn/Bus Stop/Compendium - Tato swim/"
@@ -1102,7 +1294,19 @@
                     {
                         "name": "Compendium - Sunday swan",
                         "ref": "Stanhamn/Sunday Swan/Compendium - Sunday swan/"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 396,
+                        "y": 485
+                    }
+                ]
+            },
+            {
+                "name": "Stanhamn - Items",
+                "sections": [
                     {
                         "name": "Item - Old key",
                         "ref": "Stanhamn/Pirate Drawbridge/Pirate/Item - Old key"
@@ -1150,7 +1354,19 @@
                     {
                         "name": "Item - Fishing hat",
                         "ref": "Stanhamn/Lighthouse/Item - Fishing hat/"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 372,
+                        "y": 509
+                    }
+                ]
+            },
+            {
+                "name": "Stanhamn - Cassettes & Achievements",
+                "sections": [
                     {
                         "name": "Cassette - Jamal Green - NAUT",
                         "ref": "Stanhamn/Stanhamn/Cassette - Jamal Green - NAUT"
@@ -1198,22 +1414,18 @@
                     {
                         "name": "Achievement - Seaworthy",
                         "ref": "Stanhamn/Stanhamn/Achievement - Seaworthy"
-                    },
-                    {
-                        "name": "Achievement - Who's a good boy!",
-                        "ref": "Start Menu/Achievement - Who's a good boy!/"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Overview",
-                        "x": 384,
-                        "y": 497
+                        "x": 396,
+                        "y": 509
                     }
                 ]
             },
             {
-                "name": "Start Menu",
+                "name": "Other",
                 "sections": [
                     {
                         "name": "Item - Tripod",
@@ -1247,8 +1459,8 @@
                 "map_locations": [
                     {
                         "map": "Overview",
-                        "x": 724,
-                        "y": 186
+                        "x": 623,
+                        "y": 73
                     }
                 ]
             }
