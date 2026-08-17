@@ -103,7 +103,7 @@
                 "name": "Achievement - A true completionist",
                 "chest_unopened_img": "/images/items/achievement_completionist.png",
                 "chest_opened_img": "/images/items/achievement_open.png",
-                "access_rules": ["^$can_access_all_quests"],
+                "access_rules": ["^$can_access_all_base_quests"],
                 "visibility_rules": ["include_achievements_on"],
                 "sections": [
                     {

@@ -8,8 +8,8 @@
                 "name": "Basto - Quests",
                 "sections": [
                     {
-                        "name": "Quest - Bastos hidden balloons",
-                        "ref": "Basto/Bus Stop Bottom/Information Booth/Quest - Bastos hidden balloons"
+                        "name": "Quest - Basto's hidden balloons",
+                        "ref": "Basto/Bus Stop Bottom/Information Booth/Quest - Basto's hidden balloons"
                     },
                     {
                         "name": "Quest - Arthur hunter",
@@ -356,8 +356,8 @@
                         "ref": "Basto/Basto/Achievement - And some more"
                     },
                     {
-                        "name": "Achievement - A Vikings holiday",
-                        "ref": "Basto/Basto/Achievement - A Vikings holiday"
+                        "name": "Achievement - A Viking's holiday",
+                        "ref": "Basto/Basto/Achievement - A Viking's holiday"
                     },
                     {
                         "name": "Achievement - Maximum vacation",

@@ -235,8 +235,8 @@
                         "map_locations": [
                             {
                                 "map": "Stanhamn",
-                                "x": 587,
-                                "y": 1082
+                                "x": 427,
+                                "y": 1127
                             }
                         ]
                     }
@@ -821,7 +821,7 @@
                         "name": "Achievement - Seaworthy",
                         "chest_unopened_img": "/images/items/achievement_seaworthy.png",
                         "chest_opened_img": "/images/items/achievement_open.png",
-                        "access_rules": ["^$can_access_all_quests|stanhamn"],
+                        "access_rules": ["^$can_access_all_stanhamn_quests"],
                         "visibility_rules": ["include_achievements_on"]
                     }
                 ],

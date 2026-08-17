@@ -714,7 +714,7 @@
                         "name": "Achievement - Business executed",
                         "chest_unopened_img": "/images/items/achievement_business.png",
                         "chest_opened_img": "/images/items/achievement_open.png",
-                        "access_rules": ["^$can_access_all_quests|logcity"],
+                        "access_rules": ["^$can_access_all_logcity_quests"],
                         "visibility_rules": ["include_achievements_on"]
                     }
                 ],

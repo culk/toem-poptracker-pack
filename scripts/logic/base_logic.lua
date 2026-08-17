@@ -149,102 +149,116 @@ function can_access_monsters()
     )
 end
 
-function can_access_all_quests(level_name)
-    local quests_by_level = {
-        oaklaville = {
-	        "@Oaklaville/Trail Bottom/Quest - Suspicious activity - forest/",
-	        "@Oaklaville/Hotel/Quest - Monster spotting",
-	        "@Oaklaville/Outside Hotel/Sock Man/Quest - Missing socks",
-	        "@Oaklaville/Camp/Scout Leader/Quest - Become a scout",
-	        "@Oaklaville/Hide and Seek/Quest - Hide-and-seek/",
-	        "@Oaklaville/Trail Bottom/Quest - Log blocking a path/",
-	        "@Oaklaville/Trail Bottom/Quest - Photo challenge #1/",
-	        "@Oaklaville/Outside Hotel/Quest - Photo challenge #2/",
-	        "@Oaklaville/Rave/Quest - Become a paparazzi/",
-	        "@Oaklaville/Hotel/Quest - Capture the hotels beauty",
-	        "@Oaklaville/Hotel/Quest - Hotel chef",
-	        "@Oaklaville/Graveyard/Quest - A courageous stallion",
-	        "@Oaklaville/Skeleton House/Quest - Ghost helper!/",
-	        "@Oaklaville/Ghost Cup Game/Quest - Cup champion",
-	        "@Oaklaville/Playground/Quest - Become a flower/",
-        },
-        stanhamn = {
-	        "@Stanhamn/Bus Stop/Quest - The king of fishes/",
-	        "@Stanhamn/Hippo Beach/Quest - A good spot with no sun/",
-	        "@Stanhamn/Ghost Drawbridge Bottom/Quest - Suspicious activity - harbor/",
-	        "@Stanhamn/Pirate Drawbridge/Pirate/Quest - Queen of paper hats",
-	        "@Stanhamn/Pirate Drawbridge/Quest - Photo challenge #3/",
-	        "@Stanhamn/Ghost Drawbridge Top/Quest - Photo challenge #4/",
-	        "@Stanhamn/Photo Guild Hut/Quest - Frames & filters!",
-	        "@Stanhamn/Outside Hydroplant/Quest - Make someone take a bath/",
-	        "@Stanhamn/Docks Right/Quest - A lost dog/",
-	        "@Stanhamn/Hydroplant/Quest - Power shortage!",
-	        "@Stanhamn/Lighthouse Roof/Quest - Solve the chaos",
-	        "@Stanhamn/Ghost Drawbridge Bottom/Quest - Scorching flame/",
-	        "@Stanhamn/Outside Hydroplant/Quest - Supreme deluxe sandwich!/",
-	        "@Stanhamn/Fishing Tower/Quest - Ocean garbage/",
-	        "@Stanhamn/Snowman/Quest - A whistling dilemma",
-	        "@Stanhamn/King Fish Beach/Wizard/Quest - A layered melody",
-        },
-        logcity = {
-	        "@Logcity/Outside Fashion Show/Quest - Suspicious activity - city/",
-	        "@Logcity/Ratskullz Alley/Quest - Ratskullz crew",
-	        "@Logcity/Clock Tower/Punk Rocker/Quest - Punk rocker bread crumbs",
-	        "@Logcity/Overpass/Quest - Photo challenge #5/",
-	        "@Logcity/Outside Gallery/Quest - Photo challenge #6/",
-	        "@Logcity/News House/Quest - Press-ing news",
-	        "@Logcity/Outside Gallery/Quest - Sewer stumble!/",
-	        "@Logcity/Clock Tower/Hotbean Stand/Quest - Super Hotbean Bros.",
-	        "@Logcity/Clock Tower/Quest - Hang in there, buddy/",
-	        "@Logcity/Crosswalk/Quest - Spooky scary city/",
-	        "@Logcity/Outside Fashion Show/Quest - A ghostly date/",
-	        "@Logcity/Gallery/Quest - Art exhibition/",
-	        "@Logcity/Clock Tower/Influencer/Quest - Young and inspiring!",
-	        "@Logcity/Fashion Show Backstage/Quest - A design problem",
-	        "@Logcity/Bus Stop Cleaner/Quest - Cleaning away the stress",
-	        "@Logcity/Outside Fashion Show/Quest - Always tumbled granny/",
-	        "@Logcity/Cafe/Quest - A mouse bakery",
-	        "@Logcity/Outside Cafe/Quest - A thieving crow/",
-        },
-        kiiruberg = {
-	        "@Kiiruberg/Cliffs Middle/Quest - Yeti cuteness/",
-	        "@Kiiruberg/Wizard Tower/Quest - Ice wizards research",
-	        "@Kiiruberg/Military Base/Quest - Military suspicions",
-	        "@Kiiruberg/Observatory/Quest - Play astronaut",
-	        "@Kiiruberg/Snowman Square Bottom/Quest - Photo challenge #7/",
-	        "@Kiiruberg/Cliffs Top/Quest - Photo challenge #8",
-	        "@Kiiruberg/Observatory/Quest - Locating an asteroid",
-	        "@Kiiruberg/Frozen Pond/Quest - Listen to the goat choir/",
-	        "@Kiiruberg/Frozen Pond/Old Man/Quest - Snowball memories",
-	        "@Kiiruberg/Birthday Party Bottom/Quest - Birthday in distress",
-	        "@Kiiruberg/Cliffs Middle/Scientist/Quest - Ancient paintings",
-	        "@Kiiruberg/Ski Lift Base/Quest - Become a yeti/",
-	        "@Kiiruberg/Snowman Square Bottom/Quest - Assemble a snowman/",
-        },
-        basto = {
-	        "@Basto/Bus Stop Bottom/Information Booth/Quest - Bastos hidden balloons",
-	        "@Basto/Bonfire Top/Arthur/Quest - Arthur hunter",
-	        "@Basto/Bad Hair Day/Quest - Bad hair day",
-	        "@Basto/Tent/Quest - Take a nap!",
-	        "@Basto/Bonfire Top/Quest - Spooky stories/",
-	        "@Basto/Outside Castle/Painter/Quest - Painterly portrait",
-	        "@Basto/Bonfire Top/Quest - Night-time cinema/",
-	        "@Basto/Bonfire Top/Quest - Night lights/",
-	        "@Basto/Lily Pad Pond Left/Quest - Jet-ski tricks/",
-	        "@Basto/Outside Castle/Ice Cream Vendor/Quest - Fruit shortage",
-	        "@Basto/Bonfire Top/Viking/Quest - Brain freeze",
-	        "@Basto/Cave/Vampire/Quest - Sweet tooth",
-	        "@Basto/Castle/Quest - In your face",
-	        "@Basto/Lily Pad Pond Left/Injured Monkey/Quest - Broken dreams",
-	        "@Basto/Lily Pad Pond Left/Quest - Dry season/",
-	        "@Basto/Gym House/Quest - Dehydrated muscles",
-	        "@Basto/Castle/Quest - Sand castle competition",
-	        "@Basto/Carnival/Quest - Play a carnival game",
-	        "@Basto/Cave/Vampire/Quest - Book of bats",
-	        "@Basto/Jungle/Quest - Bitling collector/",
-        },
-    }
-    return ALL(table.unpack(quests_by_level[level_name]))
+-- "Achievement - Strong as an oak"
+function can_access_all_oaklaville_quests()
+    return ALL(
+        "@Oaklaville/Trail Bottom/Quest - Suspicious activity - forest/",
+        "@Oaklaville/Hotel/Quest - Monster spotting",
+        "@Oaklaville/Outside Hotel/Sock Man/Quest - Missing socks",
+        "@Oaklaville/Camp/Scout Leader/Quest - Become a scout",
+        "@Oaklaville/Hide and Seek/Quest - Hide-and-seek/",
+        "@Oaklaville/Trail Bottom/Quest - Log blocking a path/",
+        "@Oaklaville/Trail Bottom/Quest - Photo challenge #1/",
+        "@Oaklaville/Outside Hotel/Quest - Photo challenge #2/",
+        "@Oaklaville/Rave/Quest - Become a paparazzi/",
+        "@Oaklaville/Hotel/Quest - Capture the hotels beauty",
+        "@Oaklaville/Hotel/Quest - Hotel chef",
+        "@Oaklaville/Graveyard/Quest - A courageous stallion",
+        "@Oaklaville/Skeleton House/Quest - Ghost helper!/",
+        "@Oaklaville/Ghost Cup Game/Quest - Cup champion",
+        "@Oaklaville/Playground/Quest - Become a flower/"
+    )
+end
+
+-- "Achievement - Seaworthy"
+function can_access_all_stanhamn_quests()
+    return ALL(
+        "@Stanhamn/Bus Stop/Quest - The king of fishes/",
+        "@Stanhamn/Hippo Beach/Quest - A good spot with no sun/",
+        "@Stanhamn/Ghost Drawbridge Bottom/Quest - Suspicious activity - harbor/",
+        "@Stanhamn/Pirate Drawbridge/Pirate/Quest - Queen of paper hats",
+        "@Stanhamn/Pirate Drawbridge/Quest - Photo challenge #3/",
+        "@Stanhamn/Ghost Drawbridge Top/Quest - Photo challenge #4/",
+        "@Stanhamn/Photo Guild Hut/Quest - Frames & filters!",
+        "@Stanhamn/Outside Hydroplant/Quest - Make someone take a bath/",
+        "@Stanhamn/Docks Right/Quest - A lost dog/",
+        "@Stanhamn/Hydroplant/Quest - Power shortage!",
+        "@Stanhamn/Lighthouse Roof/Quest - Solve the chaos",
+        "@Stanhamn/Ghost Drawbridge Bottom/Quest - Scorching flame/",
+        "@Stanhamn/Outside Hydroplant/Quest - Supreme deluxe sandwich!/",
+        "@Stanhamn/Fishing Tower/Quest - Ocean garbage/",
+        "@Stanhamn/Snowman/Quest - A whistling dilemma",
+        "@Stanhamn/King Fish Beach/Wizard/Quest - A layered melody"
+    )
+end
+
+-- "Achievement - Business executed"
+function can_access_all_logcity_quests()
+    return ALL(
+        "@Logcity/Outside Fashion Show/Quest - Suspicious activity - city/",
+        "@Logcity/Ratskullz Alley/Quest - Ratskullz crew",
+        "@Logcity/Clock Tower/Punk Rocker/Quest - Punk rocker bread crumbs",
+        "@Logcity/Overpass/Quest - Photo challenge #5/",
+        "@Logcity/Outside Gallery/Quest - Photo challenge #6/",
+        "@Logcity/News House/Quest - Press-ing news",
+        "@Logcity/Outside Gallery/Quest - Sewer stumble!/",
+        "@Logcity/Clock Tower/Hotbean Stand/Quest - Super Hotbean Bros.",
+        "@Logcity/Clock Tower/Quest - Hang in there, buddy/",
+        "@Logcity/Crosswalk/Quest - Spooky scary city/",
+        "@Logcity/Outside Fashion Show/Quest - A ghostly date/",
+        "@Logcity/Gallery/Quest - Art exhibition/",
+        "@Logcity/Clock Tower/Influencer/Quest - Young and inspiring!",
+        "@Logcity/Fashion Show Backstage/Quest - A design problem",
+        "@Logcity/Bus Stop Cleaner/Quest - Cleaning away the stress",
+        "@Logcity/Outside Fashion Show/Quest - Always tumbled granny/",
+        "@Logcity/Cafe/Quest - A mouse bakery",
+        "@Logcity/Outside Cafe/Quest - A thieving crow/"
+    )
+end
+
+-- "Achievement - Ice fighter"
+function can_access_all_kiiruberg_quests()
+    return ALL(
+        "@Kiiruberg/Cliffs Middle/Quest - Yeti cuteness/",
+        "@Kiiruberg/Wizard Tower/Quest - Ice wizards research",
+        "@Kiiruberg/Military Base/Quest - Military suspicions",
+        "@Kiiruberg/Observatory/Quest - Play astronaut",
+        "@Kiiruberg/Snowman Square Bottom/Quest - Photo challenge #7/",
+        "@Kiiruberg/Cliffs Top/Quest - Photo challenge #8",
+        "@Kiiruberg/Observatory/Quest - Locating an asteroid",
+        "@Kiiruberg/Frozen Pond/Quest - Listen to the goat choir/",
+        "@Kiiruberg/Frozen Pond/Old Man/Quest - Snowball memories",
+        "@Kiiruberg/Birthday Party Bottom/Quest - Birthday in distress",
+        "@Kiiruberg/Cliffs Middle/Scientist/Quest - Ancient paintings",
+        "@Kiiruberg/Ski Lift Base/Quest - Become a yeti/",
+        "@Kiiruberg/Snowman Square Bottom/Quest - Assemble a snowman/"
+    )
+end
+
+-- "Achievement - A Viking's holiday"
+function can_access_all_basto_quests()
+    return ALL(
+        "@Basto/Bus Stop Bottom/Information Booth/Quest - Basto's hidden balloons",
+        "@Basto/Bonfire Top/Arthur/Quest - Arthur hunter",
+        "@Basto/Bad Hair Day/Quest - Bad hair day",
+        "@Basto/Tent/Quest - Take a nap!",
+        "@Basto/Bonfire Top/Quest - Spooky stories/",
+        "@Basto/Outside Castle/Painter/Quest - Painterly portrait",
+        "@Basto/Bonfire Top/Quest - Night-time cinema/",
+        "@Basto/Bonfire Top/Quest - Night lights/",
+        "@Basto/Lily Pad Pond Left/Quest - Jet-ski tricks/",
+        "@Basto/Outside Castle/Ice Cream Vendor/Quest - Fruit shortage",
+        "@Basto/Bonfire Top/Viking/Quest - Brain freeze",
+        "@Basto/Cave/Vampire/Quest - Sweet tooth",
+        "@Basto/Castle/Quest - In your face",
+        "@Basto/Lily Pad Pond Left/Injured Monkey/Quest - Broken dreams",
+        "@Basto/Lily Pad Pond Left/Quest - Dry season/",
+        "@Basto/Gym House/Quest - Dehydrated muscles",
+        "@Basto/Castle/Quest - Sand castle competition",
+        "@Basto/Carnival/Quest - Play a carnival game",
+        "@Basto/Cave/Vampire/Quest - Book of bats",
+        "@Basto/Jungle/Quest - Bitling collector/"
+    )
 end
 
 -- "Item - Photo challenger flag"
@@ -358,7 +372,7 @@ function can_make_night()
     )
 end
 
--- "Quest - Bastos hidden balloons"
+-- "Quest - Basto's hidden balloons"
 function can_access_all_balloons()
     return can_reach_all(
         "basto_lily_pad_pond_left",
@@ -540,7 +554,7 @@ function has_all_clothing()
 end
 
 -- "Achievement - A true completionist"
-function can_access_all_quests()
+function can_access_all_base_quests()
     return ALL(
 	    "@Homelanda/Bus Stop/Quest - Take a photo of Nana!/",
 	    "@Homelanda/Bus Stop/Quest - A hidden gift/",

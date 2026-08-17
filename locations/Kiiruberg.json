@@ -397,16 +397,17 @@
                 "map_locations": [
                     {
                         "map": "Kiiruberg",
-                        "x": 872,
-                        "y": 294
+                        "x": 972,
+                        "y": 310
                     }
                 ]
             },
             {
                 "name": "Hedgehog",
                 "access_rules": [
-                    "^$can_reach|kiiruberg_outside_birthday_party_bottom",
-                    "^$can_reach|kiiruberg_outside_birthday_party_top,[hard_logic]"
+                    "^$can_reach|kiiruberg_birthday_party_bottom",
+                    "climbing_boots,^$can_reach|kiiruberg_birthday_party_top",
+                    "^$can_reach|kiiruberg_birthday_party_top,[hard_logic]"
                 ],
                 "sections": [
                     {
@@ -427,11 +428,13 @@
                 "name": "Meteopal",
                 "access_rules": [
                     "^$can_reach|kiiruberg_snowman_square_bottom",
+                    "climbing_boots,^$can_reach|kiiruberg_snowman_square_top",
                     "^$can_reach|kiiruberg_snowman_square_top,[hard_logic]"
                 ],
                 "sections": [
                     {
                         "name": "Compendium - Meteopal",
+                        "access_rules": ["^$can_reach|kiiruberg_observatory"],
                         "chest_unopened_img": "/images/items/photo_close.png",
                         "chest_opened_img": "/images/items/photo_open.png"
                     }
@@ -516,6 +519,8 @@
                 "name": "Owl",
                 "access_rules": [
                     "^$can_reach|kiiruberg_cliffs_top",
+                    "climbing_boots,^$can_reach|kiiruberg_cliffs_bottom",
+                    "climbing_boots,^$can_reach|kiiruberg_cliffs_middle",
                     "^$can_reach|kiiruberg_cliffs_middle,[hard_logic]"
                 ],
                 "sections": [
@@ -607,8 +612,8 @@
                 "map_locations": [
                     {
                         "map": "Kiiruberg",
-                        "x": 937,
-                        "y": 267
+                        "x": 797,
+                        "y": 308
                     }
                 ]
             },
@@ -696,7 +701,7 @@
                         "name": "Achievement - Ice fighter",
                         "chest_unopened_img": "/images/items/achievement_fighter.png",
                         "chest_opened_img": "/images/items/achievement_open.png",
-                        "access_rules": ["^$can_access_all_quests|kiiruberg"]
+                        "access_rules": ["^$can_access_all_kiiruberg_quests"]
                     }
                 ],
                 "map_locations": [

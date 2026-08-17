@@ -18,7 +18,7 @@
                                 "chest_opened_img": "/images/items/chest_open.png"
                             },
                             {
-                                "name": "Quest - Bastos hidden balloons",
+                                "name": "Quest - Basto's hidden balloons",
                                 "access_rules": ["watergun,^$can_access_all_balloons"]
                             },
                             {
@@ -1251,10 +1251,10 @@
                         "access_rules": ["^$can_access_all_basto_animals"]
                     },
                     {
-                        "name": "Achievement - A Vikings holiday",
+                        "name": "Achievement - A Viking's holiday",
                         "chest_unopened_img": "/images/items/achievement_vikings_holiday.png",
                         "chest_opened_img": "/images/items/achievement_open.png",
-                        "access_rules": ["^$can_access_all_quests|basto"]
+                        "access_rules": ["^$can_access_all_basto_quests"]
                     }
                 ],
                 "map_locations": [

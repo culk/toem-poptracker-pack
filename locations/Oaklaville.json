@@ -719,7 +719,7 @@
                         "name": "Achievement - Strong as an oak",
                         "chest_unopened_img": "/images/items/achievement_strong_as_an_oak.png",
                         "chest_opened_img": "/images/items/achievement_open.png",
-                        "access_rules": ["^$can_access_all_quests|oaklaville"]
+                        "access_rules": ["^$can_access_all_oaklaville_quests"]
                     }
                 ],
                 "map_locations": [

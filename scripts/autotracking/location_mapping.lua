@@ -206,7 +206,7 @@ LOCATION_MAPPING = {
 	[205] = {"@Start Menu/Achievement - Going long!/"},
 	[206] = {"@Start Menu/Achievement - Cosplayer/"},
 	[207] = {"@Start Menu/Achievement - A true completionist/"},
-	[208] = {"@Basto/Bus Stop Bottom/Information Booth/Quest - Bastos hidden balloons"},
+	[208] = {"@Basto/Bus Stop Bottom/Information Booth/Quest - Basto's hidden balloons"},
 	[209] = {"@Basto/Bonfire Top/Arthur/Quest - Arthur hunter"},
 	[210] = {"@Basto/Bad Hair Day/Quest - Bad hair day"},
 	[211] = {"@Basto/Tent/Quest - Take a nap!"},
@@ -286,7 +286,7 @@ LOCATION_MAPPING = {
 	[285] = {"@Basto/Ghost Hangout/Achievement - Splish-splash/"},
 	[286] = {"@Basto/Outside Castle/Achievement - The Royal Castle/"},
 	[287] = {"@Basto/Basto/Achievement - And some more"},
-	[288] = {"@Basto/Basto/Achievement - A Vikings holiday"},
+	[288] = {"@Basto/Basto/Achievement - A Viking's holiday"},
 
 	[10000] = {"@Homelanda/Living Room/Goal - TOEM Experienced"},
 	[10001] = {"@Basto/Bus Stop Bottom/Information Booth/Goal - Basto Bonfire"},
