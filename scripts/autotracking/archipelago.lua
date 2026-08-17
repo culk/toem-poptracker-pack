@@ -336,3 +336,48 @@ function UpdateConnections(found_entrances)
     -- Update all location logic to include new found regions.
     ForceUpdate()
 end
+
+LAYOUT_STALE = true
+
+function ToggleItems()
+    LAYOUT_STALE = true
+end
+
+function UpdateLayoutStamps(show_progressive_stamps, show_basto)
+    if show_progressive_stamps then
+        Tracker:AddLayouts("layouts/stamps/show_progressive.json")
+    elseif show_basto then
+        Tracker:AddLayouts("layouts/stamps/show_all.json")
+    else
+        Tracker:AddLayouts("layouts/stamps/hide_basto.json")
+    end
+end
+
+function UpdateLayoutItems(show_basto)
+    if show_basto then
+        Tracker:AddLayouts("layouts/key_items/show_all.json")
+    else
+        Tracker:AddLayouts("layouts/key_items/hide_basto.json")
+    end
+end
+
+function UpdateLayoutMapTabs(show_basto)
+    if show_basto then
+        Tracker:AddLayouts("layouts/tabs/show_all.json")
+    else
+        Tracker:AddLayouts("layouts/tabs/hide_basto.json")
+    end
+end
+
+function UpdateLayout()
+    if LAYOUT_STALE then
+        local show_progressive_stamps = Tracker:FindObjectForCode("progressive_stamps").CurrentStage == 1
+        local show_basto = Tracker:FindObjectForCode("include_basto").CurrentStage == 1
+
+        UpdateLayoutStamps(show_progressive_stamps, show_basto)
+        UpdateLayoutItems(show_basto)
+        UpdateLayoutMapTabs(show_basto)
+
+        LAYOUT_STALE = false
+    end
+end

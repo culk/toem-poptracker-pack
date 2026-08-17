@@ -1,0 +1,26 @@
+{
+    "stamps_vertical": {
+        "type": "itemgrid",
+        "item_height": 64,
+        "item_width": 64,
+        "item_margin": "0,0",
+        "h_alignment": "left",
+        "rows": [
+            [
+                "progressive_stamp"
+            ]
+        ]
+    },
+    "stamps_horizontal": {
+        "type": "itemgrid",
+        "item_height": 64,
+        "item_width": 64,
+        "item_margin": "0,0",
+        "h_alignment": "left",
+        "rows": [
+            [
+                "progressive_stamp"
+            ]
+        ]
+    }
+}

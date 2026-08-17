@@ -1,0 +1,70 @@
+{
+    "tabbed_maps": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Overview",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Overview"
+                    ]
+                }
+            },
+            {
+                "title": "Homelanda",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Homelanda"
+                    ]
+                }
+            },
+            {
+                "title": "Oaklaville",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Oaklaville"
+                    ]
+                }
+            },
+            {
+                "title": "Stanhamn",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Stanhamn"
+                    ]
+                }
+            },
+            {
+                "title": "Logcity",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Logcity"
+                    ]
+                }
+            },
+            {
+                "title": "Kiiruberg",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Kiiruberg"
+                    ]
+                }
+            },
+            {
+                "title": "Mountain Top",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Mountain Top"
+                    ]
+                }
+            }
+        ]
+    }
+}

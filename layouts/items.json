@@ -8,28 +8,8 @@
 				"dock": "left",
                 "header": "Stamps",
                 "content": {
-					"type": "itemgrid",
-					"item_height": 64,
-					"item_width": 64,
-					"item_margin": "0,0",
-					"h_alignment": "left",
-					"rows": [
-						[
-							"homelanda_stamp",
-							"oaklaville_stamp"
-						],
-						[
-							"stanhamn_stamp",
-							"logcity_stamp"
-						],
-						[
-							"kiiruberg_stamp",
-							"basto_stamp"
-						],
-						[
-							"progressive_stamp"
-						]
-					]
+					"type": "layout",
+					"key": "stamps_horizontal"
 				}
 			},
             {
@@ -37,28 +17,8 @@
 				"dock": "left",
                 "header": "Camera",
                 "content": {
-					"type": "itemgrid",
-					"item_height": 64,
-					"item_width": 64,
-					"item_margin": "0,0",
-					"h_alignment": "left",
-					"rows": [
-						[
-							"honk_attachment"
-						],
-						[
-							"tripod"
-						],
-						[
-							"frames_filters"
-						],
-						[
-							"flag"
-						],
-						[
-							"watergun"
-						]
-					]
+					"type": "layout",
+					"key": "camera_horizontal"
 				}
 			},
             {
@@ -66,95 +26,16 @@
 				"dock": "left",
                 "header": "Clothing",
                 "content": {
-					"type": "itemgrid",
-					"item_height": 64,
-					"item_width": 64,
-					"item_margin": "0,0",
-					"h_alignment": "left",
-					"rows": [
-						[
-							"clogs",
-							"wet_socks",
-							"ghost_glasses",
-							"reporter_hat",
-							"hotbean_hat",
-							"fjallbjorn_hat",
-							"cowboy_hat",
-							"pirate_hat"
-						],
-						[
-							"diving_helmet",
-							"climbing_boots",
-							"puffer_hat",
-							"scarf",
-							"ski_goggles",
-							"space_helmet",
-							"sneakers",
-							"paper_hat"
-						],
-						[
-							"vacation_shirt",
-							"flip_flops",
-							"sun_hat",
-							"royal_cape",
-							"royal_crown",
-							"sun_cap",
-							"beret",
-							"award_mask"
-						],
-						[
-							"rubber_boots",
-							"finger",
-							"hard_hat",
-							"soaked_sock",
-							"monster_mask",
-							"fishing_hat",
-							"umbrella",
-							"lei"
-						],
-						[
-							"viking_helmet",
-							"foot_cast",
-							"royal_cane"
-						]
-					]
+					"type": "layout",
+					"key": "clothing_horizontal"
 				}
 			},
             {
                 "type": "group",
                 "header": "Other",
                 "content": {
-					"type": "itemgrid",
-					"item_height": 64,
-					"item_width": 64,
-					"item_margin": "0,0",
-					"h_alignment": "left",
-					"rows": [
-						[
-							"fishermans_whistle_tape",
-							"old_key",
-							"sandwich"
-						],
-						[
-							"cinnamon_bun",
-							"frisbee",
-							"pickaxe"
-						],
-						[
-							"basto_ticket",
-							"minigame_ticket",
-							"ice_cream"
-						],
-						[
-							"banakin",
-							"oranganas",
-							"beanut"
-						],
-						[
-							"melonear",
-							"empty_bottle"
-						]
-					]
+					"type": "layout",
+					"key": "other_horizontal"
 				}
             }
         ]
@@ -168,22 +49,8 @@
 				"dock": "top",
 				"header": "Stamps",
                 "content": {
-					"type": "itemgrid",
-					"item_height": 64,
-					"item_width": 64,
-					"item_margin": "0,0",
-					"h_alignment": "left",
-					"rows": [
-						[
-							"homelanda_stamp",
-							"oaklaville_stamp",
-							"stanhamn_stamp",
-							"logcity_stamp",
-							"kiiruberg_stamp",
-							"basto_stamp",
-							"progressive_stamp"
-						]
-					]
+					"type": "layout",
+					"key": "stamps_vertical"
 				}
 			},
 			{
@@ -191,20 +58,8 @@
 				"dock": "top",
 				"header": "Camera",
                 "content": {
-					"type": "itemgrid",
-					"item_height": 64,
-					"item_width": 64,
-					"item_margin": "0,0",
-					"h_alignment": "left",
-					"rows": [
-						[
-							"honk_attachment",
-							"tripod",
-							"frames_filters",
-							"flag",
-							"watergun"
-						]
-					]
+					"type": "layout",
+					"key": "camera_vertical"
 				}
 			},
 			{
@@ -212,89 +67,16 @@
 				"dock": "top",
 				"header": "Clothing",
                 "content": {
-					"type": "itemgrid",
-					"item_height": 64,
-					"item_width": 64,
-					"item_margin": "0,0",
-					"h_alignment": "left",
-					"rows": [
-						[
-							"clogs",
-							"wet_socks",
-							"ghost_glasses",
-							"reporter_hat",
-							"hotbean_hat",
-							"fjallbjorn_hat",
-							"cowboy_hat"
-						],
-						[
-							"diving_helmet",
-							"climbing_boots",
-							"puffer_hat",
-							"scarf",
-							"ski_goggles",
-							"space_helmet",
-							"sneakers"
-						],
-						[
-							"vacation_shirt",
-							"flip_flops",
-							"sun_hat",
-							"royal_cape",
-							"royal_crown",
-							"sun_cap",
-							"beret"
-						],
-						[
-							"pirate_hat",
-							"paper_hat",
-							"hard_hat",
-							"award_mask",
-							"rubber_boots",
-							"finger",
-							"soaked_sock"
-						],
-						[
-							"monster_mask",
-							"fishing_hat",
-							"umbrella",
-							"lei",
-							"viking_helmet",
-							"foot_cast",
-							"royal_cane"
-						]
-					]
+					"type": "layout",
+					"key": "clothing_vertical"
 				}
 			},
 			{
                 "type": "group",
 				"header": "Other",
                 "content": {
-					"type": "itemgrid",
-					"item_height": 64,
-					"item_width": 64,
-					"item_margin": "0,0",
-					"h_alignment": "left",
-					"rows": [
-						[
-							"fishermans_whistle_tape",
-							"old_key",
-							"sandwich",
-							"cinnamon_bun",
-							"frisbee",
-							"basto_ticket",
-							"minigame_ticket"
-						],
-						[
-							"pickaxe",
-							"ice_cream",
-							"melonear",
-							"banakin",
-							"oranganas",
-							"beanut",
-							"empty_bottle"
-						]
-					]
+					"type": "layout",
+					"key": "other_vertical"
 				}
             }
         ]

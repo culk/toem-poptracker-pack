@@ -5,4 +5,8 @@ Archipelago:AddLocationHandler("location handler", OnLocation)
 Archipelago:AddSetReplyHandler("notify handler", OnNotify)
 Archipelago:AddRetrievedHandler("notify launch handler", OnNotifyLaunch)
 
---TODO: add watches for hiding tracker layouts.
+-- Code watches for settings to show/hide portions of the item tracker layout
+ScriptHost:AddWatchForCode("progressive_stamps", "progressive_stamps", ToggleItems)
+ScriptHost:AddWatchForCode("include_basto", "include_basto", ToggleItems)
+
+ScriptHost:AddOnFrameHandler("tracker_layout_update", UpdateLayout)
