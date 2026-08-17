@@ -24,8 +24,12 @@ end
 
 function can_reach(region_name)
     -- If entrances are randomized then check if the region has been found.
-    if Tracker:FindObjectForCode("entrance_randomization").CurrentStage == 1 and FOUND_REGIONS[region_name] then
-        return AccessibilityLevel.Normal
+    if Tracker:FindObjectForCode("entrance_randomization").CurrentStage == 1 then
+        if FOUND_REGIONS[region_name] then
+            return AccessibilityLevel.Normal
+        else
+            return AccessibilityLevel.None
+        end
     end
 
     -- Otherwise, default logic required for each region that has restricted access.
