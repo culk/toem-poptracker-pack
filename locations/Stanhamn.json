@@ -102,7 +102,10 @@
             },
             {
                 "name": "Ghost Drawbridge Bottom",
-                "access_rules": ["^$can_reach|stanhamn_ghost_drawbridge_bottom"],
+                "access_rules": [
+                    "^$can_reach|stanhamn_ghost_drawbridge_bottom",
+                    "@Stanhamn/Hydroplant/Quest - Power shortage!,^$can_reach|stanhamn_ghost_drawbridge_top"
+                ],
                 "children": [
                     {
                         "name": "Quest - Suspicious activity - harbor",
@@ -242,7 +245,10 @@
             },
             {
                 "name": "Ghost Drawbridge Top",
-                "access_rules": ["^$can_reach|stanhamn_ghost_drawbridge_top"],
+                "access_rules": [
+                    "^$can_reach|stanhamn_ghost_drawbridge_top",
+                    "@Stanhamn/Hydroplant/Quest - Power shortage!,^$can_reach|stanhamn_ghost_drawbridge_bottom"
+                ],
                 "children": [
                     {
                         "name": "Quest - Photo challenge #4",
@@ -347,7 +353,10 @@
             },
             {
                 "name": "Docks Right",
-                "access_rules": ["^$can_reach|stanhamn_docks_right"],
+                "access_rules": [
+                    "^$can_reach|stanhamn_docks_right",
+                    "@Stanhamn/Hydroplant/Quest - Power shortage!,^$can_reach|stanhamn_left"
+                ],
                 "children": [
                     {
                         "name": "Quest - A lost dog",
@@ -492,7 +501,10 @@
             },
             {
                 "name": "Snowman",
-                "access_rules": ["^$can_reach|stanhamn_docks_left"],
+                "access_rules": [
+                    "^$can_reach|stanhamn_docks_left",
+                    "@Stanhamn/Hydroplant/Quest - Power shortage!,^$can_reach|stanhamn_right"
+                ],
                 "sections": [
                     {
                         "name": "Quest - A whistling dilemma",
@@ -598,6 +610,7 @@
                 "name": "Fia",
                 "access_rules": [
                     "^$can_reach|stanhamn_docks_right",
+                    "@Stanhamn/Hydroplant/Quest - Power shortage!,^$can_reach|stanhamn_left",
                     "^$can_reach|stanhamn_docks_left,[hard_logic]"
                 ],
                 "children": [
@@ -625,6 +638,7 @@
                 "name": "Fräs",
                 "access_rules": [
                     "^$can_reach|stanhamn_docks_left",
+                    "@Stanhamn/Hydroplant/Quest - Power shortage!,^$can_reach|stanhamn_right",
                     "^$can_reach|stanhamn_docks_right,[hard_logic]"
                 ],
                 "children": [

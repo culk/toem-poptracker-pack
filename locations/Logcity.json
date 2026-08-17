@@ -260,6 +260,23 @@
                                 "y": 653
                             }
                         ]
+                    },
+                    {
+                        "name": "Compendium - Mouse (Overpass)",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Logcity",
+                                "x": 351,
+                                "y": 755
+                            }
+                        ]
                     }
                 ]
             },
@@ -507,6 +524,12 @@
                 "access_rules": ["^$can_reach|logcity_cafe"],
                 "sections": [
                     {
+                        "name": "Compendium - Mouse (Cafe)",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
+                        "access_rules": ["[hard_logic]"]
+                    },
+                    {
                         "name": "Quest - A mouse bakery",
                         "access_rules": ["honk_attachment"]
                     },
@@ -565,44 +588,13 @@
                 ]
             },
             {
-                "name": "Mouse",
-                "access_rules": [
-                    "^$can_reach|logcity_overpass",
-                    "^$can_reach|logcity_cafe,[hard_logic]"
-                ],
-                "children": [
-                    {
-                        "name": "Compendium - Mouse",
-                        "chest_unopened_img": "/images/items/photo_close.png",
-                        "chest_opened_img": "/images/items/photo_open.png",
-                        "sections": [
-                            {
-                                "name": ""
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "Logcity",
-                                "x": 351,
-                                "y": 755
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
                 "name": "Pigeon",
-                "access_rules": [
-                    "^$can_reach|logcity_clock_tower",
-                    "^$can_reach|logcity_outside_cafe",
-                    "^$can_reach|logcity_outside_gallery",
-                    "^$can_reach|logcity_ratskullz_alley"
-                ],
                 "children": [
                     {
-                        "name": "Compendium - Pigeon",
+                        "name": "Compendium - Pigeon (Clock Tower)",
                         "chest_unopened_img": "/images/items/photo_close.png",
                         "chest_opened_img": "/images/items/photo_open.png",
+                        "access_rules": ["^$can_reach|logcity_clock_tower"],
                         "sections": [
                             {
                                 "name": ""
@@ -613,6 +605,60 @@
                                 "map": "Logcity",
                                 "x": 935,
                                 "y": 1396
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compendium - Pigeon (Outside Cafe)",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
+                        "access_rules": ["^$can_reach|logcity_outside_cafe"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Logcity",
+                                "x": 1451,
+                                "y": 1476
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compendium - Pigeon (Outside Gallery)",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
+                        "access_rules": ["^$can_reach|logcity_outside_gallery"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Logcity",
+                                "x": 1765,
+                                "y": 1095
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compendium - Pigeon (Ratskullz Alley)",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
+                        "access_rules": ["^$can_reach|logcity_ratskullz_alley"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Logcity",
+                                "x": 1200,
+                                "y": 215
                             }
                         ]
                     }

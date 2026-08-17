@@ -104,9 +104,16 @@
                         "access_rules": ["@Oaklaville/Hotel/Quest - Monster spotting"]
                     },
                     {
+                        "name": "Compendium - Squirrel (Hotel Elevator)",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
+                        "access_rules": ["^$can_reach|oaklaville_hotel_elevator"]
+                    },
+                    {
                         "name": "Cassette - Jamal Green - The Grand Squirrel Hotel",
                         "chest_unopened_img": "/images/items/cassette_close.png",
                         "chest_opened_img": "/images/items/cassette_open.png",
+                        "access_rules": ["^$can_reach|oaklaville_hotel_elevator"],
                         "visibility_rules": ["include_cassettes_on"]
                     },
                     {
@@ -505,6 +512,11 @@
                 "access_rules": ["^$can_reach|oaklaville_ghost_cup_game"],
                 "sections": [
                     {
+                        "name": "Compendium - Squirrel (Ghost Cup Game)",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png"
+                    },
+                    {
                         "name": "Quest - Cup champion",
                         "access_rules": ["ghost_glasses"]
                     },
@@ -611,28 +623,7 @@
             },
             {
                 "name": "Squirrels",
-                "access_rules": [
-                    "^$can_reach|oaklaville_ghost_cup_game",
-                    "^$can_reach|oaklaville_hotel_elevator"
-                ],
                 "children": [
-                    {
-                        "name": "Compendium - Squirrel",
-                        "chest_unopened_img": "/images/items/photo_close.png",
-                        "chest_opened_img": "/images/items/photo_open.png",
-                        "sections": [
-                            {
-                                "name": ""
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "Oaklaville",
-                                "x": 446,
-                                "y": 988
-                            }
-                        ]
-                    }
                 ]
             },
             {

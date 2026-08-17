@@ -770,17 +770,12 @@
             },
             {
                 "name": "Bat",
-                "access_rules": [
-                    "^$can_reach|basto_cave",
-                    "^$can_reach|basto_bonfire_top",
-                    "^$can_reach|basto_outside_castle",
-                    "^$can_reach|basto_bonfire_bottom,[hard_logic]"
-                ],
                 "children": [
                     {
-                        "name": "Compendium - Bat",
+                        "name": "Compendium - Bat (Cave)",
                         "chest_unopened_img": "/images/items/photo_close.png",
                         "chest_opened_img": "/images/items/photo_open.png",
+                        "access_rules": ["^$can_reach|basto_cave"],
                         "sections": [
                             {
                                 "name": ""
@@ -791,6 +786,45 @@
                                 "map": "Basto",
                                 "x": 1711,
                                 "y": 367
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compendium - Bat (Bonfire)",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
+                        "access_rules": [
+                            "^$can_reach|basto_bonfire_top",
+                            "^$can_reach|basto_bonfire_bottom,[hard_logic]"
+                        ],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Basto",
+                                "x": 516,
+                                "y": 761
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compendium - Bat (Outside Castle)",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
+                        "access_rules": ["^$can_reach|basto_outside_castle"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Basto",
+                                "x": 1007,
+                                "y": 869
                             }
                         ]
                     }
@@ -907,7 +941,10 @@
             },
             {
                 "name": "Bonfire Bottom",
-                "access_rules": ["^$can_reach|basto_bonfire_bottom"],
+                "access_rules": [
+                    "^$can_reach|basto_bonfire_bottom",
+                    "^$can_reach|basto_bonfire_top"
+                ],
                 "sections": [
                     {
                         "name": "Compendium - Bitling frog",
@@ -1091,16 +1128,33 @@
             },
             {
                 "name": "Water Strider",
-                "access_rules": [
-                    "^$can_reach|basto_lily_pad_pond_left",
-                    "^$can_reach|basto_outside_castle",
-                    "^$can_reach|basto_lily_pad_pond_right,[hard_logic]"
-                ],
                 "children": [
                     {
-                        "name": "Compendium - Water strider",
+                        "name": "Compendium - Water strider (Outside Castle)",
                         "chest_unopened_img": "/images/items/photo_close.png",
                         "chest_opened_img": "/images/items/photo_open.png",
+                        "access_rules": ["^$can_reach|basto_outside_castle"],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Basto",
+                                "x": 1382,
+                                "y": 1093
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compendium - Water strider (Lily Pad Pond)",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
+                        "access_rules": [
+                            "^$can_reach|basto_lily_pad_pond_left",
+                            "^$can_reach|basto_lily_pad_pond_right,[hard_logic]"
+                        ],
                         "sections": [
                             {
                                 "name": ""

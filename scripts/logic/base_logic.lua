@@ -311,6 +311,16 @@ function has_warm_clothing()
     return ALL("climbing_boots", "puffer_hat", "scarf", "ski_goggles")
 end
 
+-- "Quest - Ancient paintings"
+function can_access_all_ancient_paintings()
+    return ALL(
+        can_reach("kiiruberg_frozen_pond"),
+        can_reach_any("kiiruberg_outside_observ_top","kiiruberg_outside_observ_bottom"),
+        can_reach_any("kiiruberg_snowman_square_top","kiiruberg_snowman_square_bottom"),
+        can_reach("mountain_top_toem")
+    )
+end
+
 -- "Quest - Ice wizards research"
 function can_access_all_cosmic_cubes()
     return can_reach_all(
@@ -398,7 +408,7 @@ end
 -- "Quest - "Achievement - And some more"
 function can_access_all_basto_animals()
     return ALL(
-	    "@Basto/Bat/Compendium - Bat/",
+	    "@Basto/Bat/Compendium - Bat (Cave)/",
 	    "@Basto/Camp/Compendium - Beach snake/",
 	    "@Basto/Beak Bird/Compendium - Beak bird/",
 	    "@Basto/Bonfire Bottom/Compendium - Bitling frog",
@@ -417,7 +427,7 @@ function can_access_all_basto_animals()
 	    "@Basto/Jungle/Compendium - Snout bug/",
 	    "@Basto/Outside Castle/Compendium - Tato coco/",
 	    "@Basto/Secret Cave/Compendium - Tato king",
-	    "@Basto/Water Strider/Compendium - Water strider/"
+	    "@Basto/Water Strider/Compendium - Water strider (Outside Castle)/"
     )
 end
 
@@ -455,7 +465,7 @@ function can_access_all_base_animals()
 	    "@Oaklaville/Outside Hotel/Compendium - Nestworm/",
 	    "@Oaklaville/Camp/Compendium - Pet rock/",
 	    "@Oaklaville/Outside Hotel/Snail/Compendium - Snail",
-	    "@Oaklaville/Squirrels/Compendium - Squirrel/",
+	    "@Oaklaville/Ghost Cup Game/Compendium - Squirrel (Ghost Cup Game)",
 	    "@Oaklaville/Outside Hotel/Compendium - Stag beetle/",
 	    "@Oaklaville/Mushroom House/Compendium - Tato bug",
 	    "@Oaklaville/Tato Fly/Compendium - Tato fly/",
@@ -476,8 +486,8 @@ function can_access_all_base_animals()
 	    "@Stanhamn/Pirate Drawbridge/Compendium - Toad/",
 	    "@Logcity/Outside Gallery/Compendium - Business pigeon/",
 	    "@Logcity/Outside Cafe/Compendium - Portillo/",
-	    "@Logcity/Mouse/Compendium - Mouse/",
-	    "@Logcity/Pigeon/Compendium - Pigeon/",
+	    "@Logcity/Overpass/Compendium - Mouse (Overpass)/",
+	    "@Logcity/Pigeon/Compendium - Pigeon (Clock Tower)/",
 	    "@Logcity/Clock Tower/Punk Rocker/Compendium - Punky parrot",
 	    "@Logcity/Skate Park/Compendium - Tato skateboard/",
 	    "@Logcity/Outside Fashion Show/Compendium - Tato tourist/",

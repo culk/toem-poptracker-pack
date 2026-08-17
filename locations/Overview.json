@@ -133,7 +133,7 @@
                     },
                     {
                         "name": "Compendium - Bat",
-                        "ref": "Basto/Bat/Compendium - Bat/"
+                        "ref": "Basto/Bat/Compendium - Bat (Cave)/"
                     },
                     {
                         "name": "Compendium - Beach snake",
@@ -177,7 +177,7 @@
                     },
                     {
                         "name": "Compendium - Water strider",
-                        "ref": "Basto/Water Strider/Compendium - Water strider/"
+                        "ref": "Basto/Water Strider/Compendium - Water strider (Outside Castle)/"
                     }
                 ],
                 "map_locations": [
@@ -785,11 +785,11 @@
                     },
                     {
                         "name": "Compendium - Mouse",
-                        "ref": "Logcity/Mouse/Compendium - Mouse/"
+                        "ref": "Logcity/Overpass/Compendium - Mouse (Overpass)/"
                     },
                     {
                         "name": "Compendium - Pigeon",
-                        "ref": "Logcity/Pigeon/Compendium - Pigeon/"
+                        "ref": "Logcity/Pigeon/Compendium - Pigeon (Clock Tower)/"
                     },
                     {
                         "name": "Compendium - Tato skateboard",
@@ -1033,7 +1033,7 @@
                     },
                     {
                         "name": "Compendium - Squirrel",
-                        "ref": "Oaklaville/Squirrels/Compendium - Squirrel/"
+                        "ref": "Oaklaville/Ghost Cup Game/Compendium - Squirrel (Ghost Cup Game)"
                     },
                     {
                         "name": "Compendium - Tato bug",

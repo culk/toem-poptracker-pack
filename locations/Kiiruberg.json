@@ -7,7 +7,11 @@
         "children": [
             {
                 "name": "Cliffs Middle",
-                "access_rules": ["^$can_reach|kiiruberg_cliffs_middle"],
+                "access_rules": [
+                    "^$can_reach|kiiruberg_cliffs_middle",
+                    "climbing_boots,^$can_reach|kiiruberg_cliffs_bottom",
+                    "climbing_boots,^$can_reach|kiiruberg_cliffs_top"
+                ],
                 "children": [
                     {
                         "name": "Quest - Yeti cuteness",
@@ -31,7 +35,7 @@
                             {
                                 "name": "Quest - Ancient paintings",
                                 "access_rules": [
-                                    "climbing_boots,^$can_reach_all|kiiruberg_frozen_pond|kiiruberg_outside_observ_bottom|kiiruberg_snowman_square_bottom|mountain_top_toem"
+                                    "climbing_boots,^$can_access_all_ancient_paintings"
                                 ]
                             },
                             {
@@ -128,6 +132,7 @@
                         "name": "Quest - Locating an asteroid",
                         "access_rules": [
                             "^$can_reach|kiiruberg_snowman_square_bottom",
+                            "climbing_boots,^$can_reach|kiiruberg_snowman_square_top",
                             "^$can_reach|kiiruberg_snowman_square_top,[hard_logic]"
                         ]
                     },
@@ -153,7 +158,10 @@
             },
             {
                 "name": "Snowman Square Bottom",
-                "access_rules": ["^$can_reach|kiiruberg_snowman_square_bottom"],
+                "access_rules": [
+                    "^$can_reach|kiiruberg_snowman_square_bottom",
+                    "climbing_boots,^$can_reach|kiiruberg_snowman_square_top"
+                ],
                 "children": [
                     {
                         "name": "Quest - Photo challenge #7",
@@ -196,7 +204,11 @@
             },
             {
                 "name": "Cliffs Top",
-                "access_rules": ["^$can_reach|kiiruberg_cliffs_top"],
+                "access_rules": [
+                    "^$can_reach|kiiruberg_cliffs_top",
+                    "climbing_boots,^$can_reach|kiiruberg_cliffs_middle",
+                    "climbing_boots,^$can_reach|kiiruberg_cliffs_bottom"
+                ],
                 "sections": [
                     {
                         "name": "Quest - Photo challenge #8",
@@ -269,12 +281,15 @@
             },
             {
                 "name": "Birthday Party Bottom",
-                "access_rules": ["^$can_reach|kiiruberg_birthday_party_bottom"],
+                "access_rules": [
+                    "^$can_reach|kiiruberg_birthday_party_bottom",
+                    "climbing_boots,^$can_reach|kiiruberg_birthday_party_top"
+                ],
                 "sections": [
                     {
                         "name": "Quest - Birthday in distress",
                         "access_rules": [
-                            "^$has_warm_clothing,^$can_reach|kiiruberg_blizzard_bridge_right"
+                            "^$has_warm_clothing,^$can_reach_any|kiiruberg_blizzard_bridge_right|kiiruberg_blizzard_bridge_dl|kiiruberg_blizzard_bridge_ul"
                         ]
                     }
                 ],
@@ -369,6 +384,7 @@
                 "name": "Fluff",
                 "access_rules": [
                     "^$can_reach|kiiruberg_outside_observ_bottom",
+                    "climbing_boots,^$can_reach|kiiruberg_outside_observ_top",
                     "^$can_reach|kiiruberg_outside_observ_top,[hard_logic]"
                 ],
                 "sections": [
@@ -539,7 +555,10 @@
             },
             {
                 "name": "Outside Observatory Bottom",
-                "access_rules": ["^$can_reach|kiiruberg_outside_observ_bottom"],
+                "access_rules": [
+                    "^$can_reach|kiiruberg_outside_observ_bottom",
+                    "climbing_boots,^$can_reach|kiiruberg_outside_observ_top"
+                ],
                 "sections": [
                     {
                         "name": "Item - Space helmet",
