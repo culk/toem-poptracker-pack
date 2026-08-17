@@ -153,15 +153,13 @@
                             {
                                 "name": "Item - Old key",
                                 "chest_unopened_img": "/images/items/chest_close.png",
-                                "chest_opened_img": "/images/items/chest_open.png",
-                                "visibility_rules": ["include_items_on"]
+                                "chest_opened_img": "/images/items/chest_open.png"
                             },
                             {
                                 "name": "Item - Paper hat",
                                 "chest_unopened_img": "/images/items/chest_close.png",
                                 "chest_opened_img": "/images/items/chest_open.png",
-                                "access_rules": ["pirate_hat"],
-                                "visibility_rules": ["include_items_on"]
+                                "access_rules": ["pirate_hat"]
                             }
                         ],
                         "map_locations": [
@@ -227,7 +225,6 @@
                         "chest_unopened_img": "/images/items/chest_close.png",
                         "chest_opened_img": "/images/items/chest_open.png",
                         "access_rules": ["ghost_glasses,^$can_reach|stanhamn_outside_hydroplant"],
-                        "visibility_rules": ["include_items_on"],
                         "sections": [
                             {
                                 "name": ""
@@ -276,15 +273,13 @@
                     {
                         "name": "Item - Frames & filters",
                         "chest_unopened_img": "/images/items/chest_close.png",
-                        "chest_opened_img": "/images/items/chest_open.png",
-                        "visibility_rules": ["include_items_on"]
+                        "chest_opened_img": "/images/items/chest_open.png"
                     },
                     {
                         "name": "Item - Photo challenger flag",
                         "chest_unopened_img": "/images/items/chest_close.png",
                         "chest_opened_img": "/images/items/chest_open.png",
-                        "access_rules": ["^$can_access_all_photo_challenges"],
-                        "visibility_rules": ["include_items_on"]
+                        "access_rules": ["^$can_access_all_photo_challenges"]
                     }
                 ],
                 "map_locations": [
@@ -374,7 +369,6 @@
                         "name": "Item - Rubber boots",
                         "chest_unopened_img": "/images/items/chest_close.png",
                         "chest_opened_img": "/images/items/chest_open.png",
-                        "visibility_rules": ["include_items_on"],
                         "sections": [
                             {
                                 "name": ""
@@ -400,8 +394,7 @@
                     {
                         "name": "Item - Hard hat",
                         "chest_unopened_img": "/images/items/chest_close.png",
-                        "chest_opened_img": "/images/items/chest_open.png",
-                        "visibility_rules": ["include_items_on"]
+                        "chest_opened_img": "/images/items/chest_open.png"
                     },
                     {
                         "name": "Achievement - Employee of the month",
@@ -430,8 +423,7 @@
                         "name": "Item - Honk attachment",
                         "chest_unopened_img": "/images/items/chest_close.png",
                         "chest_opened_img": "/images/items/chest_open.png",
-                        "access_rules": ["@Stanhamn/Lighthouse Roof/Quest - Solve the chaos"],
-                        "visibility_rules": ["include_items_on"]
+                        "access_rules": ["@Stanhamn/Lighthouse Roof/Quest - Solve the chaos"]
                     }
                 ],
                 "map_locations": [
@@ -465,7 +457,6 @@
                         "name": "Item - Diving helmet",
                         "chest_unopened_img": "/images/items/chest_close.png",
                         "chest_opened_img": "/images/items/chest_open.png",
-                        "visibility_rules": ["include_items_on"],
                         "sections": [
                             {
                                 "name": ""
@@ -511,8 +502,7 @@
                         "name": "Cassette - Fisherman's Whistle",
                         "chest_unopened_img": "/images/items/cassette_close.png",
                         "chest_opened_img": "/images/items/cassette_open.png",
-                        "access_rules": ["@Stanhamn/Snowman/Quest - A whistling dilemma"],
-                        "visibility_rules": ["include_cassettes_on"]
+                        "access_rules": ["@Stanhamn/Snowman/Quest - A whistling dilemma"]
                     }
                 ],
                 "map_locations": [
@@ -589,7 +579,6 @@
                         "name": "Item - Umbrella",
                         "chest_unopened_img": "/images/items/chest_close.png",
                         "chest_opened_img": "/images/items/chest_open.png",
-                        "visibility_rules": ["include_items_on"],
                         "sections": [
                             {
                                 "name": ""
@@ -681,8 +670,7 @@
                         "name": "Item - Pirate hat",
                         "chest_unopened_img": "/images/items/chest_close.png",
                         "chest_opened_img": "/images/items/chest_open.png",
-                        "access_rules": ["old_key"],
-                        "visibility_rules": ["include_items_on"]
+                        "access_rules": ["old_key"]
                     },
                     {
                         "name": "Cassette - JG+LS - The Smiling Huntsman",
@@ -768,7 +756,6 @@
                         "name": "Item - Fishing hat",
                         "chest_unopened_img": "/images/items/chest_close.png",
                         "chest_opened_img": "/images/items/chest_open.png",
-                        "visibility_rules": ["include_items_on"],
                         "sections": [
                             {
                                 "name": ""
