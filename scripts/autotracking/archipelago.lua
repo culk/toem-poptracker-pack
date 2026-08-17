@@ -285,7 +285,7 @@ function OnNotifyLaunch(key, value)
         end
     elseif key == CLIENT_STATUS_ID then
         UpdateStatus(value --[[@as integer]])
-    elseif key == FOUND_ENTRANCES_ID then
+    elseif key == FOUND_ENTRANCES_ID and value ~= nil then
         UpdateConnections(value --[[@as table<integer>]])
     end
 end
