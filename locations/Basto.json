@@ -821,6 +821,7 @@
                         "name": "Compendium - Mud frog",
                         "chest_unopened_img": "/images/items/photo_close.png",
                         "chest_opened_img": "/images/items/photo_open.png",
+                        "access_rules": ["^$can_make_night"],
                         "sections": [
                             {
                                 "name": ""
@@ -870,7 +871,7 @@
                             {
                                 "map": "Basto",
                                 "x": 260,
-                                "y": 1434
+                                "y": 1439
                             }
                         ]
                     }
@@ -1117,7 +1118,10 @@
             },
             {
                 "name": "Lily Pad Pond Right",
-                "access_rules": ["^$can_reach|basto_lily_pad_pond_right"],
+                "access_rules": [
+                    "^$can_reach|basto_lily_pad_pond_right",
+                    "^$can_reach|basto_lily_pad_pond_left,^$can_make_night"
+                ],
                 "sections": [
                     {
                         "name": "Item - Melonear",
@@ -1192,7 +1196,7 @@
                         "name": "Achievement - Wazzuuppp",
                         "chest_unopened_img": "/images/items/achievement_wazzuuppp.png",
                         "chest_opened_img": "/images/items/achievement_open.png",
-                        "access_rules": ["frames_filters,^$can_reach_any|basto_lily_pad_pond_right|basto_outside_castle|basto_bonfire_top|basto_ghost_hangout|basto_jungle"]
+                        "access_rules": ["frames_filters,^$can_make_night"]
                     },
                     {
                         "name": "Achievement - And some more",

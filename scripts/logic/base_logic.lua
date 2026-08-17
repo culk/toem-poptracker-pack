@@ -332,6 +332,18 @@ function can_access_all_goats()
     )
 end
 
+-- Can reach a region with a hammock.
+function can_make_night()
+    return can_reach_any(
+        "basto_lily_pad_pond_right",
+        "basto_outside_castle",
+        "basto_bonfire_top",
+        "basto_ghost_hangout",
+        "basto_jungle",
+        "basto_tent"
+    )
+end
+
 -- "Quest - Bastos hidden balloons"
 function can_access_all_balloons()
     return can_reach_all(
