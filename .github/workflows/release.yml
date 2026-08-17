@@ -1,0 +1,37 @@
+name: Update versions.json on release
+on:
+  release:
+    types: [published]
+jobs:
+  autoupdate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: versions
+      - name: Download pack
+        run: curl -L -o pack.zip "https://github.com/${{ github.repository }}/releases/download/${{ github.event.release.tag_name }}/toem_ap_tracker.zip"
+      - name: Get checksum
+        run: echo "sha256sum=$(sha256sum pack.zip | awk '{print $1}')" >> $GITHUB_OUTPUT
+        id: checksum
+      - name: Get version number
+        run: echo "version_number=$(echo ${{ github.event.release.tag_name }} | sed 's/^v//g')" >> $GITHUB_OUTPUT
+        id: number
+      - name: Git config
+        run: git config user.name "Automation" && git config user.email "automation@localhost"
+      - name: Add to versions
+        run: |-
+          jq '.versions |= [{
+            "package_version": "${{ steps.number.outputs.version_number }}",
+            "download_url": "https://github.com/${{ github.repository }}/releases/download/${{ github.event.release.tag_name }}/toem_ap_tracker.zip",
+            "sha256": "${{ steps.checksum.outputs.sha256sum }}",
+            "changelog": ["Check release notes"]
+          }] + .' versions.json > new_versions.json
+      - name: Move new versions in
+        run: mv new_versions.json versions.json
+      - name: Commit
+        run: git commit -am "Release ${{ github.event.release.tag_name }}"
+      - name: Push
+        run: git push origin HEAD:versions
