@@ -40,6 +40,10 @@
                 "name": "Achievement - Going long!",
                 "chest_unopened_img": "/images/items/achievement_going_long.png",
                 "chest_opened_img": "/images/items/achievement_open.png",
+                "access_rules": [
+                    "@Mountain Top/Achievement - Experience TOEM/",
+                    "[hard_logic]"
+                ],
                 "visibility_rules": ["include_achievements_on"],
                 "sections": [
                     {
