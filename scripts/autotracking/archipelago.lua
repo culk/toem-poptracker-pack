@@ -147,7 +147,6 @@ function OnClear(slot_data)
             FOUND_REGIONS = {}
             TRANSITIONS = value
         end
-        -- TODO: also cap out stamp number to required number
     end
 
     -- Subscribe to data storage changes.
@@ -324,12 +323,10 @@ end
 ---@param found_entrances table<integer>
 function UpdateConnections(found_entrances)
     for i=ENTRANCE_INDEX,#found_entrances do
-        -- TODO: clean up logging and variable names after confirming things work.
-        local transition = TRANSITIONS[tostring(found_entrances[i])]
-        local connection = CONNECTION_MAPPING[transition]
-        print(string.format("UpdateConnections: Found entrance id %d replaced with transition %d: %s -> %s", found_entrances[i], transition, connection[1], connection[2]))
-        FOUND_REGIONS[connection[1]] = true
-        -- TODO: what about excluded connections? How to add their destinations?
+        local connection_id = TRANSITIONS[tostring(found_entrances[i])]
+        local region = CONNECTION_MAPPING[connection_id][1]
+        print(string.format("UpdateConnections: Found region %s from entrance id %d", region, found_entrances[i]))
+        FOUND_REGIONS[region] = true
     end
     ENTRANCE_INDEX = #found_entrances + 1
 
