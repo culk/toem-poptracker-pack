@@ -1,7 +1,7 @@
 [
     {
         "name": "Mountain Top",
-        "access_rules": ["$has_required_stamps_for|kiiruberg,^$can_reach|kiiruberg_bus_stop"],
+        "access_rules": ["$has_required_stamps_for|kiiruberg,@Kiiruberg"],
         "visibility_rules": ["include_achievements_on"],
         "children": [
             {

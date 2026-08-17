@@ -3,7 +3,7 @@
         "name": "Kiiruberg",
         "chest_unopened_img": "/images/items/quest_close.png",
         "chest_opened_img": "/images/items/quest_open.png",
-        "access_rules": ["$has_required_stamps_for|logcity,^$can_reach|logcity_bus_stop"],
+        "access_rules": ["$has_required_stamps_for|logcity,@Logcity"],
         "children": [
             {
                 "name": "Cliffs Middle",

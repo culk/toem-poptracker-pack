@@ -64,7 +64,8 @@
                             {
                                 "name": "Quest - Arthur hunter",
                                 "access_rules": [
-                                    "pickaxe,^$can_reach_all|basto_outside_castle|basto_bus_stop_top"
+                                    "pickaxe,^$can_reach_all|basto_outside_castle|basto_bus_stop_top",
+                                    "pickaxe,watergun,^$can_reach|basto_outside_castle"
                                 ]
                             },
                             {
@@ -914,7 +915,7 @@
             {
                 "name": "Beak Bird",
                 "access_rules": [
-                    "^$can_reach|basto_bus_stop_bottom",
+                    "",
                     "^$can_reach|basto_bus_stop_top",
                     "^$can_reach|basto_lily_pad_pond_left",
                     "^$can_reach|basto_lily_pad_pond_right"
@@ -962,10 +963,6 @@
             },
             {
                 "name": "Bitling Tato",
-                "access_rules": [
-                    "^$can_reach|basto_bus_stop_bottom",
-                    "^$can_reach|basto_bus_stop_top"
-                ],
                 "sections": [
                     {
                         "name": "Compendium - Bitling tato",

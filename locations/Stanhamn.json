@@ -3,7 +3,7 @@
         "name": "Stanhamn",
         "chest_unopened_img": "/images/items/quest_close.png",
         "chest_opened_img": "/images/items/quest_open.png",
-        "access_rules": ["$has_required_stamps_for|oaklaville,^$can_reach|oaklaville_bus_stop"],
+        "access_rules": ["$has_required_stamps_for|oaklaville,@Oaklaville"],
         "children": [
             {
                 "name": "Bus Stop",
@@ -109,7 +109,6 @@
                 "children": [
                     {
                         "name": "Quest - Suspicious activity - harbor",
-                        "access_rules": ["^$can_reach|stanhamn_bus_stop"],
                         "sections": [
                             {
                                 "name": ""
@@ -507,8 +506,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Quest - A whistling dilemma",
-                        "access_rules": ["^$can_reach|stanhamn_bus_stop"]
+                        "name": "Quest - A whistling dilemma"
                     },
                     {
                         "name": "Cassette - Fisherman's Whistle",
@@ -710,7 +708,7 @@
             {
                 "name": "Seagulls",
                 "access_rules": [
-                    "^$can_reach|stanhamn_bus_stop",
+                    "",
                     "^$can_reach|stanhamn_hippo_beach",
                     "^$can_reach|stanhamn_outside_lighthouse",
                     "^$can_reach|stanhamn_outside_hydroplant,[hard_logic]",

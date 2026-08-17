@@ -3,7 +3,7 @@
         "name": "Oaklaville",
         "chest_unopened_img": "/images/items/quest_close.png",
         "chest_opened_img": "/images/items/quest_open.png",
-        "access_rules": ["$has_required_stamps_for|homelanda,^$can_reach|homelanda_bus_stop"],
+        "access_rules": ["$has_required_stamps_for|homelanda"],
         "children": [
             {
                 "name": "Trail Bottom",
@@ -27,7 +27,7 @@
                     },
                     {
                         "name": "Quest - Log blocking a path",
-                        "access_rules": ["^$can_reach_all|oaklaville_lookout|oaklaville_bus_stop,^$can_reach_any|oaklaville_playground|oaklaville_mushroom_house"],
+                        "access_rules": ["^$can_reach_all|oaklaville_hotel|oaklaville_camp"],
                         "sections": [
                             {
                                 "name": ""
@@ -325,7 +325,7 @@
                         "sections": [
                             {
                                 "name": "Quest - Become a scout",
-                                "access_rules": ["^$can_reach_all|oaklaville_lookout|oaklaville_bus_stop,^$can_reach_any|oaklaville_playground|oaklaville_mushroom_house"]
+                                "access_rules": ["^$can_reach_all|oaklaville_lookout,^$can_reach_any|oaklaville_playground|oaklaville_mushroom_house"]
                             },
                             {
                                 "name": "Item - Fjällbjörn hat",

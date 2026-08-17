@@ -3,7 +3,7 @@
         "name": "Logcity",
         "chest_unopened_img": "/images/items/quest_close.png",
         "chest_opened_img": "/images/items/quest_open.png",
-        "access_rules": ["$has_required_stamps_for|stanhamn,^$can_reach|stanhamn_bus_stop"],
+        "access_rules": ["$has_required_stamps_for|stanhamn,@Stanhamn"],
         "children": [
             {
                 "name": "Outside Fashion Show",
@@ -20,8 +20,8 @@
                         "map_locations": [
                             {
                                 "map": "Logcity",
-                                "x": 1170,
-                                "y": 921
+                                "x": 980,
+                                "y": 859
                             }
                         ]
                     },
@@ -382,7 +382,7 @@
                 "children": [
                     {
                         "name": "Quest - Spooky scary city",
-                        "access_rules": ["ghost_glasses,^$can_reach|oaklaville_bus_stop"],
+                        "access_rules": ["ghost_glasses,@Oaklaville"],
                         "sections": [
                             {
                                 "name": ""
@@ -497,7 +497,6 @@
             },
             {
                 "name": "Bus Stop Cleaner",
-                "access_rules": ["^$can_reach|logcity_bus_stop"],
                 "sections": [
                     {
                         "name": "Quest - Cleaning away the stress",
