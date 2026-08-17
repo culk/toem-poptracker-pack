@@ -12,5 +12,6 @@
             ]
         }
     },
+    "versions_url": "https://raw.githubusercontent.com/culk/toem-poptracker-pack/versions/versions.json",
     "min_poptracker_version": "0.31.0"
 }
