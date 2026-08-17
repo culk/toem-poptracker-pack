@@ -61,11 +61,11 @@
                     },
                     {
                         "name": "Quest - Sweet tooth",
-                        "ref": "Basto/Cave/Quest - Sweet tooth/"
+                        "ref": "Basto/Cave/Vampire/Quest - Sweet tooth"
                     },
                     {
                         "name": "Quest - Book of bats",
-                        "ref": "Basto/Cave/Quest - Book of bats/"
+                        "ref": "Basto/Cave/Vampire/Quest - Book of bats"
                     },
                     {
                         "name": "Quest - In your face",
@@ -297,7 +297,7 @@
                 "sections": [
                     {
                         "name": "Cassette - Launchable Socks - Sailors Tune",
-                        "ref": "Basto/Bus Stop Bottom/Cassette - Launchable Socks - Sailors Tune/"
+                        "ref": "Basto/Bus Stop Bottom/Information Booth/Cassette - Launchable Socks - Sailors Tune"
                     },
                     {
                         "name": "Cassette - Jamal Green - One By One",
@@ -573,7 +573,7 @@
                     },
                     {
                         "name": "Compendium - Mountain goat",
-                        "ref": "Kiiruberg/Goat/Compendium - Mountain goat/"
+                        "ref": "Kiiruberg/Goat/Compendium - Mountain goat (Cliffs)/"
                     },
                     {
                         "name": "Compendium - Owl",

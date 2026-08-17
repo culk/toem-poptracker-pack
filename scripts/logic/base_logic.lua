@@ -233,14 +233,14 @@ function can_access_all_quests(level_name)
 	        "@Basto/Lily Pad Pond Left/Quest - Jet-ski tricks/",
 	        "@Basto/Outside Castle/Ice Cream Vendor/Quest - Fruit shortage",
 	        "@Basto/Bonfire Top/Viking/Quest - Brain freeze",
-	        "@Basto/Cave/Quest - Sweet tooth/",
+	        "@Basto/Cave/Vampire/Quest - Sweet tooth",
 	        "@Basto/Castle/Quest - In your face",
 	        "@Basto/Lily Pad Pond Left/Injured Monkey/Quest - Broken dreams",
 	        "@Basto/Lily Pad Pond Left/Quest - Dry season/",
 	        "@Basto/Gym House/Quest - Dehydrated muscles",
 	        "@Basto/Castle/Quest - Sand castle competition",
 	        "@Basto/Carnival/Quest - Play a carnival game",
-	        "@Basto/Cave/Quest - Book of bats/",
+	        "@Basto/Cave/Vampire/Quest - Book of bats",
 	        "@Basto/Jungle/Quest - Bitling collector/",
         },
     }
@@ -392,19 +392,18 @@ end
 -- "Quest - Dry season"
 function can_access_all_plants()
     return ALL(
-        ANY(
-            can_reach("basto_bus_stop_bottom"),
-            ALL(can_reach("basto_bus_stop_top"), "hard_logic")
-        ),
         can_reach_all(
             "basto_camp",
-            "basto_bonfire_top",
             "basto_carnival",
             "basto_jungle",
             "basto_cave",
             "basto_ghost_hangout",
             "basto_castle",
             "basto_gym_house"
+        ),
+        ANY(
+            can_reach("basto_bonfire_top"),
+            can_reach("basto_bonfire_bottom")
         )
     )
 end
@@ -503,7 +502,7 @@ function can_access_all_base_animals()
 	    "@Kiiruberg/Fluff/Compendium - Fluff ball",
 	    "@Kiiruberg/Hedgehog/Compendium - Hedgehog",
 	    "@Kiiruberg/Meteopal/Compendium - Meteopal",
-	    "@Kiiruberg/Goat/Compendium - Mountain goat/",
+	    "@Kiiruberg/Goat/Compendium - Mountain goat (Cliffs)/",
 	    "@Kiiruberg/Owl/Compendium - Owl",
 	    "@Kiiruberg/Ski Lift Base/Compendium - Snow bird/",
 	    "@Kiiruberg/Observatory/Compendium - Tato alien",

@@ -446,19 +446,16 @@
             },
             {
                 "name": "Goat",
-                "access_rules": [
-                    "^$can_reach|kiiruberg_birthday_party_bottom",
-                    "^$can_reach|kiiruberg_birthday_party_top",
-                    "^$can_reach|kiiruberg_cliffs_middle",
-                    "^$can_reach|kiiruberg_cliffs_top",
-                    "^$can_reach|kiiruberg_ski_mountain_top"
-                ],
                 "children": [
                     {
-                        "name": "Compendium - Mountain goat",
+                        "name": "Compendium - Mountain goat (Cliffs)",
                         "chest_unopened_img": "/images/items/photo_close.png",
                         "chest_opened_img": "/images/items/photo_open.png",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$can_reach|kiiruberg_cliffs_middle",
+                            "^$can_reach|kiiruberg_cliffs_top",
+                            "climbing_boots,^$can_reach|kiiruberg_cliffs_bottom"
+                        ],
                         "sections": [
                             {
                                 "name": ""
@@ -467,8 +464,49 @@
                         "map_locations": [
                             {
                                 "map": "Kiiruberg",
-                                "x": 555,
-                                "y": 1609
+                                "x": 1052,
+                                "y": 664
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compendium - Mountain goat (Ski Mountain Top)",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
+                        "access_rules": [
+                            "^$can_reach|kiiruberg_ski_mountain_top"
+                        ],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Kiiruberg",
+                                "x": 1744,
+                                "y": 253
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compendium - Mountain goat (Birthday Party)",
+                        "chest_unopened_img": "/images/items/photo_close.png",
+                        "chest_opened_img": "/images/items/photo_open.png",
+                        "access_rules": [
+                            "^$can_reach|kiiruberg_birthday_party_bottom",
+                            "^$can_reach|kiiruberg_birthday_party_top"
+                        ],
+                        "sections": [
+                            {
+                                "name": ""
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Kiiruberg",
+                                "x": 767,
+                                "y": 1767
                             }
                         ]
                     }
@@ -478,7 +516,7 @@
                 "name": "Owl",
                 "access_rules": [
                     "^$can_reach|kiiruberg_cliffs_top",
-                    "^$can_reach|kiiruberg_cliffs_middle,[hard_logic"
+                    "^$can_reach|kiiruberg_cliffs_middle,[hard_logic]"
                 ],
                 "sections": [
                     {

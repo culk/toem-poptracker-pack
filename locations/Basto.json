@@ -13,13 +13,24 @@
                         "name": "Information Booth",
                         "sections": [
                             {
+                                "name": "Item - Water popper attachment",
+                                "chest_unopened_img": "/images/items/chest_close.png",
+                                "chest_opened_img": "/images/items/chest_open.png"
+                            },
+                            {
                                 "name": "Quest - Bastos hidden balloons",
                                 "access_rules": ["watergun,^$can_access_all_balloons"]
                             },
                             {
-                                "name": "Item - Water popper attachment",
-                                "chest_unopened_img": "/images/items/chest_close.png",
-                                "chest_opened_img": "/images/items/chest_open.png"
+                                "name": "Cassette - Launchable Socks - Sailors Tune",
+                                "chest_unopened_img": "/images/items/cassette_close.png",
+                                "chest_opened_img": "/images/items/cassette_open.png",
+                                "access_rules": ["watergun,$has_required_stamps_for|basto"],
+                                "visibility_rules": ["include_cassettes_on"]
+                            },
+                            {
+                                "name": "Goal - Basto Bonfire",
+                                "access_rules": ["watergun,$has_required_stamps_for|basto"]
                             }
                         ],
                         "map_locations": [
@@ -27,25 +38,6 @@
                                 "map": "Basto",
                                 "x": 724,
                                 "y": 1754
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Cassette - Launchable Socks - Sailors Tune",
-                        "chest_unopened_img": "/images/items/cassette_close.png",
-                        "chest_opened_img": "/images/items/cassette_open.png",
-                        "access_rules": ["watergun,$has_required_stamps_for|basto"],
-                        "visibility_rules": ["include_cassettes_on"],
-                        "sections": [
-                            {
-                                "name": ""
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "Basto",
-                                "x": 830,
-                                "y": 1790
                             }
                         ]
                     }
@@ -289,8 +281,8 @@
                         "map_locations": [
                             {
                                 "map": "Basto",
-                                "x": 1094,
-                                "y": 793
+                                "x": 903,
+                                "y": 874
                             }
                         ]
                     },
@@ -318,7 +310,8 @@
                             {
                                 "name": "Item - Ice cream (Oranganas)",
                                 "chest_unopened_img": "/images/items/chest_close.png",
-                                "chest_opened_img": "/images/items/chest_open.png"
+                                "chest_opened_img": "/images/items/chest_open.png",
+                                "access_rules": ["oranganas"]
                             },
                             {
                                 "name": "Quest - Fruit shortage",
@@ -458,7 +451,7 @@
                     },
                     {
                         "name": "Quest - Dry season",
-                        "access_rules": ["^$can_access_all_plants"],
+                        "access_rules": ["watergun,^$can_access_all_plants"],
                         "sections": [
                             {
                                 "name": ""
@@ -479,31 +472,33 @@
                 "access_rules": ["^$can_reach|basto_cave"],
                 "children": [
                     {
-                        "name": "Quest - Sweet tooth",
-                        "access_rules": [
-                            "ice_cream:4,@Basto/Cave/Quest - Book of bats/",
-                            "ice_cream,@Basto/Cave/Quest - Book of bats/,[hard_logic]"
-                        ],
-                        "sections": [
-                            {
-                                "name": ""
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "Basto",
-                                "x": 1829,
-                                "y": 500
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Quest - Book of bats",
+                        "name": "Vampire",
                         "access_rules": [
                             "honk_attachment,^$can_reach_all|basto_bonfire_top|basto_outside_castle",
                             "watergun,^$can_reach_all|basto_bonfire_top|basto_outside_castle",
                             "watergun,^$can_reach_all|basto_bonfire_bottom|basto_outside_castle,[hard_logic]"
                         ],
+                        "sections": [
+                            {
+                                "name": "Quest - Book of bats"
+                            },
+                            {
+                                "name": "Quest - Sweet tooth",
+                                "access_rules": [
+                                    "ice_cream:4",
+                                    "ice_cream,[hard_logic]"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Basto",
+                                "x": 1828,
+                                "y": 540
+                            }
+                        ]
+                    },
+                    {
                         "sections": [
                             {
                                 "name": ""
@@ -1033,8 +1028,8 @@
                         "map_locations": [
                             {
                                 "map": "Basto",
-                                "x": 1660,
-                                "y": 1569
+                                "x": 1762,
+                                "y": 1411
                             }
                         ]
                     },
@@ -1267,23 +1262,6 @@
                         "map": "Basto",
                         "x": 836,
                         "y": 1848
-                    }
-                ]
-            },
-            {
-                "name": "Bonfire",
-                "access_rules": ["watergun,$has_required_stamps_for|basto"],
-                "visibility_rules": ["include_basto_on"],
-                "sections": [
-                    {
-                        "name": "Goal - Basto Bonfire"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Basto",
-                        "x": 278,
-                        "y": 681
                     }
                 ]
             }
