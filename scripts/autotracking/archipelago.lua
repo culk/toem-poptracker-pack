@@ -315,7 +315,8 @@ end
 function UpdateStatus(status)
     if status == Archipelago.ClientStatus.GOAL then
         print("UpdateStatus: goal achieved")
-        --OnLocation(10000, "Goal")
+        OnLocation(10000, "Goal - TOEM Experienced")
+        OnLocation(10001, "Goal - Basto Bonfire")
     end
 end
 
