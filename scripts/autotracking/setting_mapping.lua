@@ -13,8 +13,8 @@ SETTING_MAPPING = {
             [1] = 1,
         },
     },
-    homeland_stamp_requirement = {
-        code = "stamp_requirement_homeland",
+    homelanda_stamp_requirement = {
+        code = "stamp_requirement_homelanda",
     },
     oaklaville_stamp_requirement = {
         code = "stamp_requirement_oaklaville",
