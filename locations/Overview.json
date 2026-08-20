@@ -95,7 +95,7 @@
                 "map_locations": [
                     {
                         "map": "Overview",
-                        "x": 509,
+                        "x": 533,
                         "y": 546
                     }
                 ]
@@ -187,7 +187,7 @@
                 "map_locations": [
                     {
                         "map": "Overview",
-                        "x": 533,
+                        "x": 509,
                         "y": 546
                     }
                 ]
@@ -399,7 +399,7 @@
                 "map_locations": [
                     {
                         "map": "Overview",
-                        "x": 166,
+                        "x": 190,
                         "y": 108
                     }
                 ]
@@ -427,7 +427,7 @@
                 "map_locations": [
                     {
                         "map": "Overview",
-                        "x": 190,
+                        "x": 166,
                         "y": 108
                     }
                 ]
@@ -539,7 +539,7 @@
                 "map_locations": [
                     {
                         "map": "Overview",
-                        "x": 571,
+                        "x": 595,
                         "y": 390
                     }
                 ]
@@ -599,7 +599,7 @@
                 "map_locations": [
                     {
                         "map": "Overview",
-                        "x": 595,
+                        "x": 571,
                         "y": 390
                     }
                 ]
@@ -763,7 +763,7 @@
                 "map_locations": [
                     {
                         "map": "Overview",
-                        "x": 410,
+                        "x": 434,
                         "y": 172
                     }
                 ]
@@ -807,7 +807,7 @@
                 "map_locations": [
                     {
                         "map": "Overview",
-                        "x": 434,
+                        "x": 410,
                         "y": 172
                     }
                 ]
@@ -987,7 +987,7 @@
                 "map_locations": [
                     {
                         "map": "Overview",
-                        "x": 127,
+                        "x": 151,
                         "y": 356
                     }
                 ]
@@ -1059,7 +1059,7 @@
                 "map_locations": [
                     {
                         "map": "Overview",
-                        "x": 151,
+                        "x": 127,
                         "y": 356
                     }
                 ]
@@ -1235,7 +1235,7 @@
                 "map_locations": [
                     {
                         "map": "Overview",
-                        "x": 360,
+                        "x": 384,
                         "y": 497
                     }
                 ]
@@ -1307,7 +1307,7 @@
                 "map_locations": [
                     {
                         "map": "Overview",
-                        "x": 384,
+                        "x": 360,
                         "y": 497
                     }
                 ]
@@ -1362,10 +1362,6 @@
                     {
                         "name": "Item - Fishing hat",
                         "ref": "Stanhamn/Lighthouse/Item - Fishing hat/"
-                    },
-                    {
-                        "name": "Cassette - Fisherman's Whistle",
-                        "ref": "Stanhamn/Snowman/Cassette - Fisherman's Whistle"
                     }
                 ],
                 "map_locations": [
@@ -1382,6 +1378,10 @@
                     {
                         "name": "Cassette - Jamal Green - NAUT",
                         "ref": "Stanhamn/Stanhamn/Cassette - Jamal Green - NAUT"
+                    },
+                    {
+                        "name": "Cassette - Fisherman's Whistle",
+                        "ref": "Stanhamn/Snowman/Cassette - Fisherman's Whistle"
                     },
                     {
                         "name": "Cassette - Launchable Socks - Fisherman's Tune",
