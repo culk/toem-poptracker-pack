@@ -1,0 +1,130 @@
+{
+    "camera_horizontal": {
+        "type": "group",
+        "header": "Camera",
+        "content": {
+            "type": "itemgrid",
+            "item_height": 64,
+            "item_width": 64,
+            "item_margin": "0,0",
+            "h_alignment": "left",
+            "rows": [
+                [
+                    "honk_attachment"
+                ],
+                [
+                    "tripod"
+                ],
+                [
+                    "frames_filters"
+                ]
+            ]
+        }
+    },
+    "camera_vertical": {
+        "type": "group",
+        "header": "Camera",
+        "content": {
+            "type": "itemgrid",
+            "item_height": 64,
+            "item_width": 64,
+            "item_margin": "0,0",
+            "h_alignment": "left",
+            "rows": [
+                [
+                    "honk_attachment",
+                    "tripod",
+                    "frames_filters",
+                    "flag"
+                ]
+            ]
+        }
+    },
+    "clothing_horizontal": {
+        "type": "group",
+        "header": "Clothing",
+        "content": {
+            "type": "itemgrid",
+            "item_height": 64,
+            "item_width": 64,
+            "item_margin": "0,0",
+            "h_alignment": "left",
+            "rows": [
+                [
+                    "clogs",
+                    "wet_socks",
+                    "ghost_glasses",
+                    "reporter_hat",
+                    "hotbean_hat",
+                    "fjallbjorn_hat",
+                    "cowboy_hat",
+                    "pirate_hat"
+                ],
+                [
+                    "diving_helmet",
+                    "climbing_boots",
+                    "puffer_hat",
+                    "scarf",
+                    "ski_goggles",
+                    "space_helmet",
+                    "sneakers",
+                    "paper_hat"
+                ],
+                [
+                    "award_mask",
+                    "rubber_boots",
+                    "finger",
+                    "hard_hat",
+                    "soaked_sock",
+                    "monster_mask",
+                    "fishing_hat",
+                    "umbrella"
+                ]
+            ]
+        }
+    },
+    "clothing_vertical": {
+        "type": "group",
+        "header": "Clothing",
+        "content": {
+            "type": "itemgrid",
+            "item_height": 64,
+            "item_width": 64,
+            "item_margin": "0,0",
+            "h_alignment": "left",
+            "rows": [
+                [
+                    "clogs",
+                    "wet_socks",
+                    "ghost_glasses",
+                    "reporter_hat",
+                    "hotbean_hat",
+                    "fjallbjorn_hat"
+                ],
+                [
+                    "diving_helmet",
+                    "climbing_boots",
+                    "puffer_hat",
+                    "scarf",
+                    "ski_goggles",
+                    "cowboy_hat"
+                ],
+                [
+                    "pirate_hat",
+                    "paper_hat",
+                    "hard_hat",
+                    "award_mask",
+                    "rubber_boots",
+                    "finger"
+                ],
+                [
+                    "soaked_sock",
+                    "sneakers",
+                    "monster_mask",
+                    "fishing_hat",
+                    "umbrella"
+                ]
+            ]
+        }
+    }
+}

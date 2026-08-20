@@ -350,11 +350,28 @@ function UpdateLayoutStamps(show_progressive_stamps, show_basto)
     end
 end
 
-function UpdateLayoutItems(show_basto)
-    if show_basto then
-        Tracker:AddLayouts("layouts/key_items/show_all.json")
-    else
-        Tracker:AddLayouts("layouts/key_items/hide_basto.json")
+function UpdateLayoutItems(show_items, show_basto, show_cassettes)
+    if show_items and show_basto then
+        Tracker:AddLayouts("layouts/camera_clothing/show_all.json")
+        if show_cassettes then
+            Tracker:AddLayouts("layouts/other_items/show_all.json")
+        else
+            Tracker:AddLayouts("layouts/other_items/hide_cassettes.json")
+        end
+    elseif show_items and not show_basto then
+        Tracker:AddLayouts("layouts/camera_clothing/hide_basto.json")
+        if show_cassettes then
+            Tracker:AddLayouts("layouts/other_items/hide_basto.json")
+        else
+            Tracker:AddLayouts("layouts/other_items/hide_basto_cassettes.json")
+        end
+    elseif not show_items then
+        Tracker:AddLayouts("layouts/camera_clothing/hide_all.json")
+        if show_cassettes then
+            Tracker:AddLayouts("layouts/other_items/hide_items.json")
+        else
+            Tracker:AddLayouts("layouts/other_items/hide_all.json")
+        end
     end
 end
 
@@ -369,10 +386,12 @@ end
 function UpdateLayout()
     if LAYOUT_STALE then
         local show_progressive_stamps = Tracker:FindObjectForCode("progressive_stamps").CurrentStage == 1
+        local show_items = Tracker:FindObjectForCode("include_items").CurrentStage == 1
         local show_basto = Tracker:FindObjectForCode("include_basto").CurrentStage == 1
+        local show_cassettes = Tracker:FindObjectForCode("include_cassettes").CurrentStage == 1
 
         UpdateLayoutStamps(show_progressive_stamps, show_basto)
-        UpdateLayoutItems(show_basto)
+        UpdateLayoutItems(show_items, show_basto, show_cassettes)
         UpdateLayoutMapTabs(show_basto)
 
         LAYOUT_STALE = false

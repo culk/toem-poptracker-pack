@@ -1,0 +1,14 @@
+{
+    "camera_horizontal": {
+        "type": "canvas"
+    },
+    "camera_vertical": {
+        "type": "canvas"
+    },
+    "clothing_horizontal": {
+        "type": "canvas"
+    },
+    "clothing_vertical": {
+        "type": "canvas"
+    }
+}

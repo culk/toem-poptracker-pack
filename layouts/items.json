@@ -13,30 +13,18 @@
 				}
 			},
             {
-                "type": "group",
+				"type": "layout",
 				"dock": "left",
-                "header": "Camera",
-                "content": {
-					"type": "layout",
-					"key": "camera_horizontal"
-				}
+				"key": "camera_horizontal"
 			},
             {
-                "type": "group",
+				"type": "layout",
 				"dock": "left",
-                "header": "Clothing",
-                "content": {
-					"type": "layout",
-					"key": "clothing_horizontal"
-				}
+				"key": "clothing_horizontal"
 			},
             {
-                "type": "group",
-                "header": "Other",
-                "content": {
-					"type": "layout",
-					"key": "other_horizontal"
-				}
+				"type": "layout",
+				"key": "other_horizontal"
             }
         ]
     },
@@ -54,30 +42,18 @@
 				}
 			},
 			{
-                "type": "group",
+				"type": "layout",
 				"dock": "top",
-				"header": "Camera",
-                "content": {
-					"type": "layout",
-					"key": "camera_vertical"
-				}
+				"key": "camera_vertical"
 			},
 			{
-                "type": "group",
+				"type": "layout",
 				"dock": "top",
-				"header": "Clothing",
-                "content": {
-					"type": "layout",
-					"key": "clothing_vertical"
-				}
+				"key": "clothing_vertical"
 			},
 			{
-                "type": "group",
-				"header": "Other",
-                "content": {
-					"type": "layout",
-					"key": "other_vertical"
-				}
+				"type": "layout",
+				"key": "other_vertical"
             }
         ]
     }

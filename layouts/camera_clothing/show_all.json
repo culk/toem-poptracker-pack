@@ -1,0 +1,166 @@
+{
+    "camera_horizontal": {
+        "type": "group",
+        "header": "Camera",
+        "content": {
+            "type": "itemgrid",
+            "item_height": 64,
+            "item_width": 64,
+            "item_margin": "0,0",
+            "h_alignment": "left",
+            "rows": [
+                [
+                    "honk_attachment"
+                ],
+                [
+                    "tripod"
+                ],
+                [
+                    "frames_filters"
+                ],
+                [
+                    "flag"
+                ],
+                [
+                    "watergun"
+                ]
+            ]
+        }
+    },
+    "camera_vertical": {
+        "type": "group",
+        "header": "Camera",
+        "content": {
+            "type": "itemgrid",
+            "item_height": 64,
+            "item_width": 64,
+            "item_margin": "0,0",
+            "h_alignment": "left",
+            "rows": [
+                [
+                    "honk_attachment",
+                    "tripod",
+                    "frames_filters",
+                    "flag",
+                    "watergun"
+                ]
+            ]
+        }
+    },
+    "clothing_horizontal": {
+        "type": "group",
+        "header": "Clothing",
+        "content": {
+            "type": "itemgrid",
+            "item_height": 64,
+            "item_width": 64,
+            "item_margin": "0,0",
+            "h_alignment": "left",
+            "rows": [
+                [
+                    "clogs",
+                    "wet_socks",
+                    "ghost_glasses",
+                    "reporter_hat",
+                    "hotbean_hat",
+                    "fjallbjorn_hat",
+                    "cowboy_hat",
+                    "pirate_hat"
+                ],
+                [
+                    "diving_helmet",
+                    "climbing_boots",
+                    "puffer_hat",
+                    "scarf",
+                    "ski_goggles",
+                    "space_helmet",
+                    "sneakers",
+                    "paper_hat"
+                ],
+                [
+                    "vacation_shirt",
+                    "flip_flops",
+                    "sun_hat",
+                    "royal_cape",
+                    "royal_crown",
+                    "sun_cap",
+                    "beret",
+                    "award_mask"
+                ],
+                [
+                    "rubber_boots",
+                    "finger",
+                    "hard_hat",
+                    "soaked_sock",
+                    "monster_mask",
+                    "fishing_hat",
+                    "umbrella",
+                    "lei"
+                ],
+                [
+                    "viking_helmet",
+                    "foot_cast",
+                    "royal_cane"
+                ]
+            ]
+        }
+    },
+    "clothing_vertical": {
+        "type": "group",
+        "header": "Clothing",
+        "content": {
+            "type": "itemgrid",
+            "item_height": 64,
+            "item_width": 64,
+            "item_margin": "0,0",
+            "h_alignment": "left",
+            "rows": [
+                [
+                    "clogs",
+                    "wet_socks",
+                    "ghost_glasses",
+                    "reporter_hat",
+                    "hotbean_hat",
+                    "fjallbjorn_hat",
+                    "cowboy_hat"
+                ],
+                [
+                    "diving_helmet",
+                    "climbing_boots",
+                    "puffer_hat",
+                    "scarf",
+                    "ski_goggles",
+                    "space_helmet",
+                    "sneakers"
+                ],
+                [
+                    "vacation_shirt",
+                    "flip_flops",
+                    "sun_hat",
+                    "royal_cape",
+                    "royal_crown",
+                    "sun_cap",
+                    "beret"
+                ],
+                [
+                    "pirate_hat",
+                    "paper_hat",
+                    "hard_hat",
+                    "award_mask",
+                    "rubber_boots",
+                    "finger",
+                    "soaked_sock"
+                ],
+                [
+                    "monster_mask",
+                    "fishing_hat",
+                    "umbrella",
+                    "lei",
+                    "viking_helmet",
+                    "foot_cast",
+                    "royal_cane"
+                ]
+            ]
+        }
+    }
+}

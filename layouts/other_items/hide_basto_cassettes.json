@@ -1,0 +1,46 @@
+{
+    "other_horizontal": {
+        "type": "group",
+        "header": "Other",
+        "content": {
+            "type": "itemgrid",
+            "item_height": 64,
+            "item_width": 64,
+            "item_margin": "0,0",
+            "h_alignment": "left",
+            "rows": [
+                [
+                    "fishermans_whistle_tape",
+                    "old_key"
+                ],
+                [
+                    "sandwich",
+                    "cinnamon_bun"
+                ],
+                [
+                    "frisbee",
+                    "flag"
+                ]
+            ]
+        }
+    },
+    "other_vertical": {
+        "type": "group",
+        "header": "Other",
+        "content": {
+            "type": "itemgrid",
+            "item_height": 64,
+            "item_width": 64,
+            "item_margin": "0,0",
+            "h_alignment": "left",
+            "rows": [
+                [
+                    "old_key",
+                    "sandwich",
+                    "cinnamon_bun",
+                    "frisbee"
+                ]
+            ]
+        }
+    }
+}

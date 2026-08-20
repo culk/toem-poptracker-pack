@@ -1,0 +1,68 @@
+{
+    "other_horizontal": {
+        "type": "group",
+        "header": "Other",
+        "content": {
+            "type": "itemgrid",
+            "item_height": 64,
+            "item_width": 64,
+            "item_margin": "0,0",
+            "h_alignment": "left",
+            "rows": [
+                [
+                    "old_key",
+                    "sandwich",
+                    "cinnamon_bun"
+                ],
+                [
+                    "frisbee",
+                    "pickaxe",
+                    "basto_ticket"
+                ],
+                [
+                    "minigame_ticket",
+                    "ice_cream",
+                    "banakin"
+                ],
+                [
+                    "oranganas",
+                    "beanut",
+                    "melonear"
+                ],
+                [
+                    "empty_bottle"
+                ]
+            ]
+        }
+    },
+    "other_vertical": {
+        "type": "group",
+        "header": "Other",
+        "content": {
+            "type": "itemgrid",
+            "item_height": 64,
+            "item_width": 64,
+            "item_margin": "0,0",
+            "h_alignment": "left",
+            "rows": [
+                [
+                    "old_key",
+                    "sandwich",
+                    "cinnamon_bun",
+                    "frisbee",
+                    "basto_ticket",
+                    "minigame_ticket",
+                    "pickaxe"
+                ],
+                [
+                    "ice_cream",
+                    "melonear",
+                    "banakin",
+                    "oranganas",
+                    "beanut",
+                    "empty_bottle"
+                ]
+            ]
+        }
+    }
+}
