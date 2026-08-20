@@ -15,7 +15,8 @@
                             {
                                 "name": "Item - Water popper attachment",
                                 "chest_unopened_img": "/images/items/chest_close.png",
-                                "chest_opened_img": "/images/items/chest_open.png"
+                                "chest_opened_img": "/images/items/chest_open.png",
+                                "visibility_rules": ["include_items_on"]
                             },
                             {
                                 "name": "Quest - Basto's hidden balloons",
@@ -63,7 +64,8 @@
                             {
                                 "name": "Item - Pickaxe",
                                 "chest_unopened_img": "/images/items/chest_close.png",
-                                "chest_opened_img": "/images/items/chest_open.png"
+                                "chest_opened_img": "/images/items/chest_open.png",
+                                "visibility_rules": ["include_items_on"]
                             }
                         ],
                         "map_locations": [
@@ -135,7 +137,8 @@
                             {
                                 "name": "Item - Viking helmet",
                                 "chest_unopened_img": "/images/items/chest_close.png",
-                                "chest_opened_img": "/images/items/chest_open.png"
+                                "chest_opened_img": "/images/items/chest_open.png",
+                                "visibility_rules": ["include_items_on"]
                             }
                         ],
                         "map_locations": [
@@ -185,6 +188,7 @@
                         "chest_unopened_img": "/images/items/chest_close.png",
                         "chest_opened_img": "/images/items/chest_open.png",
                         "access_rules": ["watergun"],
+                        "visibility_rules": ["include_items_on"],
                         "sections": [
                             {
                                 "name": ""
@@ -235,7 +239,8 @@
                     {
                         "name": "Item - Sun hat",
                         "chest_unopened_img": "/images/items/chest_close.png",
-                        "chest_opened_img": "/images/items/chest_open.png"
+                        "chest_opened_img": "/images/items/chest_open.png",
+                        "visibility_rules": ["include_items_on"]
                     }
                 ],
                 "map_locations": [
@@ -273,6 +278,7 @@
                         "chest_unopened_img": "/images/items/chest_close.png",
                         "chest_opened_img": "/images/items/chest_open.png",
                         "access_rules": ["watergun"],
+                        "visibility_rules": ["include_items_on"],
                         "sections": [
                             {
                                 "name": ""
@@ -293,25 +299,29 @@
                                 "name": "Item - Ice cream (Banakin)",
                                 "chest_unopened_img": "/images/items/chest_close.png",
                                 "chest_opened_img": "/images/items/chest_open.png",
-                                "access_rules": ["banakin"]
+                                "access_rules": ["banakin"],
+                                "visibility_rules": ["include_items_on"]
                             },
                             {
                                 "name": "Item - Ice cream (Melonear)",
                                 "chest_unopened_img": "/images/items/chest_close.png",
                                 "chest_opened_img": "/images/items/chest_open.png",
-                                "access_rules": ["melonear"]
+                                "access_rules": ["melonear"],
+                                "visibility_rules": ["include_items_on"]
                             },
                             {
                                 "name": "Item - Ice cream (Beanut)",
                                 "chest_unopened_img": "/images/items/chest_close.png",
                                 "chest_opened_img": "/images/items/chest_open.png",
-                                "access_rules": ["beanut"]
+                                "access_rules": ["beanut"],
+                                "visibility_rules": ["include_items_on"]
                             },
                             {
                                 "name": "Item - Ice cream (Oranganas)",
                                 "chest_unopened_img": "/images/items/chest_close.png",
                                 "chest_opened_img": "/images/items/chest_open.png",
-                                "access_rules": ["oranganas"]
+                                "access_rules": ["oranganas"],
+                                "visibility_rules": ["include_items_on"]
                             },
                             {
                                 "name": "Quest - Fruit shortage",
@@ -336,7 +346,8 @@
                                 "name": "Item - Beret",
                                 "chest_unopened_img": "/images/items/chest_close.png",
                                 "chest_opened_img": "/images/items/chest_open.png",
-                                "access_rules": ["^$can_access_all_portraits"]
+                                "access_rules": ["^$can_access_all_portraits"],
+                                "visibility_rules": ["include_items_on"]
                             }
                         ],
                         "map_locations": [
@@ -438,7 +449,8 @@
                             {
                                 "name": "Item - Foot cast",
                                 "chest_unopened_img": "/images/items/chest_close.png",
-                                "chest_opened_img": "/images/items/chest_open.png"
+                                "chest_opened_img": "/images/items/chest_open.png",
+                                "visibility_rules": ["include_items_on"]
                             }
                         ],
                         "map_locations": [
@@ -534,6 +546,7 @@
                         "chest_unopened_img": "/images/items/chest_close.png",
                         "chest_opened_img": "/images/items/chest_open.png",
                         "access_rules": ["pickaxe"],
+                        "visibility_rules": ["include_items_on"],
                         "sections": [
                             {
                                 "name": ""
@@ -574,13 +587,15 @@
                         "name": "Item - Royal cape",
                         "chest_unopened_img": "/images/items/chest_close.png",
                         "chest_opened_img": "/images/items/chest_open.png",
-                        "access_rules": ["@Basto/Castle/Quest - Sand castle competition"]
+                        "access_rules": ["@Basto/Castle/Quest - Sand castle competition"],
+                        "visibility_rules": ["include_items_on"]
                     },
                     {
                         "name": "Item - Royal crown",
                         "chest_unopened_img": "/images/items/chest_close.png",
                         "chest_opened_img": "/images/items/chest_open.png",
-                        "access_rules": ["pickaxe,@Basto/Secret Cave/Compendium - Tato king"]
+                        "access_rules": ["pickaxe,@Basto/Secret Cave/Compendium - Tato king"],
+                        "visibility_rules": ["include_items_on"]
                     },
                     {
                         "name": "Achievement - Kings new shirt",
@@ -635,25 +650,29 @@
                         "access_rules": [
                             "honk_attachment",
                             "watergun"
-                        ]
+                        ],
+                        "visibility_rules": ["include_items_on"]
                     },
                     {
                         "name": "Item - Lei",
                         "chest_unopened_img": "/images/items/chest_close.png",
                         "chest_opened_img": "/images/items/chest_open.png",
-                        "access_rules": ["minigame_ticket"]
+                        "access_rules": ["minigame_ticket"],
+                        "visibility_rules": ["include_items_on"]
                     },
                     {
                         "name": "Item - Vacation shirt",
                         "chest_unopened_img": "/images/items/chest_close.png",
                         "chest_opened_img": "/images/items/chest_open.png",
-                        "access_rules": ["minigame_ticket"]
+                        "access_rules": ["minigame_ticket"],
+                        "visibility_rules": ["include_items_on"]
                     },
                     {
                         "name": "Item - Royal cane",
                         "chest_unopened_img": "/images/items/chest_close.png",
                         "chest_opened_img": "/images/items/chest_open.png",
-                        "access_rules": ["minigame_ticket"]
+                        "access_rules": ["minigame_ticket"],
+                        "visibility_rules": ["include_items_on"]
                     },
                     {
                         "name": "Achievement - Pro gamer",
@@ -870,6 +889,7 @@
                         "chest_unopened_img": "/images/items/chest_close.png",
                         "chest_opened_img": "/images/items/chest_open.png",
                         "access_rules": ["watergun"],
+                        "visibility_rules": ["include_items_on"],
                         "sections": [
                             {
                                 "name": ""
@@ -1020,6 +1040,7 @@
                         "chest_unopened_img": "/images/items/chest_close.png",
                         "chest_opened_img": "/images/items/chest_open.png",
                         "access_rules": ["pickaxe"],
+                        "visibility_rules": ["include_items_on"],
                         "sections": [
                             {
                                 "name": ""
@@ -1037,6 +1058,7 @@
                         "name": "Item - Empty bottle",
                         "chest_unopened_img": "/images/items/chest_close.png",
                         "chest_opened_img": "/images/items/chest_open.png",
+                        "visibility_rules": ["include_items_on"],
                         "sections": [
                             {
                                 "name": ""
@@ -1173,7 +1195,8 @@
                         "name": "Item - Melonear",
                         "chest_unopened_img": "/images/items/chest_close.png",
                         "chest_opened_img": "/images/items/chest_open.png",
-                        "access_rules": ["watergun"]
+                        "access_rules": ["watergun"],
+                        "visibility_rules": ["include_items_on"]
                     }
                 ],
                 "map_locations": [

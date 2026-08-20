@@ -101,7 +101,8 @@
                         "name": "Item - Monster mask",
                         "chest_unopened_img": "/images/items/chest_close.png",
                         "chest_opened_img": "/images/items/chest_open.png",
-                        "access_rules": ["@Oaklaville/Hotel/Quest - Monster spotting"]
+                        "access_rules": ["@Oaklaville/Hotel/Quest - Monster spotting"],
+                        "visibility_rules": ["include_items_on"]
                     },
                     {
                         "name": "Compendium - Squirrel (Hotel Elevator)",
@@ -146,7 +147,8 @@
                                 "name": "Item - Soaked sock",
                                 "chest_unopened_img": "/images/items/chest_close.png",
                                 "chest_opened_img": "/images/items/chest_open.png",
-                                "access_rules": ["@Oaklaville/Outside Hotel/Sock Man/Quest - Missing socks"]
+                                "access_rules": ["@Oaklaville/Outside Hotel/Sock Man/Quest - Missing socks"],
+                                "visibility_rules": ["include_items_on"]
                             },
                             {
                                 "name": "Achievement - Just a sock",
@@ -281,6 +283,7 @@
                         "chest_unopened_img": "/images/items/chest_close.png",
                         "chest_opened_img": "/images/items/chest_open.png",
                         "access_rules": [],
+                        "visibility_rules": ["include_items_on"],
                         "sections": [
                             {
                                 "name": ""
@@ -331,7 +334,8 @@
                                 "name": "Item - Fjällbjörn hat",
                                 "chest_unopened_img": "/images/items/chest_close.png",
                                 "chest_opened_img": "/images/items/chest_open.png",
-                                "access_rules": ["@Oaklaville/Camp/Scout Leader/Quest - Become a scout"]
+                                "access_rules": ["@Oaklaville/Camp/Scout Leader/Quest - Become a scout"],
+                                "visibility_rules": ["include_items_on"]
                             }
                         ],
                         "map_locations": [
@@ -450,7 +454,8 @@
                         "access_rules": [
                             "^$can_reach|oaklaville_graveyard",
                             "^$can_reach|oaklaville_skeleton_balcony"
-                        ]
+                        ],
+                        "visibility_rules": ["include_items_on"]
                     },
                     {
                         "name": "Achievement - Calmed down",
@@ -524,7 +529,8 @@
                         "name": "Item - Pair of wet socks",
                         "chest_unopened_img": "/images/items/chest_close.png",
                         "chest_opened_img": "/images/items/chest_open.png",
-                        "access_rules": ["@Oaklaville/Ghost Cup Game/Quest - Cup champion"]
+                        "access_rules": ["@Oaklaville/Ghost Cup Game/Quest - Cup champion"],
+                        "visibility_rules": ["include_items_on"]
                     }
                 ],
                 "map_locations": [
@@ -638,7 +644,8 @@
                     {
                         "name": "Item - Cowboy hat",
                         "chest_unopened_img": "/images/items/chest_close.png",
-                        "chest_opened_img": "/images/items/chest_open.png"
+                        "chest_opened_img": "/images/items/chest_open.png",
+                        "visibility_rules": ["include_items_on"]
                     }
                 ],
                 "map_locations": [

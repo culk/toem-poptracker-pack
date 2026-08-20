@@ -110,6 +110,7 @@
                         "name": "Item - Clogs",
                         "chest_unopened_img": "/images/items/chest_close.png",
                         "chest_opened_img": "/images/items/chest_open.png",
+                        "visibility_rules": ["include_items_on"],
                         "sections": [
                             {
                                 "name": ""
@@ -168,7 +169,7 @@
                         "chest_unopened_img": "/images/items/chest_close.png",
                         "chest_opened_img": "/images/items/chest_open.png",
                         "access_rules": ["@Homelanda/Living Room/Quest - Experience TOEM"],
-                        "visibility_rules": ["include_basto_on"]
+                        "visibility_rules": ["include_items_on,include_basto_on"]
                     },
                     {
                         "name": "Goal - TOEM Experienced",
@@ -191,7 +192,8 @@
                         "name": "Item - Award Mask",
                         "chest_unopened_img": "/images/items/chest_close.png",
                         "chest_opened_img": "/images/items/chest_open.png",
-                        "access_rules": ["honk_attachment"]
+                        "access_rules": ["honk_attachment"],
+                        "visibility_rules": ["include_items_on"]
                     }
                 ],
                 "map_locations": [

@@ -258,7 +258,8 @@
                             {
                                 "name": "Item - Climbing boots",
                                 "chest_unopened_img": "/images/items/chest_close.png",
-                                "chest_opened_img": "/images/items/chest_open.png"
+                                "chest_opened_img": "/images/items/chest_open.png",
+                                "visibility_rules": ["include_items_on"]
                             },
                             {
                                 "name": "Item - Puffer hat",
@@ -266,7 +267,8 @@
                                 "chest_opened_img": "/images/items/chest_open.png",
                                 "access_rules": [
                                     "@Kiiruberg/Frozen Pond/Old Man/Quest - Snowball memories"
-                                ]
+                                ],
+                                "visibility_rules": ["include_items_on"]
                             }
                         ],
                         "map_locations": [
@@ -563,6 +565,7 @@
                         "name": "Item - Ski goggles",
                         "chest_unopened_img": "/images/items/chest_close.png",
                         "chest_opened_img": "/images/items/chest_open.png",
+                        "visibility_rules": ["include_items_on"],
                         "sections": [
                             {
                                 "name": ""
@@ -581,6 +584,7 @@
             {
                 "name": "Ski Lodge",
                 "access_rules": ["^$can_reach|kiiruberg_ski_lodge"],
+                "visibility_rules": ["include_items_on"],
                 "sections": [
                     {
                         "name": "Item - Scarf",
@@ -606,7 +610,8 @@
                     {
                         "name": "Item - Space helmet",
                         "chest_unopened_img": "/images/items/chest_close.png",
-                        "chest_opened_img": "/images/items/chest_open.png"
+                        "chest_opened_img": "/images/items/chest_open.png",
+                        "visibility_rules": ["include_items_on"]
                     }
                 ],
                 "map_locations": [

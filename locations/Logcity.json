@@ -77,6 +77,7 @@
                         "name": "Item - Sneakers",
                         "chest_unopened_img": "/images/items/chest_close.png",
                         "chest_opened_img": "/images/items/chest_open.png",
+                        "visibility_rules": ["include_items_on"],
                         "sections": [
                             {
                                 "name": ""
@@ -153,7 +154,8 @@
                             {
                                 "name": "Item - Hotbean hat",
                                 "chest_unopened_img": "/images/items/chest_close.png",
-                                "chest_opened_img": "/images/items/chest_open.png"
+                                "chest_opened_img": "/images/items/chest_open.png",
+                                "visibility_rules": ["include_items_on"]
                             }
                         ],
                         "map_locations": [
@@ -365,7 +367,8 @@
                     {
                         "name": "Item - Reporter hat",
                         "chest_unopened_img": "/images/items/chest_close.png",
-                        "chest_opened_img": "/images/items/chest_open.png"
+                        "chest_opened_img": "/images/items/chest_open.png",
+                        "visibility_rules": ["include_items_on"]
                     }
                 ],
                 "map_locations": [
@@ -418,6 +421,7 @@
                         "chest_unopened_img": "/images/items/chest_close.png",
                         "chest_opened_img": "/images/items/chest_open.png",
                         "access_rules": ["honk_attachment,^$can_reach|logcity_outside_cafe"],
+                        "visibility_rules": ["include_items_on"],
                         "sections": [
                             {
                                 "name": ""
@@ -536,7 +540,8 @@
                         "name": "Item - Cinnamon bun",
                         "chest_unopened_img": "/images/items/chest_close.png",
                         "chest_opened_img": "/images/items/chest_open.png",
-                        "access_rules": ["@Logcity/Cafe/Quest - A mouse bakery"]
+                        "access_rules": ["@Logcity/Cafe/Quest - A mouse bakery"],
+                        "visibility_rules": ["include_items_on"]
                     }
                 ],
                 "map_locations": [
