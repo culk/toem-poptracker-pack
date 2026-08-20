@@ -161,7 +161,7 @@
                     },
                     {
                         "name": "Quest - Experience TOEM",
-                        "access_rules": ["climbing_boots,^$can_reach|mountain_top_toem"]
+                        "access_rules": ["climbing_boots,@Mountain Top"]
                     },
                     {
                         "name": "Item - Viking Express Ticket",

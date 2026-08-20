@@ -41,6 +41,8 @@ function can_reach(region_name)
         return ALL(has_required_stamps_for("stanhamn"), can_reach("stanhamn_bus_stop"))
     elseif region_name == "kiiruberg_bus_stop" then
         return ALL(has_required_stamps_for("logcity"), can_reach("logcity_bus_stop"))
+    elseif region_name == "stanhamn_docks_left" then
+        return ALL("@Stanhamn")
     elseif region_name == "oaklaville_rave" then
         return HAS("ghost_glasses")
     elseif IsInTable(region_name, {
