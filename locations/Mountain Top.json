@@ -25,7 +25,7 @@
                 "name": "Achievement - Experience TOEM",
                 "chest_unopened_img": "/images/items/achievement_toem.png",
                 "chest_opened_img": "/images/items/achievement_open.png",
-                "access_rules": ["climbing_boots"],
+                "access_rules": ["^$HAS|climbing_boots"],
                 "sections": [
                     {
                         "name": ""

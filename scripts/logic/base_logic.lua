@@ -96,7 +96,10 @@ function can_reach(region_name)
         return ALL(has_warm_clothing(), "honk_attachment")
     elseif region_name == "kiiruberg_cosmo_garden" then
         return ALL("@Kiiruberg/Wizard Tower/Quest - Ice wizards research")
-    elseif region_name == "kiiruberg_man_cave" then
+    elseif IsInTable(region_name, {
+        "kiiruberg_man_cave",
+        "mountain_top_toem"
+    }) then
         return ALL("@Mountain Top/Achievement - Experience TOEM/")
     elseif region_name == "basto_secret_cave" then
         return ALL("watergun", "pickaxe")
@@ -357,7 +360,10 @@ end
 function can_access_all_goats()
     return ALL(
         can_reach_any("kiiruberg_birthday_party_bottom", "kiiruberg_birthday_party_top"),
-        can_reach_any("kiiruberg_cliffs_top", "kiiruberg_cliffs_middle"),
+        ANY(
+            can_reach_any("kiiruberg_cliffs_top", "kiiruberg_cliffs_middle"),
+            ALL("climbing_boots", can_reach("kiiruberg_cliffs_bottom"))
+        ),
         can_reach("kiiruberg_ski_mountain_top")
     )
 end

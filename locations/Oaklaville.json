@@ -141,7 +141,7 @@
                         "sections": [
                             {
                                 "name": "Quest - Missing socks",
-                                "access_rules": ["wet_socks"]
+                                "access_rules": ["^$HAS|wet_socks"]
                             },
                             {
                                 "name": "Item - Soaked sock",
@@ -186,7 +186,6 @@
                         "name": "Compendium - Forest bird",
                         "chest_unopened_img": "/images/items/photo_close.png",
                         "chest_opened_img": "/images/items/photo_open.png",
-                        "access_rules": [],
                         "sections": [
                             {
                                 "name": ""
@@ -204,7 +203,6 @@
                         "name": "Compendium - Tom",
                         "chest_unopened_img": "/images/items/photo_close.png",
                         "chest_opened_img": "/images/items/photo_open.png",
-                        "access_rules": [],
                         "sections": [
                             {
                                 "name": ""
@@ -222,7 +220,6 @@
                         "name": "Compendium - Nestworm",
                         "chest_unopened_img": "/images/items/photo_close.png",
                         "chest_opened_img": "/images/items/photo_open.png",
-                        "access_rules": [],
                         "sections": [
                             {
                                 "name": ""
@@ -238,7 +235,6 @@
                     },
                     {
                         "name": "Snail",
-                        "access_rules": [],
                         "sections": [
                             {
                                 "name": "Compendium - Snail",
@@ -264,7 +260,6 @@
                         "name": "Compendium - Stag beetle",
                         "chest_unopened_img": "/images/items/photo_close.png",
                         "chest_opened_img": "/images/items/photo_open.png",
-                        "access_rules": [],
                         "sections": [
                             {
                                 "name": ""
@@ -282,7 +277,6 @@
                         "name": "Item - Foam finger",
                         "chest_unopened_img": "/images/items/chest_close.png",
                         "chest_opened_img": "/images/items/chest_open.png",
-                        "access_rules": [],
                         "visibility_rules": ["include_items_on"],
                         "sections": [
                             {
@@ -301,7 +295,6 @@
                         "name": "Cassette - Launchable Socks - Squirrel Photography",
                         "chest_unopened_img": "/images/items/cassette_close.png",
                         "chest_opened_img": "/images/items/cassette_open.png",
-                        "access_rules": [],
                         "visibility_rules": ["include_cassettes_on"],
                         "sections": [
                             {
@@ -324,7 +317,6 @@
                 "children": [
                     {
                         "name": "Scout Leader",
-                        "access_rules": [],
                         "sections": [
                             {
                                 "name": "Quest - Become a scout",
@@ -350,7 +342,6 @@
                         "name": "Compendium - Ladybug",
                         "chest_unopened_img": "/images/items/photo_close.png",
                         "chest_opened_img": "/images/items/photo_open.png",
-                        "access_rules": [],
                         "sections": [
                             {
                                 "name": ""
@@ -368,7 +359,6 @@
                         "name": "Compendium - Pet rock",
                         "chest_unopened_img": "/images/items/photo_close.png",
                         "chest_opened_img": "/images/items/photo_open.png",
-                        "access_rules": [],
                         "sections": [
                             {
                                 "name": ""
@@ -479,7 +469,7 @@
                 "sections": [
                     {
                         "name": "Quest - A courageous stallion",
-                        "access_rules": ["ghost_glasses,^$can_reach|oaklaville_hotel"]
+                        "access_rules": ["^$HAS|ghost_glasses,^$can_reach|oaklaville_hotel"]
                     }
                 ],
                 "map_locations": [
@@ -523,7 +513,7 @@
                     },
                     {
                         "name": "Quest - Cup champion",
-                        "access_rules": ["ghost_glasses"]
+                        "access_rules": ["^$HAS|ghost_glasses"]
                     },
                     {
                         "name": "Item - Pair of wet socks",

@@ -27,7 +27,7 @@
                     },
                     {
                         "name": "Quest - A ghostly date",
-                        "access_rules": ["ghost_glasses,^$can_reach|logcity_outside_gallery"],
+                        "access_rules": ["^$HAS|ghost_glasses,^$can_reach|logcity_outside_gallery"],
                         "sections": [
                             {
                                 "name": ""
@@ -123,7 +123,7 @@
                 "children": [
                     {
                         "name": "Punk Rocker",
-                        "access_rules": ["cinnamon_bun"],
+                        "access_rules": ["^$HAS|cinnamon_bun"],
                         "sections": [
                             {
                                 "name": "Quest - Punk rocker bread crumbs"
@@ -146,16 +146,16 @@
                         "name": "Hotbean Stand",
                         "sections": [
                             {
-                                "name": "Quest - Super Hotbean Bros.",
-                                "access_rules": [
-                                    "hotbean_hat,^$can_reach_all|logcity_outside_fashion_show|logcity_skate_park|logcity_crosswalk"
-                                ]
-                            },
-                            {
                                 "name": "Item - Hotbean hat",
                                 "chest_unopened_img": "/images/items/chest_close.png",
                                 "chest_opened_img": "/images/items/chest_open.png",
                                 "visibility_rules": ["include_items_on"]
+                            },
+                            {
+                                "name": "Quest - Super Hotbean Bros.",
+                                "access_rules": [
+                                    "^$HAS|hotbean_hat,^$can_reach_all|logcity_outside_fashion_show|logcity_skate_park|logcity_crosswalk"
+                                ]
                             }
                         ],
                         "map_locations": [
@@ -361,7 +361,7 @@
                     {
                         "name": "Quest - Press-ing news",
                         "access_rules": [
-                            "reporter_hat,@Logcity/Fashion Show Backstage/Quest - A design problem"
+                            "^$HAS|reporter_hat,@Logcity/Fashion Show Backstage/Quest - A design problem"
                         ]
                     },
                     {
@@ -385,7 +385,7 @@
                 "children": [
                     {
                         "name": "Quest - Spooky scary city",
-                        "access_rules": ["ghost_glasses,@Oaklaville"],
+                        "access_rules": ["^$HAS|ghost_glasses,@Oaklaville"],
                         "sections": [
                             {
                                 "name": ""
@@ -420,7 +420,7 @@
                         "name": "Item - Frisbee",
                         "chest_unopened_img": "/images/items/chest_close.png",
                         "chest_opened_img": "/images/items/chest_open.png",
-                        "access_rules": ["honk_attachment,^$can_reach|logcity_outside_cafe"],
+                        "access_rules": ["^$HAS|honk_attachment,^$can_reach|logcity_outside_cafe"],
                         "visibility_rules": ["include_items_on"],
                         "sections": [
                             {
@@ -462,7 +462,7 @@
                     {
                         "name": "Quest - Art exhibition",
                         "access_rules": [
-                            "frames_filters",
+                            "^$HAS|frames_filters",
                             "^$can_reach|logcity_ratskullz_alley"
                         ],
                         "sections": [
@@ -534,7 +534,7 @@
                     },
                     {
                         "name": "Quest - A mouse bakery",
-                        "access_rules": ["honk_attachment"]
+                        "access_rules": ["^$HAS|honk_attachment"]
                     },
                     {
                         "name": "Item - Cinnamon bun",
@@ -558,7 +558,7 @@
                 "children": [
                     {
                         "name": "Quest - A thieving crow",
-                        "access_rules": ["frisbee"],
+                        "access_rules": ["^$HAS|frisbee"],
                         "sections": [
                             {
                                 "name": ""

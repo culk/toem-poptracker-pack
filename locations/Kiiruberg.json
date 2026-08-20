@@ -9,8 +9,8 @@
                 "name": "Cliffs Middle",
                 "access_rules": [
                     "^$can_reach|kiiruberg_cliffs_middle",
-                    "climbing_boots,^$can_reach|kiiruberg_cliffs_bottom",
-                    "climbing_boots,^$can_reach|kiiruberg_cliffs_top"
+                    "^$HAS|climbing_boots,^$can_reach|kiiruberg_cliffs_bottom",
+                    "^$HAS|climbing_boots,^$can_reach|kiiruberg_cliffs_top"
                 ],
                 "children": [
                     {
@@ -35,7 +35,7 @@
                             {
                                 "name": "Quest - Ancient paintings",
                                 "access_rules": [
-                                    "climbing_boots,^$can_access_all_ancient_paintings"
+                                    "^$HAS|climbing_boots,^$can_access_all_ancient_paintings"
                                 ]
                             },
                             {
@@ -65,7 +65,7 @@
                     {
                         "name": "Quest - Ice wizards research",
                         "access_rules": [
-                            "^$has_warm_clothing,honk_attachment,^$can_access_all_cosmic_cubes"
+                            "^$has_warm_clothing,^$HAS|honk_attachment,^$can_access_all_cosmic_cubes"
                         ]
                     }
                 ],
@@ -126,13 +126,13 @@
                 "sections": [
                     {
                         "name": "Quest - Play astronaut",
-                        "access_rules": ["space_helmet"]
+                        "access_rules": ["^$HAS|space_helmet"]
                     },
                     {
                         "name": "Quest - Locating an asteroid",
                         "access_rules": [
                             "^$can_reach|kiiruberg_snowman_square_bottom",
-                            "climbing_boots,^$can_reach|kiiruberg_snowman_square_top",
+                            "^$HAS|climbing_boots,^$can_reach|kiiruberg_snowman_square_top",
                             "^$can_reach|kiiruberg_snowman_square_top,[hard_logic]"
                         ]
                     },
@@ -160,14 +160,14 @@
                 "name": "Snowman Square Bottom",
                 "access_rules": [
                     "^$can_reach|kiiruberg_snowman_square_bottom",
-                    "climbing_boots,^$can_reach|kiiruberg_snowman_square_top"
+                    "^$HAS|climbing_boots,^$can_reach|kiiruberg_snowman_square_top"
                 ],
                 "children": [
                     {
                         "name": "Quest - Photo challenge #7",
                         "access_rules": [
-                            "climbing_boots,^$can_reach|kiiruberg_birthday_party_bottom",
-                            "climbing_boots,^$can_reach|kiiruberg_birthday_party_top,[hard_logic]"
+                            "^$HAS|climbing_boots,^$can_reach|kiiruberg_birthday_party_bottom",
+                            "^$HAS|climbing_boots,^$can_reach|kiiruberg_birthday_party_top,[hard_logic]"
                         ],
                         "sections": [
                             {
@@ -185,7 +185,7 @@
                     {
                         "name": "Quest - Assemble a snowman",
                         "access_rules": [
-                            "honk_attachment,^$can_reach_all|kiiruberg_ski_lift_base|kiiruberg_ski_mountain_top"
+                            "^$HAS|honk_attachment,^$can_reach_all|kiiruberg_ski_lift_base|kiiruberg_ski_mountain_top"
                         ],
                         "sections": [
                             {
@@ -206,8 +206,8 @@
                 "name": "Cliffs Top",
                 "access_rules": [
                     "^$can_reach|kiiruberg_cliffs_top",
-                    "climbing_boots,^$can_reach|kiiruberg_cliffs_middle",
-                    "climbing_boots,^$can_reach|kiiruberg_cliffs_bottom"
+                    "^$HAS|climbing_boots,^$can_reach|kiiruberg_cliffs_middle",
+                    "^$HAS|climbing_boots,^$can_reach|kiiruberg_cliffs_bottom"
                 ],
                 "sections": [
                     {
@@ -251,7 +251,7 @@
                             {
                                 "name": "Quest - Snowball memories",
                                 "access_rules": [
-                                    "climbing_boots",
+                                    "^$HAS|climbing_boots",
                                     "[hard_logic]"
                                 ]
                             },
@@ -285,7 +285,7 @@
                 "name": "Birthday Party Bottom",
                 "access_rules": [
                     "^$can_reach|kiiruberg_birthday_party_bottom",
-                    "climbing_boots,^$can_reach|kiiruberg_birthday_party_top"
+                    "^$HAS|climbing_boots,^$can_reach|kiiruberg_birthday_party_top"
                 ],
                 "sections": [
                     {
@@ -386,7 +386,7 @@
                 "name": "Fluff",
                 "access_rules": [
                     "^$can_reach|kiiruberg_outside_observ_bottom",
-                    "climbing_boots,^$can_reach|kiiruberg_outside_observ_top",
+                    "^$HAS|climbing_boots,^$can_reach|kiiruberg_outside_observ_top",
                     "^$can_reach|kiiruberg_outside_observ_top,[hard_logic]"
                 ],
                 "sections": [
@@ -408,7 +408,7 @@
                 "name": "Hedgehog",
                 "access_rules": [
                     "^$can_reach|kiiruberg_birthday_party_bottom",
-                    "climbing_boots,^$can_reach|kiiruberg_birthday_party_top",
+                    "^$HAS|climbing_boots,^$can_reach|kiiruberg_birthday_party_top",
                     "^$can_reach|kiiruberg_birthday_party_top,[hard_logic]"
                 ],
                 "sections": [
@@ -430,7 +430,7 @@
                 "name": "Meteopal",
                 "access_rules": [
                     "^$can_reach|kiiruberg_snowman_square_bottom",
-                    "climbing_boots,^$can_reach|kiiruberg_snowman_square_top",
+                    "^$HAS|climbing_boots,^$can_reach|kiiruberg_snowman_square_top",
                     "^$can_reach|kiiruberg_snowman_square_top,[hard_logic]"
                 ],
                 "sections": [
@@ -459,7 +459,7 @@
                         "access_rules": [
                             "^$can_reach|kiiruberg_cliffs_middle",
                             "^$can_reach|kiiruberg_cliffs_top",
-                            "climbing_boots,^$can_reach|kiiruberg_cliffs_bottom"
+                            "^$HAS|climbing_boots,^$can_reach|kiiruberg_cliffs_bottom"
                         ],
                         "sections": [
                             {
@@ -521,8 +521,8 @@
                 "name": "Owl",
                 "access_rules": [
                     "^$can_reach|kiiruberg_cliffs_top",
-                    "climbing_boots,^$can_reach|kiiruberg_cliffs_bottom",
-                    "climbing_boots,^$can_reach|kiiruberg_cliffs_middle",
+                    "^$HAS|climbing_boots,^$can_reach|kiiruberg_cliffs_bottom",
+                    "^$HAS|climbing_boots,^$can_reach|kiiruberg_cliffs_middle",
                     "^$can_reach|kiiruberg_cliffs_middle,[hard_logic]"
                 ],
                 "sections": [
@@ -604,7 +604,7 @@
                 "name": "Outside Observatory Bottom",
                 "access_rules": [
                     "^$can_reach|kiiruberg_outside_observ_bottom",
-                    "climbing_boots,^$can_reach|kiiruberg_outside_observ_top"
+                    "^$HAS|climbing_boots,^$can_reach|kiiruberg_outside_observ_top"
                 ],
                 "sections": [
                     {

@@ -3,7 +3,7 @@
         "name": "Basto",
         "chest_unopened_img": "/images/items/quest_close.png",
         "chest_opened_img": "/images/items/quest_open.png",
-        "access_rules": ["basto_ticket,^$can_reach|stanhamn_docks_left"],
+        "access_rules": ["^$HAS|basto_ticket,^$can_reach|stanhamn_docks_left"],
         "visibility_rules": ["include_basto_on"],
         "children": [
             {
@@ -20,18 +20,20 @@
                             },
                             {
                                 "name": "Quest - Basto's hidden balloons",
-                                "access_rules": ["watergun,^$can_access_all_balloons"]
+                                "access_rules": ["^$HAS|watergun,^$can_access_all_balloons"]
                             },
                             {
                                 "name": "Cassette - Launchable Socks - Sailors Tune",
                                 "chest_unopened_img": "/images/items/cassette_close.png",
                                 "chest_opened_img": "/images/items/cassette_open.png",
-                                "access_rules": ["watergun,$has_required_stamps_for|basto"],
+                                "access_rules": ["^$HAS|watergun,$has_required_stamps_for|basto"],
                                 "visibility_rules": ["include_cassettes_on"]
                             },
                             {
                                 "name": "Goal - Basto Bonfire",
-                                "access_rules": ["watergun,$has_required_stamps_for|basto"]
+                                "chest_unopened_img": "/images/items/goal_bonfire.png",
+                                "chest_opened_img": "/images/items/achievement_open.png",
+                                "access_rules": ["^$HAS|watergun,$has_required_stamps_for|basto"]
                             }
                         ],
                         "map_locations": [
@@ -57,8 +59,8 @@
                             {
                                 "name": "Quest - Arthur hunter",
                                 "access_rules": [
-                                    "pickaxe,^$can_reach_all|basto_outside_castle|basto_bus_stop_top",
-                                    "pickaxe,watergun,^$can_reach|basto_outside_castle"
+                                    "^$HAS|pickaxe,^$can_reach_all|basto_outside_castle|basto_bus_stop_top",
+                                    "^$ALL|pickaxe|watergun,^$can_reach|basto_outside_castle"
                                 ]
                             },
                             {
@@ -78,7 +80,7 @@
                     },
                     {
                         "name": "Quest - Spooky stories",
-                        "access_rules": ["watergun,^$can_reach|basto_jungle"],
+                        "access_rules": ["^$HAS|watergun,^$can_reach|basto_jungle"],
                         "sections": [
                             {
                                 "name": ""
@@ -94,7 +96,7 @@
                     },
                     {
                         "name": "Quest - Night-time cinema",
-                        "access_rules": ["watergun"],
+                        "access_rules": ["^$HAS|watergun"],
                         "sections": [
                             {
                                 "name": ""
@@ -127,8 +129,8 @@
                     {
                         "name": "Viking",
                         "access_rules": [
-                            "ice_cream:4",
-                            "ice_cream,[hard_logic]"
+                            "^$HAS|ice_cream:4",
+                            "^$HAS|ice_cream,[hard_logic]"
                         ],
                         "sections": [
                             {
@@ -187,7 +189,7 @@
                         "name": "Item - Oranganas",
                         "chest_unopened_img": "/images/items/chest_close.png",
                         "chest_opened_img": "/images/items/chest_open.png",
-                        "access_rules": ["watergun"],
+                        "access_rules": ["^$HAS|watergun"],
                         "visibility_rules": ["include_items_on"],
                         "sections": [
                             {
@@ -259,7 +261,7 @@
                         "name": "Compendium - Tato coco",
                         "chest_unopened_img": "/images/items/photo_close.png",
                         "chest_opened_img": "/images/items/photo_open.png",
-                        "access_rules": ["watergun"],
+                        "access_rules": ["^$HAS|watergun"],
                         "sections": [
                             {
                                 "name": ""
@@ -277,7 +279,7 @@
                         "name": "Item - Banakin",
                         "chest_unopened_img": "/images/items/chest_close.png",
                         "chest_opened_img": "/images/items/chest_open.png",
-                        "access_rules": ["watergun"],
+                        "access_rules": ["^$HAS|watergun"],
                         "visibility_rules": ["include_items_on"],
                         "sections": [
                             {
@@ -299,33 +301,33 @@
                                 "name": "Item - Ice cream (Banakin)",
                                 "chest_unopened_img": "/images/items/chest_close.png",
                                 "chest_opened_img": "/images/items/chest_open.png",
-                                "access_rules": ["banakin"],
+                                "access_rules": ["^$HAS|banakin"],
                                 "visibility_rules": ["include_items_on"]
                             },
                             {
                                 "name": "Item - Ice cream (Melonear)",
                                 "chest_unopened_img": "/images/items/chest_close.png",
                                 "chest_opened_img": "/images/items/chest_open.png",
-                                "access_rules": ["melonear"],
+                                "access_rules": ["^$HAS|melonear"],
                                 "visibility_rules": ["include_items_on"]
                             },
                             {
                                 "name": "Item - Ice cream (Beanut)",
                                 "chest_unopened_img": "/images/items/chest_close.png",
                                 "chest_opened_img": "/images/items/chest_open.png",
-                                "access_rules": ["beanut"],
+                                "access_rules": ["^$HAS|beanut"],
                                 "visibility_rules": ["include_items_on"]
                             },
                             {
                                 "name": "Item - Ice cream (Oranganas)",
                                 "chest_unopened_img": "/images/items/chest_close.png",
                                 "chest_opened_img": "/images/items/chest_open.png",
-                                "access_rules": ["oranganas"],
+                                "access_rules": ["^$HAS|oranganas"],
                                 "visibility_rules": ["include_items_on"]
                             },
                             {
                                 "name": "Quest - Fruit shortage",
-                                "access_rules": ["banakin,melonear,beanut,oranganas"]
+                                "access_rules": ["^$ALL|banakin|melonear|beanut|oranganas"]
                             }
                         ],
                         "map_locations": [
@@ -439,8 +441,8 @@
                     {
                         "name": "Injured Monkey",
                         "access_rules": [
-                            "ice_cream:4",
-                            "ice_cream,[hard_logic]"
+                            "^$HAS|ice_cream:4",
+                            "^$HAS|ice_cream,[hard_logic]"
                         ],
                         "sections": [
                             {
@@ -463,7 +465,7 @@
                     },
                     {
                         "name": "Quest - Dry season",
-                        "access_rules": ["watergun,^$can_access_all_plants"],
+                        "access_rules": ["^$HAS|watergun,^$can_access_all_plants"],
                         "sections": [
                             {
                                 "name": ""
@@ -486,9 +488,9 @@
                     {
                         "name": "Vampire",
                         "access_rules": [
-                            "honk_attachment,^$can_reach_all|basto_bonfire_top|basto_outside_castle",
-                            "watergun,^$can_reach_all|basto_bonfire_top|basto_outside_castle",
-                            "watergun,^$can_reach_all|basto_bonfire_bottom|basto_outside_castle,[hard_logic]"
+                            "^$HAS|honk_attachment,^$can_reach_all|basto_bonfire_top|basto_outside_castle",
+                            "^$HAS|watergun,^$can_reach_all|basto_bonfire_top|basto_outside_castle",
+                            "^$HAS|watergun,^$can_reach_all|basto_bonfire_bottom|basto_outside_castle,[hard_logic]"
                         ],
                         "sections": [
                             {
@@ -497,8 +499,8 @@
                             {
                                 "name": "Quest - Sweet tooth",
                                 "access_rules": [
-                                    "ice_cream:4",
-                                    "ice_cream,[hard_logic]"
+                                    "^$HAS|ice_cream:4",
+                                    "^$HAS|ice_cream,[hard_logic]"
                                 ]
                             }
                         ],
@@ -545,7 +547,7 @@
                         "name": "Item - Sun cap",
                         "chest_unopened_img": "/images/items/chest_close.png",
                         "chest_opened_img": "/images/items/chest_open.png",
-                        "access_rules": ["pickaxe"],
+                        "access_rules": ["^$HAS|pickaxe"],
                         "visibility_rules": ["include_items_on"],
                         "sections": [
                             {
@@ -569,8 +571,8 @@
                     {
                         "name": "Quest - In your face",
                         "access_rules": [
-                            "ice_cream:4",
-                            "ice_cream,[hard_logic]"
+                            "^$HAS|ice_cream:4",
+                            "^$HAS|ice_cream,[hard_logic]"
                         ]
                     },
                     {
@@ -594,14 +596,14 @@
                         "name": "Item - Royal crown",
                         "chest_unopened_img": "/images/items/chest_close.png",
                         "chest_opened_img": "/images/items/chest_open.png",
-                        "access_rules": ["pickaxe,@Basto/Secret Cave/Compendium - Tato king"],
+                        "access_rules": ["^$HAS|pickaxe,@Basto/Secret Cave/Compendium - Tato king"],
                         "visibility_rules": ["include_items_on"]
                     },
                     {
                         "name": "Achievement - Kings new shirt",
                         "chest_unopened_img": "/images/items/achievement_kings_shirt.png",
                         "chest_opened_img": "/images/items/achievement_open.png",
-                        "access_rules": ["royal_cape"],
+                        "access_rules": ["^$HAS|royal_cape"],
                         "visibility_rules": ["include_achievements_on"]
                     }
                 ],
@@ -620,7 +622,7 @@
                     {
                         "name": "Quest - Dehydrated muscles",
                         "access_rules": [
-                            "empty_bottle,^$can_reach_all|basto_ghost_hangout|basto_lily_pad_pond_right|basto_outside_castle"
+                            "^$HAS|empty_bottle,^$can_reach_all|basto_ghost_hangout|basto_lily_pad_pond_right|basto_outside_castle"
                         ]
                     }
                 ],
@@ -639,8 +641,7 @@
                     {
                         "name": "Quest - Play a carnival game",
                         "access_rules": [
-                            "honk_attachment",
-                            "watergun"
+                            "^$ANY|honk_attachment|watergun"
                         ]
                     },
                     {
@@ -648,8 +649,7 @@
                         "chest_unopened_img": "/images/items/chest_close.png",
                         "chest_opened_img": "/images/items/chest_open.png",
                         "access_rules": [
-                            "honk_attachment",
-                            "watergun"
+                            "^$ANY|honk_attachment|watergun"
                         ],
                         "visibility_rules": ["include_items_on"]
                     },
@@ -657,28 +657,28 @@
                         "name": "Item - Lei",
                         "chest_unopened_img": "/images/items/chest_close.png",
                         "chest_opened_img": "/images/items/chest_open.png",
-                        "access_rules": ["minigame_ticket"],
+                        "access_rules": ["^$HAS|minigame_ticket"],
                         "visibility_rules": ["include_items_on"]
                     },
                     {
                         "name": "Item - Vacation shirt",
                         "chest_unopened_img": "/images/items/chest_close.png",
                         "chest_opened_img": "/images/items/chest_open.png",
-                        "access_rules": ["minigame_ticket"],
+                        "access_rules": ["^$HAS|minigame_ticket"],
                         "visibility_rules": ["include_items_on"]
                     },
                     {
                         "name": "Item - Royal cane",
                         "chest_unopened_img": "/images/items/chest_close.png",
                         "chest_opened_img": "/images/items/chest_open.png",
-                        "access_rules": ["minigame_ticket"],
+                        "access_rules": ["^$HAS|minigame_ticket"],
                         "visibility_rules": ["include_items_on"]
                     },
                     {
                         "name": "Achievement - Pro gamer",
                         "chest_unopened_img": "/images/items/achievement_pro_gamer.png",
                         "chest_opened_img": "/images/items/achievement_open.png",
-                        "access_rules": ["honk_attachment,watergun"],
+                        "access_rules": ["^$ALL|honk_attachment|watergun"],
                         "visibility_rules": ["include_achievements_on"]
                     }
                 ],
@@ -888,7 +888,7 @@
                         "name": "Item - Beanut",
                         "chest_unopened_img": "/images/items/chest_close.png",
                         "chest_opened_img": "/images/items/chest_open.png",
-                        "access_rules": ["watergun"],
+                        "access_rules": ["^$HAS|watergun"],
                         "visibility_rules": ["include_items_on"],
                         "sections": [
                             {
@@ -1039,7 +1039,7 @@
                         "name": "Item - Flip-flops",
                         "chest_unopened_img": "/images/items/chest_close.png",
                         "chest_opened_img": "/images/items/chest_open.png",
-                        "access_rules": ["pickaxe"],
+                        "access_rules": ["^$HAS|pickaxe"],
                         "visibility_rules": ["include_items_on"],
                         "sections": [
                             {
@@ -1077,7 +1077,7 @@
                         "chest_unopened_img": "/images/items/achievement_splish_splash.png",
                         "chest_opened_img": "/images/items/achievement_open.png",
                         "access_rules": [
-                            "watergun,@Stanhamn/Outside Hydroplant/Quest - Make someone take a bath/"
+                            "^$HAS|watergun,@Stanhamn/Outside Hydroplant/Quest - Make someone take a bath/"
                         ],
                         "visibility_rules": ["include_achievements_on"],
                         "sections": [
@@ -1108,7 +1108,7 @@
                         "name": "Compendium - Tato king",
                         "chest_unopened_img": "/images/items/photo_close.png",
                         "chest_opened_img": "/images/items/photo_open.png",
-                        "access_rules": ["watergun"]
+                        "access_rules": ["^$HAS|watergun"]
                     }
                 ],
                 "map_locations": [
@@ -1195,7 +1195,7 @@
                         "name": "Item - Melonear",
                         "chest_unopened_img": "/images/items/chest_close.png",
                         "chest_opened_img": "/images/items/chest_open.png",
-                        "access_rules": ["watergun"],
+                        "access_rules": ["^$HAS|watergun"],
                         "visibility_rules": ["include_items_on"]
                     }
                 ],
@@ -1214,7 +1214,7 @@
                         "name": "Cassette - Launchable Socks - Song Of The Sea",
                         "chest_unopened_img": "/images/items/cassette_close.png",
                         "chest_opened_img": "/images/items/cassette_open.png",
-                        "access_rules": ["watergun"],
+                        "access_rules": ["^$HAS|watergun"],
                         "visibility_rules": ["include_cassettes_on"],
                         "sections": [
                             {
@@ -1236,7 +1236,7 @@
                 "chest_unopened_img": "/images/items/achievement_maximum_vacation.png",
                 "chest_opened_img": "/images/items/achievement_open.png",
                 "access_rules": [
-                    "vacation_shirt,flip_flops,sun_hat,^$can_reach_any|basto_lily_pad_pond_left|basto_gym_house|basto_carnival|basto_bonfire_top|basto_ghost_hangout"
+                    "^$ALL|vacation_shirt|flip_flops|sun_hat,^$can_reach_any|basto_lily_pad_pond_left|basto_gym_house|basto_carnival|basto_bonfire_top|basto_ghost_hangout"
                 ],
                 "visibility_rules": ["include_achievements_on"],
                 "sections": [
@@ -1265,7 +1265,7 @@
                         "name": "Achievement - Wazzuuppp",
                         "chest_unopened_img": "/images/items/achievement_wazzuuppp.png",
                         "chest_opened_img": "/images/items/achievement_open.png",
-                        "access_rules": ["frames_filters,^$can_make_night"]
+                        "access_rules": ["^$HAS|frames_filters,^$can_make_night"]
                     },
                     {
                         "name": "Achievement - And some more",

@@ -24,7 +24,7 @@
                     },
                     {
                         "name": "Quest - A hidden gift",
-                        "access_rules": ["clogs"],
+                        "access_rules": ["^$HAS|clogs"],
                         "sections": [
                             {
                                 "name": ""
@@ -162,7 +162,7 @@
                     },
                     {
                         "name": "Quest - Experience TOEM",
-                        "access_rules": ["climbing_boots,@Mountain Top"]
+                        "access_rules": ["^$HAS|climbing_boots,@Mountain Top"]
                     },
                     {
                         "name": "Item - Viking Express Ticket",
@@ -173,6 +173,8 @@
                     },
                     {
                         "name": "Goal - TOEM Experienced",
+                        "chest_unopened_img": "/images/items/goal_toem.png",
+                        "chest_opened_img": "/images/items/achievement_open.png",
                         "access_rules": ["@Homelanda/Living Room/Quest - Experience TOEM"],
                         "visibility_rules": ["include_basto_off"]
                     }
@@ -192,7 +194,7 @@
                         "name": "Item - Award Mask",
                         "chest_unopened_img": "/images/items/chest_close.png",
                         "chest_opened_img": "/images/items/chest_open.png",
-                        "access_rules": ["honk_attachment"],
+                        "access_rules": ["^$HAS|honk_attachment"],
                         "visibility_rules": ["include_items_on"]
                     }
                 ],

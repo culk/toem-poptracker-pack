@@ -45,7 +45,7 @@
                         "name": "Achievement - A sparkling jump",
                         "chest_unopened_img": "/images/items/achievement_sparkling_jump.png",
                         "chest_opened_img": "/images/items/achievement_open.png",
-                        "access_rules": ["honk_attachment"],
+                        "access_rules": ["^$HAS|honk_attachment"],
                         "visibility_rules": ["include_achievements_on"],
                         "sections": [
                             {
@@ -124,7 +124,7 @@
                     },
                     {
                         "name": "Quest - Scorching flame",
-                        "access_rules": ["ghost_glasses"],
+                        "access_rules": ["^$HAS|ghost_glasses"],
                         "sections": [
                             {
                                 "name": ""
@@ -146,11 +146,11 @@
                 "children": [
                     {
                         "name": "Pirate",
-                        "access_rules": ["honk_attachment"],
+                        "access_rules": ["^$HAS|honk_attachment"],
                         "sections": [
                             {
                                 "name": "Quest - Queen of paper hats",
-                                "access_rules": ["pirate_hat"]
+                                "access_rules": ["^$HAS|pirate_hat"]
                             },
                             {
                                 "name": "Item - Old key",
@@ -162,7 +162,7 @@
                                 "name": "Item - Paper hat",
                                 "chest_unopened_img": "/images/items/chest_close.png",
                                 "chest_opened_img": "/images/items/chest_open.png",
-                                "access_rules": ["pirate_hat"],
+                                "access_rules": ["^$HAS|pirate_hat"],
                                 "visibility_rules": ["include_items_on"]
                             }
                         ],
@@ -228,7 +228,7 @@
                         "name": "Item - Supreme deluxe sandwich",
                         "chest_unopened_img": "/images/items/chest_close.png",
                         "chest_opened_img": "/images/items/chest_open.png",
-                        "access_rules": ["ghost_glasses,^$can_reach|stanhamn_outside_hydroplant"],
+                        "access_rules": ["^$HAS|ghost_glasses,^$can_reach|stanhamn_outside_hydroplant"],
                         "visibility_rules": ["include_items_on"],
                         "sections": [
                             {
@@ -275,14 +275,14 @@
                 "access_rules": ["^$can_reach|stanhamn_photo_guild_hut"],
                 "sections": [
                     {
-                        "name": "Quest - Frames & filters!",
-                        "access_rules": ["frames_filters"]
-                    },
-                    {
                         "name": "Item - Frames & filters",
                         "chest_unopened_img": "/images/items/chest_close.png",
                         "chest_opened_img": "/images/items/chest_open.png",
                         "visibility_rules": ["include_items_on"]
+                    },
+                    {
+                        "name": "Quest - Frames & filters!",
+                        "access_rules": ["^$HAS|frames_filters"]
                     },
                     {
                         "name": "Item - Photo challenger flag",
@@ -306,7 +306,7 @@
                 "children": [
                     {
                         "name": "Quest - Make someone take a bath",
-                        "access_rules": ["honk_attachment,^$can_reach|stanhamn_hydroplant"],
+                        "access_rules": ["^$HAS|honk_attachment,^$can_reach|stanhamn_hydroplant"],
                         "sections": [
                             {
                                 "name": ""
@@ -322,7 +322,7 @@
                     },
                     {
                         "name": "Quest - Supreme deluxe sandwich!",
-                        "access_rules": ["ghost_glasses,sandwich"],
+                        "access_rules": ["^$ALL|ghost_glasses|sandwich"],
                         "sections": [
                             {
                                 "name": ""
@@ -542,7 +542,7 @@
                         "sections": [
                             {
                                 "name": "Quest - A layered melody",
-                                "access_rules": ["fishermans_whistle_tape"]
+                                "access_rules": ["^$HAS|fishermans_whistle_tape"]
                             },
                             {
                                 "name": "Cassette - Launchable Socks - Fisherman's Tune",
@@ -627,7 +627,6 @@
                         "name": "Compendium - Fia",
                         "chest_unopened_img": "/images/items/photo_close.png",
                         "chest_opened_img": "/images/items/photo_open.png",
-                        "access_rules": [],
                         "sections": [
                             {
                                 "name": ""
@@ -655,7 +654,6 @@
                         "name": "Compendium - Fräs",
                         "chest_unopened_img": "/images/items/photo_close.png",
                         "chest_opened_img": "/images/items/photo_open.png",
-                        "access_rules": [],
                         "sections": [
                             {
                                 "name": ""
@@ -693,7 +691,7 @@
                         "name": "Item - Pirate hat",
                         "chest_unopened_img": "/images/items/chest_close.png",
                         "chest_opened_img": "/images/items/chest_open.png",
-                        "access_rules": ["old_key"],
+                        "access_rules": ["^$HAS|old_key"],
                         "visibility_rules": ["include_items_on"]
                     },
                     {
