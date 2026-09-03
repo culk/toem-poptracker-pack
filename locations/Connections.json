@@ -102,6 +102,7 @@
             },
             {
                 "name": "Oaklaville bus stop exit",
+                "access_rules": ["@Oaklaville"],
                 "sections": [
                     {
                         "name": "Oaklaville bus stop exit                                           ",
