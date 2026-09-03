@@ -607,7 +607,7 @@
             },
             {
                 "name": "Rave bouncer from top",
-                "access_rules": ["ghost_glasses,^$can_reach_all|oaklaville_outside_rave_bottom|oaklaville_outside_rave_top"],
+                "access_rules": ["^$HAS|ghost_glasses,^$can_reach_all|oaklaville_outside_rave_bottom|oaklaville_outside_rave_top"],
                 "sections": [
                     {
                         "name": "Rave bouncer from top                                              ",
@@ -617,7 +617,7 @@
             },
             {
                 "name": "Rave bouncer from bottom",
-                "access_rules": ["ghost_glasses,^$can_reach|oaklaville_outside_rave_bottom"],
+                "access_rules": ["^$HAS|ghost_glasses,^$can_reach|oaklaville_outside_rave_bottom"],
                 "sections": [
                     {
                         "name": "Rave bouncer from bottom                                           ",
@@ -769,7 +769,7 @@
             {
                 "name": "Raft up",
                 "access_rules": [
-                    "honk_attachment,@Stanhamn",
+                    "^$HAS|honk_attachment,@Stanhamn",
                     "@Stanhamn/Hydroplant/Quest - Power shortage!,@Stanhamn"
                 ],
                 "sections": [
@@ -843,7 +843,7 @@
             },
             {
                 "name": "Hippo beach manhole",
-                "access_rules": ["honk_attachment,diving_helmet,^$can_reach|stanhamn_hippo_beach"],
+                "access_rules": ["^$HAS|honk_attachment,diving_helmet,^$can_reach|stanhamn_hippo_beach"],
                 "sections": [
                     {
                         "name": "Hippo beach manhole                                                ",
@@ -920,7 +920,7 @@
             },
             {
                 "name": "Outside lighthouse up",
-                "access_rules": ["honk_attachment,^$can_reach|stanhamn_outside_lighthouse"],
+                "access_rules": ["^$HAS|honk_attachment,^$can_reach|stanhamn_outside_lighthouse"],
                 "sections": [
                     {
                         "name": "Outside lighthouse up                                              ",
@@ -1043,7 +1043,7 @@
             },
             {
                 "name": "Viking express Stanhamn stop",
-                "access_rules": ["basto_ticket,^$can_reach|stanhamn_docks_left"],
+                "access_rules": ["^$HAS|basto_ticket,^$can_reach|stanhamn_docks_left"],
                 "sections": [
                     {
                         "name": "Viking express Stanhamn stop                                       ",
@@ -1183,7 +1183,7 @@
             },
             {
                 "name": "Raft down",
-                "access_rules": ["honk_attachment,@Stanhamn/Hydroplant/Quest - Power shortage!,^$can_reach|stanhamn_outside_hydroplant"],
+                "access_rules": ["^$HAS|honk_attachment,@Stanhamn/Hydroplant/Quest - Power shortage!,^$can_reach|stanhamn_outside_hydroplant"],
                 "sections": [
                     {
                         "name": "Raft down                                                          ",
@@ -1573,7 +1573,7 @@
             },
             {
                 "name": "Fashion show security from top",
-                "access_rules": ["reporter_hat,^$can_reach_all|logcity_fashion_show_top|logcity_fashion_show_bottom"],
+                "access_rules": ["^$HAS|reporter_hat,^$can_reach_all|logcity_fashion_show_top|logcity_fashion_show_bottom"],
                 "sections": [
                     {
                         "name": "Fashion show security from top                                     ",
@@ -1593,7 +1593,7 @@
             },
             {
                 "name": "Fashion show security from bottom",
-                "access_rules": ["reporter_hat,^$can_reach|logcity_fashion_show_bottom"],
+                "access_rules": ["^$HAS|reporter_hat,^$can_reach|logcity_fashion_show_bottom"],
                 "sections": [
                     {
                         "name": "Fashion show security from bottom                                  ",
@@ -1906,7 +1906,7 @@
             },
             {
                 "name": "Birthday party rope from bottom",
-                "access_rules": ["climbing_boots,^$can_reach|kiiruberg_birthday_party_bottom"],
+                "access_rules": ["^$HAS|climbing_boots,^$can_reach|kiiruberg_birthday_party_bottom"],
                 "sections": [
                     {
                         "name": "Birthday party rope from bottom                                    ",
@@ -1916,7 +1916,7 @@
             },
             {
                 "name": "Birthday party rope from top",
-                "access_rules": ["climbing_boots,^$can_reach|kiiruberg_birthday_party_top"],
+                "access_rules": ["^$HAS|climbing_boots,^$can_reach|kiiruberg_birthday_party_top"],
                 "sections": [
                     {
                         "name": "Birthday party rope from top                                       ",
@@ -2098,7 +2098,7 @@
             },
             {
                 "name": "Snowman square rope from bottom",
-                "access_rules": ["climbing_boots,^$can_reach|kiiruberg_snowman_square_bottom"],
+                "access_rules": ["^$HAS|climbing_boots,^$can_reach|kiiruberg_snowman_square_bottom"],
                 "sections": [
                     {
                         "name": "Snowman square rope from bottom                                    ",
@@ -2108,7 +2108,7 @@
             },
             {
                 "name": "Snowman square rope from top",
-                "access_rules": ["climbing_boots,^$can_reach|kiiruberg_snowman_square_top"],
+                "access_rules": ["^$HAS|climbing_boots,^$can_reach|kiiruberg_snowman_square_top"],
                 "sections": [
                     {
                         "name": "Snowman square rope from top                                       ",
@@ -2254,7 +2254,7 @@
             },
             {
                 "name": "Wizard tower entrance",
-                "access_rules": ["climbing_boots,^$can_reach|kiiruberg_outside_wizard_tower"],
+                "access_rules": ["^$HAS|climbing_boots,^$can_reach|kiiruberg_outside_wizard_tower"],
                 "sections": [
                     {
                         "name": "Wizard tower entrance                                              ",
@@ -2343,7 +2343,7 @@
                 "name": "Cliffs down",
                 "access_rules": [
                     "^$can_reach|kiiruberg_cliffs_bottom",
-                    "climbing_boots,^$can_reach_any|kiiruberg_cliffs_middle|kiiruberg_cliffs_top"
+                    "^$HAS|climbing_boots,^$can_reach_any|kiiruberg_cliffs_middle|kiiruberg_cliffs_top"
                 ],
                 "sections": [
                     {
@@ -2362,7 +2362,7 @@
             },
             {
                 "name": "Cliffs bottom rope from bottom",
-                "access_rules": ["climbing_boots,^$can_reach|kiiruberg_cliffs_bottom"],
+                "access_rules": ["^$HAS|climbing_boots,^$can_reach|kiiruberg_cliffs_bottom"],
                 "sections": [
                     {
                         "name": "Cliffs bottom rope from bottom                                     ",
@@ -2372,7 +2372,7 @@
             },
             {
                 "name": "Cliffs bottom rope from middle",
-                "access_rules": ["climbing_boots,^$can_reach|kiiruberg_cliffs_middle"],
+                "access_rules": ["^$HAS|climbing_boots,^$can_reach|kiiruberg_cliffs_middle"],
                 "sections": [
                     {
                         "name": "Cliffs bottom rope from middle                                     ",
@@ -2382,7 +2382,7 @@
             },
             {
                 "name": "Cliffs right",
-                "access_rules": ["honk_attachment,^$can_reach|kiiruberg_cliffs_middle"],
+                "access_rules": ["^$HAS|honk_attachment,^$can_reach|kiiruberg_cliffs_middle"],
                 "sections": [
                     {
                         "name": "Cliffs right                                                       ",
@@ -2400,7 +2400,7 @@
             },
             {
                 "name": "Cliffs top rope from middle",
-                "access_rules": ["honk_attachment,^$can_reach|kiiruberg_cliffs_middle"],
+                "access_rules": ["^$HAS|climbing_boots,^$can_reach|kiiruberg_cliffs_middle"],
                 "sections": [
                     {
                         "name": "Cliffs top rope from middle                                        ",
@@ -2410,7 +2410,7 @@
             },
             {
                 "name": "Cliffs top rope from top",
-                "access_rules": ["honk_attachment,^$can_reach|kiiruberg_cliffs_top"],
+                "access_rules": ["^$HAS|climbing_boots,^$can_reach|kiiruberg_cliffs_top"],
                 "sections": [
                     {
                         "name": "Cliffs top rope from top                                           ",
@@ -2422,7 +2422,7 @@
                 "name": "Cliffs up",
                 "access_rules": [
                     "^$can_reach|kiiruberg_cliffs_top",
-                    "climbing_boots,^$can_reach_any|kiiruberg_cliffs_middle|kiiruberg_cliffs_bottom"
+                    "^$HAS|climbing_boots,^$can_reach_any|kiiruberg_cliffs_middle|kiiruberg_cliffs_bottom"
                 ],
                 "sections": [
                     {
@@ -2479,7 +2479,7 @@
             },
             {
                 "name": "Blizzard bridge break ice from bottom",
-                "access_rules": ["honk_attachment,^$has_warm_clothing,^$can_reach|kiiruberg_blizzard_bridge_dl"],
+                "access_rules": ["^$HAS|honk_attachment,^$has_warm_clothing,^$can_reach|kiiruberg_blizzard_bridge_dl"],
                 "sections": [
                     {
                         "name": "Blizzard bridge break ice from bottom                              ",
@@ -2489,7 +2489,7 @@
             },
             {
                 "name": "Blizzard bridge break ice from top",
-                "access_rules": ["honk_attachment,^$can_reach|kiiruberg_blizzard_bridge_ul"],
+                "access_rules": ["^$HAS|honk_attachment,^$can_reach|kiiruberg_blizzard_bridge_ul"],
                 "sections": [
                     {
                         "name": "Blizzard bridge break ice from top                                 ",
@@ -2540,7 +2540,7 @@
             },
             {
                 "name": "Blizzard bridge rope from lower right",
-                "access_rules": ["climbing_boots,^$can_reach|kiiruberg_blizzard_bridge_right"],
+                "access_rules": ["^$HAS|climbing_boots,^$can_reach|kiiruberg_blizzard_bridge_right"],
                 "sections": [
                     {
                         "name": "Blizzard bridge rope from lower right                              ",
@@ -2560,7 +2560,7 @@
             },
             {
                 "name": "Blizzard bridge right",
-                "access_rules": ["honk_attachment,^$can_reach|kiiruberg_blizzard_bridge_right"],
+                "access_rules": ["^$HAS|honk_attachment,^$can_reach|kiiruberg_blizzard_bridge_right"],
                 "sections": [
                     {
                         "name": "Blizzard bridge right                                              ",
@@ -2637,7 +2637,7 @@
             },
             {
                 "name": "Outside observatory rope from top",
-                "access_rules": ["climbing_boots,^$can_reach|kiiruberg_outside_observ_top"],
+                "access_rules": ["^$HAS|climbing_boots,^$can_reach|kiiruberg_outside_observ_top"],
                 "sections": [
                     {
                         "name": "Outside observatory rope from top                                  ",
@@ -2647,7 +2647,7 @@
             },
             {
                 "name": "Outside observatory rope from bottom",
-                "access_rules": ["climbing_boots,^$can_reach|kiiruberg_outside_observ_bottom"],
+                "access_rules": ["^$HAS|climbing_boots,^$can_reach|kiiruberg_outside_observ_bottom"],
                 "sections": [
                     {
                         "name": "Outside observatory rope from bottom                               ",
@@ -2806,7 +2806,7 @@
             },
             {
                 "name": "Mountain top bus stop climb",
-                "access_rules": ["climbing_boots,@Mountain Top"],
+                "access_rules": ["^$HAS|climbing_boots,@Mountain Top"],
                 "sections": [
                     {
                         "name": "Mountain top bus stop climb                                        ",
@@ -2824,7 +2824,7 @@
             },
             {
                 "name": "Toem descend",
-                "access_rules": ["climbing_boots,^$can_reach|mountain_top_toem"],
+                "access_rules": ["^$HAS|climbing_boots,^$can_reach|mountain_top_toem"],
                 "sections": [
                     {
                         "name": "Toem descend                                                       ",
@@ -2842,7 +2842,7 @@
             },
             {
                 "name": "Basto harbor gate from top",
-                "access_rules": ["watergun,@Basto"],
+                "access_rules": ["^$HAS|watergun,@Basto"],
                 "sections": [
                     {
                         "name": "Basto harbor gate from top                                         ",
@@ -2852,7 +2852,7 @@
             },
             {
                 "name": "Basto harbor gate from bottom",
-                "access_rules": ["watergun,@Basto"],
+                "access_rules": ["^$HAS|watergun,@Basto"],
                 "sections": [
                     {
                         "name": "Basto harbor gate from bottom                                      ",
@@ -2880,7 +2880,7 @@
             },
             {
                 "name": "Viking express Basto stop",
-                "access_rules": ["basto_ticket,^$can_reach|stanhamn_docks_left"],
+                "access_rules": ["^$HAS|basto_ticket,^$can_reach|stanhamn_docks_left"],
                 "sections": [
                     {
                         "name": "Viking express Basto stop                                          ",
@@ -3292,7 +3292,7 @@
             },
             {
                 "name": "Secret cave room entrance",
-                "access_rules": ["pickaxe,watergun,^$can_reach|basto_cave"],
+                "access_rules": ["^$HAS|pickaxe,^$HAS|watergun,^$can_reach|basto_cave"],
                 "sections": [
                     {
                         "name": "Secret cave room entrance                                          ",
