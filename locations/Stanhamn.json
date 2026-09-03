@@ -359,7 +359,7 @@
                 "name": "Docks Right",
                 "access_rules": [
                     "^$can_reach|stanhamn_docks_right",
-                    "@Stanhamn/Hydroplant/Quest - Power shortage!,^$can_reach|stanhamn_left"
+                    "@Stanhamn/Hydroplant/Quest - Power shortage!,^$can_reach|stanhamn_docks_left"
                 ],
                 "children": [
                     {
@@ -511,7 +511,7 @@
                 "name": "Snowman",
                 "access_rules": [
                     "^$can_reach|stanhamn_docks_left",
-                    "@Stanhamn/Hydroplant/Quest - Power shortage!,^$can_reach|stanhamn_right"
+                    "@Stanhamn/Hydroplant/Quest - Power shortage!,^$can_reach|stanhamn_docks_right"
                 ],
                 "sections": [
                     {
@@ -619,7 +619,7 @@
                 "name": "Fia",
                 "access_rules": [
                     "^$can_reach|stanhamn_docks_right",
-                    "@Stanhamn/Hydroplant/Quest - Power shortage!,^$can_reach|stanhamn_left",
+                    "@Stanhamn/Hydroplant/Quest - Power shortage!,^$can_reach|stanhamn_docks_left",
                     "^$can_reach|stanhamn_docks_left,[hard_logic]"
                 ],
                 "children": [
@@ -646,7 +646,7 @@
                 "name": "Fräs",
                 "access_rules": [
                     "^$can_reach|stanhamn_docks_left",
-                    "@Stanhamn/Hydroplant/Quest - Power shortage!,^$can_reach|stanhamn_right",
+                    "@Stanhamn/Hydroplant/Quest - Power shortage!,^$can_reach|stanhamn_docks_right",
                     "^$can_reach|stanhamn_docks_right,[hard_logic]"
                 ],
                 "children": [
