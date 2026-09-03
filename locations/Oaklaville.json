@@ -128,7 +128,7 @@
                     {
                         "map": "Oaklaville",
                         "x": 843,
-                        "y": 1076
+                        "y": 1055
                     }
                 ]
             },
@@ -618,13 +618,8 @@
                 ]
             },
             {
-                "name": "Squirrels",
-                "children": [
-                ]
-            },
-            {
                 "name": "Mushroom House",
-                "access_rules": ["^$can_reach|ghost_cup_game"],
+                "access_rules": ["^$can_reach|oaklaville_mushroom_house"],
                 "sections": [
                     {
                         "name": "Compendium - Tato bug",
@@ -642,7 +637,7 @@
                     {
                         "map": "Oaklaville",
                         "x": 520,
-                        "y": 864
+                        "y": 859
                     }
                 ]
             },

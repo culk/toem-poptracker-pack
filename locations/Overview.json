@@ -377,6 +377,122 @@
                 ]
             },
             {
+                "name": "Basto - Connections",
+                "sections": [
+                    {
+                        "name": "Basto harbor up                                                              ",
+                        "ref": "Connections/Basto harbor up/Basto harbor up                                                    "
+                    },
+                    {
+                        "name": "Lily pad pond down",
+                        "ref": "Connections/Lily pad pond down/Lily pad pond down                                                 "
+                    },
+                    {
+                        "name": "Lily pad pond left",
+                        "ref": "Connections/Lily pad pond left/Lily pad pond left                                                 "
+                    },
+                    {
+                        "name": "Lily pad pond right",
+                        "ref": "Connections/Lily pad pond right/Lily pad pond right                                                "
+                    },
+                    {
+                        "name": "Lily pad pond up",
+                        "ref": "Connections/Lily pad pond up/Lily pad pond up                                                   "
+                    },
+                    {
+                        "name": "Tent entrance",
+                        "ref": "Connections/Tent entrance/Tent entrance                                                      "
+                    },
+                    {
+                        "name": "Tent exit",
+                        "ref": "Connections/Tent exit/Tent exit                                                          "
+                    },
+                    {
+                        "name": "Campsite right",
+                        "ref": "Connections/Campsite right/Campsite right                                                     "
+                    },
+                    {
+                        "name": "Castle entrance",
+                        "ref": "Connections/Castle entrance/Castle entrance                                                    "
+                    },
+                    {
+                        "name": "Castle exit",
+                        "ref": "Connections/Castle exit/Castle exit                                                        "
+                    },
+                    {
+                        "name": "Gym house entrance",
+                        "ref": "Connections/Gym house entrance/Gym house entrance                                                 "
+                    },
+                    {
+                        "name": "Gym house exit",
+                        "ref": "Connections/Gym house exit/Gym house exit                                                     "
+                    },
+                    {
+                        "name": "Outside castle down",
+                        "ref": "Connections/Outside castle down/Outside castle down                                                "
+                    },
+                    {
+                        "name": "Outside castle left",
+                        "ref": "Connections/Outside castle left/Outside castle left                                                "
+                    },
+                    {
+                        "name": "Bonfire lower right",
+                        "ref": "Connections/Bonfire lower right/Bonfire lower right                                                "
+                    },
+                    {
+                        "name": "Bonfire upper right",
+                        "ref": "Connections/Bonfire upper right/Bonfire upper right                                                "
+                    },
+                    {
+                        "name": "Carnival entrance",
+                        "ref": "Connections/Carnival entrance/Carnival entrance                                                  "
+                    },
+                    {
+                        "name": "Carnival exit",
+                        "ref": "Connections/Carnival exit/Carnival exit                                                      "
+                    },
+                    {
+                        "name": "Ghost hangout cave entrance",
+                        "ref": "Connections/Ghost hangout cave entrance/Ghost hangout cave entrance                                        "
+                    },
+                    {
+                        "name": "Ghost hangout left",
+                        "ref": "Connections/Ghost hangout left/Ghost hangout left                                                 "
+                    },
+                    {
+                        "name": "Secret cave room entrance",
+                        "ref": "Connections/Secret cave room entrance/Secret cave room entrance                                          "
+                    },
+                    {
+                        "name": "Secret cave room exit",
+                        "ref": "Connections/Secret cave room exit/Secret cave room exit                                              "
+                    },
+                    {
+                        "name": "Ghost hangout cave exit",
+                        "ref": "Connections/Ghost hangout cave exit/Ghost hangout cave exit                                            "
+                    },
+                    {
+                        "name": "Jungle cave exit",
+                        "ref": "Connections/Jungle cave exit/Jungle cave exit                                                   "
+                    },
+                    {
+                        "name": "Jungle cave entrance",
+                        "ref": "Connections/Jungle cave entrance/Jungle cave entrance                                               "
+                    },
+                    {
+                        "name": "Jungle left",
+                        "ref": "Connections/Jungle left/Jungle left                                                        "
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 533,
+                        "y": 522
+                    }
+                ]
+            },
+            {
                 "name": "Homelanda - Quests",
                 "sections": [
                     {
@@ -685,7 +801,179 @@
                 ]
             },
             {
-                "name": "Logcity - Quests",
+                "name": "Kiiruberg - Connections",
+                "sections": [
+                    {
+                        "name": "Kiiruberg bus stop up                                                        ",
+                        "ref": "Connections/Kiiruberg bus stop up/Kiiruberg bus stop up                                              "
+                    },
+                    {
+                        "name": "Balloon house entrance",
+                        "ref": "Connections/Balloon house entrance/Balloon house entrance                                             "
+                    },
+                    {
+                        "name": "Balloon house exit",
+                        "ref": "Connections/Balloon house exit/Balloon house exit                                                 "
+                    },
+                    {
+                        "name": "Birthday party down",
+                        "ref": "Connections/Birthday party down/Birthday party down                                                "
+                    },
+                    {
+                        "name": "Birthday party left",
+                        "ref": "Connections/Birthday party left/Birthday party left                                                "
+                    },
+                    {
+                        "name": "Birthday party right",
+                        "ref": "Connections/Birthday party right/Birthday party right                                               "
+                    },
+                    {
+                        "name": "Birthday party up",
+                        "ref": "Connections/Birthday party up/Birthday party up                                                  "
+                    },
+                    {
+                        "name": "Old man's house entrance",
+                        "ref": "Connections/Old man's house entrance/Old man's house entrance                                           "
+                    },
+                    {
+                        "name": "Old man's house exit",
+                        "ref": "Connections/Old man's house exit/Old man's house exit                                               "
+                    },
+                    {
+                        "name": "Frozen pond right",
+                        "ref": "Connections/Frozen pond right/Frozen pond right                                                  "
+                    },
+                    {
+                        "name": "Military base entrance",
+                        "ref": "Connections/Military base entrance/Military base entrance                                             "
+                    },
+                    {
+                        "name": "Military base exit",
+                        "ref": "Connections/Military base exit/Military base exit                                                 "
+                    },
+                    {
+                        "name": "Meck's house entrance",
+                        "ref": "Connections/Meck's house entrance/Meck's house entrance                                              "
+                    },
+                    {
+                        "name": "Meck's house exit",
+                        "ref": "Connections/Meck's house exit/Meck's house exit                                                  "
+                    },
+                    {
+                        "name": "Snowman square down",
+                        "ref": "Connections/Snowman square down/Snowman square down                                                "
+                    },
+                    {
+                        "name": "Snowman square left",
+                        "ref": "Connections/Snowman square left/Snowman square left                                                "
+                    },
+                    {
+                        "name": "Snowman square up",
+                        "ref": "Connections/Snowman square up/Snowman square up                                                  "
+                    },
+                    {
+                        "name": "Wizard tower entrance",
+                        "ref": "Connections/Wizard tower entrance/Wizard tower entrance                                              "
+                    },
+                    {
+                        "name": "Wizard portal entrance",
+                        "ref": "Connections/Wizard portal entrance/Wizard portal entrance                                             "
+                    },
+                    {
+                        "name": "Wizard tower exit",
+                        "ref": "Connections/Wizard tower exit/Wizard tower exit                                                  "
+                    },
+                    {
+                        "name": "Wizard portal exit",
+                        "ref": "Connections/Wizard portal exit/Wizard portal exit                                                 "
+                    },
+                    {
+                        "name": "Outside wizard tower right",
+                        "ref": "Connections/Outside wizard tower right/Outside wizard tower right                                         "
+                    },
+                    {
+                        "name": "Cliffs down",
+                        "ref": "Connections/Cliffs down/Cliffs down                                                        "
+                    },
+                    {
+                        "name": "Cliffs right",
+                        "ref": "Connections/Cliffs right/Cliffs right                                                       "
+                    },
+                    {
+                        "name": "Cliffs up",
+                        "ref": "Connections/Cliffs up/Cliffs up                                                          "
+                    },
+                    {
+                        "name": "Blizzard bridge left",
+                        "ref": "Connections/Blizzard bridge left/Blizzard bridge left                                               "
+                    },
+                    {
+                        "name": "Man cave entrance",
+                        "ref": "Connections/Man cave entrance/Man cave entrance                                                  "
+                    },
+                    {
+                        "name": "Man cave exit",
+                        "ref": "Connections/Man cave exit/Man cave exit                                                      "
+                    },
+                    {
+                        "name": "Blizzard bridge right",
+                        "ref": "Connections/Blizzard bridge right/Blizzard bridge right                                              "
+                    },
+                    {
+                        "name": "Blizzard monster exit",
+                        "ref": "Connections/Blizzard monster exit/Blizzard monster exit                                              "
+                    },
+                    {
+                        "name": "Observatory entrance",
+                        "ref": "Connections/Observatory entrance/Observatory entrance                                               "
+                    },
+                    {
+                        "name": "Observatory exit",
+                        "ref": "Connections/Observatory exit/Observatory exit                                                   "
+                    },
+                    {
+                        "name": "Outside observatory down",
+                        "ref": "Connections/Outside observatory down/Outside observatory down                                           "
+                    },
+                    {
+                        "name": "Outside observatory right",
+                        "ref": "Connections/Outside observatory right/Outside observatory right                                          "
+                    },
+                    {
+                        "name": "Ski lodge entrance",
+                        "ref": "Connections/Ski lodge entrance/Ski lodge entrance                                                 "
+                    },
+                    {
+                        "name": "Ski lodge exit",
+                        "ref": "Connections/Ski lodge exit/Ski lodge exit                                                     "
+                    },
+                    {
+                        "name": "Ski lift base left",
+                        "ref": "Connections/Ski lift base left/Ski lift base left                                                 "
+                    },
+                    {
+                        "name": "Ski lift up",
+                        "ref": "Connections/Ski lift up/Ski lift up                                                        "
+                    },
+                    {
+                        "name": "Ski mountain top left",
+                        "ref": "Connections/Ski mountain top left/Ski mountain top left                                              "
+                    },
+                    {
+                        "name": "Ski lift down",
+                        "ref": "Connections/Ski lift down/Ski lift down                                                      "
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 595,
+                        "y": 366
+                    }
+                ]
+            },
+            {
+                "name": "Logcity - Quest",
                 "sections": [
                     {
                         "name": "Quest - Suspicious activity - city",
@@ -897,6 +1185,146 @@
                         "map": "Overview",
                         "x": 434,
                         "y": 196
+                    }
+                ]
+            },
+            {
+                "name": "Logcity - Connections",
+                "sections": [
+                    {
+                        "name": "Escalator up                                                                 ",
+                        "ref": "Connections/Escalator up/Escalator up                                                       "
+                    },
+                    {
+                        "name": "Logcity bus stop entrance",
+                        "ref": "Connections/Logcity bus stop entrance/Logcity bus stop entrance                                          "
+                    },
+                    {
+                        "name": "Clock tower left",
+                        "ref": "Connections/Clock tower left/Clock tower left                                                   "
+                    },
+                    {
+                        "name": "Clock tower up",
+                        "ref": "Connections/Clock tower up/Clock tower up                                                     "
+                    },
+                    {
+                        "name": "Clock tower right",
+                        "ref": "Connections/Clock tower right/Clock tower right                                                  "
+                    },
+                    {
+                        "name": "Cross walk right",
+                        "ref": "Connections/Cross walk right/Cross walk right                                                   "
+                    },
+                    {
+                        "name": "Cross walk up",
+                        "ref": "Connections/Cross walk up/Cross walk up                                                      "
+                    },
+                    {
+                        "name": "Overpass down",
+                        "ref": "Connections/Overpass down/Overpass down                                                      "
+                    },
+                    {
+                        "name": "News house entrance",
+                        "ref": "Connections/News house entrance/News house entrance                                                "
+                    },
+                    {
+                        "name": "News house exit",
+                        "ref": "Connections/News house exit/News house exit                                                    "
+                    },
+                    {
+                        "name": "Overpass up",
+                        "ref": "Connections/Overpass up/Overpass up                                                        "
+                    },
+                    {
+                        "name": "Overpass right",
+                        "ref": "Connections/Overpass right/Overpass right                                                     "
+                    },
+                    {
+                        "name": "Skate park down",
+                        "ref": "Connections/Skate park down/Skate park down                                                    "
+                    },
+                    {
+                        "name": "Skate park right",
+                        "ref": "Connections/Skate park right/Skate park right                                                   "
+                    },
+                    {
+                        "name": "Skate park taxi",
+                        "ref": "Connections/Skate park taxi/Skate park taxi                                                    "
+                    },
+                    {
+                        "name": "Ratskullz alley exit",
+                        "ref": "Connections/Ratskullz alley exit/Ratskullz alley exit                                               "
+                    },
+                    {
+                        "name": "Fashion show entrance",
+                        "ref": "Connections/Fashion show entrance/Fashion show entrance                                              "
+                    },
+                    {
+                        "name": "Fashion show backstage entrance",
+                        "ref": "Connections/Fashion show backstage entrance/Fashion show backstage entrance                                    "
+                    },
+                    {
+                        "name": "Fashion show exit",
+                        "ref": "Connections/Fashion show exit/Fashion show exit                                                  "
+                    },
+                    {
+                        "name": "Fashion show backstage exit",
+                        "ref": "Connections/Fashion show backstage exit/Fashion show backstage exit                                        "
+                    },
+                    {
+                        "name": "Outside fashion show down",
+                        "ref": "Connections/Outside fashion show down/Outside fashion show down                                          "
+                    },
+                    {
+                        "name": "Outside fashion show left",
+                        "ref": "Connections/Outside fashion show left/Outside fashion show left                                          "
+                    },
+                    {
+                        "name": "Outside fashion show right",
+                        "ref": "Connections/Outside fashion show right/Outside fashion show right                                         "
+                    },
+                    {
+                        "name": "Cafe entrance",
+                        "ref": "Connections/Cafe entrance/Cafe entrance                                                      "
+                    },
+                    {
+                        "name": "Cafe exit",
+                        "ref": "Connections/Cafe exit/Cafe exit                                                          "
+                    },
+                    {
+                        "name": "Outside cafe left",
+                        "ref": "Connections/Outside cafe left/Outside cafe left                                                  "
+                    },
+                    {
+                        "name": "Outside cafe up",
+                        "ref": "Connections/Outside cafe up/Outside cafe up                                                    "
+                    },
+                    {
+                        "name": "Outside cafe taxi",
+                        "ref": "Connections/Outside cafe taxi/Outside cafe taxi                                                  "
+                    },
+                    {
+                        "name": "Gallery entrance",
+                        "ref": "Connections/Gallery entrance/Gallery entrance                                                   "
+                    },
+                    {
+                        "name": "Gallery exit",
+                        "ref": "Connections/Gallery exit/Gallery exit                                                       "
+                    },
+                    {
+                        "name": "Outside gallery show down",
+                        "ref": "Connections/Outside gallery show down/Outside gallery show down                                          "
+                    },
+                    {
+                        "name": "Outside gallery show left",
+                        "ref": "Connections/Outside gallery show left/Outside gallery show left                                          "
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 434,
+                        "y": 148
                     }
                 ]
             },
@@ -1165,6 +1593,138 @@
                 ]
             },
             {
+                "name": "Oaklaville - Connections",
+                "sections": [
+                    {
+                        "name": "Oaklaville bus stop exit                                                     ",
+                        "ref": "Connections/Oaklaville bus stop exit/Oaklaville bus stop exit                                           "
+                    },
+                    {
+                        "name": "Outside hotel down",
+                        "ref": "Connections/Outside hotel down/Outside hotel down                                                 "
+                    },
+                    {
+                        "name": "Outside hotel left",
+                        "ref": "Connections/Outside hotel left/Outside hotel left                                                 "
+                    },
+                    {
+                        "name": "Outside hotel right",
+                        "ref": "Connections/Outside hotel right/Outside hotel right                                                "
+                    },
+                    {
+                        "name": "Hotel entrance",
+                        "ref": "Connections/Hotel entrance/Hotel entrance                                                     "
+                    },
+                    {
+                        "name": "Hotel exit",
+                        "ref": "Connections/Hotel exit/Hotel exit                                                         "
+                    },
+                    {
+                        "name": "Hotel elevator entrance",
+                        "ref": "Connections/Hotel elevator entrance/Hotel elevator entrance                                            "
+                    },
+                    {
+                        "name": "Hotel elevator exit",
+                        "ref": "Connections/Hotel elevator exit/Hotel elevator exit                                                "
+                    },
+                    {
+                        "name": "Ghost cup game right",
+                        "ref": "Connections/Ghost cup game right/Ghost cup game right                                               "
+                    },
+                    {
+                        "name": "Mushroom house entrance",
+                        "ref": "Connections/Mushroom house entrance/Mushroom house entrance                                            "
+                    },
+                    {
+                        "name": "Mushroom house exit",
+                        "ref": "Connections/Mushroom house exit/Mushroom house exit                                                "
+                    },
+                    {
+                        "name": "Ghost cup game left",
+                        "ref": "Connections/Ghost cup game left/Ghost cup game left                                                "
+                    },
+                    {
+                        "name": "Hide and seek right",
+                        "ref": "Connections/Hide and seek right/Hide and seek right                                                "
+                    },
+                    {
+                        "name": "Hide and seek left",
+                        "ref": "Connections/Hide and seek left/Hide and seek left                                                 "
+                    },
+                    {
+                        "name": "Graveyard right",
+                        "ref": "Connections/Graveyard right/Graveyard right                                                    "
+                    },
+                    {
+                        "name": "Skeleton house entrance",
+                        "ref": "Connections/Skeleton house entrance/Skeleton house entrance                                            "
+                    },
+                    {
+                        "name": "Skeleton house exit",
+                        "ref": "Connections/Skeleton house exit/Skeleton house exit                                                "
+                    },
+                    {
+                        "name": "Skeleton house balcony exit",
+                        "ref": "Connections/Skeleton house balcony exit/Skeleton house balcony exit                                        "
+                    },
+                    {
+                        "name": "Skeleton house balcony entrance",
+                        "ref": "Connections/Skeleton house balcony entrance/Skeleton house balcony entrance                                    "
+                    },
+                    {
+                        "name": "Scout camp left",
+                        "ref": "Connections/Scout camp left/Scout camp left                                                    "
+                    },
+                    {
+                        "name": "Scout camp up",
+                        "ref": "Connections/Scout camp up/Scout camp up                                                      "
+                    },
+                    {
+                        "name": "Scout camp right",
+                        "ref": "Connections/Scout camp right/Scout camp right                                                   "
+                    },
+                    {
+                        "name": "Oaklaville trail up",
+                        "ref": "Connections/Oaklaville trail up/Oaklaville trail up                                                "
+                    },
+                    {
+                        "name": "Oaklaville trail down",
+                        "ref": "Connections/Oaklaville trail down/Oaklaville trail down                                              "
+                    },
+                    {
+                        "name": "Lookout exit",
+                        "ref": "Connections/Lookout exit/Lookout exit                                                       "
+                    },
+                    {
+                        "name": "Playground left",
+                        "ref": "Connections/Playground left/Playground left                                                    "
+                    },
+                    {
+                        "name": "Playground right",
+                        "ref": "Connections/Playground right/Playground right                                                   "
+                    },
+                    {
+                        "name": "Rave entrance",
+                        "ref": "Connections/Rave entrance/Rave entrance                                                      "
+                    },
+                    {
+                        "name": "Outside rave left",
+                        "ref": "Connections/Outside rave left/Outside rave left                                                  "
+                    },
+                    {
+                        "name": "Rave exit",
+                        "ref": "Connections/Rave exit/Rave exit                                                          "
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 151,
+                        "y": 332
+                    }
+                ]
+            },
+            {
                 "name": "Stanhamn - Quests",
                 "sections": [
                     {
@@ -1429,6 +1989,134 @@
                         "map": "Overview",
                         "x": 384,
                         "y": 521
+                    }
+                ]
+            },
+            {
+                "name": "Stanhamn - Connections",
+                "sections": [
+                    {
+                        "name": "Photo guild hut entrance                                                     ",
+                        "ref": "Connections/Photo guild hut entrance/Photo guild hut entrance                                           "
+                    },
+                    {
+                        "name": "Photo guild hut exit",
+                        "ref": "Connections/Photo guild hut exit/Photo guild hut exit                                               "
+                    },
+                    {
+                        "name": "Stanhamn bus stop left",
+                        "ref": "Connections/Stanhamn bus stop left/Stanhamn bus stop left                                             "
+                    },
+                    {
+                        "name": "Stanhamn bus stop right",
+                        "ref": "Connections/Stanhamn bus stop right/Stanhamn bus stop right                                            "
+                    },
+                    {
+                        "name": "Raft up",
+                        "ref": "Connections/Raft up/Raft up                                                            "
+                    },
+                    {
+                        "name": "Pirate Drawbridge right",
+                        "ref": "Connections/Pirate Drawbridge right/Pirate Drawbridge right                                            "
+                    },
+                    {
+                        "name": "Pirate Drawbridge left",
+                        "ref": "Connections/Pirate Drawbridge left/Pirate Drawbridge left                                             "
+                    },
+                    {
+                        "name": "Hippo beach right",
+                        "ref": "Connections/Hippo beach right/Hippo beach right                                                  "
+                    },
+                    {
+                        "name": "Hippo beach manhole",
+                        "ref": "Connections/Hippo beach manhole/Hippo beach manhole                                                "
+                    },
+                    {
+                        "name": "Underwater exit",
+                        "ref": "Connections/Underwater exit/Underwater exit                                                    "
+                    },
+                    {
+                        "name": "Hippo beach left",
+                        "ref": "Connections/Hippo beach left/Hippo beach left                                                   "
+                    },
+                    {
+                        "name": "Outside lighthouse right",
+                        "ref": "Connections/Outside lighthouse right/Outside lighthouse right                                           "
+                    },
+                    {
+                        "name": "Outside lighthouse up",
+                        "ref": "Connections/Outside lighthouse up/Outside lighthouse up                                              "
+                    },
+                    {
+                        "name": "Lighthouse entrance",
+                        "ref": "Connections/Lighthouse entrance/Lighthouse entrance                                                "
+                    },
+                    {
+                        "name": "Lighthouse exit",
+                        "ref": "Connections/Lighthouse exit/Lighthouse exit                                                    "
+                    },
+                    {
+                        "name": "Lighthouse roof entrance",
+                        "ref": "Connections/Lighthouse roof entrance/Lighthouse roof entrance                                           "
+                    },
+                    {
+                        "name": "Lighthouse roof exit",
+                        "ref": "Connections/Lighthouse roof exit/Lighthouse roof exit                                               "
+                    },
+                    {
+                        "name": "King fish beach exit",
+                        "ref": "Connections/King fish beach exit/King fish beach exit                                               "
+                    },
+                    {
+                        "name": "Docks left exit",
+                        "ref": "Connections/Docks left exit/Docks left exit                                                    "
+                    },
+                    {
+                        "name": "Viking express Stanhamn stop",
+                        "ref": "Connections/Viking express Stanhamn stop/Viking express Stanhamn stop                                       "
+                    },
+                    {
+                        "name": "Docks right exit",
+                        "ref": "Connections/Docks right exit/Docks right exit                                                   "
+                    },
+                    {
+                        "name": "Fishing tower left",
+                        "ref": "Connections/Fishing tower left/Fishing tower left                                                 "
+                    },
+                    {
+                        "name": "Fishing tower up",
+                        "ref": "Connections/Fishing tower up/Fishing tower up                                                   "
+                    },
+                    {
+                        "name": "Ghost drawbridge left",
+                        "ref": "Connections/Ghost drawbridge left/Ghost drawbridge left                                              "
+                    },
+                    {
+                        "name": "Ghost drawbridge down",
+                        "ref": "Connections/Ghost drawbridge down/Ghost drawbridge down                                              "
+                    },
+                    {
+                        "name": "Raft down",
+                        "ref": "Connections/Raft down/Raft down                                                          "
+                    },
+                    {
+                        "name": "Hydroplant entrance",
+                        "ref": "Connections/Hydroplant entrance/Hydroplant entrance                                                "
+                    },
+                    {
+                        "name": "Hydroplant exit",
+                        "ref": "Connections/Hydroplant exit/Hydroplant exit                                                    "
+                    },
+                    {
+                        "name": "Outside hydroplant right",
+                        "ref": "Connections/Outside hydroplant right/Outside hydroplant right                                           "
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 384,
+                        "y": 473
                     }
                 ]
             },

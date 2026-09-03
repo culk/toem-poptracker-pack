@@ -1,0 +1,3404 @@
+[
+    {
+        "name": "Connections",
+        "visibility_rules": ["entrance_randomization_within_region"],
+        "children": [
+            {
+                "name": "Start game",
+                "sections": [
+                    {
+                        "name": "Start game                                                         ",
+                        "hosted_item": "Start game"
+                    }
+                ]
+            },
+            {
+                "name": "Player room exit",
+                "sections": [
+                    {
+                        "name": "Player room exit                                                   ",
+                        "hosted_item": "Player room exit"
+                    }
+                ]
+            },
+            {
+                "name": "Player room entrance",
+                "access_rules": ["^$can_reach|homelanda_living_room"],
+                "sections": [
+                    {
+                        "name": "Player room entrance                                               ",
+                        "hosted_item": "Player room entrance"
+                    }
+                ]
+            },
+            {
+                "name": "Homelanda house exit",
+                "access_rules": ["^$can_reach|homelanda_living_room"],
+                "sections": [
+                    {
+                        "name": "Homelanda house exit                                               ",
+                        "hosted_item": "Homelanda house exit"
+                    }
+                ]
+            },
+            {
+                "name": "Homelanda house entrance",
+                "access_rules": ["^$can_reach|homelanda_bus_stop"],
+                "sections": [
+                    {
+                        "name": "Homelanda house entrance                                           ",
+                        "hosted_item": "Homelanda house entrance"
+                    }
+                ]
+            },
+            {
+                "name": "House connections",
+                "sections": [
+                    {
+                        "name": "Player room exit                                                   ",
+                        "ref": "Connections/Player room exit/Player room exit                                                   "
+                    },
+                    {
+                        "name": "Player room entrance                                               ",
+                        "ref": "Connections/Player room entrance/Player room entrance                                               "
+                    },
+                    {
+                        "name": "Homelanda house exit                                               ",
+                        "ref": "Connections/Homelanda house exit/Homelanda house exit                                               "
+                    },
+                    {
+                        "name": "Homelanda house entrance                                           ",
+                        "ref": "Connections/Homelanda house entrance/Homelanda house entrance                                           "
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Homelanda",
+                        "x": 815,
+                        "y": 434,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Oaklaville bus stop",
+                "access_rules": ["$has_required_stamps_for|homelanda"],
+                "sections": [
+                    {
+                        "name": "Oaklaville bus stop                                                ",
+                        "hosted_item": "Oaklaville bus stop"
+                    }
+                ]
+            },
+            {
+                "name": "Stanhamn bus stop",
+                "access_rules": ["$has_required_stamps_for|oaklaville"],
+                "sections": [
+                    {
+                        "name": "Stanhamn bus stop                                                  ",
+                        "hosted_item": "Stanhamn bus stop"
+                    }
+                ]
+            },
+            {
+                "name": "Oaklaville bus stop exit",
+                "sections": [
+                    {
+                        "name": "Oaklaville bus stop exit                                           ",
+                        "hosted_item": "Oaklaville bus stop exit"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oaklaville",
+                        "x": 920,
+                        "y": 1439,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Outside hotel down",
+                "access_rules": ["^$can_reach|oaklaville_outside_hotel"],
+                "sections": [
+                    {
+                        "name": "Outside hotel down                                                 ",
+                        "hosted_item": "Outside hotel down"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oaklaville",
+                        "x": 916,
+                        "y": 1358,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Outside hotel left",
+                "access_rules": ["^$can_reach|oaklaville_outside_hotel"],
+                "sections": [
+                    {
+                        "name": "Outside hotel left                                                 ",
+                        "hosted_item": "Outside hotel left"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oaklaville",
+                        "x": 593,
+                        "y": 1143,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Outside hotel right",
+                "access_rules": ["^$can_reach|oaklaville_outside_hotel"],
+                "sections": [
+                    {
+                        "name": "Outside hotel right                                                ",
+                        "hosted_item": "Outside hotel right"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oaklaville",
+                        "x": 1176,
+                        "y": 1134,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Hotel entrance",
+                "access_rules": ["^$can_reach|oaklaville_outside_hotel"],
+                "sections": [
+                    {
+                        "name": "Hotel entrance                                                     ",
+                        "hosted_item": "Hotel entrance"
+                    }
+                ]
+            },
+            {
+                "name": "Hotel exit",
+                "access_rules": ["^$can_reach|oaklaville_hotel"],
+                "sections": [
+                    {
+                        "name": "Hotel exit                                                         ",
+                        "hosted_item": "Hotel exit"
+                    }
+                ]
+            },
+            {
+                "name": "Hotel elevator entrance",
+                "access_rules": ["^$can_reach|oaklaville_hotel,@Oaklaville/Hotel/Quest - Hotel chef"],
+                "sections": [
+                    {
+                        "name": "Hotel elevator entrance                                            ",
+                        "hosted_item": "Hotel elevator entrance"
+                    }
+                ]
+            },
+            {
+                "name": "Hotel elevator exit",
+                "access_rules": ["^$can_reach|oaklaville_hotel_elevator,@Oaklaville/Hotel/Quest - Hotel chef"],
+                "sections": [
+                    {
+                        "name": "Hotel elevator exit                                                ",
+                        "hosted_item": "Hotel elevator exit"
+                    }
+                ]
+            },
+            {
+                "name": "Hotel connections",
+                "sections": [
+                    {
+                        "name": "Hotel entrance                                                     ",
+                        "ref": "Connections/Hotel entrance/Hotel entrance                                                     "
+                    },
+                    {
+                        "name": "Hotel exit                                                         ",
+                        "ref": "Connections/Hotel exit/Hotel exit                                                         "
+                    },
+                    {
+                        "name": "Hotel elevator entrance                                            ",
+                        "ref": "Connections/Hotel elevator entrance/Hotel elevator entrance                                            "
+                    },
+                    {
+                        "name": "Hotel elevator exit                                                ",
+                        "ref": "Connections/Hotel elevator exit/Hotel elevator exit                                                "
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oaklaville",
+                        "x": 844,
+                        "y": 1102,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Ghost cup game right",
+                "access_rules": ["^$can_reach|oaklaville_ghost_cup_game"],
+                "sections": [
+                    {
+                        "name": "Ghost cup game right                                               ",
+                        "hosted_item": "Ghost cup game right"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oaklaville",
+                        "x": 494,
+                        "y": 1103,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom house entrance",
+                "access_rules": ["^$can_reach|oaklaville_ghost_cup_game"],
+                "sections": [
+                    {
+                        "name": "Mushroom house entrance                                            ",
+                        "hosted_item": "Mushroom house entrance"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom house exit",
+                "access_rules": ["^$can_reach|oaklaville_mushroom_house"],
+                "sections": [
+                    {
+                        "name": "Mushroom house exit                                                ",
+                        "hosted_item": "Mushroom house exit"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom house connections",
+                "sections": [
+                    {
+                        "name": "Mushroom house entrance                                            ",
+                        "ref": "Connections/Mushroom house entrance/Mushroom house entrance                                            "
+                    },
+                    {
+                        "name": "Mushroom house exit                                                ",
+                        "ref": "Connections/Mushroom house exit/Mushroom house exit                                                "
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oaklaville",
+                        "x": 520,
+                        "y": 896,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Ghost cup game left",
+                "access_rules": ["^$can_reach|oaklaville_ghost_cup_game"],
+                "sections": [
+                    {
+                        "name": "Ghost cup game left                                                ",
+                        "hosted_item": "Ghost cup game left"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oaklaville",
+                        "x": 207,
+                        "y": 898,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Hide and seek right",
+                "access_rules": ["^$can_reach|oaklaville_hide_and_seek"],
+                "sections": [
+                    {
+                        "name": "Hide and seek right                                                ",
+                        "hosted_item": "Hide and seek right"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oaklaville",
+                        "x": 338,
+                        "y": 667,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Hide and seek left",
+                "access_rules": ["^$can_reach|oaklaville_hide_and_seek"],
+                "sections": [
+                    {
+                        "name": "Hide and seek left                                                 ",
+                        "hosted_item": "Hide and seek left"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oaklaville",
+                        "x": 162,
+                        "y": 542,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Graveyard right",
+                "access_rules": ["^$can_reach|oaklaville_graveyard"],
+                "sections": [
+                    {
+                        "name": "Graveyard right                                                    ",
+                        "hosted_item": "Graveyard right"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oaklaville",
+                        "x": 282,
+                        "y": 395,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Skeleton house entrance",
+                "access_rules": ["^$can_reach|oaklaville_graveyard"],
+                "sections": [
+                    {
+                        "name": "Skeleton house entrance                                            ",
+                        "hosted_item": "Skeleton house entrance"
+                    }
+                ]
+            },
+            {
+                "name": "Skeleton house exit",
+                "access_rules": ["^$can_reach|oaklaville_skeleton_house"],
+                "sections": [
+                    {
+                        "name": "Skeleton house exit                                                ",
+                        "hosted_item": "Skeleton house exit"
+                    }
+                ]
+            },
+            {
+                "name": "Skeleton house balcony exit",
+                "access_rules": ["^$can_reach|oaklaville_skeleton_house"],
+                "sections": [
+                    {
+                        "name": "Skeleton house balcony exit                                        ",
+                        "hosted_item": "Skeleton house balcony exit"
+                    }
+                ]
+            },
+            {
+                "name": "Skeleton house balcony entrance",
+                "access_rules": ["^$can_reach|oaklaville_skeleton_balcony"],
+                "sections": [
+                    {
+                        "name": "Skeleton house balcony entrance                                    ",
+                        "hosted_item": "Skeleton house balcony entrance"
+                    }
+                ]
+            },
+            {
+                "name": "Skeleton house connections",
+                "sections": [
+                    {
+                        "name": "Skeleton house entrance                                            ",
+                        "ref": "Connections/Skeleton house entrance/Skeleton house entrance                                            "
+                    },
+                    {
+                        "name": "Skeleton house exit                                                ",
+                        "ref": "Connections/Skeleton house exit/Skeleton house exit                                                "
+                    },
+                    {
+                        "name": "Skeleton house balcony exit                                        ",
+                        "ref": "Connections/Skeleton house balcony exit/Skeleton house balcony exit                                        "
+                    },
+                    {
+                        "name": "Skeleton house balcony entrance                                    ",
+                        "ref": "Connections/Skeleton house balcony entrance/Skeleton house balcony entrance                                    "
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oaklaville",
+                        "x": 282,
+                        "y": 245,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Scout camp left",
+                "access_rules": ["^$can_reach|oaklaville_camp"],
+                "sections": [
+                    {
+                        "name": "Scout camp left                                                    ",
+                        "hosted_item": "Scout camp left"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oaklaville",
+                        "x": 1266,
+                        "y": 1132,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Scout camp up",
+                "access_rules": ["^$can_reach|oaklaville_camp"],
+                "sections": [
+                    {
+                        "name": "Scout camp up                                                      ",
+                        "hosted_item": "Scout camp up"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oaklaville",
+                        "x": 1467,
+                        "y": 876,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Scout camp right",
+                "access_rules": ["^$can_reach|oaklaville_camp"],
+                "sections": [
+                    {
+                        "name": "Scout camp right                                                   ",
+                        "hosted_item": "Scout camp right"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oaklaville",
+                        "x": 1805,
+                        "y": 1119,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Oaklaville trail log from top",
+                "access_rules": ["^$can_reach|oaklaville_trail_top,@Oaklaville/Trail Bottom/Quest - Log blocking a path"],
+                "sections": [
+                    {
+                        "name": "Oaklaville trail log from top                                      ",
+                        "hosted_item": "Oaklaville trail log from top"
+                    }
+                ]
+            },
+            {
+                "name": "Oaklaville trail log from bottom",
+                "access_rules": ["^$can_reach|oaklaville_trail_bottom,@Oaklaville/Trail Bottom/Quest - Log blocking a path"],
+                "sections": [
+                    {
+                        "name": "Oaklaville trail log from bottom                                   ",
+                        "hosted_item": "Oaklaville trail log from bottom"
+                    }
+                ]
+            },
+            {
+                "name": "Oaklaville trail up",
+                "access_rules": ["^$can_reach|oaklaville_trail_top"],
+                "sections": [
+                    {
+                        "name": "Oaklaville trail up                                                ",
+                        "hosted_item": "Oaklaville trail up"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oaklaville",
+                        "x": 1410,
+                        "y": 368,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Oaklaville trail down",
+                "access_rules": ["^$can_reach|oaklaville_trail_bottom"],
+                "sections": [
+                    {
+                        "name": "Oaklaville trail down                                              ",
+                        "hosted_item": "Oaklaville trail down"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oaklaville",
+                        "x": 1470,
+                        "y": 748,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lookout exit",
+                "access_rules": ["^$can_reach|oaklaville_lookout"],
+                "sections": [
+                    {
+                        "name": "Lookout exit                                                       ",
+                        "hosted_item": "Lookout exit"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oaklaville",
+                        "x": 1402,
+                        "y": 232,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Playground left",
+                "access_rules": ["^$can_reach|oaklaville_playground"],
+                "sections": [
+                    {
+                        "name": "Playground left                                                    ",
+                        "hosted_item": "Playground left"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oaklaville",
+                        "x": 1928,
+                        "y": 1018,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Playground right",
+                "access_rules": ["^$can_reach|oaklaville_playground"],
+                "sections": [
+                    {
+                        "name": "Playground right                                                   ",
+                        "hosted_item": "Playground right"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oaklaville",
+                        "x": 2112,
+                        "y": 847,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Rave bouncer from top",
+                "access_rules": ["ghost_glasses,^$can_reach_all|oaklaville_outside_rave_bottom|oaklaville_outside_rave_top"],
+                "sections": [
+                    {
+                        "name": "Rave bouncer from top                                              ",
+                        "hosted_item": "Rave bouncer from top"
+                    }
+                ]
+            },
+            {
+                "name": "Rave bouncer from bottom",
+                "access_rules": ["ghost_glasses,^$can_reach|oaklaville_outside_rave_bottom"],
+                "sections": [
+                    {
+                        "name": "Rave bouncer from bottom                                           ",
+                        "hosted_item": "Rave bouncer from bottom"
+                    }
+                ]
+            },
+            {
+                "name": "Rave entrance",
+                "access_rules": ["^$can_reach|oaklaville_outside_rave_top"],
+                "sections": [
+                    {
+                        "name": "Rave entrance                                                      ",
+                        "hosted_item": "Rave entrance"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oaklaville",
+                        "x": 1883,
+                        "y": 470,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Outside rave left",
+                "access_rules": ["^$can_reach|oaklaville_outside_rave_bottom"],
+                "sections": [
+                    {
+                        "name": "Outside rave left                                                  ",
+                        "hosted_item": "Outside rave left"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oaklaville",
+                        "x": 1896,
+                        "y": 674,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Rave exit",
+                "access_rules": ["^$can_reach|oaklaville_rave"],
+                "sections": [
+                    {
+                        "name": "Rave exit                                                          ",
+                        "hosted_item": "Rave exit"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oaklaville",
+                        "x": 1876,
+                        "y": 362,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Logcity bus stop",
+                "access_rules": ["$has_required_stamps_for|stanhamn"],
+                "sections": [
+                    {
+                        "name": "Logcity bus stop                                                   ",
+                        "hosted_item": "Logcity bus stop"
+                    }
+                ]
+            },
+            {
+                "name": "Photo guild hut entrance",
+                "access_rules": ["@Stanhamn"],
+                "sections": [
+                    {
+                        "name": "Photo guild hut entrance                                           ",
+                        "hosted_item": "Photo guild hut entrance"
+                    }
+                ]
+            },
+            {
+                "name": "Photo guild hut exit",
+                "access_rules": ["^$can_reach|stanhamn_photo_guild_hut"],
+                "sections": [
+                    {
+                        "name": "Photo guild hut exit                                               ",
+                        "hosted_item": "Photo guild hut exit"
+                    }
+                ]
+            },
+            {
+                "name": "Photo guild hut connections",
+                "sections": [
+                    {
+                        "name": "Photo guild hut entrance                                           ",
+                        "ref": "Connections/Photo guild hut entrance/Photo guild hut entrance                                           "
+                    },
+                    {
+                        "name": "Photo guild hut exit                                               ",
+                        "ref": "Connections/Photo guild hut exit/Photo guild hut exit                                               "
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Stanhamn",
+                        "x": 749,
+                        "y": 1133,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Stanhamn bus stop left",
+                "access_rules": ["@Stanhamn"],
+                "sections": [
+                    {
+                        "name": "Stanhamn bus stop left                                             ",
+                        "hosted_item": "Stanhamn bus stop left"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Stanhamn",
+                        "x": 663,
+                        "y": 1189,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Stanhamn bus stop right",
+                "access_rules": ["@Stanhamn"],
+                "sections": [
+                    {
+                        "name": "Stanhamn bus stop right                                            ",
+                        "hosted_item": "Stanhamn bus stop right"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Stanhamn",
+                        "x": 1044,
+                        "y": 1158,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Raft up",
+                "access_rules": ["honk_attachment,@Stanhamn/Hydroplant/Quest - Power shortage!,@Stanhamn"],
+                "sections": [
+                    {
+                        "name": "Raft up                                                            ",
+                        "hosted_item": "Raft up"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Stanhamn",
+                        "x": 882,
+                        "y": 1043,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Pirate Drawbridge right",
+                "access_rules": ["^$can_reach|stanhamn_pirate_drawbridge"],
+                "sections": [
+                    {
+                        "name": "Pirate Drawbridge right                                            ",
+                        "hosted_item": "Pirate Drawbridge right"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Stanhamn",
+                        "x": 575,
+                        "y": 1151,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Pirate Drawbridge left",
+                "access_rules": ["^$can_reach|stanhamn_pirate_drawbridge"],
+                "sections": [
+                    {
+                        "name": "Pirate Drawbridge left                                             ",
+                        "hosted_item": "Pirate Drawbridge left"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Stanhamn",
+                        "x": 321,
+                        "y": 964,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Hippo beach right",
+                "access_rules": ["^$can_reach|stanhamn_hippo_beach"],
+                "sections": [
+                    {
+                        "name": "Hippo beach right                                                  ",
+                        "hosted_item": "Hippo beach right"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Stanhamn",
+                        "x": 508,
+                        "y": 821,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Hippo beach manhole",
+                "access_rules": ["honk_attachment,diving_helmet,^$can_reach|stanhamn_hippo_beach"],
+                "sections": [
+                    {
+                        "name": "Hippo beach manhole                                                ",
+                        "hosted_item": "Hippo beach manhole"
+                    }
+                ]
+            },
+            {
+                "name": "Underwater exit",
+                "access_rules": ["^$can_reach|stanhamn_underwater"],
+                "sections": [
+                    {
+                        "name": "Underwater exit                                                    ",
+                        "hosted_item": "Underwater exit"
+                    }
+                ]
+            },
+            {
+                "name": "Underwater connections",
+                "sections": [
+                    {
+                        "name": "Hippo beach manhole                                                ",
+                        "ref": "Connections/Hippo beach manhole/Hippo beach manhole                                                "
+                    },
+                    {
+                        "name": "Underwater exit                                                    ",
+                        "ref": "Connections/Underwater exit/Underwater exit                                                    "
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Stanhamn",
+                        "x": 99,
+                        "y": 834,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Hippo beach left",
+                "access_rules": ["^$can_reach|stanhamn_hippo_beach"],
+                "sections": [
+                    {
+                        "name": "Hippo beach left                                                   ",
+                        "hosted_item": "Hippo beach left"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Stanhamn",
+                        "x": 490,
+                        "y": 617,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Outside lighthouse right",
+                "access_rules": ["^$can_reach|stanhamn_outside_lighthouse"],
+                "sections": [
+                    {
+                        "name": "Outside lighthouse right                                           ",
+                        "hosted_item": "Outside lighthouse right"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Stanhamn",
+                        "x": 399,
+                        "y": 485,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Outside lighthouse up",
+                "access_rules": ["honk_attachment,^$can_reach|stanhamn_outside_lighthouse"],
+                "sections": [
+                    {
+                        "name": "Outside lighthouse up                                              ",
+                        "hosted_item": "Outside lighthouse up"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Stanhamn",
+                        "x": 654,
+                        "y": 410,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lighthouse entrance",
+                "access_rules": ["^$can_reach|stanhamn_outside_lighthouse"],
+                "sections": [
+                    {
+                        "name": "Lighthouse entrance                                                ",
+                        "hosted_item": "Lighthouse entrance"
+                    }
+                ]
+            },
+            {
+                "name": "Lighthouse exit",
+                "access_rules": ["^$can_reach|stanhamn_lighthouse"],
+                "sections": [
+                    {
+                        "name": "Lighthouse exit                                                    ",
+                        "hosted_item": "Lighthouse exit"
+                    }
+                ]
+            },
+            {
+                "name": "Lighthouse roof entrance",
+                "access_rules": ["^$can_reach|stanhamn_lighthouse"],
+                "sections": [
+                    {
+                        "name": "Lighthouse roof entrance                                           ",
+                        "hosted_item": "Lighthouse roof entrance"
+                    }
+                ]
+            },
+            {
+                "name": "Lighthouse roof exit",
+                "access_rules": ["^$can_reach|stanhamn_lighthouse_roof"],
+                "sections": [
+                    {
+                        "name": "Lighthouse roof exit                                               ",
+                        "hosted_item": "Lighthouse roof exit"
+                    }
+                ]
+            },
+            {
+                "name": "Lighthouse connections",
+                "sections": [
+                    {
+                        "name": "Lighthouse entrance                                                ",
+                        "ref": "Connections/Lighthouse entrance/Lighthouse entrance                                                "
+                    },
+                    {
+                        "name": "Lighthouse exit                                                    ",
+                        "ref": "Connections/Lighthouse exit/Lighthouse exit                                                    "
+                    },
+                    {
+                        "name": "Lighthouse roof entrance                                           ",
+                        "ref": "Connections/Lighthouse roof entrance/Lighthouse roof entrance                                           "
+                    },
+                    {
+                        "name": "Lighthouse roof exit                                               ",
+                        "ref": "Connections/Lighthouse roof exit/Lighthouse roof exit                                               "
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Stanhamn",
+                        "x": 408,
+                        "y": 296,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "King fish beach exit",
+                "access_rules": ["^$can_reach|stanhamn_king_fish_beach"],
+                "sections": [
+                    {
+                        "name": "King fish beach exit                                               ",
+                        "hosted_item": "King fish beach exit"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Stanhamn",
+                        "x": 743,
+                        "y": 292,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Docks left exit",
+                "access_rules": ["^$can_reach|stanhamn_docks_left"],
+                "sections": [
+                    {
+                        "name": "Docks left exit                                                    ",
+                        "hosted_item": "Docks left exit"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Stanhamn",
+                        "x": 1127,
+                        "y": 1153,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Viking express Stanhamn stop",
+                "access_rules": ["basto_ticket,^$can_reach|stanhamn_docks_left"],
+                "sections": [
+                    {
+                        "name": "Viking express Stanhamn stop                                       ",
+                        "hosted_item": "Viking express Stanhamn stop"
+                    }
+                ]
+            },
+            {
+                "name": "Docks drawbridge from left",
+                "access_rules": ["@Stanhamn/Hydroplant/Quest - Power shortage!,^$can_reach|stanhamn_docks_left"],
+                "sections": [
+                    {
+                        "name": "Docks drawbridge from left                                         ",
+                        "hosted_item": "Docks drawbridge from left"
+                    }
+                ]
+            },
+            {
+                "name": "Docks drawbridge from right",
+                "access_rules": ["@Stanhamn/Hydroplant/Quest - Power shortage!,^$can_reach|stanhamn_docks_right"],
+                "sections": [
+                    {
+                        "name": "Docks drawbridge from right                                        ",
+                        "hosted_item": "Docks drawbridge from right"
+                    }
+                ]
+            },
+            {
+                "name": "Docks right exit",
+                "access_rules": ["^$can_reach|stanhamn_docks_right"],
+                "sections": [
+                    {
+                        "name": "Docks right exit                                                   ",
+                        "hosted_item": "Docks right exit"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Stanhamn",
+                        "x": 1504,
+                        "y": 1272,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fishing tower left",
+                "access_rules": ["^$can_reach|stanhamn_fishing_tower"],
+                "sections": [
+                    {
+                        "name": "Fishing tower left                                                 ",
+                        "hosted_item": "Fishing tower left"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Stanhamn",
+                        "x": 1597,
+                        "y": 1203,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fishing tower up",
+                "access_rules": ["^$can_reach|stanhamn_fishing_tower"],
+                "sections": [
+                    {
+                        "name": "Fishing tower up                                                   ",
+                        "hosted_item": "Fishing tower up"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Stanhamn",
+                        "x": 1666,
+                        "y": 1084,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Ghost drawbridge left",
+                "access_rules": ["^$can_reach|stanhamn_ghost_drawbridge_top"],
+                "sections": [
+                    {
+                        "name": "Ghost drawbridge left                                              ",
+                        "hosted_item": "Ghost drawbridge left"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Stanhamn",
+                        "x": 1334,
+                        "y": 666,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Ghost drawbridge from top",
+                "access_rules": ["@Stanhamn/Hydroplant/Quest - Power shortage!,^$can_reach|stanhamn_ghost_drawbridge_top"],
+                "sections": [
+                    {
+                        "name": "Ghost drawbridge from top                                          ",
+                        "hosted_item": "Ghost drawbridge from top"
+                    }
+                ]
+            },
+            {
+                "name": "Ghost drawbridge from bottom",
+                "access_rules": ["@Stanhamn/Hydroplant/Quest - Power shortage!,^$can_reach|stanhamn_ghost_drawbridge_bottom"],
+                "sections": [
+                    {
+                        "name": "Ghost drawbridge from bottom                                       ",
+                        "hosted_item": "Ghost drawbridge from bottom"
+                    }
+                ]
+            },
+            {
+                "name": "Ghost drawbridge down",
+                "access_rules": ["^$can_reach|stanhamn_ghost_drawbridge_bottom"],
+                "sections": [
+                    {
+                        "name": "Ghost drawbridge down                                              ",
+                        "hosted_item": "Ghost drawbridge down"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Stanhamn",
+                        "x": 1532,
+                        "y": 918,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Raft down",
+                "access_rules": ["honk_attachment,@Stanhamn/Hydroplant/Quest - Power shortage!,^$can_reach|stanhamn_outside_hydroplant"],
+                "sections": [
+                    {
+                        "name": "Raft down                                                          ",
+                        "hosted_item": "Raft down"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Stanhamn",
+                        "x": 884,
+                        "y": 896,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Hydroplant entrance",
+                "access_rules": ["^$can_reach|stanhamn_outside_hydroplant"],
+                "sections": [
+                    {
+                        "name": "Hydroplant entrance                                                ",
+                        "hosted_item": "Hydroplant entrance"
+                    }
+                ]
+            },
+            {
+                "name": "Hydroplant exit",
+                "access_rules": ["^$can_reach|stanhamn_hydroplant"],
+                "sections": [
+                    {
+                        "name": "Hydroplant exit                                                    ",
+                        "hosted_item": "Hydroplant exit"
+                    }
+                ]
+            },
+            {
+                "name": "Hydroplant connections",
+                "sections": [
+                    {
+                        "name": "Hydroplant entrance                                                ",
+                        "ref": "Connections/Hydroplant entrance/Hydroplant entrance                                                "
+                    },
+                    {
+                        "name": "Hydroplant exit                                                    ",
+                        "ref": "Connections/Hydroplant exit/Hydroplant exit                                                    "
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Stanhamn",
+                        "x": 895,
+                        "y": 638,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Outside hydroplant right",
+                "access_rules": ["^$can_reach|stanhamn_outside_hydroplant"],
+                "sections": [
+                    {
+                        "name": "Outside hydroplant right                                           ",
+                        "hosted_item": "Outside hydroplant right"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Stanhamn",
+                        "x": 1191,
+                        "y": 669,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Kiiruberg bus stop",
+                "access_rules": ["$has_required_stamps_for|logcity"],
+                "sections": [
+                    {
+                        "name": "Kiiruberg bus stop                                                 ",
+                        "hosted_item": "Kiiruberg bus stop"
+                    }
+                ]
+            },
+            {
+                "name": "Escalator up",
+                "access_rules": ["@Logcity"],
+                "sections": [
+                    {
+                        "name": "Escalator up                                                       ",
+                        "hosted_item": "Escalator up"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Logcity",
+                        "x": 962,
+                        "y": 1823,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Logcity bus stop entrance",
+                "access_rules": ["^$can_reach|logcity_clock_tower"],
+                "sections": [
+                    {
+                        "name": "Logcity bus stop entrance                                          ",
+                        "hosted_item": "Logcity bus stop entrance"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Logcity",
+                        "x": 959,
+                        "y": 1527,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Clock tower left",
+                "access_rules": ["^$can_reach|logcity_clock_tower"],
+                "sections": [
+                    {
+                        "name": "Clock tower left                                                   ",
+                        "hosted_item": "Clock tower left"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Logcity",
+                        "x": 573,
+                        "y": 1405,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Clock tower up",
+                "access_rules": ["^$can_reach|logcity_clock_tower"],
+                "sections": [
+                    {
+                        "name": "Clock tower up                                                     ",
+                        "hosted_item": "Clock tower up"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Logcity",
+                        "x": 939,
+                        "y": 1294,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Clock tower right",
+                "access_rules": ["^$can_reach|logcity_clock_tower"],
+                "sections": [
+                    {
+                        "name": "Clock tower right                                                  ",
+                        "hosted_item": "Clock tower right"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Logcity",
+                        "x": 1274,
+                        "y": 1452,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Cross walk right",
+                "access_rules": ["^$can_reach|logcity_crosswalk"],
+                "sections": [
+                    {
+                        "name": "Cross walk right                                                   ",
+                        "hosted_item": "Cross walk right"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Logcity",
+                        "x": 416,
+                        "y": 1273,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Cross walk up",
+                "access_rules": ["^$can_reach|logcity_crosswalk"],
+                "sections": [
+                    {
+                        "name": "Cross walk up                                                      ",
+                        "hosted_item": "Cross walk up"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Logcity",
+                        "x": 389,
+                        "y": 1059,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Overpass down",
+                "access_rules": ["^$can_reach|logcity_overpass"],
+                "sections": [
+                    {
+                        "name": "Overpass down                                                      ",
+                        "hosted_item": "Overpass down"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Logcity",
+                        "x": 322,
+                        "y": 855,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "News house entrance",
+                "access_rules": ["^$can_reach|logcity_overpass"],
+                "sections": [
+                    {
+                        "name": "News house entrance                                                ",
+                        "hosted_item": "News house entrance"
+                    }
+                ]
+            },
+            {
+                "name": "News house exit",
+                "access_rules": ["^$can_reach|logcity_news_house"],
+                "sections": [
+                    {
+                        "name": "News house exit                                                    ",
+                        "hosted_item": "News house exit"
+                    }
+                ]
+            },
+            {
+                "name": "News house connections",
+                "sections": [
+                    {
+                        "name": "News house entrance                                                ",
+                        "ref": "Connections/News house entrance/News house entrance                                                "
+                    },
+                    {
+                        "name": "News house exit                                                    ",
+                        "ref": "Connections/News house exit/News house exit                                                    "
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Logcity",
+                        "x": 434,
+                        "y": 622,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Overpass up",
+                "access_rules": ["^$can_reach|logcity_overpass"],
+                "sections": [
+                    {
+                        "name": "Overpass up                                                        ",
+                        "hosted_item": "Overpass up"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Logcity",
+                        "x": 510,
+                        "y": 605,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Overpass right",
+                "access_rules": ["^$can_reach|logcity_overpass"],
+                "sections": [
+                    {
+                        "name": "Overpass right                                                     ",
+                        "hosted_item": "Overpass right"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Logcity",
+                        "x": 632,
+                        "y": 733,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Skate park down",
+                "access_rules": ["^$can_reach|logcity_skate_park"],
+                "sections": [
+                    {
+                        "name": "Skate park down                                                    ",
+                        "hosted_item": "Skate park down"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Logcity",
+                        "x": 547,
+                        "y": 364,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Skate park right",
+                "access_rules": ["^$can_reach|logcity_skate_park"],
+                "sections": [
+                    {
+                        "name": "Skate park right                                                   ",
+                        "hosted_item": "Skate park right"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Logcity",
+                        "x": 959,
+                        "y": 409,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Skate park taxi",
+                "access_rules": ["^$can_reach|logcity_skate_park"],
+                "sections": [
+                    {
+                        "name": "Skate park taxi                                                    ",
+                        "hosted_item": "Skate park taxi"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Logcity",
+                        "x": 627,
+                        "y": 507,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Ratskullz alley exit",
+                "access_rules": ["^$can_reach|logcity_ratskullz_alley"],
+                "sections": [
+                    {
+                        "name": "Ratskullz alley exit                                               ",
+                        "hosted_item": "Ratskullz alley exit"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Logcity",
+                        "x": 1095,
+                        "y": 422,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fashion show entrance",
+                "access_rules": ["^$can_reach|logcity_outside_fashion_show"],
+                "sections": [
+                    {
+                        "name": "Fashion show entrance                                              ",
+                        "hosted_item": "Fashion show entrance"
+                    }
+                ]
+            },
+            {
+                "name": "Fashion show security from top",
+                "access_rules": ["reporter_hat,^$can_reach_all|logcity_fashion_show_top|logcity_fashion_show_bottom"],
+                "sections": [
+                    {
+                        "name": "Fashion show security from top                                     ",
+                        "hosted_item": "Fashion show security from top"
+                    }
+                ]
+            },
+            {
+                "name": "Fashion show backstage entrance",
+                "access_rules": ["^$can_reach|logcity_fashion_show_top"],
+                "sections": [
+                    {
+                        "name": "Fashion show backstage entrance                                    ",
+                        "hosted_item": "Fashion show backstage entrance"
+                    }
+                ]
+            },
+            {
+                "name": "Fashion show security from bottom",
+                "access_rules": ["reporter_hat,^$can_reach|logcity_fashion_show_bottom"],
+                "sections": [
+                    {
+                        "name": "Fashion show security from bottom                                  ",
+                        "hosted_item": "Fashion show security from bottom"
+                    }
+                ]
+            },
+            {
+                "name": "Fashion show exit",
+                "access_rules": ["^$can_reach|logcity_fashion_show_bottom"],
+                "sections": [
+                    {
+                        "name": "Fashion show exit                                                  ",
+                        "hosted_item": "Fashion show exit"
+                    }
+                ]
+            },
+            {
+                "name": "Fashion show backstage exit",
+                "access_rules": ["^$can_reach|logcity_fashion_show_backstage"],
+                "sections": [
+                    {
+                        "name": "Fashion show backstage exit                                        ",
+                        "hosted_item": "Fashion show backstage exit"
+                    }
+                ]
+            },
+            {
+                "name": "Fashion show connections",
+                "sections": [
+                    {
+                        "name": "Fashion show entrance                                              ",
+                        "ref": "Connections/Fashion show entrance/Fashion show entrance                                              "
+                    },
+                    {
+                        "name": "Fashion show backstage entrance                                    ",
+                        "ref": "Connections/Fashion show backstage entrance/Fashion show backstage entrance                                    "
+                    },
+                    {
+                        "name": "Fashion show exit                                                  ",
+                        "ref": "Connections/Fashion show exit/Fashion show exit                                                  "
+                    },
+                    {
+                        "name": "Fashion show backstage exit                                        ",
+                        "ref": "Connections/Fashion show backstage exit/Fashion show backstage exit                                        "
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Logcity",
+                        "x": 1174,
+                        "y": 858,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Outside fashion show down",
+                "access_rules": ["^$can_reach|logcity_outside_fashion_show"],
+                "sections": [
+                    {
+                        "name": "Outside fashion show down                                          ",
+                        "hosted_item": "Outside fashion show down"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Logcity",
+                        "x": 952,
+                        "y": 1043,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Outside fashion show left",
+                "access_rules": ["^$can_reach|logcity_outside_fashion_show"],
+                "sections": [
+                    {
+                        "name": "Outside fashion show left                                          ",
+                        "hosted_item": "Outside fashion show left"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Logcity",
+                        "x": 863,
+                        "y": 763,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Outside fashion show right",
+                "access_rules": ["^$can_reach|logcity_outside_fashion_show"],
+                "sections": [
+                    {
+                        "name": "Outside fashion show right                                         ",
+                        "hosted_item": "Outside fashion show right"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Logcity",
+                        "x": 1291,
+                        "y": 1057,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Cafe entrance",
+                "access_rules": ["^$can_reach|logcity_outside_cafe"],
+                "sections": [
+                    {
+                        "name": "Cafe entrance                                                      ",
+                        "hosted_item": "Cafe entrance"
+                    }
+                ]
+            },
+            {
+                "name": "Cafe exit",
+                "access_rules": ["^$can_reach|logcity_cafe"],
+                "sections": [
+                    {
+                        "name": "Cafe exit                                                          ",
+                        "hosted_item": "Cafe exit"
+                    }
+                ]
+            },
+            {
+                "name": "Cafe connections",
+                "sections": [
+                    {
+                        "name": "Cafe entrance                                                      ",
+                        "ref": "Connections/Cafe entrance/Cafe entrance                                                      "
+                    },
+                    {
+                        "name": "Cafe exit                                                          ",
+                        "ref": "Connections/Cafe exit/Cafe exit                                                          "
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Logcity",
+                        "x": 1462,
+                        "y": 1435,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Outside cafe left",
+                "access_rules": ["^$can_reach|logcity_outside_cafe"],
+                "sections": [
+                    {
+                        "name": "Outside cafe left                                                  ",
+                        "hosted_item": "Outside cafe left"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Logcity",
+                        "x": 1383,
+                        "y": 1452,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Outside cafe up",
+                "access_rules": ["^$can_reach|logcity_outside_cafe"],
+                "sections": [
+                    {
+                        "name": "Outside cafe up                                                    ",
+                        "hosted_item": "Outside cafe up"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Logcity",
+                        "x": 1707,
+                        "y": 1294,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Outside cafe taxi",
+                "access_rules": ["^$can_reach|logcity_outside_cafe"],
+                "sections": [
+                    {
+                        "name": "Outside cafe taxi                                                  ",
+                        "hosted_item": "Outside cafe taxi"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Logcity",
+                        "x": 1525,
+                        "y": 1512,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Gallery entrance",
+                "access_rules": ["^$can_reach|logcity_outside_gallery"],
+                "sections": [
+                    {
+                        "name": "Gallery entrance                                                   ",
+                        "hosted_item": "Gallery entrance"
+                    }
+                ]
+            },
+            {
+                "name": "Gallery exit",
+                "access_rules": ["^$can_reach|logcity_gallery"],
+                "sections": [
+                    {
+                        "name": "Gallery exit                                                       ",
+                        "hosted_item": "Gallery exit"
+                    }
+                ]
+            },
+            {
+                "name": "Gallery connections",
+                "sections": [
+                    {
+                        "name": "Gallery entrance                                                   ",
+                        "ref": "Connections/Gallery entrance/Gallery entrance                                                   "
+                    },
+                    {
+                        "name": "Gallery exit                                                       ",
+                        "ref": "Connections/Gallery exit/Gallery exit                                                       "
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Logcity",
+                        "x": 1760,
+                        "y": 942,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Outside gallery show down",
+                "access_rules": ["^$can_reach|logcity_outside_gallery"],
+                "sections": [
+                    {
+                        "name": "Outside gallery show down                                          ",
+                        "hosted_item": "Outside gallery show down"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Logcity",
+                        "x": 1619,
+                        "y": 1119,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Outside gallery show left",
+                "access_rules": ["^$can_reach|logcity_outside_gallery"],
+                "sections": [
+                    {
+                        "name": "Outside gallery show left                                          ",
+                        "hosted_item": "Outside gallery show left"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Logcity",
+                        "x": 1545,
+                        "y": 1051,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mountain top bus stop",
+                "access_rules": ["$has_required_stamps_for|kiiruberg"],
+                "sections": [
+                    {
+                        "name": "Mountain top bus stop                                              ",
+                        "hosted_item": "Mountain top bus stop"
+                    }
+                ]
+            },
+            {
+                "name": "Kiiruberg bus stop up",
+                "access_rules": ["@Kiiruberg"],
+                "sections": [
+                    {
+                        "name": "Kiiruberg bus stop up                                              ",
+                        "hosted_item": "Kiiruberg bus stop up"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kiiruberg",
+                        "x": 916,
+                        "y": 1957,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Birthday party rope from bottom",
+                "access_rules": ["climbing_boots,^$can_reach|kiiruberg_birthday_party_bottom"],
+                "sections": [
+                    {
+                        "name": "Birthday party rope from bottom                                    ",
+                        "hosted_item": "Birthday party rope from bottom"
+                    }
+                ]
+            },
+            {
+                "name": "Birthday party rope from top",
+                "access_rules": ["climbing_boots,^$can_reach|kiiruberg_birthday_party_top"],
+                "sections": [
+                    {
+                        "name": "Birthday party rope from top                                       ",
+                        "hosted_item": "Birthday party rope from top"
+                    }
+                ]
+            },
+            {
+                "name": "Balloon house entrance",
+                "access_rules": ["^$can_reach|kiiruberg_birthday_party_bottom"],
+                "sections": [
+                    {
+                        "name": "Balloon house entrance                                             ",
+                        "hosted_item": "Balloon house entrance"
+                    }
+                ]
+            },
+            {
+                "name": "Balloon house exit",
+                "access_rules": ["^$can_reach|kiiruberg_balloon_house"],
+                "sections": [
+                    {
+                        "name": "Balloon house exit                                                 ",
+                        "hosted_item": "Balloon house exit"
+                    }
+                ]
+            },
+            {
+                "name": "Balloon house connections",
+                "sections": [
+                    {
+                        "name": "Balloon house entrance                                             ",
+                        "ref": "Connections/Balloon house entrance/Balloon house entrance                                             "
+                    },
+                    {
+                        "name": "Balloon house exit                                                 ",
+                        "ref": "Connections/Balloon house exit/Balloon house exit                                                 "
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kiiruberg",
+                        "x": 847,
+                        "y": 1642,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Birthday party down",
+                "access_rules": ["^$can_reach|kiiruberg_birthday_party_bottom"],
+                "sections": [
+                    {
+                        "name": "Birthday party down                                                ",
+                        "hosted_item": "Birthday party down"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kiiruberg",
+                        "x": 918,
+                        "y": 1752,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Birthday party left",
+                "access_rules": ["^$can_reach|kiiruberg_birthday_party_bottom"],
+                "sections": [
+                    {
+                        "name": "Birthday party left                                                ",
+                        "hosted_item": "Birthday party left"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kiiruberg",
+                        "x": 699,
+                        "y": 1690,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Birthday party right",
+                "access_rules": ["^$can_reach|kiiruberg_birthday_party_bottom"],
+                "sections": [
+                    {
+                        "name": "Birthday party right                                               ",
+                        "hosted_item": "Birthday party right"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kiiruberg",
+                        "x": 1094,
+                        "y": 1619,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Birthday party up",
+                "access_rules": ["^$can_reach|kiiruberg_birthday_party_top"],
+                "sections": [
+                    {
+                        "name": "Birthday party up                                                  ",
+                        "hosted_item": "Birthday party up"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kiiruberg",
+                        "x": 936,
+                        "y": 1485,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Old man's house entrance",
+                "access_rules": ["^$can_reach|kiiruberg_frozen_pond"],
+                "sections": [
+                    {
+                        "name": "Old man's house entrance                                           ",
+                        "hosted_item": "Old man's house entrance"
+                    }
+                ]
+            },
+            {
+                "name": "Old man's house exit",
+                "access_rules": ["^$can_reach|kiiruberg_old_mans_house"],
+                "sections": [
+                    {
+                        "name": "Old man's house exit                                               ",
+                        "hosted_item": "Old man's house exit"
+                    }
+                ]
+            },
+            {
+                "name": "Old man's house connections",
+                "sections": [
+                    {
+                        "name": "Old man's house entrance                                           ",
+                        "ref": "Connections/Old man's house entrance/Old man's house entrance                                           "
+                    },
+                    {
+                        "name": "Old man's house exit                                               ",
+                        "ref": "Connections/Old man's house exit/Old man's house exit                                               "
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kiiruberg",
+                        "x": 285,
+                        "y": 1695,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Frozen pond right",
+                "access_rules": ["^$can_reach|kiiruberg_frozen_pond"],
+                "sections": [
+                    {
+                        "name": "Frozen pond right                                                  ",
+                        "hosted_item": "Frozen pond right"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kiiruberg",
+                        "x": 617,
+                        "y": 1688,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Snowman square rope from bottom",
+                "access_rules": ["climbing_boots,^$can_reach|kiiruberg_snowman_square_bottom"],
+                "sections": [
+                    {
+                        "name": "Snowman square rope from bottom                                    ",
+                        "hosted_item": "Snowman square rope from bottom"
+                    }
+                ]
+            },
+            {
+                "name": "Snowman square rope from top",
+                "access_rules": ["climbing_boots,^$can_reach|kiiruberg_snowman_square_top"],
+                "sections": [
+                    {
+                        "name": "Snowman square rope from top                                       ",
+                        "hosted_item": "Snowman square rope from top"
+                    }
+                ]
+            },
+            {
+                "name": "Military base entrance",
+                "access_rules": ["^$can_reach|kiiruberg_snowman_square_bottom"],
+                "sections": [
+                    {
+                        "name": "Military base entrance                                             ",
+                        "hosted_item": "Military base entrance"
+                    }
+                ]
+            },
+            {
+                "name": "Military base exit",
+                "access_rules": ["^$can_reach|kiiruberg_military_base"],
+                "sections": [
+                    {
+                        "name": "Military base exit                                                 ",
+                        "hosted_item": "Military base exit"
+                    }
+                ]
+            },
+            {
+                "name": "Military base connections",
+                "sections": [
+                    {
+                        "name": "Military base entrance                                             ",
+                        "ref": "Connections/Military base entrance/Military base entrance                                             "
+                    },
+                    {
+                        "name": "Military base exit                                                 ",
+                        "ref": "Connections/Military base exit/Military base exit                                                 "
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kiiruberg",
+                        "x": 706,
+                        "y": 1296,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Meck's house entrance",
+                "access_rules": ["^$can_reach|kiiruberg_snowman_square_bottom"],
+                "sections": [
+                    {
+                        "name": "Meck's house entrance                                              ",
+                        "hosted_item": "Meck's house entrance"
+                    }
+                ]
+            },
+            {
+                "name": "Meck's house exit",
+                "access_rules": ["^$can_reach|kiiruberg_mecks_house"],
+                "sections": [
+                    {
+                        "name": "Meck's house exit                                                  ",
+                        "hosted_item": "Meck's house exit"
+                    }
+                ]
+            },
+            {
+                "name": "Meck's house connections",
+                "sections": [
+                    {
+                        "name": "Meck's house entrance                                              ",
+                        "ref": "Connections/Meck's house entrance/Meck's house entrance                                              "
+                    },
+                    {
+                        "name": "Meck's house exit                                                  ",
+                        "ref": "Connections/Meck's house exit/Meck's house exit                                                  "
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kiiruberg",
+                        "x": 1025,
+                        "y": 1332,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Snowman square down",
+                "access_rules": ["^$can_reach|kiiruberg_snowman_square_bottom"],
+                "sections": [
+                    {
+                        "name": "Snowman square down                                                ",
+                        "hosted_item": "Snowman square down"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kiiruberg",
+                        "x": 937,
+                        "y": 1373,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Snowman square left",
+                "access_rules": ["^$can_reach|kiiruberg_snowman_square_top"],
+                "sections": [
+                    {
+                        "name": "Snowman square left                                                ",
+                        "hosted_item": "Snowman square left"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kiiruberg",
+                        "x": 745,
+                        "y": 1132,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Snowman square up",
+                "access_rules": ["^$can_reach|kiiruberg_snowman_square_top"],
+                "sections": [
+                    {
+                        "name": "Snowman square up                                                  ",
+                        "hosted_item": "Snowman square up"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kiiruberg",
+                        "x": 880,
+                        "y": 1070,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Wizard tower entrance",
+                "access_rules": ["climbing_boots,^$can_reach|kiiruberg_outside_wizard_tower"],
+                "sections": [
+                    {
+                        "name": "Wizard tower entrance                                              ",
+                        "hosted_item": "Wizard tower entrance"
+                    }
+                ]
+            },
+            {
+                "name": "Wizard portal entrance",
+                "access_rules": ["@Kiiruberg/Wizard Tower/Quest - Ice wizards research,^$can_reach|kiiruberg_wizard_tower"],
+                "sections": [
+                    {
+                        "name": "Wizard portal entrance                                             ",
+                        "hosted_item": "Wizard portal entrance"
+                    }
+                ]
+            },
+            {
+                "name": "Wizard tower exit",
+                "access_rules": ["^$can_reach|kiiruberg_wizard_tower"],
+                "sections": [
+                    {
+                        "name": "Wizard tower exit                                                  ",
+                        "hosted_item": "Wizard tower exit"
+                    }
+                ]
+            },
+            {
+                "name": "Wizard portal exit",
+                "access_rules": ["^$can_reach|kiiruberg_cosmo_garden"],
+                "sections": [
+                    {
+                        "name": "Wizard portal exit                                                 ",
+                        "hosted_item": "Wizard portal exit"
+                    }
+                ]
+            },
+            {
+                "name": "Wizard tower connections",
+                "sections": [
+                    {
+                        "name": "Wizard tower entrance                                              ",
+                        "ref": "Connections/Wizard tower entrance/Wizard tower entrance                                              "
+                    },
+                    {
+                        "name": "Wizard portal entrance                                             ",
+                        "ref": "Connections/Wizard portal entrance/Wizard portal entrance                                             "
+                    },
+                    {
+                        "name": "Wizard tower exit                                                  ",
+                        "ref": "Connections/Wizard tower exit/Wizard tower exit                                                  "
+                    },
+                    {
+                        "name": "Wizard portal exit                                                 ",
+                        "ref": "Connections/Wizard portal exit/Wizard portal exit                                                 "
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kiiruberg",
+                        "x": 296,
+                        "y": 1061,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Outside wizard tower right",
+                "access_rules": ["climbing_boots,^$can_reach|kiiruberg_outside_wizard_tower"],
+                "sections": [
+                    {
+                        "name": "Outside wizard tower right                                         ",
+                        "hosted_item": "Outside wizard tower right"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kiiruberg",
+                        "x": 460,
+                        "y": 1132,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Cliffs down",
+                "access_rules": [
+                    "^$can_reach|kiiruberg_cliffs_bottom",
+                    "climbing_boots,^$can_reach_any|kiiruberg_cliffs_middle|kiiruberg_cliffs_top"
+                ],
+                "sections": [
+                    {
+                        "name": "Cliffs down                                                        ",
+                        "hosted_item": "Cliffs down"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kiiruberg",
+                        "x": 879,
+                        "y": 945,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Cliffs bottom rope from bottom",
+                "access_rules": ["climbing_boots,^$can_reach|kiiruberg_cliffs_bottom"],
+                "sections": [
+                    {
+                        "name": "Cliffs bottom rope from bottom                                     ",
+                        "hosted_item": "Cliffs bottom rope from bottom"
+                    }
+                ]
+            },
+            {
+                "name": "Cliffs bottom rope from middle",
+                "access_rules": ["climbing_boots,^$can_reach|kiiruberg_cliffs_middle"],
+                "sections": [
+                    {
+                        "name": "Cliffs bottom rope from middle                                     ",
+                        "hosted_item": "Cliffs bottom rope from middle"
+                    }
+                ]
+            },
+            {
+                "name": "Cliffs right",
+                "access_rules": ["honk_attachment,^$can_reach|kiiruberg_cliffs_middle"],
+                "sections": [
+                    {
+                        "name": "Cliffs right                                                       ",
+                        "hosted_item": "Cliffs right"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kiiruberg",
+                        "x": 1112,
+                        "y": 824,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Cliffs top rope from middle",
+                "access_rules": ["honk_attachment,^$can_reach|kiiruberg_cliffs_middle"],
+                "sections": [
+                    {
+                        "name": "Cliffs top rope from middle                                        ",
+                        "hosted_item": "Cliffs top rope from middle"
+                    }
+                ]
+            },
+            {
+                "name": "Cliffs top rope from top",
+                "access_rules": ["honk_attachment,^$can_reach|kiiruberg_cliffs_top"],
+                "sections": [
+                    {
+                        "name": "Cliffs top rope from top                                           ",
+                        "hosted_item": "Cliffs top rope from top"
+                    }
+                ]
+            },
+            {
+                "name": "Cliffs up",
+                "access_rules": [
+                    "^$can_reach|kiiruberg_cliffs_top",
+                    "climbing_boots,^$can_reach_any|kiiruberg_cliffs_middle|kiiruberg_cliffs_bottom"
+                ],
+                "sections": [
+                    {
+                        "name": "Cliffs up                                                          ",
+                        "hosted_item": "Cliffs up"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kiiruberg",
+                        "x": 876,
+                        "y": 607,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Blizzard bridge left",
+                "access_rules": ["^$can_reach|kiiruberg_blizzard_bridge_dl"],
+                "sections": [
+                    {
+                        "name": "Blizzard bridge left                                               ",
+                        "hosted_item": "Blizzard bridge left"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kiiruberg",
+                        "x": 1185,
+                        "y": 830,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Blizzard bridge rope from lower left",
+                "access_rules": ["^$has_warm_clothing,^$can_reach|kiiruberg_blizzard_bridge_dl"],
+                "sections": [
+                    {
+                        "name": "Blizzard bridge rope from lower left                               ",
+                        "hosted_item": "Blizzard bridge rope from lower left"
+                    }
+                ]
+            },
+            {
+                "name": "Blizzard bridge rope from upper left",
+                "access_rules": ["^$has_warm_clothing,^$can_reach|kiiruberg_blizzard_bridge_ul"],
+                "sections": [
+                    {
+                        "name": "Blizzard bridge rope from upper left                               ",
+                        "hosted_item": "Blizzard bridge rope from upper left"
+                    }
+                ]
+            },
+            {
+                "name": "Blizzard bridge break ice from bottom",
+                "access_rules": ["honk_attachment,^$has_warm_clothing,^$can_reach|kiiruberg_blizzard_bridge_dl"],
+                "sections": [
+                    {
+                        "name": "Blizzard bridge break ice from bottom                              ",
+                        "hosted_item": "Blizzard bridge break ice from bottom"
+                    }
+                ]
+            },
+            {
+                "name": "Blizzard bridge break ice from top",
+                "access_rules": ["honk_attachment,^$can_reach|kiiruberg_blizzard_bridge_ul"],
+                "sections": [
+                    {
+                        "name": "Blizzard bridge break ice from top                                 ",
+                        "hosted_item": "Blizzard bridge break ice from top"
+                    }
+                ]
+            },
+            {
+                "name": "Man cave entrance",
+                "access_rules": ["@Homelanda/Living Room/Quest - Experience TOEM,^$can_reach|kiiruberg_blizzard_bridge_ul"],
+                "sections": [
+                    {
+                        "name": "Man cave entrance                                                  ",
+                        "hosted_item": "Man cave entrance"
+                    }
+                ]
+            },
+            {
+                "name": "Man cave exit",
+                "access_rules": ["^$can_reach|kiiruberg_man_cave"],
+                "sections": [
+                    {
+                        "name": "Man cave exit                                                      ",
+                        "hosted_item": "Man cave exit"
+                    }
+                ]
+            },
+            {
+                "name": "Man cave connections",
+                "sections": [
+                    {
+                        "name": "Man cave entrance                                                  ",
+                        "ref": "Connections/Man cave entrance/Man cave entrance                                                  "
+                    },
+                    {
+                        "name": "Man cave exit                                                      ",
+                        "ref": "Connections/Man cave exit/Man cave exit                                                      "
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kiiruberg",
+                        "x": 1328,
+                        "y": 691,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Blizzard bridge rope from lower right",
+                "access_rules": ["climbing_boots,^$can_reach|kiiruberg_blizzard_bridge_right"],
+                "sections": [
+                    {
+                        "name": "Blizzard bridge rope from lower right                              ",
+                        "hosted_item": "Blizzard bridge rope from lower right"
+                    }
+                ]
+            },
+            {
+                "name": "Blizzard bridge rope from upper right",
+                "access_rules": ["^$has_warm_clothing,^$can_reach|kiiruberg_blizzard_bridge_right"],
+                "sections": [
+                    {
+                        "name": "Blizzard bridge rope from upper right                              ",
+                        "hosted_item": "Blizzard bridge rope from upper right"
+                    }
+                ]
+            },
+            {
+                "name": "Blizzard bridge right",
+                "access_rules": ["honk_attachment,^$can_reach|kiiruberg_blizzard_bridge_right"],
+                "sections": [
+                    {
+                        "name": "Blizzard bridge right                                              ",
+                        "hosted_item": "Blizzard bridge right"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kiiruberg",
+                        "x": 1581,
+                        "y": 726,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Blizzard monster exit",
+                "access_rules": ["^$can_reach|kiiruberg_blizzard_monster"],
+                "sections": [
+                    {
+                        "name": "Blizzard monster exit                                              ",
+                        "hosted_item": "Blizzard monster exit"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kiiruberg",
+                        "x": 1637,
+                        "y": 727,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Observatory entrance",
+                "access_rules": ["^$can_reach|kiiruberg_outside_observ_top"],
+                "sections": [
+                    {
+                        "name": "Observatory entrance                                               ",
+                        "hosted_item": "Observatory entrance"
+                    }
+                ]
+            },
+            {
+                "name": "Observatory exit",
+                "access_rules": ["^$can_reach|kiiruberg_observatory"],
+                "sections": [
+                    {
+                        "name": "Observatory exit                                                   ",
+                        "hosted_item": "Observatory exit"
+                    }
+                ]
+            },
+            {
+                "name": "Observatory connections",
+                "sections": [
+                    {
+                        "name": "Observatory entrance                                               ",
+                        "ref": "Connections/Observatory entrance/Observatory entrance                                               "
+                    },
+                    {
+                        "name": "Observatory exit                                                   ",
+                        "ref": "Connections/Observatory exit/Observatory exit                                                   "
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kiiruberg",
+                        "x": 838,
+                        "y": 199,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Outside observatory rope from top",
+                "access_rules": ["climbing_boots,^$can_reach|kiiruberg_outside_observ_top"],
+                "sections": [
+                    {
+                        "name": "Outside observatory rope from top                                  ",
+                        "hosted_item": "Outside observatory rope from top"
+                    }
+                ]
+            },
+            {
+                "name": "Outside observatory rope from bottom",
+                "access_rules": ["climbing_boots,^$can_reach|kiiruberg_outside_observ_bottom"],
+                "sections": [
+                    {
+                        "name": "Outside observatory rope from bottom                               ",
+                        "hosted_item": "Outside observatory rope from bottom"
+                    }
+                ]
+            },
+            {
+                "name": "Outside observatory down",
+                "access_rules": ["^$can_reach|kiiruberg_outside_observ_bottom"],
+                "sections": [
+                    {
+                        "name": "Outside observatory down                                           ",
+                        "hosted_item": "Outside observatory down"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kiiruberg",
+                        "x": 883,
+                        "y": 385,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Outside observatory right",
+                "access_rules": ["^$can_reach|kiiruberg_outside_observ_bottom"],
+                "sections": [
+                    {
+                        "name": "Outside observatory right                                          ",
+                        "hosted_item": "Outside observatory right"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kiiruberg",
+                        "x": 1077,
+                        "y": 328,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Ski lodge entrance",
+                "access_rules": ["^$can_reach|kiiruberg_ski_lift_base"],
+                "sections": [
+                    {
+                        "name": "Ski lodge entrance                                                 ",
+                        "hosted_item": "Ski lodge entrance"
+                    }
+                ]
+            },
+            {
+                "name": "Ski lodge exit",
+                "access_rules": ["^$can_reach|kiiruberg_ski_lodge"],
+                "sections": [
+                    {
+                        "name": "Ski lodge exit                                                     ",
+                        "hosted_item": "Ski lodge exit"
+                    }
+                ]
+            },
+            {
+                "name": "Ski lodge connections",
+                "sections": [
+                    {
+                        "name": "Ski lodge entrance                                                 ",
+                        "ref": "Connections/Ski lodge entrance/Ski lodge entrance                                                 "
+                    },
+                    {
+                        "name": "Ski lodge exit                                                     ",
+                        "ref": "Connections/Ski lodge exit/Ski lodge exit                                                     "
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kiiruberg",
+                        "x": 1519,
+                        "y": 1520,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Ski lift base left",
+                "access_rules": ["^$can_reach|kiiruberg_ski_lift_base"],
+                "sections": [
+                    {
+                        "name": "Ski lift base left                                                 ",
+                        "hosted_item": "Ski lift base left"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kiiruberg",
+                        "x": 1200,
+                        "y": 1620,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Ski lift up",
+                "access_rules": ["^$can_reach|kiiruberg_ski_lift_base"],
+                "sections": [
+                    {
+                        "name": "Ski lift up                                                        ",
+                        "hosted_item": "Ski lift up"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kiiruberg",
+                        "x": 1369,
+                        "y": 1538,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Ski mountain top left",
+                "access_rules": ["^$can_reach|kiiruberg_ski_mountain_top"],
+                "sections": [
+                    {
+                        "name": "Ski mountain top left                                              ",
+                        "hosted_item": "Ski mountain top left"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kiiruberg",
+                        "x": 1310,
+                        "y": 255,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Ski lift down",
+                "access_rules": ["^$can_reach|kiiruberg_ski_mountain_top"],
+                "sections": [
+                    {
+                        "name": "Ski lift down                                                      ",
+                        "hosted_item": "Ski lift down"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kiiruberg",
+                        "x": 1369,
+                        "y": 372,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mountain top bus stop climb",
+                "access_rules": ["climbing_boots,@Mountain Top"],
+                "sections": [
+                    {
+                        "name": "Mountain top bus stop climb                                        ",
+                        "hosted_item": "Mountain top bus stop climb"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mountain Top",
+                        "x": 476,
+                        "y": 1261,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Toem descend",
+                "access_rules": ["climbing_boots,^$can_reach|mountain_top_toem"],
+                "sections": [
+                    {
+                        "name": "Toem descend                                                       ",
+                        "hosted_item": "Toem descend"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mountain Top",
+                        "x": 709,
+                        "y": 570,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Basto harbor gate from top",
+                "access_rules": ["watergun,@Basto"],
+                "sections": [
+                    {
+                        "name": "Basto harbor gate from top                                         ",
+                        "hosted_item": "Basto harbor gate from top"
+                    }
+                ]
+            },
+            {
+                "name": "Basto harbor gate from bottom",
+                "access_rules": ["watergun,@Basto"],
+                "sections": [
+                    {
+                        "name": "Basto harbor gate from bottom                                      ",
+                        "hosted_item": "Basto harbor gate from bottom"
+                    }
+                ]
+            },
+            {
+                "name": "Basto harbor up",
+                "access_rules": ["@Basto"],
+                "sections": [
+                    {
+                        "name": "Basto harbor up                                                    ",
+                        "hosted_item": "Basto harbor up"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Basto",
+                        "x": 821,
+                        "y": 1663,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Viking express Basto stop",
+                "access_rules": ["basto_ticket,^$can_reach|stanhamn_docks_left"],
+                "sections": [
+                    {
+                        "name": "Viking express Basto stop                                          ",
+                        "hosted_item": "Viking express Basto stop"
+                    }
+                ]
+            },
+            {
+                "name": "Lily pad pond down",
+                "access_rules": ["^$can_reach|basto_lily_pad_pond_left"],
+                "sections": [
+                    {
+                        "name": "Lily pad pond down                                                 ",
+                        "hosted_item": "Lily pad pond down"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Basto",
+                        "x": 822,
+                        "y": 1541,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lily pad pond left",
+                "access_rules": ["^$can_reach|basto_lily_pad_pond_left"],
+                "sections": [
+                    {
+                        "name": "Lily pad pond left                                                 ",
+                        "hosted_item": "Lily pad pond left"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Basto",
+                        "x": 506,
+                        "y": 1428,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lily pad pond night bridge from left",
+                "access_rules": ["^$can_make_night,^$can_reach|basto_lily_pad_pond_left"],
+                "sections": [
+                    {
+                        "name": "Lily pad pond night bridge from left                               ",
+                        "hosted_item": "Lily pad pond night bridge from left"
+                    }
+                ]
+            },
+            {
+                "name": "Lily pad pond night bridge from right",
+                "access_rules": ["^$can_reach|basto_lily_pad_pond_right"],
+                "sections": [
+                    {
+                        "name": "Lily pad pond night bridge from right                              ",
+                        "hosted_item": "Lily pad pond night bridge from right"
+                    }
+                ]
+            },
+            {
+                "name": "Lily pad pond right",
+                "access_rules": ["^$can_reach|basto_lily_pad_pond_right"],
+                "sections": [
+                    {
+                        "name": "Lily pad pond right                                                ",
+                        "hosted_item": "Lily pad pond right"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Basto",
+                        "x": 1206,
+                        "y": 1460,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lily pad pond up",
+                "access_rules": ["^$can_reach|basto_lily_pad_pond_right"],
+                "sections": [
+                    {
+                        "name": "Lily pad pond up                                                   ",
+                        "hosted_item": "Lily pad pond up"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Basto",
+                        "x": 1055,
+                        "y": 1274,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Tent entrance",
+                "access_rules": ["^$can_reach|basto_camp"],
+                "sections": [
+                    {
+                        "name": "Tent entrance                                                      ",
+                        "hosted_item": "Tent entrance"
+                    }
+                ]
+            },
+            {
+                "name": "Tent exit",
+                "access_rules": ["^$can_reach|basto_tent"],
+                "sections": [
+                    {
+                        "name": "Tent exit                                                          ",
+                        "hosted_item": "Tent exit"
+                    }
+                ]
+            },
+            {
+                "name": "Tent connections",
+                "sections": [
+                    {
+                        "name": "Tent entrance                                                      ",
+                        "ref": "Connections/Tent entrance/Tent entrance                                                      "
+                    },
+                    {
+                        "name": "Tent exit                                                          ",
+                        "ref": "Connections/Tent exit/Tent exit                                                          "
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Basto",
+                        "x": 238,
+                        "y": 1408,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Campsite right",
+                "access_rules": ["^$can_reach|basto_camp"],
+                "sections": [
+                    {
+                        "name": "Campsite right                                                     ",
+                        "hosted_item": "Campsite right"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Basto",
+                        "x": 401,
+                        "y": 1429,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Castle entrance",
+                "access_rules": ["^$can_reach|basto_outside_castle"],
+                "sections": [
+                    {
+                        "name": "Castle entrance                                                    ",
+                        "hosted_item": "Castle entrance"
+                    }
+                ]
+            },
+            {
+                "name": "Castle exit",
+                "access_rules": ["^$can_reach|basto_castle"],
+                "sections": [
+                    {
+                        "name": "Castle exit                                                        ",
+                        "hosted_item": "Castle exit"
+                    }
+                ]
+            },
+            {
+                "name": "Castle connections",
+                "sections": [
+                    {
+                        "name": "Castle entrance                                                    ",
+                        "ref": "Connections/Castle entrance/Castle entrance                                                    "
+                    },
+                    {
+                        "name": "Castle exit                                                        ",
+                        "ref": "Connections/Castle exit/Castle exit                                                        "
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Basto",
+                        "x": 1259,
+                        "y": 829,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Gym house entrance",
+                "access_rules": ["^$can_reach|basto_outside_castle"],
+                "sections": [
+                    {
+                        "name": "Gym house entrance                                                 ",
+                        "hosted_item": "Gym house entrance"
+                    }
+                ]
+            },
+            {
+                "name": "Gym house exit",
+                "access_rules": ["^$can_reach|basto_gym_house"],
+                "sections": [
+                    {
+                        "name": "Gym house exit                                                     ",
+                        "hosted_item": "Gym house exit"
+                    }
+                ]
+            },
+            {
+                "name": "Gym house connections",
+                "sections": [
+                    {
+                        "name": "Gym house entrance                                                 ",
+                        "ref": "Connections/Gym house entrance/Gym house entrance                                                 "
+                    },
+                    {
+                        "name": "Gym house exit                                                     ",
+                        "ref": "Connections/Gym house exit/Gym house exit                                                     "
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Basto",
+                        "x": 1486,
+                        "y": 898,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Outside castle down",
+                "access_rules": ["^$can_reach|basto_outside_castle"],
+                "sections": [
+                    {
+                        "name": "Outside castle down                                                ",
+                        "hosted_item": "Outside castle down"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Basto",
+                        "x": 1130,
+                        "y": 1081,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Outside castle left",
+                "access_rules": ["^$can_reach|basto_outside_castle"],
+                "sections": [
+                    {
+                        "name": "Outside castle left                                                ",
+                        "hosted_item": "Outside castle left"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Basto",
+                        "x": 965,
+                        "y": 921,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bonfire lower right",
+                "access_rules": ["^$can_reach|basto_bonfire_top"],
+                "sections": [
+                    {
+                        "name": "Bonfire lower right                                                ",
+                        "hosted_item": "Bonfire lower right"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Basto",
+                        "x": 757,
+                        "y": 778,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bonfire upper right",
+                "access_rules": ["^$can_reach|basto_bonfire_top"],
+                "sections": [
+                    {
+                        "name": "Bonfire upper right                                                ",
+                        "hosted_item": "Bonfire upper right"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Basto",
+                        "x": 735,
+                        "y": 521,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bonfire day bridge from top",
+                "access_rules": ["^$can_reach|basto_bonfire_top"],
+                "sections": [
+                    {
+                        "name": "Bonfire day bridge from top                                        ",
+                        "hosted_item": "Bonfire day bridge from top"
+                    }
+                ]
+            },
+            {
+                "name": "Bonfire day bridge from bottom",
+                "access_rules": ["^$can_reach|basto_bonfire_bottom"],
+                "sections": [
+                    {
+                        "name": "Bonfire day bridge from bottom                                     ",
+                        "hosted_item": "Bonfire day bridge from bottom"
+                    }
+                ]
+            },
+            {
+                "name": "Carnival entrance",
+                "access_rules": ["^$can_reach|basto_bonfire_bottom"],
+                "sections": [
+                    {
+                        "name": "Carnival entrance                                                  ",
+                        "hosted_item": "Carnival entrance"
+                    }
+                ]
+            },
+            {
+                "name": "Carnival exit",
+                "access_rules": ["^$can_reach|basto_carnival"],
+                "sections": [
+                    {
+                        "name": "Carnival exit                                                      ",
+                        "hosted_item": "Carnival exit"
+                    }
+                ]
+            },
+            {
+                "name": "Carnival connections",
+                "sections": [
+                    {
+                        "name": "Carnival entrance                                                  ",
+                        "ref": "Connections/Carnival entrance/Carnival entrance                                                  "
+                    },
+                    {
+                        "name": "Carnival exit                                                      ",
+                        "ref": "Connections/Carnival exit/Carnival exit                                                      "
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Basto",
+                        "x": 191,
+                        "y": 923,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Ghost hangout cave entrance",
+                "access_rules": ["^$can_reach|basto_ghost_hangout"],
+                "sections": [
+                    {
+                        "name": "Ghost hangout cave entrance                                        ",
+                        "hosted_item": "Ghost hangout cave entrance"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Basto",
+                        "x": 1551,
+                        "y": 1452,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Ghost hangout left",
+                "access_rules": ["^$can_reach|basto_ghost_hangout"],
+                "sections": [
+                    {
+                        "name": "Ghost hangout left                                                 ",
+                        "hosted_item": "Ghost hangout left"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Basto",
+                        "x": 1302,
+                        "y": 1459,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Secret cave room entrance",
+                "access_rules": ["pickaxe,watergun,^$can_reach|basto_cave"],
+                "sections": [
+                    {
+                        "name": "Secret cave room entrance                                          ",
+                        "hosted_item": "Secret cave room entrance"
+                    }
+                ]
+            },
+            {
+                "name": "Secret cave room exit",
+                "access_rules": ["^$can_reach|basto_secret_cave"],
+                "sections": [
+                    {
+                        "name": "Secret cave room exit                                              ",
+                        "hosted_item": "Secret cave room exit"
+                    }
+                ]
+            },
+            {
+                "name": "Secret cave room connections",
+                "sections": [
+                    {
+                        "name": "Secret cave room entrance                                          ",
+                        "ref": "Connections/Secret cave room entrance/Secret cave room entrance                                          "
+                    },
+                    {
+                        "name": "Secret cave room exit                                              ",
+                        "ref": "Connections/Secret cave room exit/Secret cave room exit                                              "
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Basto",
+                        "x": 1878,
+                        "y": 518,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Ghost hangout cave exit",
+                "access_rules": ["^$can_reach|basto_cave"],
+                "sections": [
+                    {
+                        "name": "Ghost hangout cave exit                                            ",
+                        "hosted_item": "Ghost hangout cave exit"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Basto",
+                        "x": 1591,
+                        "y": 641,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Jungle cave exit",
+                "access_rules": ["^$can_reach|basto_cave"],
+                "sections": [
+                    {
+                        "name": "Jungle cave exit                                                   ",
+                        "hosted_item": "Jungle cave exit"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Basto",
+                        "x": 1517,
+                        "y": 526,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Jungle cave entrance",
+                "access_rules": ["^$can_reach|basto_jungle"],
+                "sections": [
+                    {
+                        "name": "Jungle cave entrance                                               ",
+                        "hosted_item": "Jungle cave entrance"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Basto",
+                        "x": 1112,
+                        "y": 340,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Jungle left",
+                "access_rules": ["^$can_reach|basto_jungle"],
+                "sections": [
+                    {
+                        "name": "Jungle left                                                        ",
+                        "hosted_item": "Jungle left"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Basto",
+                        "x": 859,
+                        "y": 417,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ]
+    }
+]

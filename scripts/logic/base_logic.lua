@@ -24,12 +24,25 @@ end
 
 function can_reach(region_name)
     -- If entrances are randomized then check if the region has been found.
-    if Tracker:FindObjectForCode("entrance_randomization").CurrentStage == 1 then
-        if FOUND_REGIONS[region_name] then
-            return AccessibilityLevel.Normal
-        else
-            return AccessibilityLevel.None
+    if Tracker:FindObjectForCode("entrance_randomization").CurrentStage ~= 0 then
+        local max_access = AccessibilityLevel.None
+        for _, connection_name in ipairs(CONNECTIONS_BY_REGION[region_name]) do
+            local source_connection = CONNECTION_BY_NAME[connection_name].Destination
+            if source_connection then
+                local location = Tracker:FindObjectForCode(source_connection.LocationRef)
+                if location then
+                    local connection_access = ALL(connection_name, location.AccessibilityLevel)
+                    if connection_access == AccessibilityLevel.Normal then
+                        return connection_access
+                    elseif connection_access > max_access then
+                        max_access = connection_access
+                    end
+                else
+                    print("ERROR: can_reach: failed to find connection for ref", source_connection.LocationRef)
+                end
+            end
         end
+        return max_access
     end
 
     -- Otherwise, default logic required for each region that has restricted access.
@@ -142,8 +155,10 @@ end
 function can_access_monsters()
     return (
         ALL(
-            HAS("tripod"),
-            ANY("honk_attachment", AccessibilityLevel.SequenceBreak),
+            ANY(
+                ALL("tripod", "honk_attachment"),
+                AccessibilityLevel.SequenceBreak
+            ),
             can_reach_all(
                 "oaklaville_playground",
                 "stanhamn_hippo_beach",

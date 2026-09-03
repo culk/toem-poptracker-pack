@@ -2,6 +2,7 @@ require("scripts/autotracking/item_mapping")
 require("scripts/autotracking/location_mapping")
 require("scripts/autotracking/setting_mapping")
 require("scripts/autotracking/connection_mapping")
+require("scripts/luaitems")
 
 CUR_INDEX = -1
 
@@ -9,7 +10,6 @@ ALL_LOCATIONS = {}
 SLOT_DATA = {}
 
 ENTRANCE_INDEX = 1
-FOUND_REGIONS = {}
 TRANSITIONS = {}
 
 if Highlight then
@@ -144,7 +144,6 @@ function OnClear(slot_data)
         end
         if key == "transitions" then
             ENTRANCE_INDEX = 1
-            FOUND_REGIONS = {}
             TRANSITIONS = value
         end
     end
@@ -324,9 +323,10 @@ end
 function UpdateConnections(found_entrances)
     for i=ENTRANCE_INDEX,#found_entrances do
         local connection_id = TRANSITIONS[tostring(found_entrances[i])]
-        local region = CONNECTION_MAPPING[connection_id][1]
-        print(string.format("UpdateConnections: Found region %s from entrance id %d", region, found_entrances[i]))
-        FOUND_REGIONS[region] = true
+        local connection_name = CONNECTION_MAPPING[connection_id][1]
+        local destination_name = CONNECTION_MAPPING[found_entrances[i]][1]
+        print(string.format("UpdateConnections: Found destination %s from connection %s", destination_name, connection_name))
+        CONNECTION_BY_NAME[connection_name]:Assign(CONNECTION_BY_NAME[destination_name])
     end
     ENTRANCE_INDEX = #found_entrances + 1
 

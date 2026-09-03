@@ -6,6 +6,7 @@
         "children": [
             {
                 "name": "Bus Stop",
+                "access_rules": ["^$can_reach|homelanda_bus_stop"],
                 "children": [
                     {
                         "name": "Quest - Take a photo of Nana!",
