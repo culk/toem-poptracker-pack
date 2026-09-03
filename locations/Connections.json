@@ -2341,10 +2341,7 @@
             },
             {
                 "name": "Cliffs down",
-                "access_rules": [
-                    "^$can_reach|kiiruberg_cliffs_bottom",
-                    "^$HAS|climbing_boots,^$can_reach_any|kiiruberg_cliffs_middle|kiiruberg_cliffs_top"
-                ],
+                "access_rules": ["^$can_reach|kiiruberg_cliffs_bottom"],
                 "sections": [
                     {
                         "name": "Cliffs down                                                        ",
@@ -2420,10 +2417,7 @@
             },
             {
                 "name": "Cliffs up",
-                "access_rules": [
-                    "^$can_reach|kiiruberg_cliffs_top",
-                    "^$HAS|climbing_boots,^$can_reach_any|kiiruberg_cliffs_middle|kiiruberg_cliffs_bottom"
-                ],
+                "access_rules": ["^$can_reach|kiiruberg_cliffs_top"],
                 "sections": [
                     {
                         "name": "Cliffs up                                                          ",
