@@ -767,7 +767,10 @@
             },
             {
                 "name": "Raft up",
-                "access_rules": ["honk_attachment,@Stanhamn/Hydroplant/Quest - Power shortage!,@Stanhamn"],
+                "access_rules": [
+                    "honk_attachment,@Stanhamn",
+                    "@Stanhamn/Hydroplant/Quest - Power shortage!,@Stanhamn"
+                ],
                 "sections": [
                     {
                         "name": "Raft up                                                            ",
@@ -873,7 +876,7 @@
                     {
                         "map": "Stanhamn",
                         "x": 99,
-                        "y": 834,
+                        "y": 800,
                         "shape": "diamond"
                     }
                 ]
