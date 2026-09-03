@@ -13,6 +13,7 @@ Download the most recent .zip file from the **Releases** and either drag it to t
 - Automatically reads player options from the AP server slot data.
 - Autotracking for found key items, checked locations, and found entrances (if entrances are randomized).
 - Displays locations that are reachable in logic (green) and out of logic (yellow).
+- Displays entrances/exits and where they connect if entrances are randomized.
 - Highlighting of hinted item locations.
 
 ## Compatibility
