@@ -228,7 +228,7 @@
                         "name": "Item - Supreme deluxe sandwich",
                         "chest_unopened_img": "/images/items/chest_close.png",
                         "chest_opened_img": "/images/items/chest_open.png",
-                        "access_rules": ["^$HAS|ghost_glasses,^$can_reach|stanhamn_outside_hydroplant"],
+                        "access_rules": ["^$HAS|ghost_glasses,^$HAS|honk_attachment,^$can_reach|stanhamn_outside_hydroplant"],
                         "visibility_rules": ["include_items_on"],
                         "sections": [
                             {
