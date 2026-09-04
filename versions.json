@@ -1,6 +1,14 @@
 {
   "versions": [
     {
+      "package_version": "1.1.1",
+      "download_url": "https://github.com/culk/toem-poptracker-pack/releases/download/v1.1.1/toem_ap_tracker.zip",
+      "sha256": "36e6149b2c63b12e1524343bf6e9a0264b9b6182854a7bfbe1ded0c9fff9a775",
+      "changelog": [
+        "Check release notes"
+      ]
+    },
+    {
       "package_version": "1.1.0",
       "download_url": "https://github.com/culk/toem-poptracker-pack/releases/download/v1.1.0/toem_ap_tracker.zip",
       "sha256": "8f0ba0daf9fe2a4ac556b82470c18d087f2a786859d5e78ef898f22d680dd584",
