@@ -597,6 +597,34 @@
                 ]
             },
             {
+                "name": "Homelanda - Connections",
+                "sections": [
+                    {
+                        "name": "Player room exit                                                   ",
+                        "ref": "Connections/Player room exit/Player room exit                                                   "
+                    },
+                    {
+                        "name": "Player room entrance                                               ",
+                        "ref": "Connections/Player room entrance/Player room entrance                                               "
+                    },
+                    {
+                        "name": "Homelanda house exit                                               ",
+                        "ref": "Connections/Homelanda house exit/Homelanda house exit                                               "
+                    },
+                    {
+                        "name": "Homelanda house entrance                                           ",
+                        "ref": "Connections/Homelanda house entrance/Homelanda house entrance                                           "
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 190,
+                        "y": 84
+                    }
+                ]
+            },
+            {
                 "name": "Kiiruberg - Quests",
                 "sections": [
                     {
@@ -1338,6 +1366,14 @@
                     {
                         "name": "Achievement - Experience TOEM",
                         "ref": "Mountain Top/Achievement - Experience TOEM/"
+                    },
+                    {
+                        "name": "Mountain top bus stop climb                                        ",
+                        "ref": "Connections/Mountain top bus stop climb/Mountain top bus stop climb                                        "
+                    },
+                    {
+                        "name": "Toem descend                                                       ",
+                        "ref": "Connections/Toem descend/Toem descend                                                       "
                     }
                 ],
                 "map_locations": [
