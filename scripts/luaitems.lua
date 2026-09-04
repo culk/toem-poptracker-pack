@@ -77,28 +77,3 @@ local function createLuaItems()
 end
 
 createLuaItems()
-
-EXCLUDED_CONNECTION_MAPPING = {
-    ["Oaklaville trail log from top"] = "Oaklaville trail log from bottom",
-    ["Rave bouncer from top"] = "Rave bouncer from bottom",
-    ["Docks drawbridge from left"] = "Docks drawbridge from right",
-    ["Ghost drawbridge from top"] = "Ghost drawbridge from bottom",
-    ["Fashion show security from top"] = "Fashion show security from bottom",
-    ["Birthday party rope from bottom"] = "Birthday party rope from top",
-    ["Snowman square rope from bottom"] = "Snowman square rope from top",
-    ["Cliffs bottom rope from bottom"] = "Cliffs bottom rope from middle",
-    ["Cliffs top rope from middle"] = "Cliffs top rope from top",
-    ["Blizzard bridge rope from lower left"] = "Blizzard bridge rope from lower right",
-    ["Blizzard bridge break ice from bottom"] = "Blizzard bridge break ice from top",
-    ["Blizzard bridge rope from upper left"] = "Blizzard bridge rope from upper right",
-    ["Outside observatory rope from top"] = "Outside observatory rope from bottom",
-    ["Basto harbor gate from top"] = "Basto harbor gate from bottom",
-    ["Viking express Basto stop"] = "Viking express Stanhamn stop",
-    ["Lily pad pond night bridge from left"] = "Lily pad pond night bridge from right",
-    ["Bonfire day bridge from top"] = "Bonfire day bridge from bottom",
-}
-
--- Assign connections that are excluded from randomization.
-for source, destination in pairs(EXCLUDED_CONNECTION_MAPPING) do
-    CONNECTION_BY_NAME[source]:Assign(CONNECTION_BY_NAME[destination])
-end

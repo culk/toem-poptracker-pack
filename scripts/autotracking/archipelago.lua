@@ -148,6 +148,12 @@ function OnClear(slot_data)
         end
     end
 
+    -- Reset saved connections when connecting to the AP server. Any already found connections will be resent by the server.
+    for _, connection in pairs(CONNECTION_BY_NAME) do
+        connection:Assign(nil)
+    end
+    AssignExcludedConnections()
+
     -- Subscribe to data storage changes.
     PLAYER_ID = Archipelago.PlayerNumber or -1
     TEAM_NUMBER = Archipelago.TeamNumber or 0
