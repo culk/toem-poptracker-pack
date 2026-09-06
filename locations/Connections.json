@@ -2856,7 +2856,7 @@
             },
             {
                 "name": "Basto harbor up",
-                "access_rules": ["@Basto"],
+                "access_rules": ["^$can_reach|basto_bus_stop_top"],
                 "sections": [
                     {
                         "name": "Basto harbor up                                                    ",
