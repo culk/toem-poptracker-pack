@@ -1183,7 +1183,10 @@
             },
             {
                 "name": "Raft down",
-                "access_rules": ["^$HAS|honk_attachment,@Stanhamn/Hydroplant/Quest - Power shortage!,^$can_reach|stanhamn_outside_hydroplant"],
+                "access_rules": [
+                    "^$HAS|honk_attachment,^$can_reach|stanhamn_outside_hydroplant",
+                    "@Stanhamn/Hydroplant/Quest - Power shortage!,^$can_reach|stanhamn_outside_hydroplant"
+                ],
                 "sections": [
                     {
                         "name": "Raft down                                                          ",
