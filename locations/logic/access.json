@@ -1,0 +1,957 @@
+[
+    {
+        "name": "Can Access",
+        "children": [
+            {
+                "name": "Quest - Basto's hidden balloons",
+                "access_rules": ["@Basto/Bus Stop Bottom/Information Booth/Quest - Basto's hidden balloons"]
+            },
+            {
+                "name": "Quest - Arthur hunter",
+                "access_rules": ["@Basto/Bonfire Top/Arthur/Quest - Arthur hunter"]
+            },
+            {
+                "name": "Quest - Spooky stories",
+                "access_rules": ["@Basto/Bonfire Top/Quest - Spooky stories/"]
+            },
+            {
+                "name": "Quest - Night-time cinema",
+                "access_rules": ["@Basto/Bonfire Top/Quest - Night-time cinema/"]
+            },
+            {
+                "name": "Quest - Night lights",
+                "access_rules": ["@Basto/Bonfire Top/Quest - Night lights/"]
+            },
+            {
+                "name": "Quest - Brain freeze",
+                "access_rules": ["@Basto/Bonfire Top/Viking/Quest - Brain freeze"]
+            },
+            {
+                "name": "Quest - Bad hair day",
+                "access_rules": ["@Basto/Bad Hair Day/Quest - Bad hair day"]
+            },
+            {
+                "name": "Quest - Take a nap!",
+                "access_rules": ["@Basto/Tent/Quest - Take a nap!"]
+            },
+            {
+                "name": "Quest - Painterly portrait",
+                "access_rules": ["@Basto/Outside Castle/Painter/Quest - Painterly portrait"]
+            },
+            {
+                "name": "Quest - Fruit shortage",
+                "access_rules": ["@Basto/Outside Castle/Ice Cream Vendor/Quest - Fruit shortage"]
+            },
+            {
+                "name": "Quest - Jet-ski tricks",
+                "access_rules": ["@Basto/Lily Pad Pond Left/Quest - Jet-ski tricks/"]
+            },
+            {
+                "name": "Quest - Broken dreams",
+                "access_rules": ["@Basto/Lily Pad Pond Left/Injured Monkey/Quest - Broken dreams"]
+            },
+            {
+                "name": "Quest - Dry season",
+                "access_rules": ["@Basto/Lily Pad Pond Left/Quest - Dry season/"]
+            },
+            {
+                "name": "Quest - Sweet tooth",
+                "access_rules": ["@Basto/Cave/Vampire/Quest - Sweet tooth"]
+            },
+            {
+                "name": "Quest - Book of bats",
+                "access_rules": ["@Basto/Cave/Vampire/Quest - Book of bats"]
+            },
+            {
+                "name": "Quest - In your face",
+                "access_rules": ["@Basto/Castle/Quest - In your face"]
+            },
+            {
+                "name": "Quest - Sand castle competition",
+                "access_rules": ["@Basto/Castle/Quest - Sand castle competition"]
+            },
+            {
+                "name": "Quest - Dehydrated muscles",
+                "access_rules": ["@Basto/Gym House/Quest - Dehydrated muscles"]
+            },
+            {
+                "name": "Quest - Play a carnival game",
+                "access_rules": ["@Basto/Carnival/Quest - Play a carnival game"]
+            },
+            {
+                "name": "Quest - Bitling collector",
+                "access_rules": ["@Basto/Jungle/Quest - Bitling collector/"]
+            },
+            {
+                "name": "Goal - Basto Bonfire",
+                "access_rules": ["@Basto/Bus Stop Bottom/Information Booth/Goal - Basto Bonfire"]
+            },
+            {
+                "name": "Quest - Take a photo of Nana!",
+                "access_rules": ["@Homelanda/Bus Stop/Quest - Take a photo of Nana!/"]
+            },
+            {
+                "name": "Quest - A hidden gift",
+                "access_rules": ["@Homelanda/Bus Stop/Quest - A hidden gift/"]
+            },
+            {
+                "name": "Quest - Experience TOEM",
+                "access_rules": ["@Homelanda/Living Room/Quest - Experience TOEM"]
+            },
+            {
+                "name": "Goal - TOEM Experienced",
+                "access_rules": ["@Homelanda/Living Room/Goal - TOEM Experienced"]
+            },
+            {
+                "name": "Quest - Yeti cuteness",
+                "access_rules": ["@Kiiruberg/Cliffs Middle/Quest - Yeti cuteness/"]
+            },
+            {
+                "name": "Quest - Ancient paintings",
+                "access_rules": ["@Kiiruberg/Cliffs Middle/Scientist/Quest - Ancient paintings"]
+            },
+            {
+                "name": "Quest - Ice wizards research",
+                "access_rules": ["@Kiiruberg/Wizard Tower/Quest - Ice wizards research"]
+            },
+            {
+                "name": "Quest - Military suspicions",
+                "access_rules": ["@Kiiruberg/Military Base/Quest - Military suspicions"]
+            },
+            {
+                "name": "Quest - Play astronaut",
+                "access_rules": ["@Kiiruberg/Observatory/Quest - Play astronaut"]
+            },
+            {
+                "name": "Quest - Locating an asteroid",
+                "access_rules": ["@Kiiruberg/Observatory/Quest - Locating an asteroid"]
+            },
+            {
+                "name": "Quest - Photo challenge #7",
+                "access_rules": ["@Kiiruberg/Snowman Square Bottom/Quest - Photo challenge #7/"]
+            },
+            {
+                "name": "Quest - Assemble a snowman",
+                "access_rules": ["@Kiiruberg/Snowman Square Bottom/Quest - Assemble a snowman/"]
+            },
+            {
+                "name": "Quest - Photo challenge #8",
+                "access_rules": ["@Kiiruberg/Cliffs Top/Quest - Photo challenge #8"]
+            },
+            {
+                "name": "Quest - Listen to the goat choir",
+                "access_rules": ["@Kiiruberg/Frozen Pond/Quest - Listen to the goat choir/"]
+            },
+            {
+                "name": "Quest - Snowball memories",
+                "access_rules": ["@Kiiruberg/Frozen Pond/Old Man/Quest - Snowball memories"]
+            },
+            {
+                "name": "Quest - Birthday in distress",
+                "access_rules": ["@Kiiruberg/Birthday Party Bottom/Quest - Birthday in distress"]
+            },
+            {
+                "name": "Quest - Become a yeti",
+                "access_rules": ["@Kiiruberg/Ski Lift Base/Quest - Become a yeti/"]
+            },
+            {
+                "name": "Quest - Suspicious activity - city",
+                "access_rules": ["@Logcity/Outside Fashion Show/Quest - Suspicious activity - city/"]
+            },
+            {
+                "name": "Quest - A ghostly date",
+                "access_rules": ["@Logcity/Outside Fashion Show/Quest - A ghostly date/"]
+            },
+            {
+                "name": "Quest - Always tumbled granny",
+                "access_rules": ["@Logcity/Outside Fashion Show/Quest - Always tumbled granny/"]
+            },
+            {
+                "name": "Quest - Ratskullz crew",
+                "access_rules": ["@Logcity/Ratskullz Alley/Quest - Ratskullz crew"]
+            },
+            {
+                "name": "Quest - Punk rocker bread crumbs",
+                "access_rules": ["@Logcity/Clock Tower/Punk Rocker/Quest - Punk rocker bread crumbs"]
+            },
+            {
+                "name": "Quest - Super Hotbean Bros.",
+                "access_rules": ["@Logcity/Clock Tower/Hotbean Stand/Quest - Super Hotbean Bros."]
+            },
+            {
+                "name": "Quest - Hang in there buddy",
+                "access_rules": ["@Logcity/Clock Tower/Quest - Hang in there buddy/"]
+            },
+            {
+                "name": "Quest - Young and inspiring!",
+                "access_rules": ["@Logcity/Clock Tower/Influencer/Quest - Young and inspiring!"]
+            },
+            {
+                "name": "Quest - Photo challenge #5",
+                "access_rules": ["@Logcity/Overpass/Quest - Photo challenge #5/"]
+            },
+            {
+                "name": "Quest - Photo challenge #6",
+                "access_rules": ["@Logcity/Outside Gallery/Quest - Photo challenge #6/"]
+            },
+            {
+                "name": "Quest - Sewer stumble!",
+                "access_rules": ["@Logcity/Outside Gallery/Quest - Sewer stumble!/"]
+            },
+            {
+                "name": "Quest - Press-ing news",
+                "access_rules": ["@Logcity/News House/Quest - Press-ing news"]
+            },
+            {
+                "name": "Quest - Spooky scary city",
+                "access_rules": ["@Logcity/Crosswalk/Quest - Spooky scary city/"]
+            },
+            {
+                "name": "Quest - Art exhibition",
+                "access_rules": ["@Logcity/Gallery/Quest - Art exhibition/"]
+            },
+            {
+                "name": "Quest - A design problem",
+                "access_rules": ["@Logcity/Fashion Show Backstage/Quest - A design problem"]
+            },
+            {
+                "name": "Quest - Cleaning away the stress",
+                "access_rules": ["@Logcity/Bus Stop Cleaner/Quest - Cleaning away the stress"]
+            },
+            {
+                "name": "Quest - A mouse bakery",
+                "access_rules": ["@Logcity/Cafe/Quest - A mouse bakery"]
+            },
+            {
+                "name": "Quest - A thieving crow",
+                "access_rules": ["@Logcity/Outside Cafe/Quest - A thieving crow/"]
+            },
+            {
+                "name": "Quest - Become a flower",
+                "access_rules": ["@Oaklaville/Playground/Quest - Become a flower/"]
+            },
+            {
+                "name": "Quest - Hide-and-seek",
+                "access_rules": ["@Oaklaville/Hide and Seek/Quest - Hide-and-seek/"]
+            },
+            {
+                "name": "Quest - Photo challenge #1",
+                "access_rules": ["@Oaklaville/Trail Bottom/Quest - Photo challenge #1/"]
+            },
+            {
+                "name": "Quest - Photo challenge #2",
+                "access_rules": ["@Oaklaville/Outside Hotel/Quest - Photo challenge #2/"]
+            },
+            {
+                "name": "Quest - Suspicious activity - forest",
+                "access_rules": ["@Oaklaville/Trail Bottom/Quest - Suspicious activity - forest/"]
+            },
+            {
+                "name": "Quest - Become a scout",
+                "access_rules": ["@Oaklaville/Camp/Scout Leader/Quest - Become a scout"]
+            },
+            {
+                "name": "Quest - Log blocking a path",
+                "access_rules": ["@Oaklaville/Trail Bottom/Quest - Log blocking a path/"]
+            },
+            {
+                "name": "Quest - Capture the hotels beauty",
+                "access_rules": ["@Oaklaville/Hotel/Quest - Capture the hotels beauty"]
+            },
+            {
+                "name": "Quest - Hotel chef",
+                "access_rules": ["@Oaklaville/Hotel/Quest - Hotel chef"]
+            },
+            {
+                "name": "Quest - Become a paparazzi",
+                "access_rules": ["@Oaklaville/Rave/Quest - Become a paparazzi/"]
+            },
+            {
+                "name": "Quest - A courageous stallion",
+                "access_rules": ["@Oaklaville/Graveyard/Quest - A courageous stallion"]
+            },
+            {
+                "name": "Quest - Cup champion",
+                "access_rules": ["@Oaklaville/Ghost Cup Game/Quest - Cup champion"]
+            },
+            {
+                "name": "Quest - Missing socks",
+                "access_rules": ["@Oaklaville/Outside Hotel/Sock Man/Quest - Missing socks"]
+            },
+            {
+                "name": "Quest - Monster spotting",
+                "access_rules": ["@Oaklaville/Hotel/Quest - Monster spotting"]
+            },
+            {
+                "name": "Quest - Ghost helper!",
+                "access_rules": ["@Oaklaville/Skeleton House/Quest - Ghost helper!/"]
+            },
+            {
+                "name": "Quest - The king of fishes",
+                "access_rules": ["@Stanhamn/Bus Stop/Quest - The king of fishes/"]
+            },
+            {
+                "name": "Quest - A good spot with no sun",
+                "access_rules": ["@Stanhamn/Hippo Beach/Quest - A good spot with no sun/"]
+            },
+            {
+                "name": "Quest - Suspicious activity - harbor",
+                "access_rules": ["@Stanhamn/Ghost Drawbridge Bottom/Quest - Suspicious activity - harbor/"]
+            },
+            {
+                "name": "Quest - Scorching flame",
+                "access_rules": ["@Stanhamn/Ghost Drawbridge Bottom/Quest - Scorching flame/"]
+            },
+            {
+                "name": "Quest - Queen of paper hats",
+                "access_rules": ["@Stanhamn/Pirate Drawbridge/Pirate/Quest - Queen of paper hats"]
+            },
+            {
+                "name": "Quest - Photo challenge #3",
+                "access_rules": ["@Stanhamn/Pirate Drawbridge/Quest - Photo challenge #3/"]
+            },
+            {
+                "name": "Quest - Photo challenge #4",
+                "access_rules": ["@Stanhamn/Ghost Drawbridge Top/Quest - Photo challenge #4/"]
+            },
+            {
+                "name": "Quest - Frames & filters!",
+                "access_rules": ["@Stanhamn/Photo Guild Hut/Quest - Frames & filters!"]
+            },
+            {
+                "name": "Quest - Make someone take a bath",
+                "access_rules": ["@Stanhamn/Outside Hydroplant/Quest - Make someone take a bath/"]
+            },
+            {
+                "name": "Quest - Supreme deluxe sandwich!",
+                "access_rules": ["@Stanhamn/Outside Hydroplant/Quest - Supreme deluxe sandwich!/"]
+            },
+            {
+                "name": "Quest - A lost dog",
+                "access_rules": ["@Stanhamn/Docks Right/Quest - A lost dog/"]
+            },
+            {
+                "name": "Quest - Power shortage!",
+                "access_rules": ["@Stanhamn/Hydroplant/Quest - Power shortage!"]
+            },
+            {
+                "name": "Quest - Solve the chaos",
+                "access_rules": ["@Stanhamn/Lighthouse Roof/Quest - Solve the chaos"]
+            },
+            {
+                "name": "Quest - Ocean garbage",
+                "access_rules": ["@Stanhamn/Fishing Tower/Quest - Ocean garbage/"]
+            },
+            {
+                "name": "Quest - A whistling dilemma",
+                "access_rules": ["@Stanhamn/Snowman/Quest - A whistling dilemma"]
+            },
+            {
+                "name": "Quest - A layered melody",
+                "access_rules": ["@Stanhamn/King Fish Beach/Wizard/Quest - A layered melody"]
+            },
+            {
+                "name": "Compendium - Day lizard",
+                "access_rules": ["@Basto/Bonfire Top/Compendium - Day lizard/"]
+            },
+            {
+                "name": "Compendium - Eggert",
+                "access_rules": ["@Basto/Bonfire Top/Compendium - Eggert/"]
+            },
+            {
+                "name": "Compendium - Tato coco",
+                "access_rules": ["@Basto/Outside Castle/Compendium - Tato coco/"]
+            },
+            {
+                "name": "Compendium - Glow worm",
+                "access_rules": ["@Basto/Cave/Compendium - Glow worm/"]
+            },
+            {
+                "name": "Compendium - Bitling mouse",
+                "access_rules": ["@Basto/Castle/Compendium - Bitling mouse"]
+            },
+            {
+                "name": "Compendium - Bitling snail",
+                "access_rules": ["@Basto/Jungle/Compendium - Bitling snail/"]
+            },
+            {
+                "name": "Compendium - Coco crab",
+                "access_rules": ["@Basto/Jungle/Compendium - Coco crab/"]
+            },
+            {
+                "name": "Compendium - Snout bug",
+                "access_rules": ["@Basto/Jungle/Compendium - Snout bug/"]
+            },
+            {
+                "name": "Compendium - Bat",
+                "access_rules": [
+                    "@Basto/Bat/Compendium - Bat (Cave)/",
+                    "@Basto/Bat/Compendium - Bat (Bonfire)/",
+                    "@Basto/Bat/Compendium - Bat (Outside Castle)/"
+                ]
+            },
+            {
+                "name": "Compendium - Beach snake",
+                "access_rules": ["@Basto/Camp/Compendium - Beach snake/"]
+            },
+            {
+                "name": "Compendium - Mud frog",
+                "access_rules": ["@Basto/Camp/Compendium - Mud frog/"]
+            },
+            {
+                "name": "Compendium - Beak bird",
+                "access_rules": ["@Basto/Beak Bird/Compendium - Beak bird/"]
+            },
+            {
+                "name": "Compendium - Bitling frog",
+                "access_rules": ["@Basto/Bonfire Bottom/Compendium - Bitling frog"]
+            },
+            {
+                "name": "Compendium - Bitling tato",
+                "access_rules": ["@Basto/Bitling Tato/Compendium - Bitling tato"]
+            },
+            {
+                "name": "Compendium - Drill mole",
+                "access_rules": ["@Basto/Drill Mole/Compendium - Drill mole"]
+            },
+            {
+                "name": "Compendium - Fire fly",
+                "access_rules": ["@Basto/Ghost Hangout/Compendium - Fire fly/"]
+            },
+            {
+                "name": "Compendium - Itsy bitsy",
+                "access_rules": ["@Basto/Secret Cave/Compendium - Itsy bitsy"]
+            },
+            {
+                "name": "Compendium - Tato king",
+                "access_rules": ["@Basto/Secret Cave/Compendium - Tato king"]
+            },
+            {
+                "name": "Compendium - Night lizard",
+                "access_rules": ["@Basto/Night Lizard/Compendium - Night lizard"]
+            },
+            {
+                "name": "Compendium - Water strider",
+                "access_rules": [
+                    "@Basto/Water Strider/Compendium - Water strider (Outside Castle)/",
+                    "@Basto/Water Strider/Compendium - Water strider (Lily Pad Pond)/"
+                ]
+            },
+            {
+                "name": "Compendium - Cow",
+                "access_rules": ["@Homelanda/Bus Stop/Compendium - Cow/"]
+            },
+            {
+                "name": "Compendium - Flies",
+                "access_rules": ["@Homelanda/Bus Stop/Compendium - Flies/"]
+            },
+            {
+                "name": "Compendium - Home bird",
+                "access_rules": ["@Homelanda/Bus Stop/Compendium - Home bird/"]
+            },
+            {
+                "name": "Compendium - Tato",
+                "access_rules": ["@Homelanda/Bus Stop/Compendium - Tato/"]
+            },
+            {
+                "name": "Compendium - Snow bird",
+                "access_rules": ["@Kiiruberg/Ski Lift Base/Compendium - Snow bird/"]
+            },
+            {
+                "name": "Compendium - Mikée",
+                "access_rules": ["@Kiiruberg/Balloon House/Compendium - Mikée"]
+            },
+            {
+                "name": "Compendium - Nariko",
+                "access_rules": ["@Kiiruberg/Balloon House/Compendium - Nariko"]
+            },
+            {
+                "name": "Compendium - Cosmo deer",
+                "access_rules": ["@Kiiruberg/Cosmo Garden/Compendium - Cosmo deer"]
+            },
+            {
+                "name": "Compendium - Teddy",
+                "access_rules": ["@Kiiruberg/Mecks House/Compendium - Teddy"]
+            },
+            {
+                "name": "Compendium - Fluff ball",
+                "access_rules": ["@Kiiruberg/Fluff/Compendium - Fluff ball"]
+            },
+            {
+                "name": "Compendium - Hedgehog",
+                "access_rules": ["@Kiiruberg/Hedgehog/Compendium - Hedgehog"]
+            },
+            {
+                "name": "Compendium - Meteopal",
+                "access_rules": ["@Kiiruberg/Meteopal/Compendium - Meteopal"]
+            },
+            {
+                "name": "Compendium - Mountain goat",
+                "access_rules": [
+                    "@Kiiruberg/Goat/Compendium - Mountain goat (Cliffs)/",
+                    "@Kiiruberg/Goat/Compendium - Mountain goat (Ski Mountain Top)/",
+                    "@Kiiruberg/Goat/Compendium - Mountain goat (Birthday Party)/"
+                ]
+            },
+            {
+                "name": "Compendium - Owl",
+                "access_rules": ["@Kiiruberg/Owl/Compendium - Owl"]
+            },
+            {
+                "name": "Compendium - Tato ski",
+                "access_rules": ["@Kiiruberg/Ski Mountain Top/Compendium - Tato ski/"]
+            },
+            {
+                "name": "Compendium - Tato alien",
+                "access_rules": ["@Kiiruberg/Observatory/Compendium - Tato alien"]
+            },
+            {
+                "name": "Compendium - Tato tourist",
+                "access_rules": ["@Logcity/Outside Fashion Show/Compendium - Tato tourist/"]
+            },
+            {
+                "name": "Compendium - Punky parrot",
+                "access_rules": ["@Logcity/Clock Tower/Punk Rocker/Compendium - Punky parrot"]
+            },
+            {
+                "name": "Compendium - Business pigeon",
+                "access_rules": ["@Logcity/Outside Gallery/Compendium - Business pigeon/"]
+            },
+            {
+                "name": "Compendium - Turtle",
+                "access_rules": ["@Logcity/Crosswalk/Compendium - Turtle/"]
+            },
+            {
+                "name": "Compendium - Portillo",
+                "access_rules": ["@Logcity/Outside Cafe/Compendium - Portillo/"]
+            },
+            {
+                "name": "Compendium - Mouse",
+                "access_rules": [
+                    "@Logcity/Overpass/Compendium - Mouse (Overpass)/",
+                    "@Logcity/Cafe/Compendium - Mouse (Cafe)/"
+                ]
+            },
+            {
+                "name": "Compendium - Pigeon",
+                "access_rules": [
+                    "@Logcity/Pigeon/Compendium - Pigeon (Clock Tower)/",
+                    "@Logcity/Pigeon/Compendium - Pigeon (Outside Cafe)/",
+                    "@Logcity/Pigeon/Compendium - Pigeon (Outside Gallery)/",
+                    "@Logcity/Pigeon/Compendium - Pigeon (Ratskullz Alley)/"
+                ]
+            },
+            {
+                "name": "Compendium - Tato skateboard",
+                "access_rules": ["@Logcity/Skate Park/Compendium - Tato skateboard/"]
+            },
+            {
+                "name": "Compendium - Butterfly",
+                "access_rules": ["@Oaklaville/Bus Stop/Compendium - Butterfly/"]
+            },
+            {
+                "name": "Compendium - Forest bird",
+                "access_rules": ["@Oaklaville/Outside Hotel/Compendium - Forest bird/"]
+            },
+            {
+                "name": "Compendium - Snail",
+                "access_rules": ["@Oaklaville/Outside Hotel/Snail/Compendium - Snail"]
+            },
+            {
+                "name": "Compendium - Nestworm",
+                "access_rules": ["@Oaklaville/Outside Hotel/Compendium - Nestworm/"]
+            },
+            {
+                "name": "Compendium - Stag beetle",
+                "access_rules": ["@Oaklaville/Outside Hotel/Compendium - Stag beetle/"]
+            },
+            {
+                "name": "Compendium - Tom",
+                "access_rules": ["@Oaklaville/Outside Hotel/Compendium - Tom/"]
+            },
+            {
+                "name": "Compendium - Oskar",
+                "access_rules": ["@Oaklaville/Hotel/Compendium - Oskar"]
+            },
+            {
+                "name": "Compendium - Ladybug",
+                "access_rules": ["@Oaklaville/Camp/Compendium - Ladybug/"]
+            },
+            {
+                "name": "Compendium - Pet rock",
+                "access_rules": ["@Oaklaville/Camp/Compendium - Pet rock/"]
+            },
+            {
+                "name": "Compendium - Ant",
+                "access_rules": ["@Oaklaville/Trail Bottom/Compendium - Ant/"]
+            },
+            {
+                "name": "Compendium - Beehive",
+                "access_rules": ["@Oaklaville/Playground/Compendium - Beehive/"]
+            },
+            {
+                "name": "Compendium - Squirrel",
+                "access_rules": [
+                    "@Oaklaville/Ghost Cup Game/Compendium - Squirrel (Ghost Cup Game)",
+                    "@Oaklaville/Ghost Cup Game/Compendium - Squirrel (Hotel Elevator)"
+                ]
+            },
+            {
+                "name": "Compendium - Tato bug",
+                "access_rules": ["@Oaklaville/Mushroom House/Compendium - Tato bug"]
+            },
+            {
+                "name": "Compendium - Sero",
+                "access_rules": ["@Oaklaville/Sero/Compendium - Sero/"]
+            },
+            {
+                "name": "Compendium - Tato fly",
+                "access_rules": ["@Oaklaville/Tato Fly/Compendium - Tato fly/"]
+            },
+            {
+                "name": "Compendium - Tato swim",
+                "access_rules": ["@Stanhamn/Bus Stop/Compendium - Tato swim/"]
+            },
+            {
+                "name": "Compendium - Crab",
+                "access_rules": ["@Stanhamn/Hippo Beach/Compendium - Crab/"]
+            },
+            {
+                "name": "Compendium - Bubble fly",
+                "access_rules": ["@Stanhamn/Pirate Drawbridge/Compendium - Bubble fly/"]
+            },
+            {
+                "name": "Compendium - Toad",
+                "access_rules": ["@Stanhamn/Pirate Drawbridge/Compendium - Toad/"]
+            },
+            {
+                "name": "Compendium - Dragonfly",
+                "access_rules": ["@Stanhamn/Outside Hydroplant/Compendium - Dragonfly/"]
+            },
+            {
+                "name": "Compendium - Willemijn",
+                "access_rules": ["@Stanhamn/King Fish Beach/Compendium - Willemijn/"]
+            },
+            {
+                "name": "Compendium - King fish",
+                "access_rules": ["@Stanhamn/King Fish Beach/Compendium - King fish/"]
+            },
+            {
+                "name": "Compendium - Fia",
+                "access_rules": ["@Stanhamn/Fia/Compendium - Fia/"]
+            },
+            {
+                "name": "Compendium - Fräs",
+                "access_rules": ["@Stanhamn/Fräs/Compendium - Fräs/"]
+            },
+            {
+                "name": "Compendium - Happy carp",
+                "access_rules": ["@Stanhamn/Underwater/Compendium - Happy carp"]
+            },
+            {
+                "name": "Compendium - Jellyfish",
+                "access_rules": ["@Stanhamn/Underwater/Compendium - Jellyfish"]
+            },
+            {
+                "name": "Compendium - Seahorse",
+                "access_rules": ["@Stanhamn/Underwater/Compendium - Seahorse"]
+            },
+            {
+                "name": "Compendium - Tato scuba",
+                "access_rules": ["@Stanhamn/Underwater/Compendium - Tato scuba"]
+            },
+            {
+                "name": "Compendium - Seagull",
+                "access_rules": ["@Stanhamn/Seagulls/Compendium - Seagull/"]
+            },
+            {
+                "name": "Compendium - Sunday swan",
+                "access_rules": ["@Stanhamn/Sunday Swan/Compendium - Sunday swan/"]
+            },
+            {
+                "name": "Item - Water popper attachment",
+                "access_rules": ["@Basto/Bus Stop Bottom/Information Booth/Item - Water popper attachment"]
+            },
+            {
+                "name": "Item - Pickaxe",
+                "access_rules": ["@Basto/Bonfire Top/Arthur/Item - Pickaxe"]
+            },
+            {
+                "name": "Item - Viking helmet",
+                "access_rules": ["@Basto/Bonfire Top/Viking/Item - Viking helmet"]
+            },
+            {
+                "name": "Item - Oranganas",
+                "access_rules": ["@Basto/Bonfire Top/Item - Oranganas/"]
+            },
+            {
+                "name": "Item - Sun hat",
+                "access_rules": ["@Basto/Tent/Item - Sun hat"]
+            },
+            {
+                "name": "Item - Banakin",
+                "access_rules": ["@Basto/Outside Castle/Item - Banakin/"]
+            },
+            {
+                "name": "Item - Ice cream (Banakin)",
+                "access_rules": ["@Basto/Outside Castle/Ice Cream Vendor/Item - Ice cream (Banakin)"]
+            },
+            {
+                "name": "Item - Ice cream (Melonear)",
+                "access_rules": ["@Basto/Outside Castle/Ice Cream Vendor/Item - Ice cream (Melonear)"]
+            },
+            {
+                "name": "Item - Ice cream (Beanut)",
+                "access_rules": ["@Basto/Outside Castle/Ice Cream Vendor/Item - Ice cream (Beanut)"]
+            },
+            {
+                "name": "Item - Ice cream (Oranganas)",
+                "access_rules": ["@Basto/Outside Castle/Ice Cream Vendor/Item - Ice cream (Oranganas)"]
+            },
+            {
+                "name": "Item - Beret",
+                "access_rules": ["@Basto/Outside Castle/Painter/Item - Beret"]
+            },
+            {
+                "name": "Item - Foot cast",
+                "access_rules": ["@Basto/Lily Pad Pond Left/Injured Monkey/Item - Foot cast"]
+            },
+            {
+                "name": "Item - Sun cap",
+                "access_rules": ["@Basto/Cave/Item - Sun cap/"]
+            },
+            {
+                "name": "Item - Royal cape",
+                "access_rules": ["@Basto/Castle/Item - Royal cape"]
+            },
+            {
+                "name": "Item - Royal crown",
+                "access_rules": ["@Basto/Castle/Item - Royal crown"]
+            },
+            {
+                "name": "Item - Minigame ticket",
+                "access_rules": ["@Basto/Carnival/Item - Minigame ticket"]
+            },
+            {
+                "name": "Item - Lei",
+                "access_rules": ["@Basto/Carnival/Item - Lei"]
+            },
+            {
+                "name": "Item - Vacation shirt",
+                "access_rules": ["@Basto/Carnival/Item - Vacation shirt"]
+            },
+            {
+                "name": "Item - Royal cane",
+                "access_rules": ["@Basto/Carnival/Item - Royal cane"]
+            },
+            {
+                "name": "Item - Beanut",
+                "access_rules": ["@Basto/Camp/Item - Beanut/"]
+            },
+            {
+                "name": "Item - Melonear",
+                "access_rules": ["@Basto/Lily Pad Pond Right/Item - Melonear"]
+            },
+            {
+                "name": "Item - Flip-flops",
+                "access_rules": ["@Basto/Ghost Hangout/Item - Flip-flops/"]
+            },
+            {
+                "name": "Item - Empty bottle",
+                "access_rules": ["@Basto/Ghost Hangout/Item - Empty bottle/"]
+            },
+            {
+                "name": "Item - Clogs",
+                "access_rules": ["@Homelanda/Bus Stop/Item - Clogs/"]
+            },
+            {
+                "name": "Item - Award Mask",
+                "access_rules": ["@Homelanda/Player Room/Item - Award Mask"]
+            },
+            {
+                "name": "Item - Viking Express Ticket",
+                "access_rules": ["@Homelanda/Living Room/Item - Viking Express Ticket"]
+            },
+            {
+                "name": "Item - Climbing boots",
+                "access_rules": ["@Kiiruberg/Frozen Pond/Old Man/Item - Climbing boots"]
+            },
+            {
+                "name": "Item - Puffer hat",
+                "access_rules": ["@Kiiruberg/Frozen Pond/Old Man/Item - Puffer hat"]
+            },
+            {
+                "name": "Item - Ski goggles",
+                "access_rules": ["@Kiiruberg/Ski Mountain Top/Item - Ski goggles/"]
+            },
+            {
+                "name": "Item - Scarf",
+                "access_rules": ["@Kiiruberg/Ski Lodge/Item - Scarf"]
+            },
+            {
+                "name": "Item - Space helmet",
+                "access_rules": ["@Kiiruberg/Outside Observatory Bottom/Item - Space helmet"]
+            },
+            {
+                "name": "Item - Sneakers",
+                "access_rules": ["@Logcity/Outside Fashion Show/Item - Sneakers/"]
+            },
+            {
+                "name": "Item - Hotbean hat",
+                "access_rules": ["@Logcity/Clock Tower/Hotbean Stand/Item - Hotbean hat"]
+            },
+            {
+                "name": "Item - Reporter hat",
+                "access_rules": ["@Logcity/News House/Item - Reporter hat"]
+            },
+            {
+                "name": "Item - Frisbee",
+                "access_rules": ["@Logcity/Crosswalk/Item - Frisbee/"]
+            },
+            {
+                "name": "Item - Cinnamon bun",
+                "access_rules": ["@Logcity/Cafe/Item - Cinnamon bun"]
+            },
+            {
+                "name": "Item - Foam finger",
+                "access_rules": ["@Oaklaville/Outside Hotel/Item - Foam finger/"]
+            },
+            {
+                "name": "Item - Fjällbjörn hat",
+                "access_rules": ["@Oaklaville/Camp/Scout Leader/Item - Fjällbjörn hat"]
+            },
+            {
+                "name": "Item - Cowboy hat",
+                "access_rules": ["@Oaklaville/Mushroom House/Item - Cowboy hat"]
+            },
+            {
+                "name": "Item - Ghost glasses",
+                "access_rules": ["@Oaklaville/Skeleton/Item - Ghost glasses"]
+            },
+            {
+                "name": "Item - Soaked sock",
+                "access_rules": ["@Oaklaville/Outside Hotel/Sock Man/Item - Soaked sock"]
+            },
+            {
+                "name": "Item - Pair of wet socks",
+                "access_rules": ["@Oaklaville/Ghost Cup Game/Item - Pair of wet socks"]
+            },
+            {
+                "name": "Item - Monster mask",
+                "access_rules": ["@Oaklaville/Hotel/Item - Monster mask"]
+            },
+            {
+                "name": "Item - Old key",
+                "access_rules": ["@Stanhamn/Pirate Drawbridge/Pirate/Item - Old key"]
+            },
+            {
+                "name": "Item - Paper hat",
+                "access_rules": ["@Stanhamn/Pirate Drawbridge/Pirate/Item - Paper hat"]
+            },
+            {
+                "name": "Item - Supreme deluxe sandwich",
+                "access_rules": ["@Stanhamn/Pirate Drawbridge/Item - Supreme deluxe sandwich/"]
+            },
+            {
+                "name": "Item - Frames & filters",
+                "access_rules": ["@Stanhamn/Photo Guild Hut/Item - Frames & filters"]
+            },
+            {
+                "name": "Item - Photo challenger flag",
+                "access_rules": ["@Stanhamn/Photo Guild Hut/Item - Photo challenger flag"]
+            },
+            {
+                "name": "Item - Rubber boots",
+                "access_rules": ["@Stanhamn/Docks Right/Item - Rubber boots/"]
+            },
+            {
+                "name": "Item - Hard hat",
+                "access_rules": ["@Stanhamn/Hydroplant/Item - Hard hat"]
+            },
+            {
+                "name": "Item - Honk attachment",
+                "access_rules": ["@Stanhamn/Lighthouse Roof/Item - Honk attachment"]
+            },
+            {
+                "name": "Item - Diving helmet",
+                "access_rules": ["@Stanhamn/Fishing Tower/Item - Diving helmet/"]
+            },
+            {
+                "name": "Item - Umbrella",
+                "access_rules": ["@Stanhamn/King Fish Beach/Item - Umbrella/"]
+            },
+            {
+                "name": "Item - Pirate hat",
+                "access_rules": ["@Stanhamn/Underwater/Item - Pirate hat"]
+            },
+            {
+                "name": "Item - Fishing hat",
+                "access_rules": ["@Stanhamn/Lighthouse/Item - Fishing hat/"]
+            },
+            {
+                "name": "Cassette - Fisherman's Whistle",
+                "access_rules": ["@Stanhamn/Snowman/Cassette - Fisherman's Whistle"]
+            },
+            {
+                "name": "Achievement - Calmed down",
+                "access_rules": ["@Oaklaville/Skeleton/Achievement - Calmed down"]
+            },
+            {
+                "name": "Achievement - Just a sock",
+                "access_rules": ["@Oaklaville/Outside Hotel/Sock Man/Achievement - Just a sock"]
+            },
+            {
+                "name": "Achievement - A sparkling jump",
+                "access_rules": ["@Stanhamn/Bus Stop/Achievement - A sparkling jump/"]
+            },
+            {
+                "name": "Achievement - Flight ready",
+                "access_rules": ["@Stanhamn/Fishing Tower/Achievement - Flight ready/"]
+            },
+            {
+                "name": "Achievement - 100 followers!",
+                "access_rules": ["@Logcity/Clock Tower/Influencer/Achievement - 100 followers!"]
+            },
+            {
+                "name": "Achievement - A new job",
+                "access_rules": ["@Logcity/Bus Stop Cleaner/Achievement - A new job"]
+            },
+            {
+                "name": "Achievement - Happy youth",
+                "access_rules": ["@Kiiruberg/Old Man's House/Achievement - Happy youth"]
+            },
+            {
+                "name": "Achievement - A great story",
+                "access_rules": ["@Kiiruberg/Cliffs Middle/Scientist/Achievement - A great story"]
+            },
+            {
+                "name": "Achievement - Kings new shirt",
+                "access_rules": ["@Basto/Castle/Achievement - Kings new shirt"]
+            },
+            {
+                "name": "Achievement - Moonlit beauty",
+                "access_rules": ["@Basto/Bad Hair Day/Achievement - Moonlit beauty"]
+            },
+            {
+                "name": "Achievement - Strong as an oak",
+	            "access_rules": ["@Oaklaville/Oaklaville/Achievement - Strong as an oak"]
+            },
+            {
+                "name": "Achievement - Seaworthy",
+	            "access_rules": ["@Stanhamn/Stanhamn/Achievement - Seaworthy"]
+            },
+            {
+                "name": "Achievement - Business executed",
+	            "access_rules": ["@Logcity/Logcity/Achievement - Business executed"]
+            },
+            {
+                "name": "Achievement - Ice fighter",
+	            "access_rules": ["@Kiiruberg/Kiiruberg/Achievement - Ice fighter"]
+            },
+            {
+                "name": "Achievement - Experience TOEM",
+                "access_rules": ["@Mountain Top/Achievement - Experience TOEM/"]
+            }
+        ]
+    }
+]

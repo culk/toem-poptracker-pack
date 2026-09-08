@@ -46,17 +46,24 @@ function can_reach(region_name)
     end
 
     -- Otherwise, default logic required for each region that has restricted access.
-    if region_name == "oaklaville_bus_stop" then
-        return ALL(has_required_stamps_for("homelanda"))
-    elseif region_name == "stanhamn_bus_stop" then
-        return ALL(has_required_stamps_for("oaklaville"), can_reach("oaklaville_bus_stop"))
-    elseif region_name == "logcity_bus_stop" then
-        return ALL(has_required_stamps_for("stanhamn"), can_reach("stanhamn_bus_stop"))
-    elseif region_name == "kiiruberg_bus_stop" then
-        return ALL(has_required_stamps_for("logcity"), can_reach("logcity_bus_stop"))
-    elseif region_name == "stanhamn_docks_left" then
-        return ALL("@Stanhamn")
-    elseif region_name == "oaklaville_rave" then
+    -- Check for stamp/basto ticket requirements.
+    local level_name = region_name:sub(1, region_name:find("_") - 1)
+    if level_name == "oaklaville" then
+       if ALL("@Oaklaville") == AccessibilityLevel.None then return AccessibilityLevel.None end
+    elseif level_name == "stanhamn" then
+       if ALL("@Stanhamn") == AccessibilityLevel.None then return AccessibilityLevel.None end
+    elseif level_name == "logcity" then
+       if ALL("@Logcity") == AccessibilityLevel.None then return AccessibilityLevel.None end
+    elseif level_name == "kiiruberg" then
+       if ALL("@Kiiruberg") == AccessibilityLevel.None then return AccessibilityLevel.None end
+    elseif level_name == "mountain" then
+       if ALL("@Mountain Top") == AccessibilityLevel.None then return AccessibilityLevel.None end
+    elseif level_name == "basto" then
+       if ALL("@Basto") == AccessibilityLevel.None then return AccessibilityLevel.None end
+    end
+
+    -- Check for required key items.
+    if region_name == "oaklaville_rave" then
         return HAS("ghost_glasses")
     elseif IsInTable(region_name, {
         "stanhamn_outside_hydroplant",
@@ -106,14 +113,14 @@ function can_reach(region_name)
         "kiiruberg_blizzard_bridge_right",
         "kiiruberg_blizzard_monster",
     }) then
-        return ALL(has_warm_clothing(), "honk_attachment")
+        return ALL("honk_attachment", has_warm_clothing)
     elseif region_name == "kiiruberg_cosmo_garden" then
-        return ALL("@Kiiruberg/Wizard Tower/Quest - Ice wizards research")
+        return ALL("@Can Access/Quest - Ice wizards research")
     elseif IsInTable(region_name, {
         "kiiruberg_man_cave",
         "mountain_top_toem"
     }) then
-        return ALL("@Mountain Top/Achievement - Experience TOEM/")
+        return ALL("@Can Access/Achievement - Experience TOEM")
     elseif region_name == "basto_secret_cave" then
         return ALL("watergun", "pickaxe")
     elseif region_name:sub(1, 5) == "basto" and region_name ~= "basto_bus_stop_bottom" then
@@ -172,126 +179,126 @@ end
 -- "Achievement - Strong as an oak"
 function can_access_all_oaklaville_quests()
     return ALL(
-        "@Oaklaville/Trail Bottom/Quest - Suspicious activity - forest/",
-        "@Oaklaville/Hotel/Quest - Monster spotting",
-        "@Oaklaville/Outside Hotel/Sock Man/Quest - Missing socks",
-        "@Oaklaville/Camp/Scout Leader/Quest - Become a scout",
-        "@Oaklaville/Hide and Seek/Quest - Hide-and-seek/",
-        "@Oaklaville/Trail Bottom/Quest - Log blocking a path/",
-        "@Oaklaville/Trail Bottom/Quest - Photo challenge #1/",
-        "@Oaklaville/Outside Hotel/Quest - Photo challenge #2/",
-        "@Oaklaville/Rave/Quest - Become a paparazzi/",
-        "@Oaklaville/Hotel/Quest - Capture the hotels beauty",
-        "@Oaklaville/Hotel/Quest - Hotel chef",
-        "@Oaklaville/Graveyard/Quest - A courageous stallion",
-        "@Oaklaville/Skeleton House/Quest - Ghost helper!/",
-        "@Oaklaville/Ghost Cup Game/Quest - Cup champion",
-        "@Oaklaville/Playground/Quest - Become a flower/"
+        "@Can Access/Quest - Suspicious activity - forest",
+        "@Can Access/Quest - Monster spotting",
+        "@Can Access/Quest - Missing socks",
+        "@Can Access/Quest - Become a scout",
+        "@Can Access/Quest - Hide-and-seek",
+        "@Can Access/Quest - Log blocking a path",
+        "@Can Access/Quest - Photo challenge #1",
+        "@Can Access/Quest - Photo challenge #2",
+        "@Can Access/Quest - Become a paparazzi",
+        "@Can Access/Quest - Capture the hotels beauty",
+        "@Can Access/Quest - Hotel chef",
+        "@Can Access/Quest - A courageous stallion",
+        "@Can Access/Quest - Ghost helper!",
+        "@Can Access/Quest - Cup champion",
+        "@Can Access/Quest - Become a flower"
     )
 end
 
 -- "Achievement - Seaworthy"
 function can_access_all_stanhamn_quests()
     return ALL(
-        "@Stanhamn/Bus Stop/Quest - The king of fishes/",
-        "@Stanhamn/Hippo Beach/Quest - A good spot with no sun/",
-        "@Stanhamn/Ghost Drawbridge Bottom/Quest - Suspicious activity - harbor/",
-        "@Stanhamn/Pirate Drawbridge/Pirate/Quest - Queen of paper hats",
-        "@Stanhamn/Pirate Drawbridge/Quest - Photo challenge #3/",
-        "@Stanhamn/Ghost Drawbridge Top/Quest - Photo challenge #4/",
-        "@Stanhamn/Photo Guild Hut/Quest - Frames & filters!",
-        "@Stanhamn/Outside Hydroplant/Quest - Make someone take a bath/",
-        "@Stanhamn/Docks Right/Quest - A lost dog/",
-        "@Stanhamn/Hydroplant/Quest - Power shortage!",
-        "@Stanhamn/Lighthouse Roof/Quest - Solve the chaos",
-        "@Stanhamn/Ghost Drawbridge Bottom/Quest - Scorching flame/",
-        "@Stanhamn/Outside Hydroplant/Quest - Supreme deluxe sandwich!/",
-        "@Stanhamn/Fishing Tower/Quest - Ocean garbage/",
-        "@Stanhamn/Snowman/Quest - A whistling dilemma",
-        "@Stanhamn/King Fish Beach/Wizard/Quest - A layered melody"
+        "@Can Access/Quest - The king of fishes",
+        "@Can Access/Quest - A good spot with no sun",
+        "@Can Access/Quest - Suspicious activity - harbor",
+        "@Can Access/Quest - Queen of paper hats",
+        "@Can Access/Quest - Photo challenge #3",
+        "@Can Access/Quest - Photo challenge #4",
+        "@Can Access/Quest - Frames & filters!",
+        "@Can Access/Quest - Make someone take a bath",
+        "@Can Access/Quest - A lost dog",
+        "@Can Access/Quest - Power shortage!",
+        "@Can Access/Quest - Solve the chaos",
+        "@Can Access/Quest - Scorching flame",
+        "@Can Access/Quest - Supreme deluxe sandwich!",
+        "@Can Access/Quest - Ocean garbage",
+        "@Can Access/Quest - A whistling dilemma",
+        "@Can Access/Quest - A layered melody"
     )
 end
 
 -- "Achievement - Business executed"
 function can_access_all_logcity_quests()
     return ALL(
-        "@Logcity/Outside Fashion Show/Quest - Suspicious activity - city/",
-        "@Logcity/Ratskullz Alley/Quest - Ratskullz crew",
-        "@Logcity/Clock Tower/Punk Rocker/Quest - Punk rocker bread crumbs",
-        "@Logcity/Overpass/Quest - Photo challenge #5/",
-        "@Logcity/Outside Gallery/Quest - Photo challenge #6/",
-        "@Logcity/News House/Quest - Press-ing news",
-        "@Logcity/Outside Gallery/Quest - Sewer stumble!/",
-        "@Logcity/Clock Tower/Hotbean Stand/Quest - Super Hotbean Bros.",
-        "@Logcity/Clock Tower/Quest - Hang in there, buddy/",
-        "@Logcity/Crosswalk/Quest - Spooky scary city/",
-        "@Logcity/Outside Fashion Show/Quest - A ghostly date/",
-        "@Logcity/Gallery/Quest - Art exhibition/",
-        "@Logcity/Clock Tower/Influencer/Quest - Young and inspiring!",
-        "@Logcity/Fashion Show Backstage/Quest - A design problem",
-        "@Logcity/Bus Stop Cleaner/Quest - Cleaning away the stress",
-        "@Logcity/Outside Fashion Show/Quest - Always tumbled granny/",
-        "@Logcity/Cafe/Quest - A mouse bakery",
-        "@Logcity/Outside Cafe/Quest - A thieving crow/"
+        "@Can Access/Quest - Suspicious activity - city",
+        "@Can Access/Quest - Ratskullz crew",
+        "@Can Access/Quest - Punk rocker bread crumbs",
+        "@Can Access/Quest - Photo challenge #5",
+        "@Can Access/Quest - Photo challenge #6",
+        "@Can Access/Quest - Press-ing news",
+        "@Can Access/Quest - Sewer stumble!",
+        "@Can Access/Quest - Super Hotbean Bros.",
+        "@Can Access/Quest - Hang in there buddy",
+        "@Can Access/Quest - Spooky scary city",
+        "@Can Access/Quest - A ghostly date",
+        "@Can Access/Quest - Art exhibition",
+        "@Can Access/Quest - Young and inspiring!",
+        "@Can Access/Quest - A design problem",
+        "@Can Access/Quest - Cleaning away the stress",
+        "@Can Access/Quest - Always tumbled granny",
+        "@Can Access/Quest - A mouse bakery",
+        "@Can Access/Quest - A thieving crow"
     )
 end
 
 -- "Achievement - Ice fighter"
 function can_access_all_kiiruberg_quests()
     return ALL(
-        "@Kiiruberg/Cliffs Middle/Quest - Yeti cuteness/",
-        "@Kiiruberg/Wizard Tower/Quest - Ice wizards research",
-        "@Kiiruberg/Military Base/Quest - Military suspicions",
-        "@Kiiruberg/Observatory/Quest - Play astronaut",
-        "@Kiiruberg/Snowman Square Bottom/Quest - Photo challenge #7/",
-        "@Kiiruberg/Cliffs Top/Quest - Photo challenge #8",
-        "@Kiiruberg/Observatory/Quest - Locating an asteroid",
-        "@Kiiruberg/Frozen Pond/Quest - Listen to the goat choir/",
-        "@Kiiruberg/Frozen Pond/Old Man/Quest - Snowball memories",
-        "@Kiiruberg/Birthday Party Bottom/Quest - Birthday in distress",
-        "@Kiiruberg/Cliffs Middle/Scientist/Quest - Ancient paintings",
-        "@Kiiruberg/Ski Lift Base/Quest - Become a yeti/",
-        "@Kiiruberg/Snowman Square Bottom/Quest - Assemble a snowman/"
+        "@Can Access/Quest - Yeti cuteness",
+        "@Can Access/Quest - Ice wizards research",
+        "@Can Access/Quest - Military suspicions",
+        "@Can Access/Quest - Play astronaut",
+        "@Can Access/Quest - Photo challenge #7",
+        "@Can Access/Quest - Photo challenge #8",
+        "@Can Access/Quest - Locating an asteroid",
+        "@Can Access/Quest - Listen to the goat choir",
+        "@Can Access/Quest - Snowball memories",
+        "@Can Access/Quest - Birthday in distress",
+        "@Can Access/Quest - Ancient paintings",
+        "@Can Access/Quest - Become a yeti",
+        "@Can Access/Quest - Assemble a snowman"
     )
 end
 
 -- "Achievement - A Viking's holiday"
 function can_access_all_basto_quests()
     return ALL(
-        "@Basto/Bus Stop Bottom/Information Booth/Quest - Basto's hidden balloons",
-        "@Basto/Bonfire Top/Arthur/Quest - Arthur hunter",
-        "@Basto/Bad Hair Day/Quest - Bad hair day",
-        "@Basto/Tent/Quest - Take a nap!",
-        "@Basto/Bonfire Top/Quest - Spooky stories/",
-        "@Basto/Outside Castle/Painter/Quest - Painterly portrait",
-        "@Basto/Bonfire Top/Quest - Night-time cinema/",
-        "@Basto/Bonfire Top/Quest - Night lights/",
-        "@Basto/Lily Pad Pond Left/Quest - Jet-ski tricks/",
-        "@Basto/Outside Castle/Ice Cream Vendor/Quest - Fruit shortage",
-        "@Basto/Bonfire Top/Viking/Quest - Brain freeze",
-        "@Basto/Cave/Vampire/Quest - Sweet tooth",
-        "@Basto/Castle/Quest - In your face",
-        "@Basto/Lily Pad Pond Left/Injured Monkey/Quest - Broken dreams",
-        "@Basto/Lily Pad Pond Left/Quest - Dry season/",
-        "@Basto/Gym House/Quest - Dehydrated muscles",
-        "@Basto/Castle/Quest - Sand castle competition",
-        "@Basto/Carnival/Quest - Play a carnival game",
-        "@Basto/Cave/Vampire/Quest - Book of bats",
-        "@Basto/Jungle/Quest - Bitling collector/"
+        "@Can Access/Quest - Basto's hidden balloons",
+        "@Can Access/Quest - Arthur hunter",
+        "@Can Access/Quest - Bad hair day",
+        "@Can Access/Quest - Take a nap!",
+        "@Can Access/Quest - Spooky stories",
+        "@Can Access/Quest - Painterly portrait",
+        "@Can Access/Quest - Night-time cinema",
+        "@Can Access/Quest - Night lights",
+        "@Can Access/Quest - Jet-ski tricks",
+        "@Can Access/Quest - Fruit shortage",
+        "@Can Access/Quest - Brain freeze",
+        "@Can Access/Quest - Sweet tooth",
+        "@Can Access/Quest - In your face",
+        "@Can Access/Quest - Broken dreams",
+        "@Can Access/Quest - Dry season",
+        "@Can Access/Quest - Dehydrated muscles",
+        "@Can Access/Quest - Sand castle competition",
+        "@Can Access/Quest - Play a carnival game",
+        "@Can Access/Quest - Book of bats",
+        "@Can Access/Quest - Bitling collector"
     )
 end
 
 -- "Item - Photo challenger flag"
 function can_access_all_photo_challenges()
     return ALL(
-        "@Oaklaville/Trail Bottom/Quest - Photo challenge #1/",
-        "@Oaklaville/Outside Hotel/Quest - Photo challenge #2/",
-        "@Stanhamn/Pirate Drawbridge/Quest - Photo challenge #3/",
-        "@Stanhamn/Ghost Drawbridge Top/Quest - Photo challenge #4/",
-        "@Logcity/Overpass/Quest - Photo challenge #5/",
-        "@Logcity/Outside Gallery/Quest - Photo challenge #6/",
-        "@Kiiruberg/Snowman Square Bottom/Quest - Photo challenge #7/",
-        "@Kiiruberg/Cliffs Top/Quest - Photo challenge #8"
+        "@Can Access/Quest - Photo challenge #1",
+        "@Can Access/Quest - Photo challenge #2",
+        "@Can Access/Quest - Photo challenge #3",
+        "@Can Access/Quest - Photo challenge #4",
+        "@Can Access/Quest - Photo challenge #5",
+        "@Can Access/Quest - Photo challenge #6",
+        "@Can Access/Quest - Photo challenge #7",
+        "@Can Access/Quest - Photo challenge #8"
     )
 end
 
@@ -413,16 +420,16 @@ end
 -- "Item - Beret"
 function can_access_all_portraits()
     return ALL(
-	    "@Oaklaville/Skeleton/Achievement - Calmed down",
-	    "@Oaklaville/Outside Hotel/Sock Man/Achievement - Just a sock",
-	    "@Stanhamn/Bus Stop/Achievement - A sparkling jump/",
-	    "@Stanhamn/Fishing Tower/Achievement - Flight ready/",
-	    "@Logcity/Clock Tower/Influencer/Achievement - 100 followers!",
-	    "@Logcity/Bus Stop Cleaner/Achievement - A new job",
-	    "@Kiiruberg/Old Man's House/Achievement - Happy youth",
-	    "@Kiiruberg/Cliffs Middle/Scientist/Achievement - A great story",
-	    "@Basto/Castle/Achievement - Kings new shirt",
-	    "@Basto/Bad Hair Day/Achievement - Moonlit beauty"
+	    "@Can Access/Achievement - Calmed down",
+	    "@Can Access/Achievement - Just a sock",
+	    "@Can Access/Achievement - A sparkling jump",
+	    "@Can Access/Achievement - Flight ready",
+	    "@Can Access/Achievement - 100 followers!",
+	    "@Can Access/Achievement - A new job",
+	    "@Can Access/Achievement - Happy youth",
+	    "@Can Access/Achievement - A great story",
+	    "@Can Access/Achievement - Kings new shirt",
+	    "@Can Access/Achievement - Moonlit beauty"
     )
 end
 
@@ -448,102 +455,102 @@ end
 -- "Quest - "Achievement - And some more"
 function can_access_all_basto_animals()
     return ALL(
-	    "@Basto/Bat/Compendium - Bat (Cave)/",
-	    "@Basto/Camp/Compendium - Beach snake/",
-	    "@Basto/Beak Bird/Compendium - Beak bird/",
-	    "@Basto/Bonfire Bottom/Compendium - Bitling frog",
-	    "@Basto/Castle/Compendium - Bitling mouse",
-	    "@Basto/Jungle/Compendium - Bitling snail/",
-	    "@Basto/Bitling Tato/Compendium - Bitling tato",
-	    "@Basto/Jungle/Compendium - Coco crab/",
-	    "@Basto/Bonfire Top/Compendium - Day lizard/",
-	    "@Basto/Drill Mole/Compendium - Drill mole",
-	    "@Basto/Bonfire Top/Compendium - Eggert/",
-	    "@Basto/Ghost Hangout/Compendium - Fire fly/",
-	    "@Basto/Cave/Compendium - Glow worm/",
-	    "@Basto/Secret Cave/Compendium - Itsy bitsy",
-	    "@Basto/Camp/Compendium - Mud frog/",
-	    "@Basto/Night Lizard/Compendium - Night lizard",
-	    "@Basto/Jungle/Compendium - Snout bug/",
-	    "@Basto/Outside Castle/Compendium - Tato coco/",
-	    "@Basto/Secret Cave/Compendium - Tato king",
-	    "@Basto/Water Strider/Compendium - Water strider (Outside Castle)/"
+	    "@Can Access/Compendium - Bat",
+	    "@Can Access/Compendium - Beach snake",
+	    "@Can Access/Compendium - Beak bird",
+	    "@Can Access/Compendium - Bitling frog",
+	    "@Can Access/Compendium - Bitling mouse",
+	    "@Can Access/Compendium - Bitling snail",
+	    "@Can Access/Compendium - Bitling tato",
+	    "@Can Access/Compendium - Coco crab",
+	    "@Can Access/Compendium - Day lizard",
+	    "@Can Access/Compendium - Drill mole",
+	    "@Can Access/Compendium - Eggert",
+	    "@Can Access/Compendium - Fire fly",
+	    "@Can Access/Compendium - Glow worm",
+	    "@Can Access/Compendium - Itsy bitsy",
+	    "@Can Access/Compendium - Mud frog",
+	    "@Can Access/Compendium - Night lizard",
+	    "@Can Access/Compendium - Snout bug",
+	    "@Can Access/Compendium - Tato coco",
+	    "@Can Access/Compendium - Tato king",
+	    "@Can Access/Compendium - Water strider"
     )
 end
 
 -- "Achievement - Look at those cuties"
 function can_access_all_dev_animals()
     return ALL(
-	    "@Oaklaville/Hotel/Compendium - Oskar",
-	    "@Oaklaville/Sero/Compendium - Sero/",
-	    "@Oaklaville/Camp/Compendium - Pet rock/",
-	    "@Stanhamn/Fia/Compendium - Fia/",
-	    "@Stanhamn/Fräs/Compendium - Fräs/",
-	    "@Stanhamn/King Fish Beach/Compendium - Willemijn/",
-	    "@Logcity/Outside Cafe/Compendium - Portillo/",
-	    "@Kiiruberg/Balloon House/Compendium - Mikée",
-	    "@Kiiruberg/Balloon House/Compendium - Nariko",
-	    "@Kiiruberg/Mecks House/Compendium - Teddy"
+	    "@Can Access/Compendium - Oskar",
+	    "@Can Access/Compendium - Sero",
+	    "@Can Access/Compendium - Pet rock",
+	    "@Can Access/Compendium - Fia",
+	    "@Can Access/Compendium - Fräs",
+	    "@Can Access/Compendium - Willemijn",
+	    "@Can Access/Compendium - Portillo",
+	    "@Can Access/Compendium - Mikée",
+	    "@Can Access/Compendium - Nariko",
+	    "@Can Access/Compendium - Teddy"
     )
 end
 
 -- "Achievement - Collect them all"
 function can_access_all_base_animals()
     return ALL(
-	    "@Homelanda/Bus Stop/Compendium - Cow/",
-	    "@Homelanda/Bus Stop/Compendium - Flies/",
-	    "@Homelanda/Bus Stop/Compendium - Home bird/",
-	    "@Homelanda/Bus Stop/Compendium - Tato/",
-	    "@Oaklaville/Trail Bottom/Compendium - Ant/",
-	    "@Oaklaville/Playground/Compendium - Beehive/",
-	    "@Oaklaville/Bus Stop/Compendium - Butterfly/",
-	    "@Oaklaville/Hotel/Compendium - Oskar",
-	    "@Oaklaville/Sero/Compendium - Sero/",
-	    "@Oaklaville/Outside Hotel/Compendium - Forest bird/",
-	    "@Oaklaville/Camp/Compendium - Ladybug/",
-	    "@Oaklaville/Outside Hotel/Compendium - Tom/",
-	    "@Oaklaville/Outside Hotel/Compendium - Nestworm/",
-	    "@Oaklaville/Camp/Compendium - Pet rock/",
-	    "@Oaklaville/Outside Hotel/Snail/Compendium - Snail",
-	    "@Oaklaville/Ghost Cup Game/Compendium - Squirrel (Ghost Cup Game)",
-	    "@Oaklaville/Outside Hotel/Compendium - Stag beetle/",
-	    "@Oaklaville/Mushroom House/Compendium - Tato bug",
-	    "@Oaklaville/Tato Fly/Compendium - Tato fly/",
-	    "@Stanhamn/Pirate Drawbridge/Compendium - Bubble fly/",
-	    "@Stanhamn/Fia/Compendium - Fia/",
-	    "@Stanhamn/Fräs/Compendium - Fräs/",
-	    "@Stanhamn/King Fish Beach/Compendium - Willemijn/",
-	    "@Stanhamn/Hippo Beach/Compendium - Crab/",
-	    "@Stanhamn/Outside Hydroplant/Compendium - Dragonfly/",
-	    "@Stanhamn/Underwater/Compendium - Happy carp",
-	    "@Stanhamn/Underwater/Compendium - Jellyfish",
-	    "@Stanhamn/King Fish Beach/Compendium - King fish/",
-	    "@Stanhamn/Seagulls/Compendium - Seagull/",
-	    "@Stanhamn/Underwater/Compendium - Seahorse",
-	    "@Stanhamn/Sunday Swan/Compendium - Sunday swan/",
-	    "@Stanhamn/Underwater/Compendium - Tato scuba",
-	    "@Stanhamn/Bus Stop/Compendium - Tato swim/",
-	    "@Stanhamn/Pirate Drawbridge/Compendium - Toad/",
-	    "@Logcity/Outside Gallery/Compendium - Business pigeon/",
-	    "@Logcity/Outside Cafe/Compendium - Portillo/",
-	    "@Logcity/Overpass/Compendium - Mouse (Overpass)/",
-	    "@Logcity/Pigeon/Compendium - Pigeon (Clock Tower)/",
-	    "@Logcity/Clock Tower/Punk Rocker/Compendium - Punky parrot",
-	    "@Logcity/Skate Park/Compendium - Tato skateboard/",
-	    "@Logcity/Outside Fashion Show/Compendium - Tato tourist/",
-	    "@Logcity/Crosswalk/Compendium - Turtle/",
-	    "@Kiiruberg/Balloon House/Compendium - Mikée",
-	    "@Kiiruberg/Balloon House/Compendium - Nariko",
-	    "@Kiiruberg/Cosmo Garden/Compendium - Cosmo deer",
-	    "@Kiiruberg/Mecks House/Compendium - Teddy",
-	    "@Kiiruberg/Fluff/Compendium - Fluff ball",
-	    "@Kiiruberg/Hedgehog/Compendium - Hedgehog",
-	    "@Kiiruberg/Meteopal/Compendium - Meteopal",
-	    "@Kiiruberg/Goat/Compendium - Mountain goat (Cliffs)/",
-	    "@Kiiruberg/Owl/Compendium - Owl",
-	    "@Kiiruberg/Ski Lift Base/Compendium - Snow bird/",
-	    "@Kiiruberg/Observatory/Compendium - Tato alien",
-	    "@Kiiruberg/Ski Mountain Top/Compendium - Tato ski/"
+	    "@Can Access/Compendium - Cow",
+	    "@Can Access/Compendium - Flies",
+	    "@Can Access/Compendium - Home bird",
+	    "@Can Access/Compendium - Tato",
+	    "@Can Access/Compendium - Ant",
+	    "@Can Access/Compendium - Beehive",
+	    "@Can Access/Compendium - Butterfly",
+	    "@Can Access/Compendium - Oskar",
+	    "@Can Access/Compendium - Sero",
+	    "@Can Access/Compendium - Forest bird",
+	    "@Can Access/Compendium - Ladybug",
+	    "@Can Access/Compendium - Tom",
+	    "@Can Access/Compendium - Nestworm",
+	    "@Can Access/Compendium - Pet rock",
+	    "@Can Access/Compendium - Snail",
+	    "@Can Access/Compendium - Squirrel",
+	    "@Can Access/Compendium - Stag beetle",
+	    "@Can Access/Compendium - Tato bug",
+	    "@Can Access/Compendium - Tato fly",
+	    "@Can Access/Compendium - Bubble fly",
+	    "@Can Access/Compendium - Fia",
+	    "@Can Access/Compendium - Fräs",
+	    "@Can Access/Compendium - Willemijn",
+	    "@Can Access/Compendium - Crab",
+	    "@Can Access/Compendium - Dragonfly",
+	    "@Can Access/Compendium - Happy carp",
+	    "@Can Access/Compendium - Jellyfish",
+	    "@Can Access/Compendium - King fish",
+	    "@Can Access/Compendium - Seagull",
+	    "@Can Access/Compendium - Seahorse",
+	    "@Can Access/Compendium - Sunday swan",
+	    "@Can Access/Compendium - Tato scuba",
+	    "@Can Access/Compendium - Tato swim",
+	    "@Can Access/Compendium - Toad",
+	    "@Can Access/Compendium - Business pigeon",
+	    "@Can Access/Compendium - Portillo",
+	    "@Can Access/Compendium - Mouse",
+	    "@Can Access/Compendium - Pigeon",
+	    "@Can Access/Compendium - Punky parrot",
+	    "@Can Access/Compendium - Tato skateboard",
+	    "@Can Access/Compendium - Tato tourist",
+	    "@Can Access/Compendium - Turtle",
+	    "@Can Access/Compendium - Mikée",
+	    "@Can Access/Compendium - Nariko",
+	    "@Can Access/Compendium - Cosmo deer",
+	    "@Can Access/Compendium - Teddy",
+	    "@Can Access/Compendium - Fluff ball",
+	    "@Can Access/Compendium - Hedgehog",
+	    "@Can Access/Compendium - Meteopal",
+	    "@Can Access/Compendium - Mountain goat",
+	    "@Can Access/Compendium - Owl",
+	    "@Can Access/Compendium - Snow bird",
+	    "@Can Access/Compendium - Tato alien",
+	    "@Can Access/Compendium - Tato ski"
     )
 end
 
@@ -579,12 +586,12 @@ end
 -- "Achievement - A true completionist"
 function can_access_all_base_quests()
     return ALL(
-	    "@Homelanda/Bus Stop/Quest - Take a photo of Nana!/",
-	    "@Homelanda/Bus Stop/Quest - A hidden gift/",
-	    "@Homelanda/Living Room/Quest - Experience TOEM",
-	    "@Oaklaville/Oaklaville/Achievement - Strong as an oak",
-	    "@Stanhamn/Stanhamn/Achievement - Seaworthy",
-	    "@Logcity/Logcity/Achievement - Business executed",
-	    "@Kiiruberg/Kiiruberg/Achievement - Ice fighter"
+	    "@Can Access/Quest - Take a photo of Nana!",
+	    "@Can Access/Quest - A hidden gift",
+	    "@Can Access/Quest - Experience TOEM",
+	    "@Can Access/Achievement - Strong as an oak",
+	    "@Can Access/Achievement - Seaworthy",
+	    "@Can Access/Achievement - Business executed",
+	    "@Can Access/Achievement - Ice fighter"
     )
 end
