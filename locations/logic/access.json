@@ -529,7 +529,7 @@
                 "name": "Compendium - Mouse",
                 "access_rules": [
                     "@Logcity/Overpass/Compendium - Mouse (Overpass)/",
-                    "@Logcity/Cafe/Compendium - Mouse (Cafe)/"
+                    "@Logcity/Cafe/Compendium - Mouse (Cafe)"
                 ]
             },
             {
@@ -593,7 +593,7 @@
                 "name": "Compendium - Squirrel",
                 "access_rules": [
                     "@Oaklaville/Ghost Cup Game/Compendium - Squirrel (Ghost Cup Game)",
-                    "@Oaklaville/Ghost Cup Game/Compendium - Squirrel (Hotel Elevator)"
+                    "@Oaklaville/Hotel/Compendium - Squirrel (Hotel Elevator)"
                 ]
             },
             {
