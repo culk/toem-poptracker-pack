@@ -129,8 +129,8 @@
                     {
                         "name": "Viking",
                         "access_rules": [
-                            "^$HAS|ice_cream:4",
-                            "^$HAS|ice_cream,[hard_logic]"
+                            "pickaxe,^$HAS|ice_cream:4",
+                            "pickaxe,^$HAS|ice_cream,[hard_logic]"
                         ],
                         "sections": [
                             {
