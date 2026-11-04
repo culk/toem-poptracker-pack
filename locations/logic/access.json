@@ -889,6 +889,10 @@
                 "access_rules": ["@Stanhamn/Lighthouse/Item - Fishing hat/"]
             },
             {
+                "name": "Item - Tripod",
+                "access_rules": ["@Start Menu/Item - Tripod/"]
+            },
+            {
                 "name": "Cassette - Fisherman's Whistle",
                 "access_rules": ["@Stanhamn/Snowman/Cassette - Fisherman's Whistle"]
             },
