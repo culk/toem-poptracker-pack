@@ -117,6 +117,7 @@ function HAS(item, amount_required)
     end
 
     -- Item is randomized, check for item.
+    if amount_required and type(amount_required) == "string" then amount_required = tonumber(amount_required) end
     local count = Tracker:ProviderCountForCode(item)
     if not amount_required and count > 0 then
         return AccessibilityLevel.Normal

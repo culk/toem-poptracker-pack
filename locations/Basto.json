@@ -129,7 +129,7 @@
                     {
                         "name": "Viking",
                         "access_rules": [
-                            "pickaxe,^$HAS|ice_cream:4",
+                            "pickaxe,^$HAS|ice_cream|4",
                             "pickaxe,^$HAS|ice_cream,[hard_logic]"
                         ],
                         "sections": [
@@ -441,7 +441,7 @@
                     {
                         "name": "Injured Monkey",
                         "access_rules": [
-                            "^$HAS|ice_cream:4",
+                            "^$HAS|ice_cream|4",
                             "^$HAS|ice_cream,[hard_logic]"
                         ],
                         "sections": [
@@ -499,7 +499,7 @@
                             {
                                 "name": "Quest - Sweet tooth",
                                 "access_rules": [
-                                    "^$HAS|ice_cream:4",
+                                    "^$HAS|ice_cream|4",
                                     "^$HAS|ice_cream,[hard_logic]"
                                 ]
                             }
@@ -571,7 +571,7 @@
                     {
                         "name": "Quest - In your face",
                         "access_rules": [
-                            "^$HAS|ice_cream:4",
+                            "^$HAS|ice_cream|4",
                             "^$HAS|ice_cream,[hard_logic]"
                         ]
                     },
